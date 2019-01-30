@@ -1,0 +1,352 @@
+	var dmbtbF = new Array;
+	var dmbtbB = new Array;
+	var tbBorder = new Array;
+	var tbSpacing = new Array;
+	var tbStyle = new Array;
+	var tbP = new Array;
+	var tbAlignment = new Array;
+	var tbMargins = new Array;
+	var tbAttachTo = new Array;
+	var tbSpanning = new Array;
+	var tbFollowHScroll = new Array;
+	var tbFollowVScroll = new Array;
+	var tbFPos = new Array;
+	var lmcHS = null;
+	var tbWidth = new Array;
+	var tbHeight = new Array;
+	var tbVisC = new Array;
+	var sbHnd;
+	var smfHnd;
+	var tpl;
+	var tbt;
+	
+	%%IPOINT%%
+	
+	function SetupToolbar(fr) {
+		//IE,NS,SM,OP,KQ
+		//This function handles the initialization and positioning of the toolbars.
+		//------------------------------
+		//Version 3.7
+		//
+		if(!MenusReady)  {
+			window.setTimeout("SetupToolbar()", 10);
+			return false;
+		}
+		var mimg = false;
+		var lt = GetLeftTop(cFrame);
+		var wh = GetWidthHeight(cFrame);
+		var tbo;
+		ClearTimer("sbHnd");
+		for(var t=1; t<=tbNum; t++) {
+			if(fr!=true) {
+				if(!dmbtbF[t]) {
+					olt = lt;
+					tbo = [GetObj("dmbTB"+t, cFrame), GetObj("dmbTBBack"+t, cFrame)];
+					if(NS) tbo[0] = GetObj("dmbTB"+t, tbo[1]);
+					dmbtbF[t] = tbo[0];
+					dmbtbB[t] = tbo[1];
+					if(!dmbtbF[t])
+						mimg = true;
+					else { 
+						if(NS) {
+							dmbtbB[t].width = dmbtbB[t].clip.width;
+							dmbtbB[t].height = dmbtbB[t].clip.height;
+						} else {
+							dmbtbF[t] = dmbtbF[t].style;
+							dmbtbB[t] = dmbtbB[t].style;
+							dmbtbF[t].o = tbo[0];
+							dmbtbB[t].o = tbo[1];							
+							if(SM&&!OP) {
+								dmbtbB[t].width = unic(dmbtbB[t].width, wh[0]) - 2*tbBorder[t] + "px";
+								dmbtbB[t].height = unic(dmbtbB[t].height, wh[1]) - 2*tbBorder[t] + "px";
+							}
+							FixCommands("dmbTB"+t,cFrame,t)
+						}
+					}
+				}
+			}
+			if(dmbtbF[t]) {
+				tbl = 0;
+				tbt = 0;
+				switch(tbAlignment[t]) {
+					case 0:
+						break;
+					case 1:
+						tbl = tbStyle[t]==0?(tbSpanning[t]==0?(wh[0]-tbWidth[t])/2:0):((wh[0]-parseInt(dmbtbB[t].width))/2 - (SM?tbBorder[t]:0));
+						break;
+					case 2:
+						tbl = tbStyle[t]==0?(tbSpanning[t]==0?wh[0]-tbWidth[t]:0):((wh[0]-parseInt(dmbtbB[t].width)) - (SM?2*tbBorder[t]:0));
+						break;
+					case 3:
+						tbt = tbStyle[t]==0?(wh[1]-tbHeight[t])/2:((tbSpanning[t]==0?(wh[1]-parseInt(dmbtbB[t].height))/2:0) - (SM?tbBorder[t]:0));
+						break;
+					case 4:
+						tbl = tbStyle[t]==0?(tbSpanning[t]==0?(wh[0]-tbWidth[t])/2:0):((wh[0]-parseInt(dmbtbB[t].width))/2 - (SM?tbBorder[t]:0));
+						tbt = tbStyle[t]==0?(wh[1]-tbHeight[t])/2:((tbSpanning[t]==0?(wh[1]-parseInt(dmbtbB[t].height))/2:0) - (SM?tbBorder[t]:0));
+						break;
+					case 5:
+						tbl = tbStyle[t]==0?(tbSpanning[t]==0?wh[0]-tbWidth[t]:0):((wh[0]-parseInt(dmbtbB[t].width)) - (SM?2*tbBorder[t]:0));
+						tbt = tbStyle[t]==0?(wh[1]-tbHeight[t])/2:((tbSpanning[t]==0?(wh[1]-parseInt(dmbtbB[t].height))/2:0) - (SM?tbBorder[t]:0));
+						break;
+					case 6:
+						tbt = (tbStyle[t]==0?wh[1]-parseInt(dmbtbB[t].height):(tbSpanning[t]==0?wh[1]-parseInt(dmbtbB[t].height):0)) - (SM?2*tbBorder[t]:0);
+						break;
+					case 7:
+						tbl = tbStyle[t]==0?(tbSpanning[t]==0?(wh[0]-tbWidth[t])/2:0):((wh[0]-parseInt(dmbtbB[t].width))/2 - (SM?tbBorder[t]:0));
+						tbt = (tbStyle[t]==0?wh[1]-parseInt(dmbtbB[t].height):(tbSpanning[t]==0?wh[1]-parseInt(dmbtbB[t].height):0)) - (SM?2*tbBorder[t]:0);
+						break;
+					case 8:
+						tbl = tbStyle[t]==0?(tbSpanning[t]==0?wh[0]-tbWidth[t]:0):((wh[0]-parseInt(dmbtbB[t].width)) - (SM?2*tbBorder[t]:0));
+						tbt = (tbStyle[t]==0?wh[1]-parseInt(dmbtbB[t].height):(tbSpanning[t]==0?wh[1]-parseInt(dmbtbB[t].height):0)) - (SM?2*tbBorder[t]:0);
+						break;
+					case 9:
+						tbl = tbFPos[t][0];
+						tbt = tbFPos[t][1];
+						break;
+					case 10:
+						var imgObj = NS?FindImage(cFrame.document, tbAttachTo[t].split("|")[0]):cFrame.document.images[tbAttachTo[t].split("|")[0]];
+						if(!imgObj) {
+							imgObj = GetObj(tbAttachTo[t].split("|")[0], cFrame);
+							if(imgObj&&!NS) if(imgObj.style.left) imgObj = imgObj.style;
+						}
+						if(imgObj) {
+							tbl = AutoPos(dmbtbF[t].o, imgObj, parseInt(tbAttachTo[t].split("|")[1]))[0] + MacOffset(cFrame)[0];
+							tbt  = AutoPos(dmbtbF[t].o, imgObj, parseInt(tbAttachTo[t].split("|")[1]))[1] + MacOffset(cFrame)[1];
+						} else
+							mimg = true;
+						break;
+				}
+				%%CUSOFFSET
+				dmbtbB[t].left = tbl + (tbFollowHScroll[t]?olt[0]:0) + tbMargins[t][0] + (NS?"":"px");
+				dmbtbB[t].top  = tbt  + (tbFollowVScroll[t]?olt[1]:0) + tbMargins[t][1] + (NS?"":"px");
+				SetTBPos(t);
+				if(tbSpanning[t]==1) {
+					if(tbStyle[t]==0) dmbtbB[t].width = wh[0] + (tbFollowHScroll[t]?0:lt[0]) - (SM?2*tbBorder[t]:0) + (NS?"":"px");
+					if(tbStyle[t]==1) dmbtbB[t].height = wh[1] + (tbFollowVScroll[t]?0:lt[1]) - (SM?2*tbBorder[t]:0) + (NS?"":"px");
+				}
+				dmbtbB[t].visibility = (tbVisC[t]()?"visible":"hidden");				
+				if(tbFollowHScroll[t] || tbFollowVScroll[t])
+					if(ScrollTB(lt, wh, dmbtbF[t])) mimg = false;					
+				%%IMGAS
+			}
+		}
+		if(NS||SM||mimg) sbHnd = window.setTimeout("SetupToolbar()", (NS?100:1000));		
+		return true;
+	}
+	
+	function SetTBPos(t) {
+		//IE,NS,SM,OP,KQ
+		//
+		//------------------------------
+		//Version 1.1
+		//
+		tbP[t] = [parseInt(dmbtbB[t].left) + parseInt(dmbtbF[t].left) + (NS?0:tbBorder[t]), parseInt(dmbtbB[t].top) + parseInt(dmbtbF[t].top) + (NS?0:tbBorder[t])];
+	}
+	
+	function unic(u, wh) {
+		//SM
+		//This function converts % values into numeric values.
+		//------------------------------
+		//Version 1.0
+		//
+		var k = parseInt(u);
+		return (NS?k:u.indexOf("%")==-1?k:wh*k/100);
+	}
+	
+	function ScrollTB(lt, wh, tb) {
+		//IE,NS,SM,OP,KQ
+		//This function handles the scrolling of toolbars.
+		//------------------------------
+		//Version 1.8
+		//
+		var s = [true, true];
+		var v = parseInt(tb.top) + parseInt(tb.height);
+		var h = parseInt(tb.left) + parseInt(tb.width);
+		
+		if(olt[0]!=lt[0] || olt[1]!=lt[1]) {
+			var d = [olt[0]-lt[0], olt[1]-lt[1]];
+			
+			if(d[0]<=0) if(h>=(lt[0]+wh[0])) s[0] = false;
+			if(d[1]<=0) if(v>=(lt[1]+wh[1])) s[1] = false;
+			
+			var k = [parseInt(Math.abs(d[0]/20)+1)*(d[0]>0?-1:1),parseInt(Math.abs(d[1]/20)+1)*(d[1]>0?-1:1)];
+			for(var i=0; i<2; i++)
+				if(s[i]) {
+					olt[i] += k[i];
+					if(Math.abs(olt[i]-lt[i])<2) olt[i]=lt[i];
+				}
+			
+			ClearTimer("sbHnd");
+			sbHnd = window.setTimeout("SetupToolbar(true)", 10);
+			return true;
+		}
+		return false;
+	}
+	
+	function GetHSPos(n, al, mW, mH, t) {
+		//IE,NS,SM,OP,KQ
+		//This function returns the position of a given toolbar item.
+		//------------------------------
+		//Version 1.3
+		//
+		var tbs0 = tbStyle[t]==0;
+
+		var wh;
+		if(NS) {
+			lmcHS.style = lmcHS;
+			wh = [lmcHS.clip.width, lmcHS.clip.height];
+		} else
+			wh = [parseInt(lmcHS.style.width), parseInt(lmcHS.style.height)];
+		var acc = parseInt(tbs0?lmcHS.style.left:lmcHS.style.top);
+		var x = (!tbs0&&IsFrames?-acc:tbP[t][0]);
+		var y = (tbs0&&IsFrames?-acc:tbP[t][1]);
+
+		if(tbs0)
+			x += acc;
+		else
+			y += acc;
+		switch(al) {
+			case 0:
+				y += wh[1];
+				break;
+			case 1:
+				x -= (mW - wh[0]);
+				y += wh[1];
+				break;
+			case 2:
+				y -= mH;
+				break;
+			case 3:
+				x -= (mW - wh[0]);
+				y -= mH;
+				break;
+			case 4:
+				x -= mW;
+				break;
+			case 5:
+				x -= mW;
+				y += (wh[1] - mH);
+				break;
+			case 6:
+				x += wh[0];
+				break;
+			case 7:
+				x += wh[0];
+				y += (wh[1] - mH);
+				break;
+			case 8:
+				x -= mW;
+				y += (wh[1]-mH)/2;
+				break;
+			case 9:
+				x += wh[0];
+				y += (wh[1]-mH)/2;
+				break;
+			case 10:
+				x += (wh[0]-mW)/2;
+				y -= mH;
+				break;
+			case 11:
+				x += (wh[0]-mW)/2;
+				y += wh[1];
+				break;
+		}
+		if(IsFrames) {
+			x += GetLeftTop()[0];
+			y += GetLeftTop()[1];
+		}
+		return [x,y];
+	}
+	
+	function hsNSHoverSel(mode, mc, bcolor) {
+		//NS
+		//This is the function called every time the mouse pointer is moved over or away from a toolbar item.
+		//------------------------------
+		//Version 1.0
+		//
+		var mcN;
+		
+		if(mode==0) {
+			if(lmcHS) hsNSHoverSel(1);
+			mcN = mc.parentLayer.layers[mc.name.substr(0, mc.name.indexOf("EH")) + "N"];
+			mcN.mcO = mc.parentLayer.layers[mc.name.substr(0, mc.name.indexOf("EH")) + "O"];
+			if(mcN!=lmcHS) HideAll();
+			if(nOM>1) if(mcN==om[nOM-1].sc) return false;
+			mcN.mcO.visibility = "show";
+			mcN.visibility = "hide";
+			lmcHS = mcN;
+		} else {
+			mcN = lmcHS;
+			mcN.visibility = "show";
+			mcN.mcO.visibility = "hide";
+			lmcHS = null;
+		}
+		return true;
+	}
+	
+	function hsHoverSel(mode, e) {
+		//IE,SM,OP,KQ
+		//This is the function called every time the mouse pointer is moved over or away from a toolbar item.
+		//------------------------------
+		//Version 1.9
+		//
+		var mc;
+		var fh = false;
+
+		%%BLINKDIS
+		ClearTimer("smHnd");
+		ClearTimer("smfHnd");
+		
+		if(mode==0) {
+			mc = GetCurCmd(e);
+			if(!mc) return false;
+			if(lmcHS==mc) return false;
+			if(lmcHS) hsHoverSel(1,0,1);
+			if(mc!=lmcHS) {
+				if(!mc.onmouseover)
+					fh = true;
+				else
+					if(mc.onmouseover.toString().indexOf("ShowMenu")==-1) fh = true;
+				if(fh) smHnd = window.setTimeout("HideAll(1)",mDelay());
+			}
+			FixCursor(mc, cFrame);
+			lmcHS = mc;
+		} else {
+			mc = lmcHS;
+			%%AUTOSELP2
+			lmcHS = null;
+		}
+
+		SwapMC(mode, mc, cFrame);
+		
+		return true;
+	}
+	
+	function InitTB() {
+		//IE,NS,SM,OP,KQ
+		//This function initializes the event handling required for the toolbars to function properly.
+		//------------------------------
+		//Version 1.7
+		//
+		var dsn = true;
+		var e = "";
+		var i, n;
+		for(var t=1; t<=tbNum; t++)
+			if(tbAlignment[t]==10) {
+				dsn = false;
+				if(window.onload) {
+					e = window.onload.toString();
+					n = e.indexOf("{");
+					e = e.substr(n + 1, e.lastIndexOf("}") - n - 1)
+				}
+				e += ";SetupToolbar();";
+				window.onload = new Function(e);
+				break;
+			}
+		if(!NS) {
+			window.onresize = SetupToolbar;	
+			window.onscroll = SetupToolbar;	
+		}
+		if(dsn) SetupToolbar();
+	}
+	InitTB();

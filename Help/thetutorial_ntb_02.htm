@@ -1,0 +1,322 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>The Tutorial (NTB) 2/3</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24"><b>
+		<font color="#FFFFFF" size="2">&nbsp;The Tutorial - Using HotSpots</font></b></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4">
+			<tr>
+				<td width="100%"><b>Setting up your menus project</b><p>Before 
+				you even start to create the menus you need to set up your 
+				project.
+				Start DHTML Menu Builder and create a new empty project (<font face="Courier">File-&gt;New</font>) 
+				.</p>
+				<p>The first step in setting up your project is to launch the 
+				Project Properties dialog. (If it doesn't appear automatically 
+				click <font face="Courier">File-&gt;Project Properties</font>.)</p>
+				<p>The most important part of this dialog is the 
+				Configurations tab. By default, DHTML Menu Builder will create an 
+				empty <a href="configurations.htm">Configuration</a> for you to fill in.</p>
+				<p>Every configuration has two main sections, the Paths and 
+				the HotSpots Editor. In the Paths section you're telling DHTML 
+				Menu Builder where it must store (save) the files it creates. In the 
+				Target Document section you will tell DHTML Menu Builder which 
+				of the files in your web contains the hotspots.</p>
+				<p>
+				<img border="0" src="images/tut_ntb_01.jpg" align="left" width="300" height="259">The 
+				Local Path to the Root Web setting must point to the folder 
+				where you introductory HTML page is located. This file is 
+				usually named index.html or default.asp.<br>
+				For this tutorial we'll use the folder where you saved the
+				<font face="Courier">hotspots.htm</font> file,
+				<font face="Courier"><a href="file:///c:/DMB_Tutorial/">c:\DMB_Tutorial\</a></font></p>
+				<p>
+				When setting up the Project Properties avoid typing the 
+				paths manually, instead, use the browse buttons provided in the 
+				dialog.</p>
+				<p>The Folder to Store Compiled files must be a folder located 
+				inside the root web or it can be the same as well.<br>
+				For organization purposes, create a new folder under the
+				<font face="Courier">c:\DMB_Tutorial\</font> and name it
+				<font face="Courier">menus</font>. Now use the browse button to 
+				select the <font face="Courier">c:\DMB_Tutorial\menus\</font> 
+				folder.</p>
+				<p>The Folder to Store the Images should point to the
+				<font face="Courier">c:\DMB_Tutorial\images\</font> folder you 
+				created in the previous step of the tutorial.</p>
+				<p>Now click on the <font face="Courier">Target Menu </font>button.<br>
+				Again, avoid typing it manually and use the browse button to 
+				locate the <font face="Courier">hotspots.htm</font> file which 
+				is stored in the <font face="Courier">c:\DMB_Tutorial\</font> 
+				folder.</p>
+				<p>Finally click on<font face="Courier"> Tools-&gt;Toolbars Editor
+                </font>and click on the Delete Toolbar button (<img border="0" src="images/icon_tbdel.gif" align="middle" width="16" height="16">) 
+                to avoid DHTML Menu Builder from creating a toolbar.</p>
+				<p><b>Creating the menus</b></p>
+				<p>This is the fun part!<br>
+				Now we're going to create some sample menus that later we'll 
+				attach to the hotspots we created in the first step of the 
+				tutorial.</p>
+				<p>
+				<img border="0" src="tutorial/images/prod_menu_struct.jpg" align="left" width="352" height="173"></p>
+				<p>So you can have an idea, this is the structure of the menus 
+				for the Products hotspot that we're going to create.<br>
+				This is composed by a main group (also known as a root level 
+				menu) where two of its commands will display a submenu with more 
+				options.</p>
+				<p>Menus are composed of two basic elements: groups and 
+				commands, so let's start creating the first group:</p>
+				<p align="left">
+                <img border="0" src="images/modetabs2.jpg" align="right" width="187" height="46">Before 
+                you add the first group it is recommended that you switch to the 
+                &quot;Normal&quot; view. By default DHTML Menu Builder will start in &quot;Map&quot; 
+                mode; in this mode DHTML Menu Builder modifies the way the menu 
+                items are presented in the project so its easier to work with 
+                toolbars. Since we're not going to use toolbars it is highly 
+                recommended that you switch to the &quot;Normal&quot; mode. To do so 
+                simply click on the &quot;Normal&quot; tab.</p>
+				<p>To add a group to your project select <font face="Courier">
+				Menu-&gt;Add Group</font><br>
+				DHTML Menu Builder will add a new group and wait for you to give 
+                it a name<br>
+				Type <font face="Courier">grpProducts</font> and press the ENTER 
+                key on your keyboard.</p>
+				<p>Now, we can add commands to this group.</p>
+				<p>To add a command select <font face="Courier">Menu-&gt;Add 
+				Command</font><br>
+				DHTML Menu Builder will add a new command and wait for you to 
+				give it a name<br>
+				Type <font face="Courier">Computers</font> and press ENTER.</p>
+				<p>When creating new items, DHTML Menu Builder will fill the
+				<font face="Courier">Caption</font> property automatically for 
+				you. If required you can later change both, the
+				<font face="Courier">name</font> and the <font face="Courier">
+				Caption</font> to whatever you need to. You should note though 
+				that DHTML Menu Builder will automatically remove invalid 
+				characters from the item <font face="Courier">name</font> and 
+				change them for an underscore (_).</p>
+				<p>
+				<img border="0" src="images/tut_ntb_04.jpg" align="left" width="300" height="149">Create 
+				another command by selecting <font face="Courier">Menu-&gt;Add 
+				Command</font> and name it <font face="Courier">Accessories</font>.</p>
+				<p>Now, let's add a special type of command, a separator.<br>
+				Separators are just horizontal lines which can be used to 
+				separate commands inside the same group.</p>
+				<p>To add a separator select <font face="Courier">Menu-&gt;Add 
+				Separator</font><br>
+				Separators do not have names so DHTML Menu Builder will not 
+				prompt you for one.</p>
+				<p>Repeat the above process to add a command and add a new one 
+				and name it <font face="Courier">Catalog_Index</font>. Note that 
+				DHTML Menu Builder will automatically remove the space in the
+				<font face="Courier">name</font> and rename your entry to
+				<font face="Courier">Catalog_Index</font>.</p>
+				<p>Submenus, under DHTML Menu Builder are just normal groups, so 
+				to create the two submenus shown in the picture above we'll 
+				follow the exact same steps.</p>
+				<p>Create a new group and name it grpComputers and add these 
+				commands to it: <font face="Courier">High Performance</font>,
+				<font face="Courier">Gaming Systems</font> and
+				<font face="Courier">Desktop / Home</font>.<br>
+				Now let's do something interesting with the last command,
+				<font face="Courier">Desktop / Home</font>:</p>
+				<p>Select the command and change its <font face="Courier">
+				Caption</font> to: <font face="Courier">Computers for the Home&lt;br&gt;Desktop 
+				Systems<br>
+				</font>As you'll see in the Live Preview pane, DHTML Menu 
+				Builder has created a multi-line command. Multi-line commands 
+				are commands whose Caption contains two or more lines of text.<br>
+				To create a new line simply use the &lt;br&gt; HTML code.</p>
+				<p>Now let's create the second group that will be used as a 
+				submenu by the <font face="Courier">Accessories</font> command. 
+				Just follow the above instructions and name the new group
+				<font face="Courier">grpAccessories</font>.<br>
+				Add these commands to the group: <font face="Courier">Cables</font>,
+				<font face="Courier">Adapters</font>, <font face="Courier">
+				Connectors</font> and <font face="Courier">Batteries</font>.</p>
+				<p>
+				<img border="0" src="images/tut_ntb_05.jpg" align="left" width="300" height="133">Now, 
+				we need to configure the <font face="Courier">Computers</font> 
+				and <font face="Courier">Accessories</font> commands so when 
+				selected they display the two respective submenus we just 
+				created.<br>
+				Let's configure the <font face="Courier">Computers</font> 
+				command first.<br>
+				Select the <font face="Courier">Computers</font> command and 
+				click on the <font face="Courier">Over</font> tab of the
+				<font face="Courier">Actions</font> pane.<br>
+				Select the <font face="Courier">Display SubMenu</font> action 
+				type and select the <font face="Courier">grpComputers</font> 
+				group from the <font face="Courier">Target Group</font> list.</p>
+				<p>What you just did is tell DHTML Menu Builder that when the 
+				mouse passes over the <font face="Courier">Computers</font> 
+				command, the <font face="Courier">grpComputers</font> should be 
+				displayed.</p>
+				<p>Repeat the same process to set up the <font face="Courier">
+				Accessories</font> command so when the mouse passes over it, the
+				<font face="Courier">grpAccessories</font> group is displayed.</p>
+				<p>To take a look at how your menus are working so far, 
+				select <font face="Courier">Tools-&gt;Preview</font> and DHTML Menu 
+				Builder will generate a sample toolbar for you so you can test 
+				your project.</p>
+				<p>To finish the project let's create the last menu: Links.<br>
+				Repeat what you have learned and create a group named
+				<font face="Courier">grpLinks</font> and add two commands to it:
+				<font face="Courier">Search the Web</font> and
+				<font face="Courier">xFX JumpStart</font>.</p>
+				<p>When creating the Desktop / Home command you learned that you 
+				can use HTML tags to format the <font face="Courier">Caption</font> 
+				of your menu items.<br>
+				DHTML Menu Builder supports the use of almost any tag in the 
+				Caption, but not all of those tags will be properly rendered by 
+				the Live Preview.<br>
+				An example is the use of the &lt;sup&gt;&lt;/sup&gt; tags. These tags will 
+				make the text enclosed text appear superscripted.<br>
+				To demonstrate this feature select the <font face="Courier">xFX 
+				JumpStart</font> command you have just created and add the ® 
+				symbol at the end, so the <font face="Courier">Caption</font> 
+				looks like this: xFX JumpStart®<br>
+                NOTE: To add the ® symbol press and hold the ALT key and then 
+                type 0174 on your keypad.<br>
+				Now, enclose the ® symbol with the &lt;sup&gt; tag, so the Caption 
+				looks like this: xFX JumpStart&lt;sup&gt;®&lt;/sup&gt;</p>
+				<p>If you take a look at the Live Preview you will notice that 
+				the results are not what we expected, but if you preview your 
+				menus you will see that the real preview does render the tags 
+				and makes the Caption look like this: xFX JumpStart<sup>®</sup></p>
+				<p><b>Now, lets make our menus look cooler!</b></p>
+				<p>Select the first group, <font face="Courier">grpProducts</font> 
+				and click <font face="Courier">Menu-&gt;Color</font><br>
+				Click the<font face="Courier"> Back Color</font> button and type 
+				these values: <font face="Courier">FF</font>,
+				<font face="Courier">C8</font> and <font face="Courier">40</font> 
+				for red, green and blue respectively.<br>
+				Set the border size to <font face="Courier">2</font> and set the 
+				four border colors to <font face="Courier">80</font>,
+				<font face="Courier">40</font> and <font face="Courier">40</font> 
+				for red, green and blue respectively.<br>
+                Click on the <font face="Courier">OK</font> button to close and 
+                commit the <font face="Courier">Color</font> dialog.</p>
+				<p>Click on <font face="Courier">Menu-&gt;Margins</font> and select
+				<font face="Courier">2</font> pixels for both the horizontal and 
+				vertical margins.</p>
+				<p>To set up the other groups with the same style settings, just 
+				make sure the <font face="Courier">prgProducts</font> group is 
+				selected and click on <font face="Courier">Edit-&gt;Copy</font><br>
+				Check the <font face="Courier">Color</font>,
+				<font face="Courier">Image</font> and <font face="Courier">
+				Margins</font> checkboxes and click <font face="Courier">OK</font>.<br>
+				Now select <font face="Courier">Edit-&gt;Paste</font>, choose the
+				<font face="Courier">Paste to all groups</font> option and click
+				<font face="Courier">OK</font>.</p>
+				<p>As easy as that you have just applied the same style changes 
+				to all the groups in the project!</p>
+				<p>
+				<img border="0" src="images/tut_ntb_02.jpg" align="right" alt="This is how DHTML Menu Builder will look like after creating all the items" width="300" height="383">Now, 
+				let's change the style of the commands.<br>
+				The steps are very similar as changing the style of the groups.</p>
+				<p>Select the first command under the <font face="Courier">
+				grpProducts</font> group, <font face="Courier">Computers</font>, 
+				and click on <font face="Courier">Menu-&gt;Color</font><br>
+				For the <font face="Courier">Normal</font> state click on the
+				<font face="Courier">Reset</font> button. This will assign the 
+				default settings based on the parent group's style.<br>
+				For the <font face="Courier">Mouse Over</font> state, click on 
+				the <font face="Courier">Text Color</font> button, the click on
+				<font face="Courier">Windows</font> and select the White color. 
+				Now click on the <font face="Courier">Back Color</font> button 
+				and type <font face="Courier">80</font>, <font face="Courier">40</font> 
+				and <font face="Courier">40</font> for red, green and blue 
+				respectively.</p>
+				<p>Now click on <font face="Courier">Menu-&gt;Font</font> to set 
+				the font type, size and style of the command's
+				<font face="Courier">Caption</font>.<br>
+				For both states select <font face="Courier">Tahoma</font> for 
+				the font type, <font face="Courier">11</font> for the size and
+				<font face="Courier">Bold</font> for the style.</p>
+				<p>Finally, to propagate the same style to all the commands, 
+				make sure the <font face="Courier">Computers</font> command is 
+				selected and click on <font face="Courier">Edit-&gt;Copy</font><br>
+				Select the <font face="Courier">Font</font> and
+				<font face="Courier">Color</font> checkboxes and click
+				<font face="Courier">OK</font>.<br>
+				Click <font face="Courier">Edit-&gt;Paste</font>, choose the
+				<font face="Courier">Paste to all Commands</font> and click
+				<font face="Courier">OK</font>.</p>
+				<p>This should be a good time to preview your project.</p>
+				<p>Because the Computers and Accessories commands are used to 
+				display another menu, is a good idea to let the user know that 
+				by selecting them they will get another menu with more options. 
+				An easy and effective way is to add small arrows to the right of 
+				the commands' Caption.</p>
+				<p>These arrows can be small images you have created with some 
+				graphic editor or you may use the two arrows bellow:</p>
+				<table border="0" cellpadding="3" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber1" cellspacing="3">
+					<tr>
+						<td width="50%" align="center">
+						<img border="0" src="tutorial/images/black_arrow.gif" width="16" height="16"></td>
+						<td width="50%" bgcolor="#000000" align="center">
+						<img border="0" src="tutorial/images/white_arrow.gif" width="16" height="16"></td>
+					</tr>
+				</table>
+				<p>To save the above images, just right click on the image and 
+				select <font face="Courier">Save Picture As...</font> from the 
+				context menu.</p>
+				<p>Note that one arrow is black and the other is white. This is 
+				because the menus we have created have a light background color 
+				when the items are not selected and a dark background color when 
+				selected. Then, we'll use the black arrow for the default state 
+				of the menus and the white for when the menus are selected. This 
+				way the arrow image will always contrast with the command's 
+				background color.</p>
+				<p>You should save these images in the <font face="Courier">
+				c:\DMB_Tutorial\images\</font> folder.</p>
+				<p>
+				<img border="0" src="images/tut_ntb_06.jpg" align="left" width="300" height="157">To 
+				set up the <font face="Courier">Computers</font> command to use 
+				these arrow images, select the command and click
+				<font face="Courier">Menu-&gt;Image</font><br>
+				Click on the <font face="Courier">Change</font> button of the
+				<font face="Courier">Normal</font> state, under the
+				<font face="Courier">Right Image</font> pane.<br>
+				Click on the <font face="Courier">From File...</font> button and 
+				select the <font face="Courier">black_arrow</font>.gif image.<br>
+				Click on the <font face="Courier">Change</font> button of the
+				<font face="Courier">Mouse Over</font> state, under the
+				<font face="Courier">Right Image</font> pane.<br>
+				Click on the <font face="Courier">From File...</font> button and 
+				select the <font face="Courier">white_arrow</font>.gif image.</p>
+				<p>To apply these changes to the <font face="Courier">
+				Accessories</font> command, select the <font face="Courier">
+				Computers</font> command, click on <font face="Courier">
+				Edit-&gt;Copy</font> and check the <font face="Courier">Image</font> 
+				checkbox.<br>
+				Now select the <font face="Courier">Accessories</font> command, 
+				click on <font face="Courier">Edit-&gt;Paste</font>, make sure the
+				<font face="Courier">Paste to the command Accessories</font> 
+				option is selected and click <font face="Courier">OK</font>.</p>
+				<p>&nbsp;</p>
+				<hr noshade size="1" color="#EBEBEB">
+				<p align="center"><a href="thetutorial_ntb_03.htm">Continue »</a></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

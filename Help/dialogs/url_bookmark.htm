@@ -1,0 +1,82 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Application / URL Bookmark</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font size="2" color="#FFFFFF"><b>Dialogs  </b></font><b><font color="#FFFFFF" size="3">
+	»</font></b><font size="2" color="#FFFFFF"><b> Application </b></font><b><font color="#FFFFFF" size="3">
+	» </font><font color="#FFFFFF" size="2">
+	URL Bookmark</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is the URL Bookmark dialog.<br>
+			This dialog will let you define bookmarks so you can link to a named 
+            section on the linked document.<br>
+            To access this dialog select a menu item and click on the bookmark 
+            icon (<img border="0" src="../images/icon_bookmark.gif" align="middle" width="16" height="16">).</p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area coords="8, 26, 240, 221" shape="rect" href="javascript:say(0);">
+			<area href="javascript:say(1);" shape="rect" coords="6, 230, 240, 276">
+			</map>
+			<img border="0" src="images/url_bookmark.gif" usemap="#FPMap0" width="341" height="322"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Available Bookmarks<br>
+			</b>Displays the named areas, if any, in the linked document.<br>
+            Select the named area to bookmark it.</p>
+</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Target Bookmark<br>
+			</b>Displays the name of the selected bookmark</p>
+            <p>To select a bookmark either choose one from the Available 
+            Bookmarks list or type it in this text box.<br>
+            To remove the bookmark, leave this text box empty.</p>
+          	</div>
+
+</body>
+
+</html>

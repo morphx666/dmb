@@ -1,0 +1,120 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Application / URL Target Frame</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font size="2" color="#FFFFFF"><b>Dialogs  </b></font><b><font color="#FFFFFF" size="3">
+	»</font></b><font size="2" color="#FFFFFF"><b> Application </b></font><b><font color="#FFFFFF" size="3">
+	» </font></b><font color="#FFFFFF"><b>Item Highlight Wizard</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is the Item Highlight Wizard dialog.<br>
+			This dialog is used to implement what is known as automatic item 
+            highlighting which is very useful if you want to reflect, in the 
+            menus, the section of your web site where you users are currently 
+            located.<br>
+            In the screenshot shown below, the menu item &quot;Downloads&quot; will be 
+            automatically highlighted when the &quot;download.htm&quot; document is 
+            loaded, allowing the visitor of the web site to see where he/she 
+            currently is.</p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area coords="8, 26, 216, 277" shape="rect" href="javascript:say(0);">
+			<area href="javascript:say(1);" shape="rect" coords="221, 27, 431, 277">
+			<area href="javascript:say(2);" shape="rect" coords="9, 281, 430, 370">
+            <area href="javascript:say(3);" shape="rect" coords="10, 368, 172, 404">
+			</map>
+			<img border="0" src="images/ihw.gif" usemap="#FPMap0" width="439" height="414"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Files<br>
+			</b>Displays the list of files on your web site.</p>
+            <p>Only files that can receive the code required to highlight a menu 
+            item will be displayed. A valid file must meet the following 
+            conditions:</p>
+            <ul>
+              <li>The file must be a valid HTML document.</li>
+              <li>The file must already contain the menus.</li>
+            </ul>
+            <p>Files displayed using a blue color indicate that these files 
+            already contain the code to highlight an item.</p>
+</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Menus<br>
+			</b>Displays the menus on the project.</p>
+            <p>Note that some items, such as separators, will not be shown on 
+            this list. This is just because these items cannot be highlighted.</p>
+          	</div>
+          	
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Information Pane<br>
+			</b>Displays information that will guide you through the process of 
+            installing the code that highlights menu items.</p>
+          	</div>
+          	
+<div id=Info3 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Install / Remove buttons<br>
+			</b>These are the control buttons used to either install or remove 
+            the highlighting code from the documents on your web site.</p>
+            <p>To install the code on a document, first select the document from 
+            the <a href="javascript:say(0);">Files list</a> and select a menu 
+            items from the <a href="javascript:say(1);">Menus pane</a>.<br>
+            Then, click the <font face="Courier New">Install</font> button.<br>
+            To install the code on all the documents pointed by the links on 
+            your menus click the small arrow next to the
+            <font face="Courier New">Install</font> button and select<font face="Courier New"> 
+            Install to all links in Menus</font>.</p>
+            <p>To remove the code from a document, simply select the document 
+            from the <a href="javascript:say(0);">Files list</a> and click the
+            <font face="Courier New">Remove</font> button.<br>
+            To remove the code from all the documents in the web site click the 
+            small arrow next to the <font face="Courier New">Remove</font> 
+            button and select<font face="Courier New"> Remove All</font>.</p>
+          	</div>
+
+</body>
+
+</html>

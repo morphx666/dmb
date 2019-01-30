@@ -1,0 +1,27 @@
+<html>
+
+<head>
+<title>New Page 1</title>
+</head>
+
+<body><!-- DHTML Menu Builder Loader Code START -->
+<div id=DMBRI style="position:absolute;">
+<img src="images/dmb_i.gif" name=DMBImgFiles width="1" height="1">
+<img src="menus/dmb_m.gif" name=DMBJSCode width="1" height="1">
+</div>
+<script language="JavaScript" type="text/javascript">
+var rimPath=null;var rjsPath=null;var rPath2Root=null;function InitRelCode(){var iImg;var jImg;var tObj;if(!document.layers){iImg=document.images['DMBImgFiles'];jImg=document.images['DMBJSCode'];tObj=jImg;}else{tObj=document.layers['DMBRI'];if(tObj){iImg=tObj.document.images['DMBImgFiles'];jImg=tObj.document.images['DMBJSCode'];}}if(!tObj){window.setTimeout("InitRelCode()",700);return false;}rimPath=_gp(iImg.src);rjsPath=_gp(jImg.src);rPath2Root=rjsPath+"../";return true;}function _purl(u){return xrep(xrep(u,"%%REP%%",rPath2Root),"\\","/");}function _fip(img){if(img.src.indexOf("%%REL%%")!=-1) img.src=rimPath+img.src.split("%%REL%%")[1];return img.src;}function _gp(p){return p.substr(0,p.lastIndexOf("/")+1);}function FixImages(){var h=null;var f=new Function("h","if(h)for(var i=0;i<h.length;i++)h[i]=xrep(h[i],'%%REL%%',rimPath);");f(hS);f(hshS);}function xrep(s,f,n){if(s) s=s.split(f).join(n);return s;}InitRelCode();
+</script>
+<script language="JavaScript" type="text/javascript">
+function LoadMenus() {if(!rjsPath){window.setTimeout("LoadMenus()", 10);return false;}var navVer = navigator.appVersion;
+if(navVer.substr(0,3) >= 4)
+if((navigator.appName=="Netscape") && (parseInt(navigator.appVersion)==4))
+document.write('<' + 'script language="JavaScript" type="text/javascript" src="' + rjsPath + 'nsmenu.js"><\/script\>');
+else
+document.write('<' + 'script language="JavaScript" type="text/javascript" src="' + rjsPath + 'iemenu.js"><\/script\>');
+return true;}LoadMenus();</script>
+<!-- DHTML Menu Builder Loader Code END -->
+
+</body>
+
+</html>

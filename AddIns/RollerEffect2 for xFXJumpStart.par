@@ -1,0 +1,15 @@
+Animation Duration
+Type the duration of each animation in milliseconds.
+200
+300
+ 1 
+Acceleration Mode
+Use 1 to start fast and end slow. Use 0 to start slow and end fast.
+1
+1
+ 1 
+Target Resolution
+Defines the time the animation should last in milliseconds.
+8
+15
+ 1 

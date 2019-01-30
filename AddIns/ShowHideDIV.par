@@ -1,0 +1,10 @@
+DIVname
+The ID of the DIV that should be hidden when the menus are displayed
+body_hide_menu
+body_hide_menu
+ 1 
+AltDIVname
+This DIV will be shown when the main DIV is hidden.
+
+
+ 0 

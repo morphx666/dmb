@@ -1,0 +1,155 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Project Properties / Advanced</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<div id="popup" style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;" onclick="HideIt();">
+	Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24">
+		<font size="2" color="#FFFFFF"><b>&nbsp;Dialogs » Project Properties » 
+		Advanced</b></font></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4">
+			<tr>
+				<td width="100%">This is the Advanced tab of the Project 
+				Properties dialog.<br>
+				In this section you set up advanced features for your project.<br>
+                To access this dialog click <font face="Courier New">
+                File-&gt;Project Properties</font> and then click on the
+                <font face="Courier New">Advanced</font> tab.<p>
+				Click any part of the dialog to get information about its 
+				purpose.</p>
+				<p align="center"><map name="FPMap0">
+				<area href="javascript:say(0);" shape="rect" coords="13, 61, 325, 151">
+				<area href="javascript:say(1);" shape="rect" coords="12, 156, 320, 196">
+				<area href="javascript:say(2);" shape="rect" coords="14, 207, 236, 313">
+				<area href="javascript:say(3);" shape="rect" coords="12, 320, 113, 349">
+				<area href="pp_general.htm" shape="rect" coords="11, 32, 62, 48">
+				<area href="pp_conf_paths.htm" shape="rect" coords="63, 31, 150, 49">
+				<area href="pp_globalsettings.htm" shape="rect" coords="154, 31, 241, 49">
+				<area href="javascript:say(4);" shape="rect" coords="117, 320, 210, 347">
+				</map>
+				<img border="0" src="images/pp_advanced.gif" usemap="#FPMap0" width="464" height="398"></p>
+				<table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+					<tr>
+						<td width="100%">Related topics of interest:
+						<ul>
+							<li><a href="index.htm">Dialogs Index</a></li>
+						</ul>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<div id="NullInfo" style="visibility: hidden; cursor: arrow; display: none">
+	<img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+	Please try another section.</div>
+	
+<p>&nbsp;</p>
+	
+<div id="Info0" style="visibility: hidden; cursor: arrow; display: none">
+	<b>Code Optimization<br>
+	</b>This setting lets you set the type of code optimization (compression) to apply 
+	to the compiled code:<p><b>none:</b> In this mode, DHTML Menu Builder will 
+	generate a single JavaScript file containing all the code for all the 
+	supported browsers. This file is usually very large and should be used for 
+	troubleshooting purposes only.<br>
+	<b>normal:</b> In this mode, DHTML Menu Builder will generate two sets of 
+	JavaScript files, one optimized for Netscape Navigator 4 and another for all 
+	the other supported browsers. In this mode, DHTML Menu Builder will also 
+	compress the generated code in about 40-60%. The generated code should never 
+	be edited or manually modified as these actions could damage the file structure.<br>
+    <b>max:</b> This mode will provide a better compression ratio than the 
+    normal mode. The loader code will also be compressed.<br>
+    This mode should not 
+    be used when one or more of the following conditions are met:</p>
+    <ul>
+      <li>You have code on your HTML documents that depend on functions provided 
+      by the menus.</li>
+      <li>You're using the &quot;developers' edition&quot; DynAPI functions.</li>
+      <li>You're using an AddIn. Although not all AddIns will fail with this 
+      setting it is recommended to avoid its use to ensure the proper 
+      functionality of the AddIn.</li>
+    </ul>
+    <p><b>Further compress using GZIP:</b> When this option is enabled DHTML 
+    Menu Builder will compress the javascript code used for DOM-based browsers 
+    using GZIP.<br>
+    This can considerably reduce the size of the generated .js files but the web 
+    server hosting the menus must support GZIP.<br>
+    Consult your web server documentation or your web administrator to see if 
+    your web server can support javascript files compressed with GZIP.<br>
+    NOTE: Because of compatibility problems with Safari and Internet Explorer 5 
+    for Mac, all browsers running on any version of Mac OS will use the non-GZIPed 
+    version of the menus.</p>
+    <p><b>Attempt to remove Image-based hotspots code:</b> This option should only be 
+    used on projects that use toolbars and where there's no group that will ever 
+    be attached to a hotspot.<br>
+    Enabling this option will remove some functions from the standard code 
+    generated by DHTML Menu Builder which is only used when attaching the menus 
+    to hotspots thus saving some space from the generated .js files.</p>
+	<p>NOTE: When changing any of these setting you will need to re-install the menus 
+    using the<font face="Courier New"> <a href="../installingmenus.htm">
+    Tools-&gt;Install Menus</a> </font>option.</div>
+	
+<p>&nbsp;</p>
+	
+<div id="Info1" style="visibility: hidden; cursor: arrow; display: none">
+	<b>AddIns<br>
+	</b>If you want to compile your project using one of the 
+	installed AddIns. select it in this section. DHTML Menu Builder can use only one AddIn per project.<p>
+	<b>
+	<img border="0" src="../images/icon_addin_info.gif" align="absmiddle" width="16" height="16"> 
+	Information button:</b> provides a brief explanation on how to 
+	use this AddIn.<br>
+	<b>
+	<img border="0" src="../images/icon_addin_editor.gif" align="absmiddle" width="16" height="16"> 
+	AddIn Editor button:</b> Loads the AddIn Editor with the 
+	selected AddIn.<br>
+	<b>
+	<img border="0" src="../images/icon_pp.gif" align="absmiddle" width="16" height="16"> 
+	Parameters Properties button:</b> Some AddIns require that you establish some settings to control the way the AddIn works. If this button 
+	is enabled when you select an AddIn, click it to make these settings.</div>
+	
+<p>&nbsp;</p>
+	
+<div id="Info2" style="visibility: hidden; cursor: arrow; display: none">
+	<b>Compiled JavaScript File Name<br>
+	</b>Changes the name of the file or set of files 
+	that DHTML Menu Builder will use to store the compiled code.<p>NOTE: 
+	Changing this setting will require  updating the loader code.</div>
+	
+<p>&nbsp;</p>
+	
+<div id="Info3" style="visibility: hidden; cursor: arrow; display: none">
+	<b>Menus Offset<br>
+	</b>Displays the Menus Offset dialog where you can apply a global offset to the default position of the menus.<p>
+	<a href="menus_offset.htm">See the Menus Offset Dialog for more information</a>.</div>
+	
+<p>&nbsp;</p>
+	
+<div id="Info4" style="visibility: hidden; cursor: arrow; display: none">
+	<b>Font Substitution<br>
+	</b>Displays the Font Substitution dialog  where you can configure groups of fonts that a browser can substitute. These alternative fonts are only used if the primary 
+	font is not found in the system where the menus are being used.<p>
+	<a href="font_subst.htm">See the Font Substitution Dialog for more 
+	information</a>.</div>
+	
+</body>
+
+</html>

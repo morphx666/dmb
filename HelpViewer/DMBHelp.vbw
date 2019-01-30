@@ -1,0 +1,7 @@
+frmHelpViewer = 83, 187, 1146, 876, C, 0, 0, 0, 0, C
+HVGlobals = 191, 165, 1081, 823, C
+CHelp = 123, 147, 1089, 953, C
+modFileHandling = 157, 133, 604, 933, C
+modShort2Long = 157, 133, 604, 933, C
+modIP_DomainsAPI = 157, 133, 604, 933, C
+modUDP = 0, 0, 0, 0, C

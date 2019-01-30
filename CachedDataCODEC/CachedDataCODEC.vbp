@@ -1,0 +1,47 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{4016DD82-DDBE-4D05-AB56-719F1E7A769E}#16.0#0#..\engine.dll#DHTML Menu Builder Engine Class
+Form=frmMain.frm
+Module=modSAPI4DMB; ..\modSAPI4DMB.bas
+Class=MD5; ..\..\Modules\clsMD5.cls
+Module=modInit; modInit.bas
+Module=modCacheDataCODEC; ..\modCacheDataCODEC.bas
+Module=LZW; ..\..\Modules\LZW3.bas
+Module=modMachineName; ..\..\Modules\modMachineName.bas
+Module=modFileHandling; ..\..\Modules\modFileHandling.bas
+Module=modShort2Long; ..\..\Modules\modShort2Long.bas
+IconForm="frmMain"
+Startup="Sub Main"
+HelpFile=""
+Title="DecodeCachedData"
+ExeName32="CachedDataCODEC.exe"
+Command32=""
+Name="CachedDataCODEC"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="xFX JumpStart"
+CondComp="STANDALONE = 1"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1

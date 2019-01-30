@@ -1,0 +1,106 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Production / Presets Manager</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font color="#FFFFFF"><b>Presets Manager</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is the Presets Manager dialog.<br>
+            Click here to see the <a href="presets_main.htm">Presets Manager</a> 
+            dialog used to import styles into the active project.<br>
+            To access this dialog click <font face="Courier New">File-&gt;New-&gt;From 
+            Preset</font></p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area href="javascript:say(0);" shape="rect" coords="8, 24, 46, 42">
+			<area href="javascript:say(1);" shape="rect" coords="7, 46, 217, 386">
+            <area href="javascript:say(2);" shape="rect" coords="219, 45, 565, 388">
+			</map>
+			<img border="0" src="images/presets_main.gif" usemap="#FPMap0" width="574" height="440"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="presets_applying.htm">Presets Manager (used to 
+                    import styles)</a></li>
+                    <li><a href="presets_sharing.htm">Presets Manager (used to 
+                    submit presets)</a></li>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Presets Menu<br>
+			</b>This menu displays a list of commands giving you access to the 
+            most common operations available on the dialog:</p>
+            <b>Load</b>: Load the selected Preset as a new Project<hr noshade size="1" color="#EBEBEB">
+              	<b>Edit</b>: Edit the Preset title, descript and category
+            <hr noshade size="1" color="#EBEBEB">
+              	<b>Delete</b>: Delete the selected Preset
+            <hr noshade size="1" color="#EBEBEB">
+              	<b>Repack</b>: This option will uncompress the preset, load 
+                it into the program, recompile the project that was used to 
+                build the preset and re-pack it again as a preset. This option 
+                should only be used if you created a preset with an old version 
+                of DHTML Menu Builder and you want to recompile it with a newer 
+                one.
+            <hr noshade size="1" color="#EBEBEB">
+              	<b>Repack All</b>: This option will repack all the available 
+                presets.</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Presets List<br>
+			</b>This section displays all the presets available on your system 
+            organized by category.</p>
+            <p>Below the list of presets is displayed a small window with 
+            information such as the title, author and description of the 
+            selected preset.</p>
+          	</div>
+          	
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Preset Preview<br>
+            </b>This section displays the selected preset in action letting you 
+            see how the preset looks and feels.</p>
+            <p>Because this preview is generated using an instance of Internet 
+            Explorer the selected preset will look and work exactly as when 
+            viewed directly from a browser.</p>
+</div>            
+</body>
+
+</html>

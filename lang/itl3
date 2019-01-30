@@ -1,0 +1,671 @@
+Italiano
+Carmen Horth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Previsione Diretta
+Proprietà di Comando
+Titolo
+Permesso
+Sopra
+Scotta
+Doppio Scatto
+Tipo di Azione
+Menu dell'Obiettivo
+(niente)
+Apri URL / Eseguire il copione
+Mostra SubMenu
+Apri URL in nuovo Window
+Testo di Condizione
+Allineamento
+Basso / Sinistra
+Basso / Destra
+Sopra / Sinistra
+Sopra / Destra
+Sinistra / Sopra
+Sinistra / Basso 
+Destra / Sopra
+Destra / Basso
+Proprietà del Gruppo
+URL / Copione
+&Archivio
+&Nuovo
+A&pri
+Apri Recente
+Salvare
+Salvare &Con Nome
+&Importare
+Progetto P&roprietà
+&Usci
+&Curare
+&Disfare
+Ri&fare
+C&opiare
+&Incolla
+&Trova
+Trova S&uccessivo 
+Sostit&uisci
+Annu&llare
+Cam&bio Nome
+Preferenze...
+&Menu
+Agguingere &Gruppo
+Agguingere &Comando
+Agguingere Separatore
+Colore...
+Fonte...
+Cursore...
+Immagine...
+Margini...
+Effetti Speciale...
+Suono...
+&Strumenti
+&Previsione...
+Previsione &Diretta
+Regola Difetto &Browser...
+Compi&lare
+
+Pubbl&icare...
+Installare il Codice del Caricatore...
+Installare Strutture il Codice del Caricatore...
+&Hotspots Editore...
+&Barra di Strumento Editore...
+&AddIn Editore...
+Rapporto...
+A&uito
+Conten&uti...
+&Lezione
+Promuo&vere...
+xFX JumpStart Sul Web
+Ri&guarda...
+Registrare
+Entrare Informazioni Di &Registrazione...
+Compri DHTML Menu Builder...
+Normale
+Mouse Sopra
+Colore del Testo
+Colore Rovescio
+Rimetto
+Tornare a
+Auto
+D'accordo
+Cancellare
+
+Cambio
+Sinistra
+Destra
+Centro
+Freccia (Difetto)
+Croce
+Mano
+Testo
+Aiuto
+Sinistra Immagine
+Sfondo Immagine
+Destra Immagine
+Togliere
+Stesso
+Dimensioni
+Barra da Strumento Articolo
+Rovescio Immagine
+Bordo Dimensioni
+Colori Del Bordo
+
+Margini del Contenuto del Gruppo
+Verticale
+Orizzontale
+Colore
+Fonte
+Immagine
+Cursore
+Margini
+Effetto di Comandi
+Effetti del Gruppo
+Margine Orizzontale
+Margine Verticale
+Abbassare l'Ombra del Colore
+Diapositiva
+Contesto Menu
+Manuale
+Calcolare
+
+Gruppi Dimensioni
+SPENTO
+Piu Scuro
+Invisibile
+Effetti Speciali
+Condizioni Permesso
+Gradite ora aggiornare il testo di condizione di tutti gli articoli?
+Curare
+Frame dell'Obiettivo
+è scattato
+il cursore è sopra
+è doppio scattato
+Selezionare il documento per aprirsi quando
+Nuovi Parametri dei Window
+DHTML Menu Builder è ora in DEBUG modo.
+Se ottenete qualunque errore del messaggio (runtime) mentre lavorate al DMB prego segnalarlo
+compreso il numero e la descrizione di errore con una piccola descrizione di che cosa stavate facendo
+Questa è una versione di Demo del DHTML Menu Builder.
+Questo funzionamento è soltanto disponibile sulla versione complete. Per verificare i vostri menu, usare Strumenti->Previsione Funzione
+Il Addin
+richiede alcuni parametri di essere regalato prima di uso.
+Andare alle proprietà di progetto ed usare i Parametri che le Proprietà bottone, sotto la tabulazione Avanzata, per installare i valori richiesti AddIn.
+Questo funzionamento  è soltanto disponibile sulla versione completa.
+Selezionare un Progetto per Importare
+Salvare i cambiamenti a
+Pubblicare i menu sulla macchina locale senza l'uso d'un web server
+Locale
+Remoto
+Apri Progetto
+DHTML Menu Builder Progetti
+DHTML Menu Builder non può aprire l'file perchè ha gli attribuito di leggerli, o è memorizzato in media dove non avete i permessi di scrivete
+Caricare
+Questo progetto è stato creato con una più vecchia versione del DHTML Menu Builder.
+Consultare proge l'Aiuto per le informazione su come aggionare il vostro progetto.
+Il progetto non potrebbe essere aperto perchè l'archivio 
+non esiste
+Il progetto non potra essere aperto.
+Importazione
+Disfare
+Rifare
+Salvare Progetto
+Salvazione
+Salvare Progetto Come
+Gruppo
+Comando
+Separatore
+Cancellando un Gruppo cancellerete tutti i comandi relattivi, siete sicuri che questo e che desiderate a fare?
+Questo gruppo non può essere annullato perchè sta usando come un SubMenu d'un altro gruppo.
+Muovere
+Su
+Giù
+Il vostro progetto è configurato per generarvi una barra di strumento.
+A meno che abbiate hotspots supplementari alla vostra pagina che desiderate 
+usare per innescare alcuni dei vostri gruppi, l'editore dei hotspots non è necessarrio.
+Il Hotspots Editore non può aprire l'archivio che contiene i hotspots perchè ha soltanto i permessi per leggere di attributo, o  è memorizzato in media dove avete i permessi di scrivete
+Configurazione di Difetto
+I cambiamenti alla regolazione di linguaggio saranno disponibile la prossima volta che fate funzionare il DHTML Menu Builder
+Caricare Sistema Fonti...
+Attendere prego, inizializzantesi...
+Caricare l'ultimo Salvato Progetto
+Inizio Completo
+Il vostro progetto è stato recuperato con successo.
+Scegliere prego una posizione per salvarlo
+DHTML Menu Builder non era correttamente chiuso e una copia di riserva del vostro lavora  è disponibile.
+Gradite recuperarlo?
+Gli articoli del menu devono cominciare con una lettera
+Copiare / Muovere
+Azione
+Condurre
+Selezionare le proprietà per copiare dal gruppo
+Selezionare le proprietà per copiare dal separatore selezionato sotto il gruppo
+Selezionare le proprietà per copiare dal comando
+Selettiva Copiare
+Selettiva Incolla
+Selezionare le proprietà Incolla
+Incolla al gruppo
+Incolla a tutti i gruppi
+Incolla a tutti il selezionato separatore
+Incolla a tutti i separatori sotto il 
+gruppo
+Incolla a tutti i separatori
+Incolla al comando
+Incolla a tutti i comandi sotto il
+Incolla a tutti i comandi
+Il clipboard non contiene dati
+Pagina Della Casa
+Supporto
+FAQ
+Pubblica Tribuna
+Notizie
+Posizione di Progetto
+Nome di Progetto
+%%LINE=231%%
+Suono di Spiegamento
+Generale
+Configurazioni
+Barra Di Strumento
+FTP
+Avanzato
+Percorso Locale al Web della Radice
+Cartella per Memorizzare l'Archivi Compilate
+Cartella per Memorizzare gli immagini
+Locale Configurazione
+Web Server Radice
+Percorsi per archivi Compilate
+Percorsi per l'immagini
+Esempio
+Percorsi
+Editore dei Hotspots
+Supporto dell' struttura
+Opzione
+Agguingo
+Curare
+%%RISERVATO%%
+Regola Come Difetto
+Auto Riempio
+Importare...
+
+Documento definitivo del HTML
+Permettere Supporto Struttura
+Gli Strutture Documento
+Hotspots Struttura
+Menu Struttura
+Creare Barra Di Strumento
+Selezionare i gruppi per includere nel Barra Di Strumento
+Apparenza
+Posizionare
+Barra Di Strumento Stile
+Bordo
+Separazione
+
+Rovescio Colore
+Rovescio Immagine
+Campione Barra Di Strumento
+Misurazione
+Controbilanciare
+Pixel Orizzontalmente
+Pixel Verticalmente
+(auto) 
+Pagina Dimensioni
+Usanza
+Seguire gli barra di scorrimenti del Browser
+Indirizzo del FTP Server
+Inizio Attivita Anonimo
+
+Usare un Proxy Server
+Nome dell' Utente
+Parola d'Accesso
+Indirizzo
+Porta
+Remote Configurazione
+Proprietà di Progetto
+Codificare l'Ottimizzazione
+Nome del file Compilato di JavaScript
+Menu Sfalsato
+[DEBUG] Nessun Ottimizzazione
+[FINALE] Piccolo e Veloce Codice
+Nome o protocollo non valido del server
+Selezionare il documento del Frameset
+Uno dei vostri frames sta usando il nome riservato
+Prima che possiate usare i menu sul vostro frameset, dovrete cambiare il nome di questo struttura
+Questo archivio non sembra essere un documento valido del HTML delle struttura.
+Selezionare il dispositivo di piegatura in cui desiderate memorizzare le immagine usate sul vostro progetto
+Selezionare il vostro dispositivo di pregatura di web della radice
+Selezionare l'Archivio del Suono
+Il vostro progetto deve essere salvato prima dell'importazione delle regolazioni da un altro progetto
+Selezionare il Progetto
+Curare la Configurazione
+Questa configurazione non può essere cancellata perchè il FTP Supporto è necessario.
+Il configurazione default non  può essere cancellata
+Questa configurazione non può essere cancellata perchè è necessaria dal
+configurazione
+
+Difetto
+Selezionare dove volete memorizzare il vostri progetti compilati
+Selezionare HTML Documenti
+Il archivio selezionato non  è HTML valido documento
+HTML Documenti
+Niente AddIn selezionati. Il default copione sarà usato.
+Cambiare %%RIGA=378%%
+Questo Progetto usi il
+AddIn non può essere trovato
+Nome
+Agguingere Browser
+Applicazioni
+Dovete digitare un nome per il nuovo browser
+Dovete selezionare un comando valido per inizare il browser
+Selezionare il browser per agguingere
+L'Editore del AddIn è inteso per gli utenti avanzati soltanto con una conoscenza ragionevole del HTML, DHTML, Java Scripting, CSS e il DOM per gli ultimi browsers. Siete sicuri che desiderate continuare?
+Si
+No
+Non chiedermi ancora
+Browsers Disponibili
+&Agguingere...
+Regolarsi come &Difetto
+&Curare
+Annu&llare
+Chuidi
+Curare il Browser
+Aggiornare
+Pacchetto di linguaggio creato da:
+Larghezza
+Altezza
+Alzato
+Dispersore
+Selezionare il verticale ed il orizzontale del HTML Menu Builder dovrebbe applicarsi alla posizione di difetto dei menu in modo da sembrano allineati perfettamenta al loro hotspots del parente
+Selezionare il verticale ed il orizzontale li ha sfalsati desidera applicarsi alla posizione di difetto del SubMenus
+Generali Opzioni
+Aprire l'ultimo progetto quando il DMB comincia
+Auto Recupero
+Mostrare lo spruzz-schermo do marchio quando il DMB comincia
+
+Mostrare sempre le Opzioni del Compilatore
+Linguaggio
+La Formattazione Difetti
+Altezza del Separatore
+Immagini Distanziare
+I comandi ereditano il loro stile da 
+Gruppo del Parente
+Primo comando sullo stesso gruppo
+I gruppi ederitano il loro stile da
+Programma Difetto
+Primo gruppo sul progetto
+Preferenze
+Bidirezionale
+Verticale
+Orizzontale
+Casuale
+(niente)
+La Vostra Versione
+Applicazione
+Motore
+Pubblicare
+Controllo
+Ultima Versione
+Promuovere DHTML Menu Builder
+(Scattare il tasto del controllo)
+(Attendere Prego...)
+Siete sicuri voi desiderate annullare il trasferemento?
+Trasferendo... Attendere prego, questo può occorrere alcuni minuti
+Trasferendo
+Installare
+Trasferimento
+La vostra versione deve essere aggiornata
+Già avete l'ultima versione disponibile
+(Sconosciuto)
+Incapace richiamare le informazione
+Un errore ha accaduto mentre provando  a richiamare le informazione
+Nuovi Parametri dei Window
+Posizione e Dimensione
+Agguingere i bottoni dell' indice
+Specifica se agguingere i bottoni dell' indice
+Canale Modo
+Specifica se mostra il window in theater modo e mostra il canale banda 
+Mostra Barra Di Strumento
+Specifica se mostra il browser barra di strumento, facendo bottoni come Dietro, Avanti e Fermare disponibili
+Mostra in Pieno Schermo
+Specifica se mostra il browser a pieno schermo o normale window
+Mostra il campo dell'input
+Specifica se mostra il campo dell'input per i URLs entranti direttamenta nel browser
+Mostra la barra di menu
+Specifica se mostra  la barra di menu
+Window può essere ridimensionata
+Specifica se mostra ridimensionano le maniglie ai angoli del window
+Mostra barra di scorrimenti
+Specifica se mostra orizzontali o verticale barra di scorrimenti
+Mostra barra di posizione
+Specifica se agguingere un status bar alla parte inferiore del window
+Mostra il titolo di barra
+Specifica se mostra una barra di titolo per il window
+Parte superiore
+Condizioni
+Scegliere dal disponibile
+%RIGA-VUOTA%%Lasciata intezionalmente vuoto per gli scopi di grammatica
+Filtro
+Cascata
+Selezionare Tutto
+Selezionare Niente
+Gruppi
+Comandi
+Tutte le proprietà
+Dietro
+Riga
+Deciso
+Corsivo
+Sottolineare
+Sfondo
+Azioni dell'Evento
+Allineamento del Menu
+Larghezza del Gruppo
+Altezza del Gruppo
+Suoni
+Sul Mouse Sopra
+Sullo Scatto
+Incolla
+Incolla Ozione
+Selezionare
+Tutto
+Niente
+Albero
+Si Espandano
+Crollo
+Espandere Tutto
+Sprofonda Tutto
+Descrizione...
+Immagini
+Dall'Archivio...
+Selezionare l'Archivio di Immagine
+Esportazione Come HTML...
+Selezionare l'Archivio del HTML
+Condizione di Aggiornamento Del Testo 
+DHTML Menu Builder Debug Mode
+Linguaggio Cambiato
+Funzione Inabilitato
+Parametri Mancanti
+Salvare i Cambiamenti?
+Errore Progetto
+Errore
+DEBUG MODE
+Cancellare il Gruppo?
+Cancella l'annulamento
+Siete sicuri che voi volete continuare?
+Archivio Di Apertura Di Errore
+L'Editore HotSpots richiede il versione 5.0 o sopra di Microsoft Internet Explorer
+Errore Lanciare il HotSpots Editore
+Hai bisogno di specificare un HTML documento valido quello che rende il vostro pagina completa.
+Apri la %%RIGA=378%% il dialogo e ripara questo problema prima di provare a fare funzionare ancora l' editore di HotSpots. 
+Mancante %%RIGA=345%%
+Nel usando le strutture sostenere ed i menu che la struttura è differente dalla struttura di HotSpots, %%CRLF%%la ' %%RIGA=345%% ' che si regola sul %%RIGA=378%% devono indicare allo stesso archivio ' del Documento che Contiene il HotSpots'. 
+%%RIGA=345%% Non validi Che Si Regolano
+L'Editore HotSpots non ha potuto essere lanciato a causa d'un errore sconosciuto. 
+Il progetto non può essere compilato perché
+il Gruppo
+il Comando
+contiene uno o pui non validi caratteri
+l'azione di scatto sul Comando
+l'azione sopra sul Comando
+l'azione doppio scatto sul comando
+l'azione di scatto sul Gruppo 
+l'azione sopra sul Gruppo
+l'azione doppio scatto sul Gruppo
+contiene uno o pui non validi caratteri nella Status Text campi
+Errore di Compilazione
+Il progetto non può essere compilato perché uno o piu del oggetti hanno lo stesso nome
+Configurazione
+Dovete specificare un documento valido del HTML in cui la vostra pagina completamente è resa. 
+Desiderate farli ora?
+Dispositivo di piegatura Mancante Della Destinazione
+Il dispositivo di piegatura per memorizzare gli archivi compilati definiti nel %%RIGA=378%% non è valido. 
+Dispositivo di piegatura Non valido Della Destinazione
+Dovete specificare la destinazione del dispositivo di piegatura per le immagini. 
+Mancante Destinazione Di Immagini Della Dispositivo di piegatura 
+Il dispositivo di piegatura della destinazione per memorizzare le immagini definite nel %%RIGA=378%% non è valido. 
+Dispositivo di piegatura Non valido Di Immagini Della Destinazione 
+Dovete specificare un archivio valido della destinazione in cui i menu saranno effettuati.Questo è il documento del HTML in cui i vostri hotspots sono definiti. 
+Mancante o non valido archivio della destinazione
+Il documento che contiene il HotSpots deve essere un documento valido del HTML situato all'interno del vostro Web della radice
+Archivio Non valido Della Destinazione.
+Dovete specificare un documento valido del HTML in cui la vostra pagina completamente è resa. 
+Mancante o non Valido Archivio
+Il dispositivo di piegatura della destinazione deve essere un dispositivo di piegatura all'interno del Web della radice. 
+Desiderate ora correggere questo problema?
+Il parametro di '%%RIGA=326%% ' in
+Configurazione non è validi
+Parametri Non validi Di Configurazione
+Il parametro di '%%RIGA=330%%'in
+Il parametro di '%%RIGA=369%%' del FTP  sezione sul %%RIGA=378%% non è valido 
+è definito come un comando procedente in sequenza con
+l' evento, ma indica ad un gruppo non valido del menu
+Gruppo del Obiettivo non Valido
+Ristabilire questo AddIn o rimuoverlo dal progetto
+AddIn Non Trovato 
+ma non può essere compilato perché %%CRLF%%sembra essere danneggiato o da una versione più vecchia del DHTML Menu Builder 
+AddIn non Valido
+Recuperare Riuscito
+Improprio Chuisura
+I dati sul clipboard provengono da un tipo differente di oggetto
+Data del Clipboard non Valida
+Trova
+Sostituire
+Portata
+Trova Soltano Parola Intera 
+Contenitore Della Corrispondenza
+Soltanto Articoli Permessi
+Sostituire &Tutto
+Sostituire il Funzionamento
+Stile
+Pixel
+&Apri l'ultima Progetto sull'Cominciare
+Prossimo
+Analizzare
+Un errore inatteso ha accaduto mentre creava i HotSpots
+Il hotspots selezionato è un immagine senza nome.
+Nell'ordine per il gruppo
+a auto lineare l'immagine selezionata,
+l'immagine deve avere un nome.
+Il Hotspot non è correttamente installato
+Il hotspot selezionato è un immagine che ha lo stesso nome come il gruppo selezionato.
+Ogni elemento sulla vostra pagina deve avere un nome unico.Deve cambiare il nome del gruppo o%%CRLF%% cambio nome del immagine,altrimenti questo gruppo non funzionera.
+La comunicazione con l'Internet Explorer è stata persa.%%CRLF%%Il vostro documento non potrebbe essere caricato o non è un HTML valido document.%%CRLF%%%%CRLF%%Prego chuide l' editore di HotSpots, controlla che il vostro progetto proprietà %%CRLF%%fossero configurasse correttamente e lo apre ancora. 
+Siete sicuri voi desiderate chiudere l'editore dei HotSpots senza salvare i vostri cambiamenti?
+Avvertimento
+
+
+Chiedere una Riunione in Diretta
+Chiedere una Demonstrazione del Prodotto in Diretta 
+Questa programma è autorizzato a:
+Riempi i campi qui sotto con l'informazione della vostra ricevuta dell'acquisto. Si assicura voi digitano le informazione esattamente come compaiono sulla ricevuta.
+Numero di Ordine
+Nome dell'Utente
+Azienda
+Validare
+Informazione di Segretezza
+La '%%RIGA=635%%' e '%%RIGA=636%%' i campi sono richiesti per iniziare il processo di convalida. 
+Le Informazione non Valide di Registro
+Le vostre informazione sono state verificare con successo.%%CRLF%%Scatto sopra %%RIGA=176%% il tasto per aggiornare questa copia della versione completa del DHTML Menu Builder.
+Convalida di Registro Completato con Successo!
+Vi assicurate digitare esattamente le vostre informazione mentre compiono nel vostro confirmazione(ricevuta) di ordine.%%CRLF%%%%CRLF%%Se avete appena comprato DHTML Menu Builder, potete desiderare provare ancora in alcuni minuti.%%CRLF%%%%CRLF%%Un altro motivo possibile per questo guasto è che non potete usare l'ultima versione di DHTML Menu Builder.Per verificare che avete l'ultima versione disponibile,selezionare Auito->Aggiornamento dal menu principale.
+Informazione Registrazione non Valido
+
+Aiuto di Registrazione
+Il Server non ha accettato le informazione fornite dal registro
+Il motivo segnalato dal server è:
+Informazione Supplementare:
+La %%RIGA=365%% non è Valido
+Il DHTML Menu Builder non ha potuto comunicare con il server per convalidare le informazione. Prego si assicura che siete collegati al internet prima di provare il processo di convalida.
+Incapace mettersi in Contatto con il Server
+Siete sicuri voi desiderate chuidere il dialogo di registro senza registrare?
+Alzare l'articolo selezionato
+Abbassare l'articolo selezionato
+Usando di Previsione
+Interno
+Errore che Visuallizza il Visore d'Auito
+Codice d'Installazione del Caricatore di Errore
+Codice attuale di Rimozione del Caricatore di Errore
+Progetto di Importazione di Errore
+Controllare se c'è l'Aggiornamento
+Errore Critico
+Parametri di Errore da Caricamento
+Parametri di Errore da  Salvare 
+Bordi
+Disposizione di Comando
+Colore della Riga
+Doppio
+Smussatura

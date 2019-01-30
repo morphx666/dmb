@@ -1,0 +1,104 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Positioning the menus: Positioning the menus inside a table's cell (Free Flow mode) 2/2</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" id="table1">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24"><b>
+		<font color="#FFFFFF" size="2">&nbsp;The Tutorial - Positioning the 
+        menus</font></b></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4" id="table2">
+			<tr>
+				<td width="100%"><b>Scenario: Positioning the menus inside a 
+                table's cell (Free Flow mode)</b><p>
+                <img border="0" src="tbp_s11/tbpos01.gif" width="463" height="468" align="left">To 
+                configure our project so the toolbar is positioned using the 
+                Free Flow mode we first click <font face="Courier New">
+                Tools-&gt;Toolbars Editor-&gt;Positioning</font> and select the
+                <font face="Courier New">Free Flow</font> option.</p>
+                <p>That's all that is required to configure the project.</p>
+                <p>You may have noticed that, besides the Free Flow option, 
+                appears a code between brackets; this is the ID that the toolbar 
+                will look for on your pages.<br>
+                An ID is something like a unique name that you can assign to an 
+                element on page to identify it and distinguish it from the rest.<br>
+                The ID displayed next to the Free Flow option is telling you the 
+                ID that you must use for this toolbar. If you have a project 
+                with more than one toolbar then each toolbar will have its own 
+                ID.</p>
+                <p>And how do we assign an ID to our cell? Its actually very 
+                easy and all you will need is a text editor or you could use 
+                your preferred HTML editor (such as FrontPage, Dreamweaver, 
+                etc...)</p>
+                <p>So, start you favorite editor for HTML documents and load the 
+                document containing the cell where you want the toolbar to 
+                appear.<br>
+                If you're using a visual editor such as FrontPage or Dreamweaver 
+                you will have to switch to &quot;Code View&quot; so you can see the HTML 
+                code.<br>
+                Next, locate the HTML code for the cell. In our example, this is 
+                how the HTML code for the cell looks like:</p>
+				  <table border="1" style="border-collapse: collapse" bordercolor="#111111" id="table4" cellpadding="2" bgcolor="#FFFFCC">
+                    <tr>
+                      <td width="100%"><font face="Courier New">&lt;td align=&quot;left&quot; 
+                      valign=&quot;top&quot; bgcolor=&quot;#004080&quot; height=&quot;100%&quot; nowrap&gt;&lt;/td&gt;</font></td>
+                    </tr>
+                  </table>
+                <p>Now, all you have to do is to add the &quot;ID&quot; parameter and 
+                assing it the ID that DHTML Menu Builder generated for your 
+                toolbar: dmbTB1ph. When done, the code for your cell will look 
+                like this:</p>
+				  <table border="1" style="border-collapse: collapse" bordercolor="#111111" id="table5" cellpadding="2" bgcolor="#FFFFCC">
+                    <tr>
+                      <td width="100%"><font face="Courier New">&lt;td align=&quot;left&quot; 
+                      valign=&quot;top&quot; bgcolor=&quot;#004080&quot; height=&quot;100%&quot; nowrap
+                      <font color="#FF0000"><b>id=&quot;dmbTB1ph&quot;</b></font>&gt;&lt;/td&gt;</font></td>
+                    </tr>
+                  </table>
+                <p>Notice that we have highlighted the changes in bold/red text. 
+                That's it... that's all that is required to assign an ID to a 
+                cell.<br>
+                Now, when you view your menus using a browser the menus will 
+                look for the dmbTB1ph ID and will position themselves inside 
+                whatever tag contains the ID.</p>
+                <p>Below you can see how the sample looks like after we have 
+                added the ID parameter to our cell.</p>
+				  <table border="1" style="border-collapse: collapse" bordercolor="#111111" width="80%" id="table3" cellpadding="2" bgcolor="#FFFFCC">
+                    <tr>
+                      <td width="100%"><font size="1">Try to increase this 
+                      window's size as much as possible to ensue that the sample 
+                      layout is fully displayed.</font></td>
+                    </tr>
+                  </table>
+                <p align="center">
+                <iframe name="I1" src="tbp_s11/thetutorial_ptb_s02.htm" target="_self" width="80%" height="290" scrolling="no">
+                Your browser does not support inline frames or is currently configured not to display inline frames.
+                </iframe></p>
+                <p>The great advantage of this method is that the toolbar will 
+                flow with the cell's size, alignment and all its parameters in 
+                general. This means that if you ever change your design layout, 
+                as long as you keep the cell's ID, the toolbar will reposition 
+                itself inside the cell... automatically.<br>
+&nbsp;<hr noshade size="1" color="#EBEBEB">
+				<p align="left">This concludes this tutorial.
+                <a href="thetutorial_ptb_01.htm">Click here to return the 
+                &quot;Positioning the menus&quot; tutorial index</a>.<p align="center">&nbsp;</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

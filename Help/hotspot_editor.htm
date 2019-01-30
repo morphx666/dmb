@@ -1,0 +1,88 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>The HotSpots Editor</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">&nbsp;The HotSpots Editor</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+          The HotSpots Editor is a tool integrated into DHTML Menu Builder that 
+			automates the process of implementing the menus in the files of your 
+			web site.<p>There are two basic steps performed by the HotSpots 
+			Editor:</p>
+			<ul>
+				<li><b>The addition of the loader code</b><br>
+              The loader code is a series of JavaScript 
+              instructions used by the browser to locate the .js file(s) 
+              containing the menus. These 
+				files contain all the information about your menus plus the code 
+				necessary to make them work.<hr noshade size="1" color="#EBEBEB">
+				</li>
+				<li><b>The addition of the trigger code</b><br>
+                The trigger code is 
+						the code that is placed on your hotspots, and enabling them to respond 
+						to  mouse actions and display the menus.
+				Without this code, your hotspots would not be able to detect when 
+				the mouse was over them.</li>
+			</ul>
+            <p>To access the HotSpots Editor use either of following methods:</p>
+            <ul>
+              <li>From the <font face="Courier">Tools</font> menu,
+                click <font face="Courier">HotSpots Editor</font></li>
+              <li>Click  the HotSpots Editor icon
+				<img border="0" src="images/icon_hse.gif" align="middle" width="16" height="16">
+                on the toolbar</li>
+            </ul>
+			<p><b>Attaching the Groups</b></p>
+			<p>The process of attaching a group to a hotspot is very simple:</p>
+			<ul>
+				<li>Select the hotspot from the list of available hotspots.</li>
+				<li>Select the group you want to attach from the list of groups.</li>
+				<li>Select the alignment.</li>
+				<li>If the selected hotspot is an image you will be able to 
+				change the image name. In order to enable support for 
+				auto-alignment of the menus, the images must have a name.</li>
+				<li>If the selected hotspot is text, the x,y (left and top) coordinates of where you want your menu to be displayed has to be specified.
+				Since manually obtaining the best x,y position can be a tedious 
+				job, you can use the <font face="Courier">Active Text</font> feature. This converts the text-based hotspot into an active 
+				element that supports auto-relative positioning, just like image-based hotspots do. This means that DHTML Menu Builder 
+				will be able to determine from the browser for the exact position of the 
+				hotspot when the web page is loaded and and automatically align the menu to the 
+				hotspot. This will occur accurately even if the position of the hotspot changes when the 
+				browser window is resized.</li>
+			</ul>
+			<p>Repeat the above steps for all your groups.</p>
+			<p><b>Installing the loader code when using frames</b></p>
+			<p>If your hotspots are located in one frame and your 
+			menus are shown in another, each document loaded in the frame where 
+			the menus are to be displayed must contain an additional loader code 
+			that loads a special file created by DHTML Menu Builder.</p>
+			<p>This is done using a  tool integrated into DHTML Menu 
+			Builder. After you commit your changes in the HotSpots Editor, DHTML 
+			Menu Builder will automatically display a dialog to let you add 
+			files that need this loader code.
+			You should add all the documents that will be displayed in the frame that displays the menus. After clicking the <font face="Courier">Install</font> button 
+			DHTML Menu Builder will scan all the added files and add the 
+			required loader code.</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

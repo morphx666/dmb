@@ -1,0 +1,83 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Advanced Frames Implementation</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24"><b>
+		<font color="#FFFFFF" size="2">&nbsp;Advanced Frames Implementation</font></b></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4">
+			<tr>
+				<td width="100%">Sometimes you may want to have several 
+                toolbars, each placed on different frames and then share the 
+                same main frame to display the menus.<p>For example, consider 
+                the scenario described in the Working with Frames section where 
+                you have three frames:<br>
+                <img border="0" src="images/sampleframe.jpg" width="211" height="164" align="left" style="margin-right:10px">But 
+                this time let's say that you want a toolbar in the top frame, a 
+                toolbar in the left frame and that both toolbars will pull-down 
+                menus that will appear inside the main frame.</p>
+                <p>To achieve this you will have to follow these simple steps:</p>
+                
+                <p>Follow the instructions in the
+                <a href="working_with_frames.htm">Working with Frames</a> 
+                section as if you only had one toolbar.<br>
+                Configure each toolbar to use the &quot;<a href="thetutorial_ptb_11.htm">Free 
+                Flow</a>&quot; positioning technique.<br>
+                Compile the project and install the menus as directed in the
+                <a href="working_with_frames.htm">Working with Frames</a> 
+                section.<br>
+                Now, simply follow the instructions described in the Free Flow 
+                tutorial to designate the position of the toolbars. This will 
+                cause the toolbars to appear inside the tag corresponding to 
+                their ID regardless of the frame where this tag is located.</p>
+                <p>So, for example, if you add this code in the left frame:</p>
+                <p><font face="Courier New">&lt;span id=&quot;dmbTB1ph&quot;&gt;&lt;/span&gt;</font></p>
+                <p>...the first toolbar in our project will be displayed in the 
+                left frame. Then, if we add this code in the top frame:</p>
+                <p><font face="Courier New">&lt;span id=&quot;dmbTB2ph&quot;&gt;&lt;/span&gt;</font></p>
+                <p>...the second toolbar will appear in the top frame.</p>
+                <p>As you can see it is very important that you fully understand 
+                how to work with frames and how to use the Free Flow positioning 
+                method. This will ensure that you will have no problems 
+                implementing multi-frames menus.</p>
+				<table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+					<tr>
+						<td width="100%">Related topics of interest:
+						<ul>
+							<li><a href="working_with_frames.htm">Working with 
+                            Frames</a></li>
+                            <li><a href="thetutorial_ptb_11.htm">Using the Free 
+                            Flow positioning method</a></li>
+                            <li><a href="working_with_iframes.htm">Working with 
+                            IFRAMEs</a></li>
+							<li><a href="project_properties.htm">Project 
+							Properties</a></li>
+							<li><a href="configurations.htm">Configurations</a></li>
+							<li><a href="hotspot_editor.htm">The HotSpots Editor</a></li>
+						</ul>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

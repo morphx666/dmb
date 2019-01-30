@@ -1,0 +1,1222 @@
+var tg;
+var tgf;
+var tcN;
+var tcO;
+var ts;
+var ttbiN;
+var ttbiO;
+var tbiID;
+var IE5Mac = IE&&!SM&&IsMac;
+var acBuffering = false;
+var qc = [];
+var cmds = [];
+tbNum = cFrame.tbNum;
+tbO = cFrame.tbO;
+
+// --------------------------------------------------------------------------------------
+// USER FUNCTIONS
+// --------------------------------------------------------------------------------------
+
+function dmbAPI_addGroup(Group) {
+	_ag(Group);
+}
+
+function dmbAPI_removeGroup(Group) {
+	_rg(Group);
+}
+
+function dmbAPI_setGroupWidth(Group, Width) {
+	_sgw(Group, Width);
+}
+
+function dmbAPI_setGroupHeight(Group, Height) {
+	_sgh(Group, Height);
+}
+
+function dmbAPI_setGroupLayout(Group, Layout) {
+	_sgl(Group, Layout);
+}
+
+function dmbAPI_setGroupStyle(Group, BorderColor, BorderSize, BorderStyle, MarginH, MarginV) {
+	_sgs(Group, BorderColor, BorderSize, BorderStyle, MarginH, MarginV);
+}
+
+function dmbAPI_setGroupSeparation(Group, Separation) {
+	_sgy(Group, Separation);
+}
+
+function dmbAPI_addCommand(Group, Caption, DisableAutoSize, AutoIndex) {
+	var nc;
+	if(acBuffering) {
+		var g = _getobj(Group);
+		if(!g.qc) g.qc = [];
+		ncID++;
+		g.qc.push([Group, Caption, DisableAutoSize, AutoIndex, ncID]);
+		qc.push([Group, ncID]);
+		nc = ncID;
+	} else
+		nc = _ac(Group, Caption, DisableAutoSize, AutoIndex);
+	ncID++;
+	return nc;
+}
+
+function dmbAPI_removeCommand(Item) {
+	_rc(Item);
+	ncID--;
+}
+
+function dmbAPI_setColor(Item, NormalText, NormalBack, OverText, OverBack) {
+	_sc(Item, NormalText, NormalBack, OverText, OverBack);
+}
+
+function dmbAPI_setFont(Item, NormalStyle, OverStyle, Size) {
+	_sf(Item, NormalStyle, OverStyle, Size);
+}
+
+function dmbAPI_setStyleFromItem(TrgItem, SrcItem) {
+	_ssfi(TrgItem, SrcItem);
+}
+
+function dmbAPI_setOnClick(Item, URL, Target, SubGroup, Alignment) {
+	_seClick(Item, URL, Target, SubGroup, Alignment);
+}
+
+function dmbAPI_setOnMouseOver(Item, URL, Target, SubGroup, Alignment) {
+	_seOver(Item, URL, Target, SubGroup, Alignment);
+}
+
+function dmbAPI_setItemState(Item, State) {
+	_sis(Item, State);
+}
+
+function dmbAPI_setItemCaption(Item, Caption, DisableAutoSize) {
+	_scap(Item, Caption, DisableAutoSize);
+}
+var dmbAPI_setCaption = dmbAPI_setItemCaption;
+
+function dmbAPI_getItemByCaption(Caption, Frame, ParentItem) {
+	var ni;
+	ni = _gbc(Caption, (!Frame?mFrame:Frame), ParentItem);
+	if(!ni && !Frame)
+		ni = _gbc(Caption, cFrame, ParentItem);
+	return ni;
+}
+
+function dmbAPI_addTBItem(ToolbarIndex, Caption) {
+	return _atbi(ToolbarIndex, Caption);
+}
+
+function dmbAPI_removeTBItem(Item) {
+	_rtbi(Item);
+}
+
+function dmbAPI_addToolbar() {
+	return _atb();
+}
+
+function dmbAPI_removeToolbar(ToolbarIndex) {
+	_rtb(ToolbarIndex);
+}
+
+function dmbAPI_setTBWidth(ToolbarIndex, Width) {
+	_stbw(ToolbarIndex, Width);
+}
+
+function dmbAPI_setTBHeight(ToolbarIndex, Height) {
+	_stbh(ToolbarIndex, Height);
+}
+
+function dmbAPI_setTBLayout(ToolbarIndex, Layout) {
+	_stbs(ToolbarIndex, Layout);
+}
+
+function dmbAPI_setTBStyle(ToolbarIndex, BackColor, BorderColor, BorderSize, BorderStyle, marginH, marginV) {
+	_stbl(ToolbarIndex, BackColor, BorderColor, BorderSize, BorderStyle, marginH, marginV);
+}
+
+function dmbAPI_setTBSeparation(ToolbarIndex, Separation) {
+	_stby(ToolbarIndex, Separation);
+}
+
+function dmbAPI_setTBPosition(ToolbarIndex, Position, offsetX, offsetY, customX, customY) {
+	_stbp(ToolbarIndex, Position, offsetX, offsetY, customX, customY);
+}
+
+function dmbAPI_setImageLeftNormal(Item, ImagePath, Width, Height) {
+	_aimg(Item, 0, ImagePath, 0, Width, Height);
+}
+
+function dmbAPI_setImageLeftOver(Item, ImagePath, Width, Height) {
+	_aimg(Item, 0, ImagePath, 1, Width, Height);
+}
+
+function dmbAPI_setImageRightNormal(Item, ImagePath, Width, Height) {
+	_aimg(Item, 1, ImagePath, 0, Width, Height);
+}
+
+function dmbAPI_setImageRightOver(Item, ImagePath, Width, Height) {
+	_aimg(Item, 1, ImagePath, 1, Width, Height);
+}
+
+function dmbAPI_removeImageLeft(Item) {
+	_rimg(Item, 0, 0);
+}
+
+function dmbAPI_removeImageRight(Item) {
+	_rimg(Item, 1, 0);
+}
+
+function dmbAPI_setBuffering(State) {
+	if(acBuffering)
+		for(var i=0; i<qc.length; i++)
+			_bg(qc[i][0]);
+
+	qc = [];
+	acBuffering = State;
+}
+
+function dmbAPI_setSelectionEffects(Item, BorderNormalColor, BorderNormalStyle, BorderOverColor, BorderOverStyle, BorderSize, MarginH, MarginV) {
+	_ssfx(Item, BorderNormalColor, BorderNormalStyle, BorderOverColor, BorderOverStyle, BorderSize, MarginH, MarginV);
+}
+
+function dmbAPI_setCursor(Item, Cursor) {
+	_scrs(Item, Cursor);
+}
+
+function dmbAPI_setDefaultStyle(Style) {
+	_sdfs(Style);
+}
+
+function dmbAPI_parseArray(MenuID, ParentID, Caption, URL, TargetFrame, ToolbarIndex) {
+	return _pA(MenuID, ParentID, Caption, URL, TargetFrame, ToolbarIndex);
+}
+
+
+// --------------------------------------------------------------------------------------
+// SYSTEM FUNCTIONS
+// --------------------------------------------------------------------------------------
+
+function dmbAPI_Init(cbFcn) {
+	var tb;
+	var tbi;
+	tg = _getobj("DynAPI_Template");
+	tgf = _getobj("DynAPI_Templatefrmt");
+	tcN = _getchild(tg,1,"N");
+	tcO = _getchild(tg,1,"O");	
+	if(!cbFcn) cbFcn = "";
+	
+	for(var t = 1; t <= tbNum; t++) {
+		if(tbO[t]) {
+			tbi = _getchild(tbO[t], 1, "N");
+			if(tbi) {
+				tbi = _getobj(tbi.id);
+				if(_gtxt(tbi) == "DynAPI_Template") {
+					ttbiN = tbi;
+					ttbiO = _getobj("O" + tbi.id.substr(1));					
+					if(cbFcn) eval(cbFcn + "()");
+					break;
+				}
+			}
+		}
+	}
+	if(!ttbiN) window.setTimeout("dmbAPI_Init('" + cbFcn + "')", 100);
+}
+
+function _ag(g) {
+	var ng;
+	var ngf;
+	
+	ng = tg.cloneNode(false);
+	ng.id = g;
+	ng = mFrame.document.body.appendChild(ng);
+	
+	ngf = tgf.cloneNode(false);
+	ngf.id = g + "frmt";
+	ngf = ng.appendChild(ngf);
+}
+
+function _atbi(t, c) {
+	var ltbi;
+	var id;
+	var tb = _getobj("dmbTB"+t, cFrame);	
+	var tbc = tb.childNodes;
+	if(tbc.length) {
+		ltbi = tbc[tbc.length-1];
+		id = parseInt(ltbi.id.substr(1)) + 1;
+	} else
+		for(id=1001;;id++)
+			if(!_getobj("N" + id, cFrame)) break;
+	
+	_cntbi("N", ltbi, t, tb, c, id);
+	_cntbi("O", ltbi, t, tb, c, id);
+	
+	_adfs(id);
+	
+	_asc(t, true);
+	return id;
+}
+
+function _cntbi(s, ltbi, t, tb, c, id) {
+	var ntbi;
+	var tmpn;
+	var ns;
+	if(!ltbi) ltbi = cFrame.document.createElement('DIV');
+	
+	if(s=="N") {
+		for(var i=id;;i++) {
+			tmpn = _getobj("N"+i, cFrame);
+			if(!tmpn) {
+				for(; i>id; i--) {
+					tmpn = _getobj("N"+(i-1), cFrame);
+					if(!tmpn) break;
+					tmpn.id = "N" + i;
+					tmpn = _getobj("O"+(i-1), cFrame);
+					tmpn.id = "O" + i;
+				}
+				break;
+			}
+		}
+	}
+	
+	ntbi = (s=="N"?ttbiN:ttbiO).cloneNode(true);
+	ntbi.id = s + id;
+	ntbi = tb.appendChild(ntbi);
+	if(s=="N") {
+		ntbi.onmouseover = new Function("cFrame.hsHoverSel(0,this);");
+		ntbi.getElementsByTagName("DIV")[0].innerHTML = c;
+	} else
+		ntbi.onmouseover = new Function();
+	ntbi.fasc = true;
+}
+
+function _rtbi(i) {
+	_ri(parseInt(i));
+}
+
+function _ri(i) {
+	var f = (i>1000?cFrame:mFrame);
+	var iN = _getobj("N" + i, f);
+	if(!iN) {
+		_rpg(i);
+		iN = _getobj("N" + i, f);
+	}
+	var iO = _getobj("O" + i, f);
+	var iP = iN.parentNode;
+	var iPid = iP.id;
+	var iPb;
+	var lt;
+	if(i>1000) {
+		var t = iP.id.substr(5);
+		iPb = _getobj("dmbTBBack" + t, f);
+		lt = f.tbSpacing[t];
+	} else {
+		iPb = iP.parentNode;
+		lt = parseInt(iPb.getAttribute("ld"));
+	}
+	
+	for(var k=i;;k++) {
+		_swpn("N", k, iPid, f, (k==i), lt);
+		if(!_swpn("O", k, iPid, f, (k==i), lt)) break;
+	}
+
+	var id = _gpid(iN);
+	iP.removeChild(iN);
+	iP.removeChild(iO);
+	
+	_asc(id, i>1000);
+}
+
+function _sgw(g, w) {
+	_getobj(g, mFrame).setAttribute("fw", w);
+	if(w) _asc(g);
+}
+
+function _sgh(g, h) {
+	_getobj(g, mFrame).setAttribute("fh", h);
+	if(h) _asc(g);
+}
+
+function _swpn(s, i, tbid, f, ifi, lt) {
+	n1 = _getobj(s + i, f);
+	if(!n1) return false;
+	n2 = _getobj(s + (i+1), f);
+	if(n2) {
+		if(n2.parentNode.id == tbid)
+			if(n1.style.left == n2.style.left)
+				n2.style.top = n1.offsetTop + (ifi?0:n1.offsetHeight + lt) + "px";
+			else
+				n2.style.left = n1.offsetLeft + (ifi?0:n1.offsetWidth + lt) + "px";
+		else
+			if(i>1000) {
+				for(;i<9999; i++) {
+					n1 = _getobj(s + i, f);
+					if(!n1) break;
+					n1.id = s + (i-1);
+				}
+				return false;
+			}
+	}
+	n1.id = s + (i-1);
+	return true;
+}
+
+function _stbw(t, w) {
+	_getobj("dmbTBBack" + t, cFrame).setAttribute("fw", w);
+	if(w) _asc(t, true);
+}
+
+function _stbh(t, h) {
+	_getobj("dmbTBBack" + t, cFrame).setAttribute("fh", h);
+	if(h) _asc(t, true);	
+}
+
+function _rg(g) {
+	mFrame.document.body.removeChild(_getobj(g));
+}
+
+function _ac(g, c, ds, ai) {
+	var ncN = tcN.cloneNode(false);
+	var ncO = tcO.cloneNode(false);
+	var o = _getobj(g);
+	var of = _getobj(g+"frmt");
+	var mc, lc, fc, nc, cc = _children(o);
+	var ld = parseInt(o.getAttribute("ld"));
+	var cl = parseInt(o.getAttribute("cl"));
+	if(!ai) ai = false;
+	
+	if(cc==0) {
+		fc = lc = tcN;
+		id = ncID;
+	} else {
+		fc = _getchild(o, 1, "N");
+		lc = _getchild(o, cc, "N");
+		id = (ai?parseInt(lc.id.substr(1)) + 1:ncID);
+	}
+	ncN.id = "N" + (ai?"tmp":"") + id;
+	ncN.fasc = true;
+	ncN = of.appendChild(ncN);
+	ncO.id = "O" + (ai?"tmp":"") + id;
+	ncO.fasc = true;
+	ncO = of.appendChild(ncO);
+	
+	if(ai) {
+		for(var k=ncID-1; k>=id; k--) {
+			if(mc = _getobj("N"+k)) {
+				mc.id = "N" + (k+1);
+				if(mc = _getobj("O"+k)) mc.id = "O" + (k+1);
+			}
+		}
+	}
+	
+	_ac2(ncN, "N", c, lc, id, ld, cl);
+	_ac2(ncO, "O", c, lc, id, ld, cl);
+	
+	_adfs(id);
+	
+	if(!ds) window.setTimeout("_asc('"+g+"');", 50);
+
+	return id;
+}
+
+function _ac2(nc, s, c, lc, id, ld, cl) {
+	var nl = _cl(c);
+	nc.innerHTML = xrep(tcN.innerHTML, ">DynAPICmd<", ">"+c+"<");
+	nc.id = s + id;
+
+	nc.onmouseover = (s=="N"?tcN.onmouseover:tcO.onmouseover);
+	nc.onclick = new Function("");
+}
+
+function _rc(c) {
+	_ri(parseInt(c));
+}
+
+function _sc(i, nt, nb, ot, ob) {
+	var ncN = _getobj("N" + i);
+	if(!ncN) {
+		_rpg(i);
+		ncN = _getobj("N" + i);
+	}
+	var ncO = _getobj("O" + i);
+	
+	ncN.style.color = nt;
+	ncN.style.backgroundColor = nb;
+	
+	ncO.style.color = ot;
+	ncO.style.backgroundColor = ob;
+}
+
+function _sf(i, n, o, s) {
+	var a;
+	var ncN = _getobj("N" + i);
+	if(!ncN) {
+		_rpg(i);
+		ncN = _getobj("N" + i);
+	}
+	ncN.fasc = true;
+	var ncO = _getobj("O" + i);
+	
+	a = n.split("|");
+	with(ncN.style) {
+		fontFamily = a[0];
+		fontWeight = (a[1].toLowerCase()=="n")?"normal":"bold";
+		fontStyle = (a[2].toLowerCase()=="n")?"normal":"italic";
+		textDecoration = (a[3].toLowerCase()=="n")?"none":"underline";
+		fontSize = s;
+	}
+	
+	a = o.split("|");
+	with(ncO.style) {
+		fontFamily = a[0];
+		fontWeight = (a[1].toLowerCase()=="n")?"normal":"bold";
+		fontStyle = (a[2].toLowerCase()=="n")?"normal":"italic";
+		textDecoration = (a[3].toLowerCase()=="n")?"none":"underline";
+		fontSize = s;
+	}
+	
+	_asc(_gpid(ncN), i>1000);
+}
+
+function _seClick(i, u, t, g, a) {
+	var ncO = _getobj("O" + i);
+	if(!ncO && acBuffering && i<1000) {
+		for(var j=0; j<qc.length; j++) {
+			if(qc[j][1] == i) {
+					var o = _getobj(qc[j][0]);
+					for(var k=0; k<o.qc.length; k++) {
+						if(o.qc[k][4] == i) {
+							o.qc[k][5] = [i, u, t, g, a];
+							break;
+						}
+					}
+					return;
+			}
+		}
+	}
+	if(g)
+		ncO.onclick = _sbmact(u, a, i);
+	else
+		ncO.onclick = _urlact(u, t);
+}
+
+function _seOver(i, u, t, g, a) {
+	var ncO = _getobj("N" + i);
+	if(!ncO && acBuffering && i<1000) {
+		for(var j=0; j<qc.length; j++) {
+			if(qc[j][1] == i) {
+					var g = _getobj(qc[j][0]);
+					for(var k=0; k<g.qc.length; k++) {
+						if(g.qc[k][4] == i) {
+							g.qc[k][6] = [i, u, t, g, a];
+							break;
+						}
+					}
+					return;
+			}
+		}
+	}
+	if(g)
+		ncO.onmouseover = _sbmact(u, a, i);
+	else
+		ncO.onmouseover = _urlact(u, t);
+}
+
+function _scap(i, c, ds) {
+	var ncN = _getobj("N" + i);
+	if(!ncN) {
+		_rpg(i);
+		ncN = _getobj("N" + i);
+	}
+	ncN.innerHTML = xrep(ncN.innerHTML, _gtxt(ncN), c);
+	var ncO = _getobj("O" + i);
+	if(ncO) if(_gtxt(ncO)!="") ncO.innerHTML = xrep(ncO.innerHTML, _gtxt(ncO), c);
+	ncN.fasc = true;
+	
+	if(!ds) _asc(_gpid(ncN), i>1000);
+}
+
+function _scrs(i, c) {
+	var n = _getobj("O" + i);
+	n.style.cursor = c;
+}
+
+function _gbc(c, f, pi) {
+	var d = (pi?_getobj(pi).getElementsByTagName("DIV"):f.document.getElementsByTagName("DIV"));
+	for(var i=1; i<d.length; i++) {
+		if(!d[i].id) {
+			if(d[i].innerHTML == c) return d[i].parentNode.id.substr(1);
+			i++;
+		}
+	}
+	if(acBuffering) {
+		var g;
+		for(var i=0; i<qc.length; i++) {
+			g = _getobj(qc[i][0]);
+			if(g.qc)
+				for(var j=0; j<g.qc.length; j++)
+					if(g.qc[j][1] == c) return g.qc[j][4];
+		}
+	}
+	return null;
+}
+
+function _ssfi(ti, si) {
+	var sncN = _getobj("N" + si);
+	if(!sncN) {
+		_rpg(si);
+		ncN = _getobj("N" + i);
+	}
+	ncN.fasc = true;
+	var sncO = _getobj("O" + si);
+	var tncN = _getobj("N" + ti);
+	if(!tncN) {
+		_rpg(ti);
+		var tncN = _getobj("N" + ti);
+	}
+	var tncO = _getobj("O" + ti);
+	
+	with(tncN.style) {
+		color = sncN.style.color;
+		backgroundColor = sncN.style.backgroundColor;
+		cursor = sncN.style.cursor;
+		fontFamily = sncN.style.fontFamily;
+		fontStyle = sncN.style.fontStyle;
+		fontSize = sncN.style.fontSize;
+		fontWeight = sncN.style.fontWeight;
+		textDecoration = sncN.style.textDecoration;
+		if(sncN.style.border) border = sncN.style.border;
+	}
+	tncN.setAttribute("h", sncN.getAttribute("h"));
+	tncN.setAttribute("v", sncN.getAttribute("v"));
+	
+	with(tncO.style) {
+		color = sncO.style.color;
+		backgroundColor = sncO.style.backgroundColor;
+		cursor = sncO.style.cursor;
+		fontFamily = sncO.style.fontFamily;
+		fontStyle = sncO.style.fontStyle;
+		fontSize = sncO.style.fontSize;
+		fontWeight = sncO.style.fontWeight;
+		textDecoration = sncO.style.textDecoration;
+		if(sncO.style.border) border = sncO.style.border;
+	}
+	sncO.setAttribute("h", sncO.getAttribute("h"));
+	sncO.setAttribute("v", sncO.getAttribute("v"));
+	
+	_asc(_gpid(_getobj("N" + ti)), ti>1000);
+}
+
+function _sis(i, s) {
+	var nc = _getobj("N" + i);
+	if(!nc) {
+		_rpg(i);
+		nc = _getobj("N" + i);
+	}
+	if(s) {
+		if(nc.omc) {nc.onclick = nc.omc; nc.omc = null;}
+		if(nc.omo) {nc.onmouseover = nc.omo; nc.omo = null;}
+		if(nc.omd) {nc.ondoubleclick = nc.omd; nc.omd = null;}
+		nc.style.cursor = nc.oc;
+	} else {
+		nc.omc = nc.onclick; nc.onclick = null;
+		nc.omo = nc.onmouseover; nc.onmouseover = null;
+		nc.omd = nc.ondoubleclick; nc.ondoubleclick = null;
+		nc.oc = nc.style.cursor; nc.style.cursor = "default";
+	}
+}
+
+function _changeparam(s, p, n) {
+	var p1;
+	var p2;
+	
+	s = xrep(s, "; ", ";");
+	
+	p1 = s.split(";" + p + ":")[0];
+	p2 = s.split(";" + p + ":")[1];
+	p2 = p2.substr(p2.indexOf(";"));
+	
+	return p1 + ";" + p + ":" + n + p2;
+}
+
+function _getobj(ename, f, st) {
+	var r;
+	if(!f) f = mFrame;
+	r = ((BV>=5)?f.document.getElementById(ename):f.document.all[ename]);
+	if(!r && (f==mFrame) && !st) r = _getobj(ename, cFrame, true);
+	return r;
+}
+
+function _getchild(g, n, s) {
+	var c = 0;
+	var o = ((BV>=5)?g.getElementsByTagName("DIV"):g.all.tags("DIV"));
+	for(var i=1; i<o.length; i++)
+		if(o[i].id!="") {
+			if(o[i].id.substr(0,1)=="N") c++;
+			if(o[i].id.substr(0,1)==s && c==n) return o[i];
+		}
+}
+
+function _children(g) {
+	var c = 0;
+	var o = ((BV>=5)?g.getElementsByTagName("DIV"):g.all.tags("DIV"));
+	for(var i=1; i<o.length; i+=2)
+		if(o[i].id!="" && o[i].id.substr(0,1)=="N") c++;
+	return c;
+}
+
+function _gtxt(i, pCrLf) {
+	var p1;
+	var p2;
+	var s;
+	var h;
+	
+	if(SM) {
+		h = xrep(i.innerHTML, "<br>", "\n");
+		while(true) {
+			p1 = h.indexOf("<");
+			p2 = h.indexOf(">");
+			if(p1!=-1 && p2!=-1) {
+				s = h.substr(p1, p2-p1+1);
+				h = xrep(h, s, "");
+			} else
+				break;
+		}
+	} else
+		h = i.innerText;
+	while(h.charAt(0)==" ") h = h.substr(1, h.length-1);
+	if(!pCrLf) h = xrep(xrep(h, "\x0D", ""), "\x0A", "");
+	return h;
+}
+
+function _urlact(u, t) {
+	if(!t) t = '_self';
+	return new Function("cFrame.execURL('"+xrep(u, "'", "\\'")+"','"+t+"')");
+}
+
+function _sbmact(g, a, i) {
+	if(i>1000) {
+		t = _getobj("N"+i).parentNode.id.substr(5);
+		return new Function("cFrame.hsHoverSel(0, this);cFrame.ShowMenu(\"" + g + "\", " + i + ", " + a + ", false, \"\"," + (-t) + ");")
+	} else
+		return new Function("cFrame.HoverSel(0, this);status=\"\";cFrame.ShowMenu(\"" + g + "\", 0, 0, true, \"\", " + a + ");")
+}
+
+function _cl(c) {
+	var k = 0;
+	var n = 0;
+	c = c.toLowerCase();
+	while(true) {
+		n = c.indexOf("<br>", n);
+		k++;
+		if(n==-1) break;
+		n++;
+	}
+	return k + (n==0?1:0);
+}
+
+function _gts(i) {
+	var c = i.getElementsByTagName("DIV")[0];
+	if(c) {
+		var oc = c.innerHTML;
+		i.getElementsByTagName("DIV")[0].innerHTML += "XX";
+		var ov = [c.style.width,c.style.height,i.style.width,i.style.height];
+		c.style.width = "";
+		c.style.height = "";
+		if(OP)
+			i.style.position = "relative";
+		else
+			i.style.width = "8000px";
+		i.style.height = "";
+		var r = [c.offsetWidth, c.offsetHeight];
+		i.getElementsByTagName("DIV")[0].innerHTML = oc;
+		c.style.width = ov[0];
+		c.style.height = ov[1];
+		i.style.width = ov[2];
+		i.style.height = ov[3];
+		if(OP) i.style.position = "absolute";
+		return r;
+	} else
+		return [0, 0];
+}
+
+function _giimgs(i, f) {
+	var w = 0;
+	var h = 0;
+	var img = i.getElementsByTagName("IMG");
+	
+	for(var n=0; n<img.length; n++) {
+		w += img[n].width;
+		h += img[n].height;
+	}
+	
+	return [w, h];
+}
+
+function _stbs(t, s) {
+	tbStyle[t] = (s==0?1:0);
+	_getobj("dmbTBBack" + t).setAttribute("cl", s);
+	_asc(t, true);
+}
+
+function _sgl(g, s) {
+	_getobj(g).setAttribute("cl", s);
+	_asc(g);
+}
+
+function _ssfx(i, bnc, bns, boc, bos, bs, mh, mv) {
+	var n = _getobj("N" + i);
+	with(n.style) {
+		if(bs) borderWidth = bs;
+		if(bnc) borderColor = bnc;
+		if(bns) borderStyle = bns;
+	}
+	if(mh) n.setAttribute("h", mh);
+	if(mv) n.setAttribute("v", mv);
+	
+	n = _getobj("O" + i);
+	with(n.style) {
+		if(bs) borderWidth = bs;
+		if(boc) borderColor = boc;
+		if(bos) borderStyle = bos;
+	}
+	if(mh) n.setAttribute("h", mh);
+	if(mv) n.setAttribute("v", mv);
+	
+	_asc(_gpid(n), i>1000);
+}
+
+function _sgs(g, bc, bs, bt, mh, mv) {
+	var o = _getobj(g);
+	with(o.style) {
+		borderWidth = bs;
+		borderColor = bc;
+		borderStyle = bt;
+	}
+	o.setAttribute("h", mh);
+	o.setAttribute("v", mv);
+	
+	_asc(g);
+}
+
+function _asc(g, istb) {
+	var o = _getobj(istb?"dmbTBBack" + g:g);
+	if(o.ascH) window.clearTimeout(o.ascH);
+	if(!istb) istb = false;
+	o.ascH = window.setTimeout("_asc2('"+g+"',"+istb+")", 500);
+}
+
+function _asc2(g, istb) {
+	var o = _getobj(istb?"dmbTBBack" + g:g);
+	if(!o) return;
+	var of = _getobj(istb?"dmbTB" + g:g + "frmt");
+	var oc = _children(o);
+	var ld = parseInt(o.getAttribute("ld"));
+	var cl = parseInt(o.getAttribute("cl"));
+	var fw = parseInt(o.getAttribute("fw"));
+	var fh = parseInt(o.getAttribute("fh"));
+	var ss = parseInt(o.getAttribute("ss"));
+	var c, xs = 0;
+	var gh = parseInt(o.getAttribute("h"));
+	var gv = parseInt(o.getAttribute("v"));
+	var gt = parseInt(o.getAttribute("tc"));
+	var gl = parseInt(o.getAttribute("lc"));
+	var x = (istb?0:gh);
+	var y = (istb?0:gv);
+	var bso = cFrame.GetBorderSize(istb?o.style:of.style);
+	var ms = [0, 0];
+	var force = false;
+	o.sw = 0;
+	o.sh = 0;
+	for(var n=1; n<=oc; n++) {
+		c = _getchild(o, n, "N");
+		c.bs = cFrame.GetBorderSize(c.style);
+		c.h = parseInt(c.getAttribute("h"));
+		c.v = parseInt(c.getAttribute("v"));
+		c.s = _gts(c);
+		c.is = (parseInt(c.getAttribute("sep")) == 1);
+		c.cc = c.getElementsByTagName("DIV")[0];
+		c.li = _is(c, 0);
+		c.ri = _is(c, 1);
+		c.cw = c.li[0] + c.ri[0] + c.s[0] + 2*c.h + 2*c.bs[0];
+		c.ch = Math.max(Math.max(c.li[1], c.ri[1]), c.s[1]) + 2*c.v + c.bs[1];
+		if(c.is) c.ch = parseInt(c.style.height);
+		if(!c.cc && c.cw==0 && c.ch==0) {
+			c.cw = c.offsetWidth;
+			c.ch = c.offsetHeight;
+		}
+		ms[0] = Math.max(c.cw, ms[0]);
+		ms[1] = Math.max(c.ch, ms[1]);
+		if(cl==0)			
+			if(fh) o.sh += c.ch;
+		else			
+			if(fw) o.sw += c.cw;
+	}
+	if(cl==0) {
+		if(fw) ms[0] = fw - gl - bso[0];
+	} else {
+		if(fh) ms[1] = fh - gt - bso[1];
+	}
+	for(var n=1; n<=oc; n++) {
+		c = _getchild(o, n, "N");		
+		c.style.left = x + "px";
+		c.style.top = y + "px";
+		if(cl==0) {
+			if(force || parseInt(c.style.width) != ms[0] || c.fasc) {
+				c.style.width = ms[0] + "px";
+				c.style.height = (ss==1?ms[1]:(fh?_cp(fh, c.ch, o.sh):c.ch)) + "px";
+				if(c.li[1]) {
+					_is(c, 0, 1).style.left = c.h + "px";
+					_is(c, 0, 1).style.top = (_p(c, "h") - c.li[1])/2 + "px";
+				}
+				if(c.ri[1]) {
+					_is(c, 1, 1).style.left = (_p(c, "w") - c.ri[0] - c.h + imgsep) + "px";
+					_is(c, 1, 1).style.top = (_p(c, "h") - c.ri[1])/2 + "px";
+				}			
+				c.fasc = false;
+				c.hc = true;
+				force = true;
+			} else {
+				c.hc = false;
+			}
+			y += _p(c, "h") + ld;
+			xs = Math.max(_p(c, "w"), xs);
+		} else {
+			if(force || parseInt(c.style.height) != ms[1] || c.fasc) {
+				c.style.width = (ss==1?ms[0]:(fw?_cp(fw, c.cw, o.sw):c.cw)) + "px";
+				c.style.height = ms[1] + "px";
+				if(c.li[0]) {
+					_is(c, 0, 1).style.left = c.h + "px";
+					_is(c, 0, 1).style.top = (ms[cl] - c.li[1])/2 + "px";
+				}
+				if(c.ri[0]) {
+					_is(c, 1, 1).style.left = (_p(c, "w") - c.ri[0] - c.h + imgsep) + "px";
+					_is(c, 1, 1).style.top = (ms[cl] - c.ri[1])/2 + "px";
+				}
+				c.fasc = false;
+				c.hc = true;
+				force = true;
+			} else {
+				c.hc = false;
+			}
+			x += _p(c, "w") + ld;
+			xs = Math.max(_p(c, "h"), xs);
+		}
+		if(!c.is && c.hc && (c.cc == c.getElementsByTagName("DIV")[0]))
+			with(c.cc.style) {
+				width = "";
+				height = "";
+				top = (_p(c, "h") - c.bs[1] - _p(c.cc, "h"))/2 + "px";
+				switch(c.cc.align) {
+					case "center":
+						left = (_p(c, "w") - c.bs[0] - _p(c.cc, "w"))/2 + "px";
+						break;
+					case "left":
+						left = c.li[0] + c.h;
+						break;
+					case "right":
+						left = (_p(c, "w") - c.bs[0] - _p(c.cc, "w")) + "px";
+						break;
+				}
+			}
+		if(c.is) c.cc.style.width = parseInt(c.style.width) - 2*parseInt(c.cc.style.left) + "px";
+		if(c.hc) _cpy(c, _getchild(o, n, "O"));
+	}
+	if(cl==0) {
+		of.style.height = (c?c.offsetTop + c.offsetHeight - (SM?c.bs[1]:0):0) + (istb?0:bso[1] + gv) + "px";
+		of.style.width = xs + 2*gh + (SM&&istb?0:bso[0]) + "px";
+		o.style.height = of.offsetHeight + gv + gt + (SM?0:bso[1]) + "px";
+		o.style.width = xs + 2*gh + gl + (SM&&istb?0:bso[0]) + "px";
+	} else {
+		of.style.height = xs + gv + "px";
+		of.style.width = (c?c.offsetLeft + c.offsetWidth - (SM?c.bs[0]:0):0) + "px";
+		o.style.height = of.offsetHeight + gt + (SM?0:bso[1]) + "px";
+		o.style.width = of.offsetWidth + gh + gl + (SM?0:bso[0]) + "px";
+	}
+	
+	if(istb) {
+		of.fixed = false;
+		cFrame.tbWidth[g] = o.offsetWidth;
+		cFrame.tbHeight[g] = o.offsetHeight;
+		cFrame.SetupToolbar();
+		cFrame.FixCommands(of.id, cFrame, of.id.substr(5));
+	} else {
+		o.fixed = false;
+		cFrame.FixCommands(g);
+	}
+}
+
+function _cp(a, b, c) {
+	if(c==0) return a;
+	return a * b / c;
+}
+
+function _p(o, p) {
+	switch(p) {
+		case "l":
+			return (SM?o.clientLeft:o.offsetLeft);
+			break;
+		case "t":
+			return (SM?o.clientTop:o.offsetTop);
+			break;
+		case "w":
+			return (SM?o.clientWidth:o.offsetWidth);
+			break;
+		case "h":
+			return (SM?o.clientHeight:o.offsetHeight);
+			break;
+	}
+}
+
+function _cpy(c1, c2, c) {
+	if(!c2) return;
+	c2.style.left = c1.style.left;
+	c2.style.top = c1.style.top;
+	c2.style.width = c1.style.width;
+	c2.style.height = c1.style.height;
+	if(_is(c1, 0, 1)) {
+		_is(c2, 0, 1).style.left = _is(c1, 0, 1).style.left;
+		_is(c2, 0, 1).style.top = _is(c1, 0, 1).style.top;
+	}
+	if(_is(c1, 1, 1)) {
+		_is(c2, 1, 1).style.left = _is(c1, 1, 1).style.left;
+		_is(c2, 1, 1).style.top = _is(c1, 1, 1).style.top;
+	}
+	c1 = c1.getElementsByTagName("DIV");
+	if(!c && c1.length>0) _cpy(c1[0], c2.getElementsByTagName("DIV")[0], 1);
+}
+
+function _aimg(i, lr, ip, s, w, h) {
+	var f = (i>1000, cFrame, mFrame).document;
+	if(!_getobj("N" + i) && acBuffering && i<1000) {
+		for(var j=0; j<qc.length; j++) {
+			if(qc[j][1] == i) {
+					var o = _getobj(qc[j][0]);
+					for(var k=0; k<o.qc.length; k++) {
+						if(o.qc[k][4] == i) {
+							o.qc[k][7] = [i, lr, ip, s, w, h];
+							break;
+						}
+					}
+					return;
+			}
+		}
+	}
+	_rimg(i, lr, s);
+	if(s==0) {
+		_cimg(_getobj("N" + i), f.createElement("IMG"), lr, ip, w, h);
+		s = 1;
+	}
+	if(s==1) _cimg(_getobj("O" + i), f.createElement("IMG"), lr, ip, w, h);
+	
+	_asc(_gpid(_getobj("N" + i)), i>1000);
+}
+
+function _cimg(n, img, lr, ip, w, h) {
+	var d = n.getElementsByTagName("DIV")[0];	
+	img.id = (lr==0?"L":"R");
+	img.src = ip;
+	img.style.position = "absolute";
+	if(w) img.width = w;
+	if(h) img.height = h;	
+	n.appendChild(img);
+}
+
+function _gpid(n) {
+	n = n.parentNode;
+	if(n.id.substr(0, 5)=="dmbTB")
+		return n.id.substr(5);
+	else
+		return n.parentNode.id;
+}
+
+function _rimg(i, lr, s) {
+	if(s == 0) {
+		_ximg(_getobj("N" + i), lr);
+		s = 1;
+	}		
+	if(s == 1) _ximg(_getobj("O" + i), lr);
+}
+
+function _ximg(n, lr) {
+	var img = _is(n, lr, 1);
+	if(img) {
+		var d = n.getElementsByTagName("DIV")[0];
+		if(lr == 0) d.style.left = parseInt(d.style.left) - _is(n, lr)[0];
+		n.removeChild(img);
+	}
+}
+
+function _is(n, lr, ro) {
+	var img = null;
+	var imgs = n.getElementsByTagName("IMG");
+	for(var i=0; i<imgs.length; i++) {
+		if(lr==0 && imgs[i].id == "L") {
+			img = imgs[i];
+			break;
+		}
+		if(lr==1 && imgs[i].id == "R") {
+			img = imgs[i];
+			break;
+		}
+	}
+	return (ro?img:(img?[img.width + imgsep, img.height]:[0,0]));
+}
+
+function _bg(g) {
+	if(!g) return;
+	if(g.qc) {
+		var tmpID = ncID;
+		for(var i=0; i<g.qc.length; i++) {
+			ncID = g.qc[i][4];
+			_ac(g.qc[i][0], g.qc[i][1], g.qc[i][2], g.qc[i][3]);
+			if(g.qc[i][5]) _seClick(g.qc[i][5][0], g.qc[i][5][1], g.qc[i][5][2], g.qc[i][5][3], g.qc[i][5][4]);
+			if(g.qc[i][6]) _seOver(g.qc[i][6][0], g.qc[i][6][1], g.qc[i][6][2], g.qc[i][6][3], g.qc[i][6][4]);
+			if(g.qc[i][7]) _aimg(g.qc[i][7][0], g.qc[i][7][1], g.qc[i][7][2], g.qc[i][7][3], g.qc[i][7][4], g.qc[i][7][5]);
+		}
+		g.qc = null;
+		ncID = tmpID;
+	}
+}
+
+function _rpg(i) {
+	if(acBuffering && i<1000)
+		for(var j=0; j<qc.length; j++) {
+			if(qc[j][1] == i) {
+					_bg(_getobj(qc[j][0]));
+					return 
+			}
+		}
+}
+
+function _sgy(g, s) {
+	_getobj(g).setAttribute("ld", s);
+	_asc(g);
+}
+
+function _stby(t, s) {
+	tbSpacing[t] = s;
+	_getobj("dmbTBBack" + t).setAttribute("ld", s);
+	_asc(t, true);
+}
+
+function _atb() {
+	var tb = GetObj("dmbTBBack"+tbNum).cloneNode(true);
+	tb = cFrame.document.body.appendChild(tb);
+	tbNum++;
+	tb.id = "dmbTBBack" + tbNum;
+	tb.zIndex = 1001 - tbNum;
+	tb = tb.getElementsByTagName("DIV")[0];
+	tb.id = "dmbTB" + tbNum;
+	
+	var sd = tb.getElementsByTagName("DIV");
+	while(true) {
+		if(sd.length == 0) break;
+		tb.removeChild(sd[0]);
+	}
+	
+	tbBorder[tbNum] = tbBorder[tbNum-1];
+	tbSpacing[tbNum] = tbSpacing[tbNum-1];
+	tbStyle[tbNum] = tbStyle[tbNum-1];
+	tbAlignment[tbNum] = tbAlignment[tbNum-1];
+	tbSpanning[tbNum] = tbSpanning[tbNum-1];
+	tbFollowHScroll[tbNum] = false;
+	tbFollowVScroll[tbNum] = false;
+	tbMargins[tbNum] = tbMargins[tbNum-1];
+	tbFPos[tbNum] = tbFPos[tbNum-1];
+	tbVisC[tbNum] = new Function('return true;');
+	tbAttachTo[tbNum] = tbAttachTo[tbNum-1];
+	tbWidth[tbNum] = 0;
+	tbHeight[tbNum] = 0;
+	
+	return tbNum;
+}
+
+function _rtb(t) {
+	var tbb = _getobj("dmbTBBack" + t);
+	cFrame.document.removeChild(tbb);
+	tbNum--;
+}
+
+function _stbl(t, gc, bc, bs, bt, h, v) {
+	var tbb = _getobj("dmbTBBack" + t);
+	if(gc) tbb.style.backgroundColor = gc;
+	if(bc) tbb.style.borderColor = bc;
+	if(bs) {
+		tbb.style.borderWidth = bc;
+		tbBorder[t] = bs;
+	}
+	if(bt) tbb.style.borderStyle = bt;
+	if(h) tbb.setAttribute("h", h);
+	if(v) tbb.setAttribute("v", v);
+	
+	_asc(t, true);	
+}
+
+function _stbp(t, p, x, y) {
+	tbAlignment[t] = p;
+	tbMargins[t] = [x, y];
+	_asc(t, true);
+}
+
+function _sdfs(s) {
+	cFrame.dmbAPIDS = s;
+}
+
+function _adfs(id) {
+	if(cFrame.dmbAPIDS) {
+		var s = cFrame.dmbAPIDS;
+		var c, p;
+		for(var i=0; i<s.length; i++) {
+			c = s[i].split(":")[0];
+			p = s[i].split(":")[1].split("+");
+			switch(c) {
+				case "font":
+					_sf(id, p[0], p[1], p[2]);
+					break;
+				case "color":
+					_sc(id, p[0], p[1], p[2], p[3]);
+					break;
+				case "selfx":
+					_ssfx(id, p[0], p[1], p[2], p[3], p[4], p[5], p[6]);
+					break;
+				case "imglt":
+				case "imgrt":
+					_aimg(id, (c=="imgrt"?1:0), p[0], 0, p[1], p[2]);
+					_aimg(id, (c=="imgrt"?1:0), p[3], 1, p[1], p[2]);
+					break;
+				case "cursor":
+					_scrs(id, p[0]);
+					break;
+			}
+		}
+	}
+}
+
+function _pA(mID, pID, txt, url, frm, tbn) {
+	var nid;
+	var tbi = (pID=="") || (pID==0);
+	if(tbi) {
+		if(!tbn) tbn = 1;
+		nid = _atbi(tbn, txt);
+	} else {
+		if(!_getobj(pID)) {
+			for(var i = 0; i < cmds.length; i++) {
+				if(cmds[i][1] == pID) {
+					_ag(pID);
+					_seOver(cmds[i][0], pID, '', true, (cmds[i][2]?0:6));
+					_getobj("O" + cmds[i][0]).onclick = null;
+				}
+			}
+		}
+		nid = dmbAPI_addCommand(pID, txt);
+	}
+	if(url) {
+		if(!frm) frm = "_self";
+		_seClick(nid, url, frm);
+	}
+	cmds.push([nid, mID, tbi]);
+	
+	return nid;
+}
+
+if(typeof Array.prototype.push == "undefined") Array.prototype.push = new Function("for(var i=0;i<arguments.length;i++)this[this.length]=arguments[i];return this.length;");

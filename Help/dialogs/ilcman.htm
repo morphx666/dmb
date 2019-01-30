@@ -1,0 +1,148 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Production / Install Menus</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font size="2" color="#FFFFFF"><b>Dialogs  </b></font><b><font color="#FFFFFF" size="3">
+	»</font></b><font size="2" color="#FFFFFF"><b> Production  </b></font><b><font color="#FFFFFF" size="3">
+	» </font></b><font size="2" color="#FFFFFF"><b>Install Menus</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is the Install Menus dialog.<br>
+			This dialog offers a convenient way to install the menus into the pages of 
+            your web site.<br>
+            To access this dialog click <font face="Courier New">Tools-&gt;Install 
+            Menus<br>
+            </font><br>
+            When using frames support this dialog will look
+            <a href="iflcman.htm">slightly different</a>.<br>
+            NOTE: This dialog is only available when the &quot;<a href="preferences.htm">Use 
+            Advanced Menus Installation Tools</a>&quot; option is <i>not</i> selected.</p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+            <area href="javascript:say(0);" shape="rect" coords="9, 30, 340, 250">
+            <area href="javascript:say(1);" shape="rect" coords="9, 263, 341, 413">
+            <area href="javascript:say(2);" shape="rect" coords="347, 31, 595, 415">
+            <area href="javascript:say(3);" shape="rect" coords="8, 448, 87, 472">
+            <area href="javascript:say(4);" shape="rect" coords="427, 448, 506, 473">
+            <area href="javascript:say(5);" shape="rect" coords="8, 414, 187, 446">
+            </map>
+            <img border="0" src="images/lcman.gif" usemap="#FPMap0" width="604" height="500"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                    <li><a href="iflcman.htm">The Frames version 
+                    of the Install Menus dialog</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+          	<p><b>Folders on web site<br>
+			</b>This pane displays all the folders on the web site.<p>You can 
+            drag any folder in the left pane to  the right pane to install the menus in 
+            the files located in the dragged folders.<br>
+            You can also right click on any folder to display a list of actions 
+            appropriate for the files in the folders.</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Files On ...<br>
+            </b>This pane displays the list of files on the currently selected 
+            folder.</p>
+            <p>Each file status is represented in different colors:</p>
+          	<ul>
+              <li><font color="#C0C0C0"><b>Light Gray</b></font>:  cannot receive the menus.</li>
+              <li><b>Black</b>: can receive, but does not contain any menus.</li>
+              <li><b><font color="#0000FF">Blue</font></b>: already 
+              contains the standard loader code used to load the menus.</li>
+            </ul>
+            <p>You can drag files to any of the right panes to install the menus 
+            in the selected list of files.<br>
+            You can also right click on any number of files to display a list of 
+            actions appropriate for the selected files.<b><br>
+			&nbsp;</b></p>
+          	</div>
+          	
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Files that will receive the Menus<br>
+			</b>This is the list of files that will receive the menus.<br>
+            When you click Install, these files will receive a 
+            piece of code called the loader code which will be used by the 
+            browser to load the menus when the page is displayed.</p>
+            <p>To add files to this list, either drag them from the Files pane, 
+            the Folders pane, or click on the Auto button.<br>
+            To remove files from this list, either right click on the file and choose &quot;Remove from List&quot; or 
+            press the Delete key.</p>
+          	</div>
+          	
+<div id=Info3 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Auto<br>
+			</b>Clicking this button causes DHTML Menu Builder to start a scan 
+            of all your files in your web.&nbsp; DHTML Menu Builder automatically decides which files must receive the 
+            loader code either because they need it, or because it is out-of-synch 
+            with the project.</p>
+            <p>After the Auto Detection process finishes, examine the results and make sure that the 
+            list of files queued to receive the menus is correct.</p>
+          	</div>
+          	
+<div id=Info4 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Install<br>
+			</b>Click  Install  when you are ready to install the menus 
+            in the list of selected files.</p>
+          	</div>
+          	
+<div id=Info5 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Filters<br>
+			</b>These filters are used to adjust the files displayed on the 
+            Install Menus dialog:</p>
+          	<ul>
+              <li><b>Hide Unsupported Documents:</b> When enabled, the Install 
+              Menus dialog will only display known type of documents that 
+              support displaying the menus. When un-selected, all the documents 
+              in the web site will be displayed.</li>
+              <li><b>Include FrontPage SubWebs:</b> By default, the Install 
+              Menus dialog will detect when a folder belongs to a FrontPage 
+              subweb and will ignore its contents. Enable this option to turn 
+              off this filter and display folders that contain FrontPage subwebs.</li>
+            </ul>
+          	</div>
+          	
+</body>
+
+</html>

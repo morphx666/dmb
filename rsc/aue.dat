@@ -1,0 +1,57 @@
+#Barn
+	motion|c|in|out
+	orientation|c|vertical|horizontal
+	duration|n|0.5|0|5
+#Blinds
+	bands|c|2|4|6|8|10
+	direction|c|up|down|left|right
+	duration|n|0.5|0|5
+#Checkerboard
+	direction|c|up|down|left|right
+	squaresx|n|8|2|40
+	squaresy|n|8|2|40
+	duration|n|0.5|0|5
+#Fade
+	overlap|n|1|0|1
+	duration|n|0.5|0|5
+#GradientWipe
+	size|n|1|0|1
+	wipestyle|n|0|0|1
+	motion|c|forward|reverse
+	duration|n|0.5|0|5
+#Inset
+	duration|n|0.5|0|5
+#Iris
+	irisstyle|c|diamond|circle|cross|plus|square|star
+	motion|c|in|out
+	duration|n|0.5|0|5
+#Pixelate
+	squares|n|2|2|40
+	duration|n|0.5|0|5
+#RadialWipe
+	squares|c|clock|wedge|radial
+	duration|n|0.5|0|5
+#RandomBars
+	orientation|c|vertical|horizontal
+	duration|n|0.5|0|5
+#RandomDissolve
+	duration|n|0.5|0|5
+#Slide
+	bands|n|1|1|40
+	duration|n|0.5|0|5
+#Spiral
+	gridx|n|8|8|16|32|64
+	gridy|n|8|8|16|32|64
+	duration|n|0.5|0|5
+#Stretch
+	duration|n|0.5|0|5
+#Strips
+	motion|c|leftup|leftdown|rightup|rightdown
+	duration|n|0.5|0|5
+#Wheel
+	spokes|c|2|4|6|8|10|16|24
+	duration|n|0.5|0|5
+#Zigzag
+	gridx|c|8|16|32|64
+	gridy|c|8|16|32|64
+	duration|n|0.5|0|5

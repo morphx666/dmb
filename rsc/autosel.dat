@@ -1,0 +1,134 @@
+function dmbGOBC(c, f, p) {
+	var d = GetObj(p, f);
+	var c1 = c.toLowerCase();
+	var c2 = xrep(c1, "&nbsp;", " ");
+	if(d) {
+		d = d.getElementsByTagName("DIV");
+		for(var i=1; i<d.length; i++) {
+			if(!d[i].id) {
+				if(d[i].innerHTML.toLowerCase() == c1 || d[i].innerHTML.toLowerCase() == c2) return d[i].parentNode;
+				i++;
+			} else if(d[i].id == c) return d[i];
+		}
+	}
+	return null;
+}
+
+var isHS = 0;
+var lmcHS_last;	
+function dmbHighlightTBItem(i, c, r) {
+	HideAll();
+	isHS++;
+	if(!r) r = 0;
+	window.setTimeout("htbi(" + i + ", '" + xrep(c, "'", "\\'") + "', " + r + ")", 200);
+}
+
+function htbi(i, c, r) {
+	if(NS) return false;
+	
+	var p;
+	var id;
+	var cc = "";
+	var mc = dmbGOBC(c, cFrame, "dmbTB"+i);
+	if(!mc) mc = GetObj(c, cFrame);
+	if(!mc) {
+		if(!r) {
+			var i = 0;
+			while(++i<10) dmbHighlightTBItem(i, c, 1);
+		}
+		isHS--;
+		return;
+	}
+	var mco;
+	
+	ci = mc.onmouseover.toString();
+	id = mc.id.substr(1);
+	mco = GetObj("O" + id, cFrame);
+	if(id>1000) {
+		p = ci.indexOf("h");
+		if(mco.onmouseover) {
+			mco.omo = mco.onmouseover.toString();
+			k = mco.omo.indexOf("{")+1;
+			cc = mco.omo.substr(k, mco.omo.lastIndexOf("}")-k);
+		}
+		
+		if(typeof(qEx)!="undefined") {
+			if(mco.onclick.toString().indexOf("ShowMenu3")!=-1) {
+				ExpandMenu(c);
+				return;
+			} else
+				mco.onmouseover = GetObj("N" + id, cFrame).onmouseover;
+		} else {
+			mco.onmouseover = new Function("if(lmcHS){if(lmcHS!=this){lmcHS_last=lmcHS;HideAll()};hsHoverSel(3)};lmcHS=this;"+cc);
+			mco.onmouseout = new Function("if(lmcHS_last)SwapMC(1, lmcHS_last);");
+		}
+	}
+	cFrame.SwapMC(0, mc, cFrame, true);
+	mc.disable = true;
+	mco.disable = true;
+	nOM = 0;
+	lmcHS = null;
+	isHS--;
+}
+
+function dmbHighlightGroupItem(gn, c) {
+	if(NS) return false;
+	
+	var c;
+	var p;
+	var id;
+	var mc = dmbGOBC(c, mFrame, gn);
+	if(!mc) return false;
+	var mco;
+	
+	c = mc.onmouseover.toString();
+	id = mc.id.substr(1);
+	mco = GetObj("O" + id);
+	if(id<1000) {
+		nOM = 1;
+		om[nOM] = this;
+		om[nOM].sc = null;
+		p = c.indexOf("H");
+		mco.onmouseover = mc.onmouseover;
+	}
+	cFrame.SwapMC(0, mc, mFrame, true);
+	mc.disable = true;
+	mco.disable = true;
+	nOM = 0;
+}
+
+function dmbUnHighlightGroupItems() {
+	if(NS) return false;
+
+	var g;	
+	var id = 1001;
+	while(true) {
+		g = GetObj("N" + id, cFrame);
+		if(!g) break;
+		if(g.disable) {
+			g.disable = false;
+			g = GetObj("O" + id, cFrame);
+			if(g) {
+				g.disable = false;
+				g.onmouseover = null;
+				if(g.omo) g.onmouseover = g.omo;
+				SwapMC(1, g, cFrame);
+			}
+		}
+		id++;
+	}
+	id = 0;
+	while(true) {
+		g = GetObj("N" + id, mFrame);
+		if(!g) break;
+		if(g.disable) {
+			g.disable = false;
+			g = GetObj("O" + id, mFrame);
+			if(g) {
+				g.disable = false;
+				SwapMC(1, g, mFrame);
+			}
+		}
+		id++;
+	}
+}

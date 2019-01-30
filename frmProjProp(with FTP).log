@@ -1,0 +1,259 @@
+Line 383: Class SmartButtonProject.SmartButton of control cmdInfo was not a loaded control class.
+Line 402: Class SmartButtonProject.SmartButton of control cmdAddInEditor was not a loaded control class.
+Line 421: Class SmartButtonProject.SmartButton of control cmdEditParamValues was not a loaded control class.
+Line 508: Class MSComctlLib.TabStrip of control tsConfigs was not a loaded control class.
+Line 594: Class SmartButtonProject.SmartButton of control cmdBrowseDestFile was not a loaded control class.
+Line 691: Class SmartButtonProject.SmartButton of control cmdReload was not a loaded control class.
+Line 710: Class SmartButtonProject.SmartButton of control cmdBrowseFramesDoc was not a loaded control class.
+Line 798: Class SmartButtonProject.SmartButton of control cmdBrowseLocalImages was not a loaded control class.
+Line 818: Class SmartButtonProject.SmartButton of control cmdBrowseRootWeb was not a loaded control class.
+Line 838: Class SmartButtonProject.SmartButton of control cmdBrowse was not a loaded control class.
+Line 1061: Class MSComctlLib.TabStrip of control tsPublishing was not a loaded control class.
+Line 1092: Class MSComctlLib.ImageList of control ilIcons was not a loaded control class.
+Line 1166: Class SmartButtonProject.SmartButton of control cmdBrowseSound was not a loaded control class.
+Line 1186: Class SmartButtonProject.SmartButton of control cmdPlay was not a loaded control class.
+Line 1206: Class SmartButtonProject.SmartButton of control cmdRemoveSound was not a loaded control class.
+Line 1298: Class Line3D.uc3DLine of control uc3DLine4 was not a loaded control class.
+Line 1307: Class Line3D.uc3DLine of control uc3DLine3 was not a loaded control class.
+Line 1656: Class MSComCtl2.UpDown of control udSep was not a loaded control class.
+Line 1763: Class SmartButtonProject.SmartButton of control cmdTBBackColor was not a loaded control class.
+Line 1782: Class SmartButtonProject.SmartButton of control cmdChange was not a loaded control class.
+Line 1804: Class SmartButtonProject.SmartButton of control cmdRemove was not a loaded control class.
+Line 1826: Class SmartButtonProject.SmartButton of control cmdTBBorderColor was not a loaded control class.
+Line 1845: Class MSComCtl2.UpDown of control udTBCMV was not a loaded control class.
+Line 1865: Class MSComCtl2.UpDown of control udTBCMH was not a loaded control class.
+Line 1885: Class Line3D.uc3DLine of control uc3DLine1 was not a loaded control class.
+Line 1894: Class Line3D.uc3DLine of control uc3DLine2 was not a loaded control class.
+Line 2168: Class SmartButtonProject.SmartButton of control cmdTBAutoHeight was not a loaded control class.
+Line 2319: Class MSComCtl2.UpDown of control udV was not a loaded control class.
+Line 2331: Class MSComCtl2.UpDown of control udH was not a loaded control class.
+Line 2344: Class SmartButtonProject.SmartButton of control cmdTBAutoWidth was not a loaded control class.
+Line 2413: Class MSComctlLib.Toolbar of control tbGroupsOptions was not a loaded control class.
+Line 2444: Class MSComctlLib.ListView of control lvGroups was not a loaded control class.
+Line 2505: Class MSComctlLib.TabStrip of control tsToolbar was not a loaded control class.
+Line 2550: Class MSComctlLib.TabStrip of control tsSections was not a loaded control class.
+Line 2611: Class MSComDlg.CommonDialog of control cDlg was not a loaded control class.
+Line 2633: Class MSComctlLib.Slider of control sldSubmenuDelay was not a loaded control class.
+Line 2649: Class MSComctlLib.Slider of control sldHideDelay was not a loaded control class.
+Line 2806: Class MSComctlLib.Slider of control sldAnimSpeed was not a loaded control class.
+Line 2916: Class MSComctlLib.ListView of control lvExtFeatures was not a loaded control class.
+Line 389: The property name _ExtentX in cmdInfo is invalid.
+Line 390: The property name _ExtentY in cmdInfo is invalid.
+Line 383: Property Picture in cmdInfo could not be set.
+Line 408: The property name _ExtentX in cmdAddInEditor is invalid.
+Line 409: The property name _ExtentY in cmdAddInEditor is invalid.
+Line 402: Property Picture in cmdAddInEditor could not be set.
+Line 427: The property name _ExtentX in cmdEditParamValues is invalid.
+Line 428: The property name _ExtentY in cmdEditParamValues is invalid.
+Line 421: Property Picture in cmdEditParamValues could not be set.
+Line 514: The property name _ExtentX in tsConfigs is invalid.
+Line 515: The property name _ExtentY in tsConfigs is invalid.
+Line 516: The property name TabWidthStyle in tsConfigs is invalid.
+Line 517: The property name MultiRow in tsConfigs is invalid.
+Line 518: The property name Style in tsConfigs is invalid.
+Line 519: The property name TabFixedWidth in tsConfigs is invalid.
+Line 520: The property name TabFixedHeight in tsConfigs is invalid.
+Line 521: The property name Separators in tsConfigs is invalid.
+Line 522: The property name TabMinWidth in tsConfigs is invalid.
+Line 523: The property name _Version in tsConfigs is invalid.
+Line 541: The property name Tabs in tsConfigs is invalid.
+Line 600: The property name _ExtentX in cmdBrowseDestFile is invalid.
+Line 601: The property name _ExtentY in cmdBrowseDestFile is invalid.
+Line 594: Property Picture in cmdBrowseDestFile could not be set.
+Line 697: The property name _ExtentX in cmdReload is invalid.
+Line 698: The property name _ExtentY in cmdReload is invalid.
+Line 691: Property Picture in cmdReload could not be set.
+Line 716: The property name _ExtentX in cmdBrowseFramesDoc is invalid.
+Line 717: The property name _ExtentY in cmdBrowseFramesDoc is invalid.
+Line 710: Property Picture in cmdBrowseFramesDoc could not be set.
+Line 805: The property name _ExtentX in cmdBrowseLocalImages is invalid.
+Line 806: The property name _ExtentY in cmdBrowseLocalImages is invalid.
+Line 798: Property Picture in cmdBrowseLocalImages could not be set.
+Line 825: The property name _ExtentX in cmdBrowseRootWeb is invalid.
+Line 826: The property name _ExtentY in cmdBrowseRootWeb is invalid.
+Line 818: Property Picture in cmdBrowseRootWeb could not be set.
+Line 845: The property name _ExtentX in cmdBrowse is invalid.
+Line 846: The property name _ExtentY in cmdBrowse is invalid.
+Line 838: Property Picture in cmdBrowse could not be set.
+Line 1067: The property name _ExtentX in tsPublishing is invalid.
+Line 1068: The property name _ExtentY in tsPublishing is invalid.
+Line 1069: The property name Placement in tsPublishing is invalid.
+Line 1070: The property name ImageList in tsPublishing is invalid.
+Line 1071: The property name _Version in tsPublishing is invalid.
+Line 1080: The property name Tabs in tsPublishing is invalid.
+Line 1095: The property name _ExtentX in ilIcons is invalid.
+Line 1096: The property name _ExtentY in ilIcons is invalid.
+Line 1098: The property name ImageWidth in ilIcons is invalid.
+Line 1099: The property name ImageHeight in ilIcons is invalid.
+Line 1100: The property name MaskColor in ilIcons is invalid.
+Line 1101: The property name _Version in ilIcons is invalid.
+Line 1120: The property name Images in ilIcons is invalid.
+Line 1173: The property name _ExtentX in cmdBrowseSound is invalid.
+Line 1174: The property name _ExtentY in cmdBrowseSound is invalid.
+Line 1166: Property Picture in cmdBrowseSound could not be set.
+Line 1193: The property name _ExtentX in cmdPlay is invalid.
+Line 1194: The property name _ExtentY in cmdPlay is invalid.
+Line 1186: Property Picture in cmdPlay could not be set.
+Line 1213: The property name _ExtentX in cmdRemoveSound is invalid.
+Line 1214: The property name _ExtentY in cmdRemoveSound is invalid.
+Line 1215: The property name Caption in cmdRemoveSound is invalid.
+Line 1226: The property name CaptionLayout in cmdRemoveSound is invalid.
+Line 1227: The property name PictureLayout in cmdRemoveSound is invalid.
+Line 1206: Property Picture in cmdRemoveSound could not be set.
+Line 1304: The property name _ExtentX in uc3DLine4 is invalid.
+Line 1305: The property name _ExtentY in uc3DLine4 is invalid.
+Line 1313: The property name _ExtentX in uc3DLine3 is invalid.
+Line 1314: The property name _ExtentY in uc3DLine3 is invalid.
+Line 1662: The property name _ExtentX in udSep is invalid.
+Line 1663: The property name _ExtentY in udSep is invalid.
+Line 1664: The property name _Version in udSep is invalid.
+Line 1665: The property name AutoBuddy in udSep is invalid.
+Line 1666: The property name BuddyControl in udSep is invalid.
+Line 1667: The property name BuddyDispid in udSep is invalid.
+Line 1668: The property name OrigLeft in udSep is invalid.
+Line 1669: The property name OrigTop in udSep is invalid.
+Line 1670: The property name OrigRight in udSep is invalid.
+Line 1671: The property name OrigBottom in udSep is invalid.
+Line 1672: The property name SyncBuddy in udSep is invalid.
+Line 1673: The property name BuddyProperty in udSep is invalid.
+Line 1769: The property name _ExtentX in cmdTBBackColor is invalid.
+Line 1770: The property name _ExtentY in cmdTBBackColor is invalid.
+Line 1780: The property name ShowFocus in cmdTBBackColor is invalid.
+Line 1788: The property name _ExtentX in cmdChange is invalid.
+Line 1789: The property name _ExtentY in cmdChange is invalid.
+Line 1790: The property name Caption in cmdChange is invalid.
+Line 1801: The property name CaptionLayout in cmdChange is invalid.
+Line 1802: The property name PictureLayout in cmdChange is invalid.
+Line 1782: Property Picture in cmdChange could not be set.
+Line 1810: The property name _ExtentX in cmdRemove is invalid.
+Line 1811: The property name _ExtentY in cmdRemove is invalid.
+Line 1812: The property name Caption in cmdRemove is invalid.
+Line 1823: The property name CaptionLayout in cmdRemove is invalid.
+Line 1824: The property name PictureLayout in cmdRemove is invalid.
+Line 1804: Property Picture in cmdRemove could not be set.
+Line 1832: The property name _ExtentX in cmdTBBorderColor is invalid.
+Line 1833: The property name _ExtentY in cmdTBBorderColor is invalid.
+Line 1843: The property name ShowFocus in cmdTBBorderColor is invalid.
+Line 1851: The property name _ExtentX in udTBCMV is invalid.
+Line 1852: The property name _ExtentY in udTBCMV is invalid.
+Line 1853: The property name _Version in udTBCMV is invalid.
+Line 1854: The property name BuddyControl in udTBCMV is invalid.
+Line 1855: The property name BuddyDispid in udTBCMV is invalid.
+Line 1856: The property name OrigLeft in udTBCMV is invalid.
+Line 1857: The property name OrigTop in udTBCMV is invalid.
+Line 1858: The property name OrigRight in udTBCMV is invalid.
+Line 1859: The property name OrigBottom in udTBCMV is invalid.
+Line 1860: The property name Max in udTBCMV is invalid.
+Line 1861: The property name SyncBuddy in udTBCMV is invalid.
+Line 1862: The property name BuddyProperty in udTBCMV is invalid.
+Line 1871: The property name _ExtentX in udTBCMH is invalid.
+Line 1872: The property name _ExtentY in udTBCMH is invalid.
+Line 1873: The property name _Version in udTBCMH is invalid.
+Line 1874: The property name BuddyControl in udTBCMH is invalid.
+Line 1875: The property name BuddyDispid in udTBCMH is invalid.
+Line 1876: The property name OrigLeft in udTBCMH is invalid.
+Line 1877: The property name OrigTop in udTBCMH is invalid.
+Line 1878: The property name OrigRight in udTBCMH is invalid.
+Line 1879: The property name OrigBottom in udTBCMH is invalid.
+Line 1880: The property name Max in udTBCMH is invalid.
+Line 1881: The property name SyncBuddy in udTBCMH is invalid.
+Line 1882: The property name BuddyProperty in udTBCMH is invalid.
+Line 1891: The property name _ExtentX in uc3DLine1 is invalid.
+Line 1892: The property name _ExtentY in uc3DLine1 is invalid.
+Line 1900: The property name _ExtentX in uc3DLine2 is invalid.
+Line 1901: The property name _ExtentY in uc3DLine2 is invalid.
+Line 2174: The property name _ExtentX in cmdTBAutoHeight is invalid.
+Line 2175: The property name _ExtentY in cmdTBAutoHeight is invalid.
+Line 2176: The property name Caption in cmdTBAutoHeight is invalid.
+Line 2187: The property name CaptionLayout in cmdTBAutoHeight is invalid.
+Line 2188: The property name PictureLayout in cmdTBAutoHeight is invalid.
+Line 2168: Property Picture in cmdTBAutoHeight could not be set.
+Line 2326: The property name _ExtentX in udV is invalid.
+Line 2327: The property name _ExtentY in udV is invalid.
+Line 2328: The property name _Version in udV is invalid.
+Line 2338: The property name _ExtentX in udH is invalid.
+Line 2339: The property name _ExtentY in udH is invalid.
+Line 2340: The property name _Version in udH is invalid.
+Line 2341: The property name Orientation in udH is invalid.
+Line 2350: The property name _ExtentX in cmdTBAutoWidth is invalid.
+Line 2351: The property name _ExtentY in cmdTBAutoWidth is invalid.
+Line 2352: The property name Caption in cmdTBAutoWidth is invalid.
+Line 2363: The property name CaptionLayout in cmdTBAutoWidth is invalid.
+Line 2364: The property name PictureLayout in cmdTBAutoWidth is invalid.
+Line 2344: Property Picture in cmdTBAutoWidth could not be set.
+Line 2419: The property name _ExtentX in tbGroupsOptions is invalid.
+Line 2420: The property name _ExtentY in tbGroupsOptions is invalid.
+Line 2421: The property name ButtonWidth in tbGroupsOptions is invalid.
+Line 2422: The property name ButtonHeight in tbGroupsOptions is invalid.
+Line 2423: The property name AllowCustomize in tbGroupsOptions is invalid.
+Line 2424: The property name Style in tbGroupsOptions is invalid.
+Line 2425: The property name ImageList in tbGroupsOptions is invalid.
+Line 2426: The property name _Version in tbGroupsOptions is invalid.
+Line 2442: The property name Buttons in tbGroupsOptions is invalid.
+Line 2450: The property name _ExtentX in lvGroups is invalid.
+Line 2451: The property name _ExtentY in lvGroups is invalid.
+Line 2452: The property name View in lvGroups is invalid.
+Line 2453: The property name LabelEdit in lvGroups is invalid.
+Line 2454: The property name LabelWrap in lvGroups is invalid.
+Line 2455: The property name HideSelection in lvGroups is invalid.
+Line 2456: The property name Checkboxes in lvGroups is invalid.
+Line 2457: The property name FullRowSelect in lvGroups is invalid.
+Line 2458: The property name GridLines in lvGroups is invalid.
+Line 2459: The property name _Version in lvGroups is invalid.
+Line 2473: The property name NumItems in lvGroups is invalid.
+Line 2477: The property name ColumnHeader(1) in lvGroups is invalid.
+Line 2482: The property name ColumnHeader(2) in lvGroups is invalid.
+Line 2511: The property name _ExtentX in tsToolbar is invalid.
+Line 2512: The property name _ExtentY in tsToolbar is invalid.
+Line 2513: The property name TabWidthStyle in tsToolbar is invalid.
+Line 2514: The property name Placement in tsToolbar is invalid.
+Line 2515: The property name _Version in tsToolbar is invalid.
+Line 2538: The property name Tabs in tsToolbar is invalid.
+Line 2556: The property name _ExtentX in tsSections is invalid.
+Line 2557: The property name _ExtentY in tsSections is invalid.
+Line 2558: The property name ShowTips in tsSections is invalid.
+Line 2559: The property name _Version in tsSections is invalid.
+Line 2592: The property name Tabs in tsSections is invalid.
+Line 2614: The property name _ExtentX in cDlg is invalid.
+Line 2615: The property name _ExtentY in cDlg is invalid.
+Line 2616: The property name _Version in cDlg is invalid.
+Line 2639: The property name _ExtentX in sldSubmenuDelay is invalid.
+Line 2640: The property name _ExtentY in sldSubmenuDelay is invalid.
+Line 2641: The property name _Version in sldSubmenuDelay is invalid.
+Line 2642: The property name LargeChange in sldSubmenuDelay is invalid.
+Line 2643: The property name Min in sldSubmenuDelay is invalid.
+Line 2644: The property name Max in sldSubmenuDelay is invalid.
+Line 2645: The property name SelStart in sldSubmenuDelay is invalid.
+Line 2646: The property name TickFrequency in sldSubmenuDelay is invalid.
+Line 2647: The property name Value in sldSubmenuDelay is invalid.
+Line 2655: The property name _ExtentX in sldHideDelay is invalid.
+Line 2656: The property name _ExtentY in sldHideDelay is invalid.
+Line 2657: The property name _Version in sldHideDelay is invalid.
+Line 2658: The property name LargeChange in sldHideDelay is invalid.
+Line 2659: The property name Min in sldHideDelay is invalid.
+Line 2660: The property name Max in sldHideDelay is invalid.
+Line 2661: The property name SelStart in sldHideDelay is invalid.
+Line 2662: The property name TickFrequency in sldHideDelay is invalid.
+Line 2663: The property name Value in sldHideDelay is invalid.
+Line 2812: The property name _ExtentX in sldAnimSpeed is invalid.
+Line 2813: The property name _ExtentY in sldAnimSpeed is invalid.
+Line 2814: The property name _Version in sldAnimSpeed is invalid.
+Line 2815: The property name LargeChange in sldAnimSpeed is invalid.
+Line 2816: The property name Min in sldAnimSpeed is invalid.
+Line 2817: The property name Max in sldAnimSpeed is invalid.
+Line 2818: The property name SelStart in sldAnimSpeed is invalid.
+Line 2819: The property name TickFrequency in sldAnimSpeed is invalid.
+Line 2820: The property name Value in sldAnimSpeed is invalid.
+Line 2922: The property name _ExtentX in lvExtFeatures is invalid.
+Line 2923: The property name _ExtentY in lvExtFeatures is invalid.
+Line 2924: The property name View in lvExtFeatures is invalid.
+Line 2925: The property name LabelEdit in lvExtFeatures is invalid.
+Line 2926: The property name LabelWrap in lvExtFeatures is invalid.
+Line 2927: The property name HideSelection in lvExtFeatures is invalid.
+Line 2928: The property name HideColumnHeaders in lvExtFeatures is invalid.
+Line 2929: The property name Checkboxes in lvExtFeatures is invalid.
+Line 2930: The property name FullRowSelect in lvExtFeatures is invalid.
+Line 2931: The property name GridLines in lvExtFeatures is invalid.
+Line 2932: The property name _Version in lvExtFeatures is invalid.
+Line 2945: The property name NumItems in lvExtFeatures is invalid.
+Line 2950: The property name ColumnHeader(1) in lvExtFeatures is invalid.

@@ -1,0 +1,25 @@
+ConvertActions
+Set to true if you want the AddIn to automatically convert the action of displaying submenus to a CLICK event instead of a OVER event
+true
+true
+ 1 
+RefreshOnClick
+
+false
+false
+ 1 
+IE5/Mac Support
+Enable this option if you would like to provide specialized support for Internet Explorer 5 for Mac
+false
+true
+ 1 
+Expand Menus When Link Present
+When an item has both actions, to open a link and display a submenu you can control if you want to disable the open submenu action and just execute the link.
+true
+true
+ 1 
+CommandsMargin
+Horizontal margin to apply to all commands. This can be used to ident the commands.
+0
+20
+ 1 

@@ -1,0 +1,203 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Installing Menus</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+    &nbsp;</font></b><font size="2" color="#FFFFFF"><b>Installing Menus</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+          DHTML Menu Builder provides a series of tools to help  you with the 
+          process of installing the menus on your web site.<p>The menus 
+          are stored in separate JavaScript files (with an extension of .js) 
+          which are generated when you compile your project (using the 
+          Tools-&gt;Compile option). After they are compiled, you have to add some special code (known as Loader Code) to your pages so that the browser can load these JavaScript files and display the menus.</p>
+          <p>Starting with version 4.0, DHTML Menu Builder offers a new tool 
+          called &quot;Install Menus&quot;. It is found on the 
+          <font face="Courier">Tools </font>menu.</p>
+          <p>The Install Menus tool is divided into two panes and three main 
+          sections:</p>
+          <ul>
+            <li>The left pane (source files) is divided into<ul type="disc">
+              <li>The directory structure of your web site</li>
+              <li>The files on the selected directory or folder</li>
+            </ul>
+            </li>
+            <li>The right pane (selected files)<ul type="disc">
+              <li>The selected files that will receive the menus (the 
+              list of files into which DHTML Menu Builder will copy the 
+              Loader Code )</li>
+            </ul>
+            </li>
+          </ul>
+          <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1" cellpadding="0">
+            <tr>
+              <td width="100%"><b>The web's directory structure section<br>
+              <br>
+              </b>
+              <img border="0" src="images/im_folders.jpg" align="left" width="273" height="198">In 
+              this section you will see the folders on your web site.<br>
+              Clicking  any folder will display the list of HTML documents 
+              under the selected folder.<p>This section also lets you do 
+              global operations on the files under the selected folder.<br>
+              For example, to remove the menus from the files under a specific 
+              folder and all the folders inside it (if any) right click on the 
+              desired folder and select the<font face="Courier"> Remove Menus
+              </font>option.</p>
+              <p>Another option would be to install the menus on all the 
+              documents under the selected folder. To do this right click the 
+              desired folder and select the<font face="Courier"> Install Menus
+              </font>option.</p>
+              <p>You may also drag and drop folders to the pane on the right.</td>
+            </tr>
+          </table>
+          <hr noshade color="#FFFFFF" size="1">
+          <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2" cellpadding="0">
+            <tr>
+              <td width="100%"><b>The files section<br>
+              <br>
+              </b>
+              <img border="0" src="images/im_files.jpg" width="479" height="142"><br>
+              This section shows the documents inside the selected folder. 
+              Besides the standard information for a document such as its name, 
+              size, and date of modification, this section also displays the 
+              type of loader code, if any, currently installed on each file.<p>
+              The loader code is a series of JavaScript 
+              instructions used by the browser to locate the .js file(s) 
+              containing the menus.<br>
+              DHTML Menu Builder uses two different types of loader code 
+              depending on various settings:</p>
+              <ul>
+                <li>Standard:  used to load the main .js file 
+                which contains the information to  display 
+                the toolbar (if any). On projects that don't use DHTML Menu Builder frames support, this 
+                loader code is also used to handle the menus.</li>
+                <li>Frames: used to load the menus on projects with frames support.</li>
+              </ul>
+              <p>It is important to understand that the menus and the toolbar(s) 
+              are created, displayed, and handled differently. This is why  the toolbar is stored in a separate file from 
+              the menus when using frames support: separate types of loader codes are required to load 
+              them both.</p>
+              <p>A file containing no loader code will be displayed in black, a 
+              file with the standard loader code in blue and a file with the 
+              frames loader code in green. Files displayed in light gray are 
+              documents that do not support any type of loader code.</p>
+              <p>Just as with the folders pane, you can perform several actions 
+              on the files displayed in the files pane. Right click a 
+              file and select a command from the context menu or simply drag and 
+              drop the file to one of the panes on the right. (Unless you have chosen Frames Support, there will only be one pane displayed on the right .)</td>
+            </tr>
+          </table>
+          <hr noshade color="#FFFFFF" size="1">
+          <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber3" cellpadding="0">
+            <tr>
+              <td width="100%"><b>The list of selected files to receive the menus</b><img border="0" src="images/im_seldocs.jpg" align="left" width="202" height="272"><p>
+              This 
+              pane displays the list of documents that will receive the loader 
+              code. For those documents that already contain the loader code, 
+              this display will be updated.</p>
+              <p>Clicking <font face="Courier New">Install</font> will result in the loader code being copied to the files displayed in 
+              this pane. As a result, the menus 
+              will be loaded into these documents when viewed from a browser.</p>
+              <p>To remove any file from this pane, right click it and select <font face="Courier"> Remove From List</font>. 
+              Note that if the selected file contains some loader code this 
+              option will not remove the code; the file will be simply removed from 
+              the list and will not be updated.</p>
+              <p>&nbsp;</td>
+            </tr>
+          </table>
+          <hr noshade color="#FFFFFF" size="1">
+          <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber4" cellpadding="0">
+            <tr>
+              <td width="100%"><b>When working with frames</b><p>
+              <img border="0" src="images/im_seldocs_frames.jpg" align="left" width="222" height="230">Remember, when  frames support is enabled, DHTML Menu Builder  splits the code that it generates into two sections, generating two 
+                files. Each of these sections/files must be copied into different web pages:</p>
+				<blockquote>
+                  <blockquote>
+                    <blockquote>
+                      <blockquote>
+                        <blockquote>
+                          <blockquote>
+				<ul>
+                  <li>One section/file contains the code that handles the menus. If the project has been set up to use a toolbar, it will 
+                  also contain the necessary information to render the toolbar.</li>
+                  <li>The other section/file will contain the necessary code and 
+                  information to display the menus.</li>
+                </ul>
+				          <p>As a result, when frames support is enabled, DHTML Menu Builder will split the right pane into two panes: one of them to receive the standard loader code and the other to receive the frames loader code.</p>
+				          </blockquote>
+                        </blockquote>
+                      </blockquote>
+                    </blockquote>
+                  </blockquote>
+              </blockquote>
+              </td>
+            </tr>
+          </table>
+          <p><b>The Auto button</b></p>
+          <p>Some times it can be difficult to determine which files should 
+          receive the loader code. When the frames support is enabled, it 
+          can be even more difficult to determine which files should receive 
+          which loader code.</p>
+          <p>To make this task as simple as possible, the<font face="Courier"> 
+          Auto </font>button automates this process by analyzing the default 
+          configuration, the menu items on the project, and the files on your web 
+          site.
+          Performing over a hundred different tests, the Auto function will 
+          quickly determine which files require which loader code either 
+          because they don't have any or the type they have is outdated.</p>
+          <p>Although the process has been tested under many scenarios, it is <i>not</i> <i>guaranteed</i> that it will always detect the appropriate files. In some circumstances, it may even fail to provide any help at all.
+          In this cases, add the files yourself. If the menus don't work, do the following:</p>
+          <ol>
+            <li>analyze the results</li>
+            <li>fix the problem</li>
+            <li>remove the loader code from the whole web site</li>
+          </ol>
+          <p>Repeat the operation and check the results again.</p>
+          <p><b>IMPORTANT</b>: The Auto feature must not be used when the menus 
+          are going to be installed on a shared document (a document 
+          that is included by either your HTML authoring application or your web 
+          server). For example, if you plan on installing the menus into a Dreamweaver template,  a FrontPage Shared Border, or  an SSI 
+          document, then add this shared document yourself and do not use the Auto 
+          feature.</p>
+          <p><b>Search Engine Compatibility</b></p>
+          <p>By default, the menus generated by DHTML Menu Builder are not 
+          visible to search engines. This means that if the menus are the only 
+          means of navigation on your web site, search engines will not be able 
+          to follow the links on your menus and your web site will not be 
+          properly indexed.<br>
+          To resolve this problem you need to enable the &quot;<a href="dialogs/pp_globalsettings_ext.htm#SEO">Search 
+          Engine Optimizations</a>&quot; option under the <font face="Courier New">
+          File-&gt;Project Properties-&gt;Global Settings-&gt;Extended Features</font> 
+          dialog.</p>
+          <p>When this option is enabled, DHTML Menu Builder will generate a 
+          plain, HTML-based, version of your menus which search engines will be 
+          able to use to properly index your web site. This alternate navigation 
+          will remain completely hidden from your visitors and will only become 
+          active when a search engine visits your web site (or a user visits 
+          your web site with javascript disabled).</p>
+          <p>Note that for this option to work you must re-install the menus, as 
+          described in this document.</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,754 @@
+Chinese(Traditional)
+Peter Handerson
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+即時預覽
+項目內容
+標題
+啟用
+移上
+單擊
+雙擊
+動作類別
+目標選單
+(無)
+開啟 URL / 執行 Script
+顯示 SubMenu
+在新的視窗開啟 URL
+狀態列文字
+對齊
+底 / 左
+底 / 右
+頂 / 左
+頂 / 右
+左 / 頂
+左 / 底
+右 / 頂
+右 / 底
+群組內容
+URL / Script
+檔案(&F)
+新增(&N)
+開啟檔案(&O)
+開啟最近檔案
+儲存(&S)  
+另存新檔(&A)
+匯入(&I)
+專案內容(&P)...
+結束(&X)
+編輯(&E)
+復原(&U)
+重複(&R)
+複製(&C)...
+貼上(&P)...
+尋找(&F)...
+尋找下個(&N)
+取代(&R)...
+刪除(&L)
+重新命名(&N)
+設定...
+選單(&M)
+加入群組(&G)
+加入項目(&C)
+加入分隔線
+顏色...
+字型...
+鼠標...
+圖像...
+邊界...
+特別效果...
+聲音...
+工具(&T)
+預覽(&P)...
+即時預覽(&L)
+設定為預設瀏覽器(&D)...
+編釋(&C)
+
+發佈(&P)...
+安裝載入器程式碼...
+安裝框架載入器程式碼...
+對位編輯器(&H)...
+工具列編輯器(&T)...
+附件編輯器(&A)...
+報告...
+說明(&H)
+內容(&C)...
+教學課程(&T)
+更新(&U)...
+xFX JumpStart 在線網站
+關於(&A)...
+註冊
+輸入註冊資訊(&R)...
+購買 DHTML Menu Builder...
+一般
+滑鼠移上
+文字顏色
+背景顏色
+重設　　
+反轉
+自動
+確定
+取消
+
+更改  
+靠左
+靠右
+置中
+指（預設）
+十字標
+手
+文字
+說明
+左面圖像
+背景圖像
+右面圖像
+移除  
+相同  
+大小
+工具列項目
+背景圖像
+框線大小
+框線顏色
+
+群組內容邊界
+垂直
+橫排
+顏色
+字型
+圖像
+鼠標
+邊界
+項目效果
+群組效果
+橫排邊界
+垂直邊界
+加上陰影顏色
+透明度
+Context Menu
+自定
+計算
+
+群組大小
+關閉
+深色
+隱藏
+特別效果
+啟用狀態
+你現在是否需要更新所有項目在狀態列的文字？
+編輯
+目標框架
+單擊
+當鼠標移上
+雙擊
+選擇一個文件以便開啟當
+New Window Parameters
+DHTML Menu Builder 除錯模式。
+如果當執行DMB時有任何的錯誤訊息（執行錯誤），請報告
+錯誤號碼和錯誤內容再加上一些簡短的說明你正在做什麼
+這是 DEMO 版本的 DHTML Menu Builder。
+這個功能只能在完全版中使用．如果要測試你的選單的話，請按一下工具→預覽
+附加功能
+requires some parameters to be set before using it.
+Go to the %%LINE=378%% and use the Parameters Properties button, under the Advanced tab, to set up the AddIn required values.
+這個功能只能在完全版中使用．
+選擇一個專案以便匯入
+儲存變更至
+在本電腦發佈選單但不用任何網站伺服器
+本地
+目標位置
+開啟專案
+DHTML Menu Builder 專案
+DHTML Menu Builder can not open the file because either it has the Read Only attribute set, or is stored in a media where you don't have write permissions
+載入中
+這個專案是由較舊版本的 DHTML Menu Builder 所建立的
+請參閱說明以獲得更多有關升級你的專案的內容．
+這個專案無法開啟因為檔案
+並不存在
+無法開啟專案。
+匯入中
+復原
+重複
+儲存專案
+儲存中
+另儲專案為
+群組
+項目
+間線
+刪除群組的同時亦會刪除其下的項目，確定要繼續？
+因為這群組受到其他的 submenu 所使用，無法刪除。
+移動       
+上
+下
+你的專案將會建立一個工具列給你。
+Unless you have additional hotspots on your page that
+you want to use to trigger some of your groups, the HotSpots Editor is not necessary.
+The HotSpots Editor can not open the file containing the hotspots because either it has the Read Only attribute set, or is stored in a media where you don't have write permissions
+預設設定
+語言設定的改變將於下一次你執行 DHTML Menu Builder 啟用
+載入系統字型中...
+請稍後，初始化程式中...
+載入上一次使用過的專案...
+初始化完成
+你的專案已經自動修復好。
+請選擇一個路徑以便儲存檔案。
+DHTML Menu Builder 在上一次並沒有正確地關閉。本程式已建立了一個備份檔案。
+你是否確定要修復？
+選單項目必須由字母開始
+複製/移動
+動作
+Leading
+選擇一個內容由群組複製
+Select the properties to copy from the selected separator under the group
+選擇一個內容由項目複製
+選擇性複製
+選擇性貼上
+請選擇一個你想貼上的內容設定
+貼上至群組
+貼上至所有群組
+貼上至選取的分隔線
+貼上至所有的分隔線包括以下：
+群組
+貼上至所有的分隔線
+貼上至項目
+貼上至所有項目包括以下：
+貼上至所有的項目
+剪貼簿內並沒有任何資料
+網頁
+支援
+FAQ
+公眾佈告版
+新聞
+專案位置
+專案名稱
+%%LINE=231%%
+Unfolding 聲音
+一般
+設定
+工具列
+FTP
+進階
+原始網站至本地路徑
+儲存編譯檔案的資料夾
+圖像資料夾
+本地設定
+伺服器Root
+儲存編譯後檔案的路徑
+圖像路徑
+範本
+路徑
+HotSpots 編輯器
+框架支援
+選項
+加入...
+編輯...
+%%RESERVED%%
+設定為預設
+自動填滿
+匯入...
+安裝本專案建立好的選單的目標檔案
+最後的 HTML 文件
+啟動框架支援
+框架文件
+對位框架
+選單框架
+建立工具列
+選擇一個群組加入至工具列
+外觀
+位置
+工具列樣式
+框線
+分隔
+
+背景顏色
+背景圖像
+範例工具列
+Spanning
+Offset
+橫排像素
+垂直像素
+(自動)
+頁面大小
+自定
+跟隨瀏覽器的捲動列
+FTP 伺服器位置
+匿名登入
+Prompt for Account
+使用 Proxy 伺服器
+用戶名稱
+密碼
+位置
+埠
+目標設定
+專案內容
+優化程式碼
+編譯後 JavaScript 檔案名稱
+Menus Offset
+[除錯] 不進行任何優化
+[最後] 小而且快的程式碼
+錯誤的伺服器名稱及連接埠
+選擇框架文件
+其中一個框架用了保留字
+Before you can use the menus on your frameset, you will have to change the name of this frame
+這個檔案並不是有效的框架 HTML 文件
+選擇一個資料夾以便儲存本專案所使用的圖像
+選擇你的本地資料夾
+選擇聲音文件
+要匯入其他專案的設定，你的專案必須先儲存
+選擇專案
+編輯設定
+這個設定是不能刪除因為 FTP 支援需要使用
+預設的設定是不能刪除的
+這個設定是不能刪除的因為以下的項目正在使用
+設定
+
+預設
+Select the folder where you want to store your compiled project files
+選擇 HTML 文件
+選擇的檔案是無效的HTML檔案
+HTML 文件
+No AddIn selected. The default script will be used.
+Change %%LINE=378%%
+這個專案使用
+附件但無法找到
+姓名
+加入瀏覽器
+程式
+你必須輸入新的瀏覽器的名稱
+你必須選擇一個有效的項目以便啟動瀏覽器
+選擇一個瀏覽器以便加入
+附件編輯品只建議進階使用者使用。使用者必須對 HTML, DHTML, Java Scripting, CSS 以及最新的 DOM 。你是否確定要繼續？
+是
+否
+不要再問我
+能夠使用的瀏覽器
+加入(&A)...
+設定為預設(&D)
+編輯(&E)...
+刪除(&L)
+關閉
+編輯瀏覽器
+更新
+本語言版本製作人：
+寬度
+高度
+Raised
+Sunken
+Select the vertical and horizontal offset DHTML Menu Builder should apply to the default position of the menus so they appear perfectly aligned to their parent hotspots
+Select the vertical and horizontal offset you want to apply to the default position of the submenus
+一般選項
+執行 DMB 時開啟上一次的專案
+自動修復
+DMB 啟動時顯示啟動畫面
+
+
+語言
+預設格式
+分隔線高度
+圖像空間
+Commands inherit their style from
+母群組
+在同一個群組內的第一個項目
+Groups inherit their style from
+程式預設
+專案中的第一個群組
+設定
+雙向
+垂直
+橫排
+隨機
+(none)
+你現有的版本
+程式
+引擎
+發佈時間
+檢查
+最新版本
+更新 DHTML Menu Builder
+（請按一下「檢查」按鈕）
+（請稍後...）
+你是否確定要取消下載更新程序？
+下載中... 請稍後，這需要幾分鐘的時間
+下載中
+安裝
+下載
+你的版本需要更新
+你已經有最新的版本
+(未知)
+無法接收資訊
+An error has occurred while trying to retrieve the information
+New Window Parameters
+位置及大小
+加入資料夾按鈕
+定義是否加入檔案按鈕
+頻道模式
+Specifies whether to display the window in theater mode and show the channel band
+顯示工具列
+Specifies whether to display the browser toolbar, making buttons such as Back, Forward, and Stop available
+在全營幕中顯示
+Specifies whether to display the browser in a full-screen or normal window
+顯示輸入文字框
+Specifies whether to display the input field for entering URLs directly into the browser
+顯示選單
+定義是否顯示選單列
+可以變更視窗大小
+Specifies whether to display resize handles at the corners of the window
+顯示捲動列
+Specifies whether to display horizontal and vertical scroll bars
+顯示狀態列
+Specifies whether to add a status bar at the bottom of the window
+顯示標題列
+定義在視窗內是否顯示標題列
+最頂
+狀態
+在以下中選擇
+%%EMPTY-LINE%% Left intentionaly empty for grammar purposes
+Filter
+Cascade
+全選
+不選任何項目
+群組
+項目
+所有內容
+返回
+線
+粗體
+斜體
+間線
+背景
+事件動作
+選單對齊
+群組寬度
+群組高度
+聲音
+鼠標移上
+單按
+貼上
+貼上選項
+選取
+全部
+無
+樹狀
+擴張
+Collapse
+全部擴張
+Collapse All
+內容...
+圖像
+由檔案...
+選擇一個圖像檔案
+匯出成 HTML...
+選擇 HTML 檔案
+更新狀態文字
+DHTML Menu Builder 除錯模式
+已改變語言
+項目被停止
+Missing Parameters
+儲存變更？
+錯誤開啟專案
+錯誤
+DEBUG MODE
+錯除群組？
+已取消刪除
+你是否確定要繼續？
+錯誤開啟檔案
+對位編輯器需要 Microsoft Internet Explorer 版本 5.0 或以上
+啟動對位編輯器時發生錯誤
+你必須定義一個有效的 HTML 文件以便完全翻譯你的網頁．
+Open the %%LINE=378%% dialog and fix this problem before trying to run the HotSpots Editor again.
+Missing %%LINE=345%%
+When using the frames support and the Menus frame is different from the HotSpots frame,%%CRLF%%the '%%LINE=345%%' setting on the %%LINE=378%% must point to the same file as the 'Document Containing the HotSpots'.
+Invalid %%LINE=345%% Setting
+發生了未知的錯誤，對位編輯器無法啟動．
+這個專案無法編譯是因為
+群組
+項目
+contains one or more invalid characters
+滑鼠在項目上按一下時的動作
+滑鼠移上項目時的動作
+滑鼠按兩下項目時的動作
+滑鼠在群組在按一下時的動作
+滑鼠移上群組時的動作
+滑鼠按兩下群組時的動作
+有一個或以上無效的字元在狀態列文字裏．
+編譯時發生錯誤
+無法編譯這個專案是因為一個或者以上的項目擁有相同的
+設定
+你必須定義目標的編譯資料夾
+現在是否要完成設定？
+未有設定目標資料夾
+The folder to store the compiled files defined in the %%LINE=378%% is invalid.
+無效的目標資料夾
+你必須定義目標圖像資料夾．
+沒有設定目標圖像資料夾
+The destination folder to store the images defined in the %%LINE=378%% is invalid.
+無效的目標圖像資料夾
+You need to specify a valid destination file where the menus will be implemented. This is the HTML document where your hotspots are defined.
+遺留或無效的目標檔案
+The Document Containing the HotSpots must be a valid HTML document located inside your Root Web.
+無效的目標檔案
+You need to specify a valid HTML document where your page is fully rendered.
+Missing or Invalid File
+The Destination Folder must be a folder inside the Root Web.
+是否需要現在修復這問題？
+The '%%LINE=326%%' parameter in the
+無效的設定
+Invalid Configuration Parameters
+The '%%LINE=330%%' parameter in the
+The '%%LINE=369%%' parameter of the FTP section on the %%LINE=378%% is invalid
+is defined as a cascading command through the
+event, but points to an invalid menu group
+無效的目標群組
+Either restore this AddIn or remove it from the project
+找不到附件
+but it cannot be compiled because%%CRLF%%it appears to be damaged or from an older version of DHTML Menu Builder
+無效附件
+修復完成
+不正常關閉
+The data on the clipboard is from a different type of object
+無效的剪貼簿資料
+尋找
+取代
+Scope
+Find Whole Word Only
+大小寫視為相異
+只有有效的項目
+全部取代(&A)
+取代事件
+樣式
+象素
+執行時開啟上一個專案(&O)
+下一步
+分析中
+An unexpected error has occurred while creating the HotSpots
+The selected hotspot is an image with no name.
+In order for the group
+去自動對齊選擇的圖像，
+圖像必須有一個名稱．
+並沒有完全地設定好對位
+The selected hotspot is an image which has the same name as the selected group.
+Each element on your page must have a unique name. Either rename the group or%%CRLF%%rename the image, otherwise, this group will not work.
+The communication with Internet Explorer has been lost.%%CRLF%%Your document could not be loaded or is not a valid HTML document.%%CRLF%%%%CRLF%%Please close the HotSpots Editor, check that your Project properties%%CRLF%%are correctly configured and open it again.
+Are you sure you want to close the HotSpots Editor without saving your changes?
+警告
+
+
+Request a Live Meeting
+Request a Live Product Demonstration
+本程式授權於：
+請在下面的欄中輸入你購買時的資訊．必需確保所有的資訊和你購買時的收條一樣．
+訂閱號碼
+姓名
+公司
+核對
+私穩資訊
+The '%%LINE=635%%' and '%%LINE=636%%' fields are required to start the validation process.
+錯誤的註冊資料
+你的資訊已經核對完成．%%CRLF%%Click on the %%LINE=176%% button to upgrade this copy of DHTML Menu Builder to the full registered version.
+註冊核對完成！
+請確定你已經輸入了正確的資料，這些資料必須與你購買時的回條一樣．%%CRLF%%%%CRLF%%If you have just purchased DHTML Menu Builder, you may want to try again in a few minutes.%%CRLF%%%%CRLF%%Another possible reason for this failure is that you may not be using the latest version of DHTML Menu Builder. To verify that you have the latest version available, select Help->Upgrade from the main menu.
+無效的註冊資料
+
+註冊說明
+伺服器並沒有接受你的註冊資訊
+伺服器傳回的資訊：
+更多資訊：
+The %%LINE=635%% is Invalid
+DHTML Menu Builder has been unable to communicate with the server to validate the information.%%CRLF%%Please make sure you're connected to the Internet before trying the validation process.
+無法連接至伺服器
+你是否確定不完成註冊，關閉本註冊對話框？
+移動選取的物件向上
+移動選取的物件向下
+預覽時使用
+內部
+Error Displaying Help Viewer
+Error Installing Loader Code
+Error Removing existing Loader Code
+匯入專案時發生錯誤
+檢查更新
+嚴重錯誤
+Error Loading Parameters
+Error Saving Parameters
+框架
+項目樣式
+線顏色
+重複
+Bevel
+框線圖像
+更新位置...
+選擇一個新的資料夾
+
+When the '%%LINE=345%%' or '%%LINE=347%%' parameters are not of type HTML they must be referenced through a web server.
+用戶資訊
+Configurations of type local cannot be published onto a web server. Create a configuration of type remote and set it as the default.
+Show %%LINE=378%% when creating a new project
+This configuration prepares the menus to work on a web server 
+選擇設定
+改變預設的設定中
+When you change the default configuration the paths to the files created by DHTML Menu Builder change so you must remember to update the loader code on your documents.
+編譯本地的設定中
+You're about to compile a configuration of type local. These type of configurations will only work on the machine where the menus are being developed.%%CRLF%%If this project is going to be published to a web server you will have to create a configuration of type remote and recompile the project.
+Installing a disk-based Loader Code
+Your default configuration is of type local. This means that the loader code that will get installed into your pages will be disk-based so the menus will only work on the machine where the menus are being developed.%%CRLF%%If this project is going to be published to a web server you will have to create a configuration of type remote and then, the loader code will be optimized to generate paths that work on your web server.
+Changing Group's Alignment
+In order for the change of alignment to take effect you will have to run the %%LINE=335%%.%%CRLF%%If you have already attached the groups to your hotspots, by simply running the %%LINE=335%% and clicking on the Install button will apply the changes.
+Possible Compatibility Problems
+不完整的設定程序
+Some paths of your local configuration are empty. This could cause unpredictable results.%%CRLF%%In order to ensure that DHTML Menu Builder is able to properly generate a project works on your web site always fill all the parameters from all your configurations.
+搜尋(&S)...
+Would you like to use the registration information returned by the server from the last time you validated?
+核對方法
+An unknown error has occurred while trying to register DHTML Menu Builder.
+Error Launching Register.exe
+檢查網絡連線中
+聯絡核對註冊伺服器中
+準備資料中
+核對註冊資料中
+A connection to the validation server could not be established.%%CRLF%%%%LINE=705%%
+核對時發生錯誤
+A connection to the internet was not found.%%CRLF%%%%LINE=705%%
+If you're behind a proxy server or firewall just ignore this error.
+Available HotSpots
+Attached Group
+圖像名稱
+位置
+Active Text
+類型
+建立表格
+文字代替
+Fonts used in this project
+代替
+左上方
+中上方
+右上方
+左
+右
+左下方
+中下方
+右下方
+顏色
+Submenu Alignment
+效果類型
+全部設定
+時鐘
+選單廷遲顯示時間
+副選單廷遲顯示時間
+效果速度
+更多功能
+建立兼容 DOM 的瀏覽器的程式碼
+建立 Navigator 4 程式碼
+建立 hRef 檔案
+
+Hide Form Elements
+Support for Dreamweaver/Fireworks Rollovers
+Fix for the Navigator 4 'Clip Bug'
+Helper Functions for Opera to Enable Rollover Effects
+支援 ImageReady Rollovers
+還原預設值
+優化路徑
+少
+多
+慢
+快
+目標文件
+This is the document from where the menus will be triggered.
+On this document is where DHTML Menu Builder will install the toolbar through the %%LINE=157%%->%%LINE=164%% option.
+On this document is where DHTML Menu Builder will expect to find the HotSpots that will trigger the menus.
+Select the folder containing the files you want to add
+選擇一個HTML文件來安裝「框架載入」程式碼
+選擇一個HTML文件來安裝「載入」程式碼

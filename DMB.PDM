@@ -1,0 +1,178 @@
+[Root]
+Most Recent Package=Standard Setup Package
+
+
+[Package|Standard Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\Package
+
+[Package|Standard Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package|Files Found]
+
+[Package|Standard Setup Package|Files Released]
+
+[Package|Standard Setup Package|Missing Dependency Information]
+C:\WINDOWS\system32\xFXSlider.ocx=
+C:\WINDOWS\system32\IContainer.ocx=
+C:\WINDOWS\system32\VLMnuPlus.ocx=
+C:\WINDOWS\system32\ZlibTool.ocx=
+C:\WINDOWS\system32\FormShaper.ocx=
+C:\WINDOWS\system32\ColorPicker.ocx=
+C:\WINDOWS\system32\hRef.ocx=
+C:\WINDOWS\system32\DMBSampleControl.ocx=
+C:\WINDOWS\system32\Line3D.ocx=
+C:\WINDOWS\system32\SmartButton.ocx=
+C:\WINDOWS\system32\tsys.dll=
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\dmbhelp.exe=
+C:\WINDOWS\system32\SmartSubClass.dll=
+C:\WINDOWS\system32\WININET.DLL=
+C:\WINDOWS\system32\SHLWAPI.DLL=
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\register.exe=
+
+[Package|Standard Setup Package|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\engine.dll=
+
+[Package|Standard Setup Package|Files Added]
+c:\windows\system32\getres16.dll=
+c:\windows\system32\vlmenures.dll=
+c:\windows\system32\vlutils.dll=
+c:\my projects\visual basic\dhtml menu builder 4.8\lang\eng=
+c:\my projects\visual basic\dhtml menu builder 4.8\help.zip=
+c:\my projects\visual basic\dhtml menu builder 4.8\register.exe=
+
+[Package|Standard Setup Package|Files Removed]
+
+[Package|Standard Setup Package|Files In Project]
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\DMB.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\xfxbinimg.dll=Yes
+C:\WINDOWS\system32\SHLWAPI.DLL=Yes
+C:\WINDOWS\system32\WININET.DLL=Yes
+C:\WINDOWS\system32\getres32.dll=Yes
+C:\WINDOWS\system32\SmartSubClass.dll=Yes
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\dmbhelp.exe=Yes
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\engine.dll=Yes
+C:\WINDOWS\system32\tsys.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\system32\SmartButton.ocx=Yes
+C:\WINDOWS\system32\Line3D.ocx=Yes
+C:\WINDOWS\system32\DMBSampleControl.ocx=Yes
+C:\WINDOWS\system32\hRef.ocx=Yes
+C:\WINDOWS\system32\ColorPicker.ocx=Yes
+C:\WINDOWS\system32\FormShaper.ocx=Yes
+C:\WINDOWS\system32\ZlibTool.ocx=Yes
+C:\WINDOWS\system32\VLMnuPlus.ocx=Yes
+C:\WINDOWS\system32\IContainer.ocx=Yes
+C:\WINDOWS\system32\xFXSlider.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\getres16.dll=Yes
+C:\WINDOWS\system32\VLMenuRes.dll=Yes
+C:\WINDOWS\system32\VlUtils.dll=Yes
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\lang\eng=Yes
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\Help.zip=Yes
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\register.exe=Yes
+
+[Package|Standard Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package|Install Locations]
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\DMB.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\xfxbinimg.dll=$(WinSysPath)
+C:\WINDOWS\system32\SHLWAPI.DLL=$(WinSysPath)
+C:\WINDOWS\system32\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\system32\getres32.dll=$(WinSysPath)
+C:\WINDOWS\system32\SmartSubClass.dll=$(WinSysPath)
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\dmbhelp.exe=$(AppPath)
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\engine.dll=$(AppPath)
+C:\WINDOWS\system32\tsys.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\system32\SmartButton.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Line3D.ocx=$(WinSysPath)
+C:\WINDOWS\system32\DMBSampleControl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\hRef.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ColorPicker.ocx=$(WinSysPath)
+C:\WINDOWS\system32\FormShaper.ocx=$(WinSysPath)
+C:\WINDOWS\system32\ZlibTool.ocx=$(WinSysPath)
+C:\WINDOWS\system32\VLMnuPlus.ocx=$(WinSysPath)
+C:\WINDOWS\system32\IContainer.ocx=$(WinSysPath)
+C:\WINDOWS\system32\xFXSlider.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\getres16.dll=$(WinSysPath)
+C:\WINDOWS\system32\VLMenuRes.dll=$(WinSysPath)
+C:\WINDOWS\system32\VlUtils.dll=$(WinSysPath)
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\lang\eng=$(AppPath)\lang
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\Help.zip=$(AppPath)
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\register.exe=$(AppPath)
+
+[Package|Standard Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\DMB.exe=No
+C:\WINDOWS\system32\xfxbinimg.dll=No
+C:\WINDOWS\system32\getres32.dll=No
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\engine.dll=No
+C:\WINDOWS\system32\getres16.dll=No
+C:\WINDOWS\system32\VLMenuRes.dll=No
+C:\WINDOWS\system32\VlUtils.dll=No
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\lang\eng=No
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\Help.zip=No
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\dmbhelp.exe=No
+C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\register.exe=No
+
+[Package|Standard Setup Package|Distribution]
+Type=single
+Size=
+Title=DHTML Menu Builder
+
+[Package|Standard Setup Package|Package]
+PackageFolder=C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\Package
+ProjectFolder=C:\My Projects\Visual Basic\DHTML Menu Builder 4.8
+ServerSideCab=
+File1=C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\Package\setup.exe
+File2=C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\Package\Setup.Lst
+File3=C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\Package\DMB.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package|IconGroups]
+Group0=DHTML Menu Builder
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package|DHTML Menu Builder]
+Icon1=DMB.exe
+Title1=DHTML Menu Builder
+StartIn1=$(AppPath)
+Key1=Icon1

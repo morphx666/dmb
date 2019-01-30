@@ -1,0 +1,9 @@
+clsInterface = 181, 144, 1088, 851, 
+DMBGlobals = 152, 17, 1093, 935, C
+modImgHandling = 0, 0, 0, 0, C
+modGlobals = 152, 129, 599, 935, C
+modRegistryFunctions = 0, 0, 0, 0, C
+modShort2Long = 0, 0, 0, 0, C
+frmMain = 152, 129, 1050, 935, C, 0, 0, 0, 0, C
+clsFlood = 261, 177, 1084, 885, C
+aspIntGlobals = 219, 148, 932, 845, C

@@ -1,0 +1,35 @@
+ToolbarImageName
+Full path to the image used in the toolbar
+
+%%REL%%green_slider.gif
+ 1 
+LeftGroupImage
+Full path to the image displayed to the left of the groups
+
+%%REL%%sample_red_arrow1.gif
+ 1 
+RightGroupImage
+Full path to the image displayed to the right of the groups
+
+%%REL%%sample_red_arrow2.gif
+ 1 
+ToolbarImageVerticalOffset
+Vertical Offset applied to the image displayed on the toolbar
+0
+1
+ 1 
+LeftGroupImageSize
+Width and Height of the image displayed at the left of the groups, separated by commas
+8,10
+8,10
+ 1 
+RightGroupImageSize
+Width and Height of the image displayed at the right of the groups, separated by commas
+8,10
+8,10
+ 1 
+ToolbarImageSize
+Width and Height of the image displayed on the toolbar, separated by commas
+11,3
+11,3
+ 1 

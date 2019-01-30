@@ -1,0 +1,151 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<title>Incompatibilities and limitations over different browsers and platforms</title>
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24"><b>
+		<font color="#FFFFFF" size="2">&nbsp;Incompatibilities and limitations of 
+		different browsers and platforms</font></b></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4">
+			<tr>
+				<td width="100%">DHTML Menu Builder is optimized 
+				to take advantage of the great features in Microsoft's Internet 
+				Explorer 5.5 and above.<br>
+				Because of Netscape Navigator 4's lack of support for standardized features, some  features in DHTML Menu Builder can't be reproduced on other browsers.<p><b>Known Style Issues</b><br>
+				Below you will find a list of style settings supported by DHTML 
+				Menu Builder that will not work on some browsers:</p>
+				<ul>
+					<li><b>Drop shadow and transparency effects (<a href="dialogs/group_sfx.htm">Special 
+					Effects Dialog</a>)<br>
+					</b>These effects use some proprietary features of Internet Explorer 5.5 and 6.0, so no other browser will be able to 
+                    render them.<hr noshade size="1" color="#EBEBEB">
+					</li>
+					<li><b>Raised and sunken borders effects on the commands 
+					selections (<a href="dialogs/group_sfx.htm">Special Effects 
+					Dialog</a>)<br>
+					</b>These features are not available under Netscape 
+					Navigator 4<br>
+					The resulting menus will not show the effect<hr noshade size="1" color="#EBEBEB">
+					</li>
+					<li><b>Colored borders (<a href="dialogs/group_sfx.htm">Special 
+					Effects Dialog</a>)<br>
+					</b>These features are not available under Netscape 
+					Navigator 4<br>
+					The resulting menus will not show the effect<hr noshade size="1" color="#EBEBEB">
+					</li>
+					<li><b>Cursors (<a href="dialogs/group_and_command_cursor.htm">Cursor 
+					Dialog</a>)</b><br>
+					The support for different cursors is not available under 
+					Navigator 4<hr noshade size="1" color="#EBEBEB">
+					</li>
+					<li><b>Border Colors (Group
+                    <a href="dialogs/group_color.htm">Color</a> and Group <a href="dialogs/group_image.htm">Image 
+					Dialog</a>)</b><br>
+					Netscape
+					Navigator 4 does not support different color borders in the same group.<br>
+					The resulting menus will show a single colored border taken from the setting for the left corner.<hr noshade size="1" color="#EBEBEB">
+					</li>
+					<li><b>Context Menus&nbsp; (<a href="dialogs/group_sfx.htm">Special 
+					Effects Dialog</a>)</b><br>
+					With the exception of Internet Explorer 4 and Opera, this feature is only supported on browsers running under 
+					Windows .<hr noshade size="1" color="#EBEBEB">
+					</li>
+					<li><b>Fonts (<a href="dialogs/command_font.htm">Fonts 
+					Dialog</a>)</b><br>
+					Under Netscape Navigator 4, fonts may appear slightly smaller, 
+					especially when using the Macintosh or Linux versions.</li>
+				</ul>
+				<p><b>Netscape Navigator 4 specific issues<br>
+				</b>Netscape Navigator 4 is a very old browser with a huge list of 
+				problems. Here you will find some of the most common issues that 
+				directly affect the menus created by DHTML Menu Builder.</p>
+				<ul>
+					<li><b>Resizing the browser window crashes Navigator or 
+					makes the menus inoperable</b><br>
+					This is probably the most annoying bug in Navigator 4.<br>
+					The reason this happens is outside the scope of this 
+					document, but if you would like more information, including 
+					possible solutions, try these links:<ul type="disc">
+						<li>
+						<a href="http://www.web-wise-wizard.com/javascript-reference/netscape-v4-window-resize-bug.html">
+						The Web Wise Wizard</a></li>
+						<li>
+						<a href="http://webreference.com/dhtml/column21/addendum2/col21addII2.html">
+						Dynamic HTML Lab (hierMenus columns)</a></li>
+						<li>
+						<a href="http://www.parnasse.com/NetscapeBugs.shtml">
+						Navigator 3.0+ bug list</a> (including the resize bug)</li>
+					</ul>
+					<hr noshade size="1" color="#EBEBEB">
+					</li>
+					<li><b>Font sizes under Netscape Navigator appear smaller</b><br>
+					Because of a bug in Netscape Navigator 4 that forces us not to use 
+					in-line style sheet declarations, DHTML Menu Builder converts 
+					font sizes from pixels to points.
+					Under some font types and sizes, this may cause the fonts 
+					under Navigator to appear slightly smaller than in other 
+					browsers.<br>
+					The cause of this problem is outside the scope of this 
+					document, but if you would like more information try these 
+					links:<ul type="disc">
+						<li>
+						<a href="http://www.phpbuilder.com/mail/php-developer-list/199908/0663.php?print_mode=1">
+						PHP Builder</a> (Mail Archive)</li>
+						<li>
+						<a href="http://groups.google.com/groups?q=+ttyle&hl=en&lr=&safe=off&site=groups">
+						DejaNews Search Query (+ttyle)</a></li>
+					</ul>
+					<hr noshade size="1" color="#EBEBEB">
+					</li>
+					<li><b>Browser crashes when loading a page with the menus</b><br>
+					Under some circumstances, very old versions of Netscape Navigator 4 
+					(specifically 4.05 and 4.08) will crash when loading the 
+					menus.<br>
+					This is usually caused by the combination of the menus' 
+					scripts plus some other non-Navigator compatible code in 
+					your page, including scripts generated by other programs.<br>
+					You should try previewing the menus directly in Navigator. Alternatively, you might try creating a page that contains ONLY the 
+					menus and the toolbar. If the browser does not crash with 
+					the menus alone, then your pages contain some code that, when 
+					used in conjunction with the DHTML Menu Builder menus, crashes the browser.</li>
+				</ul>
+				<p><b>Opera 5 and 6 specific issues</b><br>
+				This excellent browser has made its way from a purely simple 
+				browser to an almost perfect browser in terms of compatibility 
+				with the <a href="http://www.w3.org/">W3C</a> standards.</p>
+				<ul>
+					<li><b>Commands do get selected when hovering over them</b><br>
+					Opera 5 still has no support for several DOM properties that 
+					are required for menus highlighting. As a result only the 
+					images change when you move your mouse over menu items.</li>
+					<li><b>Resizing the browser window crashes Opera or 
+					makes the menus inoperable<br>
+                    </b>Just as Navigator 4, Opera 5 may crash or improperly 
+                    render the menus after resizing the browser window.</li>
+				</ul>
+				<p></p>
+				<p></p>
+				<p></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

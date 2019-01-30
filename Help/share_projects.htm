@@ -1,0 +1,175 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Multiple Projects</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24"><b>
+		<font color="#FFFFFF" size="2">&nbsp;</font></b><font color="#FFFFFF"><b>Multiple 
+        Projects</b></font></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4">
+			<tr>
+				<td width="100%">DHTML Menu Builder offers two methods for 
+                implementing multiple navigation menus on the same page:<ol>
+                  <li>By creating multiple toolbars on the same project<ul type="disc">
+                    <li>Pros: Easier to maintain and implement. Can control 
+                    which toolbars to display using the <a href="tb_vc.htm">
+                    Visibility Condition</a>.</li>
+                    <li>Cons: The compiled javascript files may become quite 
+                    large. The use of the Visibility Condition requires a 
+                    considerable JavaScript knowledge.</li>
+                  </ul>
+                  </li>
+                  <li>By creating multiple projects and loading them 
+                  simultaneously on the same page<ul type="disc">
+                    <li>Pros: A separate JavaScript file is created for each 
+                    project so secondary JavaScript files will be quite small 
+                    (around ~4KB each) . Also, only the necessary JavaScript 
+                    files will be loaded when needed.</li>
+                    <li>Cons: Complex installation process. Complex maintenance.</li>
+                  </ul>
+                  </li>
+                </ol>
+                <p>Before you decide to use one method or the other you should 
+                carefully consider the above mentioned pros and cons. The 
+                results are usually the same with both approaches, so try to 
+                determine which method will be more effective to meet your 
+                needs.</p>
+                <p><i>Note that the possibilities with DHTML Menu Builder are 
+                quite endless... and sharing multiple projects is one good 
+                example since you could even create a navigation system that 
+                uses both methods: sharing projects from multiple projects and 
+                controlling the visibility of some toolbars using the Visibility 
+                Condition.</i></p>
+                <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="6" style="border-collapse: collapse" bordercolor="#111111">
+					<tr>
+						<td width="100%">You may also want to take a look at our 
+                        online tutorial for implementing multiple menus 
+                        available at:<br>
+                        <a href="http://software.xfx.net/utilities/dmbuilder/content/tipstricks/multimenus.php">
+                        http://software.xfx.net/utilities/dmbuilder/tipstricks/multimenus/</a></td>
+					</tr>
+				</table>
+                <hr noshade size="1" color="#EBEBEB">
+                <p><b>Introduction</b></p>
+                <p>Merging projects is the process of installing 
+                menus from several projects into the same HTML document or 
+                documents.<br>
+                The way DHTML Menu Builder handles the use of multiple projects 
+                is by working with a master project and secondary projects 
+                (explained below). All the tools related to the compilation and 
+                implementation of the menus have been enhanced to be able to 
+                handle the use of multiple projects.</p>
+                <hr noshade size="1" color="#EBEBEB">
+                <p>In this small how-to you will learn the basics 
+                for creating, preparing and implementing a navigation system 
+                that uses two toolbars from two different projects:</p>
+                <p><b>Creating the projects</b><br>
+                The first step is to create the projects that you want to merge 
+                together. Each project can have 
+                any number of toolbars and even completely different settings 
+                for their styles and special effects. However there're several 
+                important rules that you must follow:</p>
+                <ul>
+                  <li>Frames are not supported when sharing projects. So none of 
+                  the project should have the Frames Support enabled.<hr noshade size="1" color="#EBEBEB"></li>
+                  <li>All projects must use the exact same type of configuration 
+                  and their default configuration must be identical; that is, 
+                  all the paths must point to the exact same location.<hr noshade size="1" color="#EBEBEB"></li>
+                  <li>Each project must have a completely different name for 
+                  their compiled files. To change the name of the compiled files 
+                  click File-&gt;Project Properties-&gt;Advanced and use a different 
+                  name for each one of the projects.<br>
+                  If you don't change the names of the compiled files, DHTML 
+                  Menu Builder will randomly select different file names when 
+                  your compile.<hr noshade size="1" color="#EBEBEB"></li>
+                  <li>If one or more secondary projects use toolbars, the master 
+                  project must have, at least, one toolbar. If your master 
+                  project does not require a toolbar then you can create an empty toolbar and then set its &quot;Visibility 
+                  Condition&quot; to false to keep it hidden. To do so, click<font face="Courier New"> 
+                  Menu-&gt;Add Toolbar </font>to add the toolbar to the project, 
+                  then, right click the toolbar and select<font face="Courier New"> 
+                  Properties</font>. Go to the<font face="Courier New"> Advanced
+                  </font>tab and type this on the<font face="Courier New"> 
+                  Visibility Condition </font>textbox: <font face="Courier New">
+                  return false;</font><hr noshade size="1" color="#EBEBEB"> </li>
+                  <li>Only projects created with version 4.1 (and above) can be used as 
+                  secondary projects.</li>
+                </ul>
+                <hr noshade size="1" color="#EBEBEB">
+                <p><b>Defining a master project</b><br>
+                A master project is a project whose menus are always going to be 
+                available. This project is the one that will always be included 
+                into all the documents of your web site. This is the project 
+                containing all the code to handle its own menus and the menus 
+                from all the secondary projects.</p>
+                <p>Any project can be the master project, so always try to 
+                select the project  whose menus are going to be common to all 
+                the sections of your web site.</p>
+                <hr noshade size="1" color="#EBEBEB">
+                <p><b>Defining the secondary projects</b><br>
+                The secondary projects are those projects that are going to be 
+                combined with the master project.</p>
+                <p>To define the list of secondary projects click 
+                Tools-&gt;Secondary Projects<br>
+                Use the Add button to add projects and use the Delete button to 
+                remove projects from the list.</p>
+                <p>Press the OK button when you're done defining the list of 
+                secondary projects.</p>
+                <p>NOTE: Only projects created with DHTML Menu Builder 4.1 (or 
+                above) can 
+                be used as secondary projects.</p>
+                <hr noshade size="1" color="#EBEBEB">
+                <p><b>Compiling the projects</b><br>
+                To generate all the .js files for the master and secondary projects 
+                simply click Tools-&gt;Compile</p>
+                <p>NOTE: DHTML Menu Builder will automatically save your master 
+                project before starting the compilation process.</p>
+                <hr noshade size="1" color="#EBEBEB">
+                <p><b>Installing the Menus</b><br>
+                To install the menus click Tools-&gt;Install Menus<br>
+                The Secondary Projects dialog will be displayed so you can 
+                select which combination of projects you want to install.<br>
+                When done click OK</p>
+                <p>Then you will see the usual &quot;Install Menus&quot; dialog.<br>
+                Select the documents that should receive the master project plus 
+                the selected secondary projects and click Install.</p>
+                <p>As you may have already guessed, you can repeat this process 
+                as many times as you like and each time selecting different sets 
+                of secondary projects. This will allow you to install different 
+                combinations of projects into different documents in your web site.<br>
+&nbsp;<table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+					<tr>
+						<td width="100%">Related topics of interest:
+						<ul>
+							<li><a href="tb_vc.htm">Toolbars' Visibility 
+                            Condition</a></li>
+                            <li>
+                            <a href="http://software.xfx.net/utilities/dmbuilder/content/tipstricks/multimenus.php">
+                            Online Tutorial for implementing multiple menus</a></li>
+						</ul>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

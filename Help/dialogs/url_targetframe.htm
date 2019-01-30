@@ -1,0 +1,94 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Application / URL Target Frame</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font size="2" color="#FFFFFF"><b>Dialogs  </b></font><b><font color="#FFFFFF" size="3">
+	»</font></b><font size="2" color="#FFFFFF"><b> Application </b></font><b><font color="#FFFFFF" size="3">
+	» </font><font color="#FFFFFF" size="2">
+	URL Target Frame</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is the URL Target Frame dialog.<br>
+			This dialog will let you specify the frame in which you will load the 
+            link of the selected item.<br>
+            To access this dialog select a menu item and click on the target 
+            frame icon (<img border="0" src="../images/icon_targetframe.gif" align="middle" width="16" height="16">).</p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area coords="8, 26, 240, 221" shape="rect" href="javascript:say(0);">
+			<area href="javascript:say(1);" shape="rect" coords="6, 230, 240, 276">
+			</map>
+			<img border="0" src="images/url_targetframe.gif" usemap="#FPMap0" width="341" height="322"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Available Frames<br>
+			</b>Displays the four most common frames:</p>
+            <ul>
+              <li>_self: The default frame for all the menu items. It 
+              points to the same page on which the menus are being displayed.</li>
+              <li>_top: Loads the link on top of any frameset 
+              currently loaded into the browser.</li>
+              <li>_blank: Displays the link in a new window. 
+              Since this is technically a new frame, it is mentioned here. However, DHTML Menu Builder also has a separate command that allows you to display 
+              links in new windows. It is much more flexible and provides more features than the &quot;_blank&quot; target frame. <a href="group_and_command_nwparams.htm">
+              More information</a>.</li>
+              <li>_parent: Displays the selected link in the 
+              immediate parent frame from where the menus are being viewed.</li>
+            </ul>
+            <p>This list will also include the frames, if any, detected in the
+            <a href="pp_frames.htm">Frames Document</a>.</p>
+</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Target Frame<br>
+			</b>Displays the name of the selected frame.</p>
+            <p>To select a frame, either choose one from the Available 
+            Frames list or type it in this text box.</p>
+          	</div>
+
+</body>
+
+</html>

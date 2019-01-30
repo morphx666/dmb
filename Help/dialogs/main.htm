@@ -1,0 +1,438 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Application / Main</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font size="2" color="#FFFFFF"><b>Dialogs  </b></font><b><font color="#FFFFFF" size="3">
+	»</font></b><font size="2" color="#FFFFFF"><b> Application </b></font><b><font color="#FFFFFF" size="3">
+	» </font></b><font size="2" color="#FFFFFF"><b> Main</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is DHTML Menu Builder's main dialog.<br>
+			It is the primary application window and is where you create the structure of your menus. You also use it to set the 
+			most basic features like the caption of your items, the pages they link to, etc.</p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area coords="7, 23, 171, 42" shape="rect" href="javascript:say(0);">
+			<area href="javascript:say(1);" shape="rect" coords="9, 41, 406, 66">
+			<area href="javascript:say(2);" shape="rect" coords="7, 65, 271, 90">
+			<area href="javascript:say(3);" shape="rect" coords="8, 90, 205, 115">
+			<area href="javascript:say(4);" shape="rect" coords="7, 118, 244, 397">
+			<area href="javascript:say(5);" shape="rect" coords="256, 148, 539, 188">
+			<area href="javascript:say(6);" shape="rect" coords="256, 190, 326, 211">
+			<area href="javascript:say(7);" shape="rect" coords="263, 211, 469, 241">
+			<area href="javascript:say(8);" shape="rect" coords="262, 241, 534, 284">
+			<area href="javascript:say(9);" shape="rect" coords="263, 289, 533, 337">
+			<area href="javascript:say(10);" shape="rect" coords="258, 394, 540, 434">
+			<area href="javascript:say(11);" shape="rect" coords="261, 341, 534, 380">
+			<area href="javascript:say(12);" shape="rect" coords="6, 422, 239, 512">
+			<area coords="2, 557, 484, 579" shape="rect" href="javascript:say(13);">
+			<area href="javascript:say(14);" shape="rect" coords="256, 437, 354, 487">
+			<area href="javascript:say(15);" shape="rect" coords="7, 397, 146, 420">
+			<area href="javascript:say(16);" shape="rect" coords="242, 110, 253, 519">
+			<area coords="355, 189, 421, 210" shape="rect" href="javascript:say(17);">
+			</map>
+			<img border="0" src="images/main.gif" usemap="#FPMap0" width="553" height="539"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Menu Bar<br>
+			</b>As with most Windows applications, the menu bar contains the commands that are available in DHTML Menu Builder.</p>
+          	<b>File:</b> Provides an interface for the primary operations applied to a file. (Open, Save, Import, etc.)<hr noshade size="1" color="#EBEBEB">
+              	<b>Edit:</b> Offers general-purpose editing commands. (Copy, Paste, Find, Delete, Rename, Undo/Redo, etc.)<hr noshade size="1" color="#EBEBEB">
+              	<b>Menu: </b>Allows access to all the dialogs used to create the menus and 
+			change the styles of your items, such as color, font, etcetera.<hr noshade size="1" color="#EBEBEB">
+              	<b>Tools: </b>Contains utilities that enable you to install your menus, compile your project, preview it 
+            and publish it. It also enables access to all the editors 
+			integrated into DHTML Menu Builder. (HotSpots Editor, Toolbars Editor, Addin Editor)<hr noshade size="1" color="#EBEBEB">
+              	<b>Help:</b> Contains commands that provide access to Help information as well as important and useful resources regarding DHTML Menu Builder. <hr noshade size="1" color="#EBEBEB">
+</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Main Toolbar<br>
+			</b>This toolbar 
+			permits access to the most frequently used functions of DHTML Menu 
+			Builder.</p>
+          	<b>
+			<img border="0" src="../images/icon_new.gif" width="16" height="16"> New:</b> Creates a new project based on the program's default values.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_open.gif" width="16" height="16"> Open:</b> Opens a standard dialog to locate and open a previously saved 
+			project. Clicking  the small arrow to the right of the Open button provides immediate access to the last four opened projects.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_save.gif" width="16" height="16"> Save: </b>Saves the current project.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_new_group.gif" width="16" height="16"> Add Group: </b>Adds a new group to 
+			the current project.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_add_subgroup.gif" width="16" height="16"> Add 
+                SubGroup: </b>Adds a new subgroup (or 
+                submenu) to 
+			the current project. Note that this option is only available when viewing 
+                the project in <a href="javascript:say(15);">Map View</a>.
+            <hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_new_command.gif" width="16" height="16"> Add Command:</b> Adds a new command 
+			to the current project.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_new_separator.gif" width="16" height="16"> Add Separator:</b> Adds a new 
+			separator to the current project.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_copy.gif" width="16" height="16">
+			<img border="0" src="../images/icon_paste.gif" width="16" height="16"> Copy/Paste:</b> Copies some or all 
+			the styles of an item and  pastes them to another item or set of 
+			items.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_find.gif" width="16" height="16"> Find:</b> Opens the Find/Replace dialog.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_undo.gif" width="16" height="16">
+			<img border="0" src="../images/icon_redo.gif" width="16" height="16"> Undo/Redo:</b> Allows you to undo or 
+			redo your actions.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_delete.gif" width="16" height="16"> Delete:</b> Deletes the selected item. If 
+			the selected item is a group, all of its commands will be deleted as 
+			well.</div>
+
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Style Toolbar.<br>
+			</b>This toolbar allows rapid access to all the dialogs used to change the different appearance style 
+			options of the current project's items. </p>
+          	<b>
+			<img border="0" src="../images/icon_color.gif" width="16" height="16"> Color: </b>Changes all the 
+			color-related settings of your items.<b><br>
+			</b>Groups:&nbsp; Changes background color and border color. On the Toolbar tab, you can also  change the text color and 
+			background color of the hotspots.<br>
+			Commands: Changes the text color and background color.<br>
+			Separators: Changes the color of the separator line.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_font.gif" width="16" height="16"> Font:</b> Changes the   
+			font and its style used by the items.<br>
+			Groups: Changes the default font used by the child commands. When 
+			using a toolbar, you can also change the font  of the hotspots.<br>
+			Commands: Changes the font and font style.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_cursor.gif" width="16" height="16"> Cursor: </b>Sets the appearance of the mouse 
+			pointer when it moves over the selected item.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_image.gif" width="16" height="16"> Image: </b>Changes the various 
+			images associated with an item. <br>
+			Groups: Changes background color, border color, border width, and background image. When using a toolbar you can also change the image(s) that appear(s) to the left and/or right 
+			 
+			of the hotspot.<br>
+			Commands: Change the left, right and background image as well as the the image(s) that appear(s) to the left and/or right 
+			of the command.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_leading.gif" width="16" height="16"> Leading:</b> Adjusts the amount of space 
+			between commands inside a group. <hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_margin.gif" width="16" height="16"> Margins:</b> Adjusts the width of the margin between 
+			the inner border of the group and its contents.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_selfx.gif" width="16" height="16"> 
+            Selection Effects:</b> Sets the effects and colors of the bounding 
+            rectangle in the menu items.<hr noshade size="1" color="#EBEBEB">
+              	<b>
+			<img border="0" src="../images/icon_sfx.gif" width="16" height="16"> Special Effects:</b> Sets special effects to spice up your menus (highlighting  when the commands are selected, drop shadows, 
+			transparency effects, context menus).<hr noshade size="1" color="#EBEBEB">
+              	<img border="0" src="../images/icon_moveup.gif" width="16" height="16"><img border="0" src="../images/icon_movedown.gif" width="16" height="16"> 
+                <b>Up/Down: </b>Use these buttons to move items up or down. Moving 
+                commands up/down will change their position in their respective 
+                groups. Moving groups up/down will change their position in 
+                their respective toolbar. Moving toolbars up/down will change 
+                their position the zIndex order causing that those toolbars at 
+                the topmost position will be rendered first and those at the end 
+                of the list will be rendered last. The last a toolbar is 
+                rendered the greater its zIndex and consequently will appear 
+                above any other other toolbar. In case of having overlapping 
+                toolbars, those rendered last will appear to be over those 
+                rendered first.</div>
+			
+
+<div id=Info3 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Tools Toolbar.<br>
+			</b>Contains the most important features related to the production of the 
+			menus. </p>
+            <p>
+			<img border="0" src="../images/icon_compile.gif" width="16" height="16">
+			<b>Compile:</b> Compiles the current project -- this is what 
+            generates the javascript files that contain all the code used to 
+            generate and manage the menus.<hr noshade size="1" color="#EBEBEB">
+            <img border="0" src="../images/icon_publish.gif" width="16" height="16">
+            <b>Publish:</b> Publishes the current project via FTP.
+            <hr noshade size="1" color="#EBEBEB">
+			<img border="0" src="../images/icon_preview.gif" width="16" height="16">
+			<b>Preview:</b> Displays a preview of the current project.
+            <hr noshade size="1" color="#EBEBEB">
+              	
+			<img border="0" src="../images/icon_hse.gif" width="16" height="16">
+			<b>HotSpots Editor:</b> Opens the 
+            <a href="hse.htm">HotSpots 
+			Editor</a>.
+            <hr noshade size="1" color="#EBEBEB">
+              	
+			<img border="0" src="../images/icon_horizontal_layout.gif" align="absmiddle" width="16" height="16"> 
+            <b>Toolbars Editor: </b>
+            Opens the <a href="pp_tb_general.htm">Toolbars 
+            Editor</a>.<hr noshade size="1" color="#EBEBEB">
+              	
+			<img border="0" src="../images/icon_pp.gif" width="16" height="16">
+			<b>Project Properties:</b> Displays the 
+            <a href="pp_general.htm">Project 
+			Properties dialog</a>.<hr noshade size="1" color="#EBEBEB">
+            </div>
+
+<div id=Info4 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Menus View.<br>
+			</b>This pane is the workspace where you design and organize your project 
+			items.</p>
+            <p>
+			<img border="0" src="../images/ss_treeview.gif" align="left" width="80" height="104"></p>
+			<p>Each item is displayed so that you can visualize your groups, commands and separators in an easy way.</p>
+			<p>Groups are represented by the
+			<img border="0" src="../images/icon_group.gif" width="16" height="16"> 
+			icon, commands by the
+			<img border="0" src="../images/icon_command.gif" width="16" height="16"> 
+			icon and separators by the
+			<img border="0" src="../images/icon_separator.gif" width="16" height="16"> 
+			icon.<br>
+			DHTML Menu Builder will also add several indicators to the items' 
+			icons to let you know which events are configured and active.</p>
+			<p>A number zero &quot;0&quot; under the icon means that the item will response 
+			to the mouse when its moved over it.<br>
+			A number one &quot;1&quot; under the icon indicates that the item will 
+			response when the item is clicked.<br>
+			And a number two &quot;2&quot; indicates that the item will perform some 
+			action when its double-clicked.</p>
+			<p>An arrow  displayed below some of these numbers means 
+			that the action is to display another group.<p>See also:<a href="javascript:say(15);"> 
+            View Modes</a>, <a href="../enhanced_map_view.htm">Enhanced Map View</a></div>
+			
+<div id=Info5 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Caption<br>
+			</b>Indicates the actual text 
+			that will be displayed when you view your menus using a browser.</p>
+            <p>The Caption  is very flexible and supports HTML code. By adding HTML 
+			code, you can apply extended 
+			formatting to your items' Caption.<br>
+			For example, you could use the &lt;br&gt; tag to add a new line to the caption, or use the 
+			&lt;sup&gt;&lt;/sup&gt; tags to make a character or word appear as superscript.</p>
+            </div>
+            
+<div id=Info6 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Enabled<br>
+			</b>When <i>not</i> checked, the menu item will <i>not</i> respond to mouse events. (Default is checked.)</p>
+            <p>This is very useful in creating items that display some information but don't  perform any action. You can also use this feature to mimic a 
+			disabled item.</p>
+            </div>
+            
+<div id=Info7 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Events<br>
+			</b>The items created by DHTML Menu Builder can support three types of events:
+            <p>
+            <b>
+			<img border="0" src="../images/icon_event_over.gif" width="16" height="16"> 
+			Over:</b> Triggered when the mouse is moved over the 
+			item.
+                <hr noshade size="1" color="#EBEBEB">
+			<b>
+			<img border="0" src="../images/icon_event_click.gif" width="16" height="16"> 
+			Click:</b> Triggered when the item is clicked.
+                <hr noshade size="1" color="#EBEBEB">
+			<b>
+			<img border="0" src="../images/icon_event_dblclick.gif" width="16" height="16"> 
+			Double-Click:</b> Triggered when the item is double-clicked.</p>
+            </div>
+            
+<div id=Info8 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Action<br>
+			</b>Determines the action that will occur when the selected item is triggered.</p>
+            <p>DHTML Menu Builder supports four different types of events:</p>
+			<p><b>(none):</b> No action is performed. The item will not respond 
+			to the selected event.<hr noshade size="1" color="#EBEBEB">
+			<b>Open URL / Execute Script:</b> The item will open the linked 
+			document or will execute a script. To execute some script, you must 
+			precede the code with either <font face="Courier">JavaScript:</font> or
+			<font face="Courier">vbscript:</font> (don't forget the colons).<hr noshade size="1" color="#EBEBEB">
+			<b>Display Submenu:</b> The item will display another group. This is how you create submenus.<hr noshade size="1" color="#EBEBEB">
+			<b>Open URL in new Window:</b> The item will display the linked 
+			document in a new browser window. You can specify the new window 
+			settings by clicking  <a href="group_and_command_nwparams.htm">
+			<img border="0" src="../images/icon_newwindow.gif" align="absmiddle" width="16" height="16"> 
+			New Window Settings icon</a>.</div>
+			
+<div id=Info9 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>URL / Script or Target Menu<br>
+			</b>This setting specifies what the item must do when the selected 
+			event is triggered.<br>
+            Next to the URL/Script textbox you will find three buttons to help you set your links:</p>
+            <ul>
+              <li>
+              <img border="0" src="../images/icon_open.gif" align="middle" width="16" height="16"><b> 
+              Browse:</b> Click to display the Open Dialog. This will 
+              let you select the document to which you want to link.<hr noshade size="1" color="#EBEBEB">
+			  </li>
+              <li>
+              <img border="0" src="../images/icon_bookmark.gif" align="middle" width="16" height="16"><b> 
+              Bookmark:</b> Click to access the Bookmark dialog. 
+              This will let you hyperlink to named sections on the linked 
+              document.<hr noshade size="1" color="#EBEBEB">
+			  </li>
+              <li>
+              <img border="0" src="../images/icon_targetframe.gif" align="middle" width="16" height="16"><b>Target 
+              Frame:</b> Click button to access the Target Frame dialog. 
+              This will let you determine the frame in which to load the linked 
+              document.</li>
+            </ul>
+            <p>When the event type is set to <font face="Courier">Open URL / 
+            Execute Script</font> you can perform several types of actions:</p>
+            <ul>
+              <li>Open a document. To open (or link to) a document simply use 
+              the browse button (<img border="0" src="../images/icon_open.gif" align="middle" width="16" height="16">) 
+              to select the document that you want to open when the selected 
+              menu item is clicked.<br>
+&nbsp;</li>
+              <li>Execute a script or call a javascript function. To write a 
+              small javascript function simply prefix your function with the 
+              javascript: protocol. For example, to display a dialog box and 
+              show a message you would use this code:<br>
+              javascript:alert(&quot;Hello World&quot;);<br>
+              Remember to set the Target Frame to &quot;_self&quot; when using this 
+              protocol.<br>
+&nbsp;</li>
+              <li>Send an email. To send an email simply prefix the receiver's 
+              email address with the mailto: protocol selector. For example, to 
+              send an email to jon@doe.com you would use this code:<br>
+              mailto:jon@doe.com<br>
+              Remember to set the Target Frame to &quot;_self&quot; when using this 
+              protocol.</li>
+            </ul>
+            <p>When the event type is set to <font face="Courier">Display 
+			Submenu</font> a list of potential target menus will be displayed. Selecting the target menu will cause it to appear in the box.</p>
+            <p>When the event type is set to <font face="Courier">Open URL in 
+            new Window</font> the specified URL will be displayed in a new 
+            browser window and the the <a href="group_and_command_nwparams.htm">
+			<img border="0" src="../images/icon_newwindow.gif" align="absmiddle" width="16" height="16"> New Window Settings</a> button will be enabled to let you set 
+            the new window properties.</p>
+            </div>
+            
+<div id=Info10 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Status Text<br>
+			</b>Text that will be displayed on the browser's status 
+			bar.<br>
+            You can optionally select to display this same text as a tooltip by 
+            enabling the &quot;Display Status Text as a tooltip&quot; option from the
+            <a href="pp_globalsettings.htm">Global Settings</a> dialog under the 
+            Extended Features section.</p>
+            <p>The status text also accepts two variables: %c and %u<br>
+            Whenever you write %c, it will be changed by the item's caption and 
+            %u will be changed by the item's URL.</p>
+            </div>
+            
+<div id=Info11 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Alignment<br>
+			</b>Specifies the alignment of the displayed menu relative to the hotspot.</p>
+            </div>
+            
+<div id=Info12 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Live Preview<br>
+			</b>Allows you to see how the selected item will appear in your browser.<br>
+            <br>
+            The Live Preview is updated at the same time you make changes to your items. That way, you always know how your menus will appear without having to go through the process of compiling your project or even previewing.<br>
+            <br>
+            When a group is selected, the Live Preview shows how the background of the menu will appear. If the <a href="../creating_toolbars.htm">toolbar option</a> is selected, the preview will show how the actual toolbar hotspot will appear.<br>
+            <br>
+            When a command is selected, the Live Preview shows how the selected command will appear against its parent group.</p>
+            </div>
+            
+<div id=Info13 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Status Bar<br>
+			</b>The left side of the status bar provides updated information about the selected 
+			item. The right side shows the currently selected 
+			(default) configuration. Double-clicking the right section allows you to 
+			change the default configuration.
+			The status bar is also used to display  progress when the menus are being compiled.</p>
+            </div>
+            
+<div id=Info14 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Commands Layout<br>
+			</b>Defines the way the commands are positioned. This setting applies to groups only:</p>
+            <p><b>
+			<img border="0" src="../images/icon_vertical_layout.gif" align="absmiddle" width="16" height="16"> 
+			Vertical:</b> The commands will be placed one below the other, 
+			forming a vertical menu.<br>
+			<b>
+			<img border="0" src="../images/icon_horizontal_layout.gif" align="absmiddle" width="16" height="16"> 
+			Horizontal:</b> The commands will be placed one next to the other, 
+			forming an horizontal menu.</p>
+            </div>
+            
+<div id=Info15 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>View Modes<br>
+			</b>Controls the way DHTML Menu Builder presents your 
+			project's menu structure.</p>
+            <p><b>Normal:</b> presents all the 
+			groups one beneath the other as independent menus. This is the way DHTML Menu Builder normally displays the menus.
+                <hr noshade size="1" color="#EBEBEB">
+			<b>Map:</b> presents the menus and submenus in a tree-like 
+            structure. <a href="../enhanced_map_view.htm">Click here for more 
+            information</a>.</p>
+            </div>
+            
+<div id=Info16 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Splitter<br>
+			</b>Drag the splitter to resize the Tree and Properties panes.</p>
+            </p>
+            </div>
+            
+<div id=Info16 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Compile<br>
+			</b>When disabled, the selected menu item will not be compiled.</p>
+            <p>This can be useful if you want to exclude some menu items from 
+            your project but without deleting them.<br>
+            This option will work over toolbars, groups, commands and 
+            separators.</p>
+            </p>
+            </div>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Positioning the menus: A vertical menu must be placed inside a cell where its left position can vary depending on the browser's window size (Floating mode) 2/3</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" id="table1">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24"><b>
+		<font color="#FFFFFF" size="2">&nbsp;The Tutorial - Positioning the 
+        menus</font></b></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4" id="table2">
+			<tr>
+				<td width="100%"><b>Scenario: A vertical menu must be placed 
+                inside a cell where its left position can vary depending on the 
+                browser's window size (Floating mode)</b><p>Although the menus could be attached 
+                to almost any element in a page we recommend using an image as 
+                this will ensure that this technique works under any of the 
+                supported browsers.<br>
+                So, in order to avoid the image from showing up on our page 
+                we're going to use a transparent image; the best way to create a 
+                small transparent image is to use any graphics editor and create 
+                an 100% transparent GIF image. <a href="tbp_s07/blank.gif">Click 
+                here to download an image that can be used for this purpose</a>.</p>
+                <p>The next step is to insert the image in the cell. Here's a 
+                sample piece of code that can be used to insert the image:</p>
+                <blockquote>
+                  <p><font color="#003399" face="Courier New">&lt;img border=&quot;0&quot; 
+                  src=&quot;blank.gif&quot; width=&quot;1&quot; height=&quot;1&quot;&gt;</font></p>
+                </blockquote>
+                <p>Now, we must give the image a name. It must be a unique name 
+                which DHTML Menu Builder will use to reference this image. In 
+                this tutorial we'll call our reference image &quot;RefImage&quot; and 
+                here's the code that needs to be inserted into the &lt;img&gt; tag to 
+                give our image a name:</p>
+                <blockquote>
+                  <p><font color="#003399" face="Courier New">&lt;img border=&quot;0&quot; 
+                  src=&quot;blank.gif&quot; width=&quot;1&quot; height=&quot;1&quot; name=&quot;RegImage&quot;&gt;</font></p>
+                </blockquote>
+                <p>Now, although you can't see it (and that's the idea) this 
+                sample below already contains our image inside the dark blue 
+                cell.<br>
+                In this tutorial we're using an image that cannot be seen but, 
+                in fact, you could use any image that already exists on your 
+                HTML documents as a reference image. For example, if our HTML 
+                layout would have had the logo in the upper corner of the dark 
+                blue cell we could have used the logo as the reference image.</p>
+                <p align="center">
+                <iframe name="I1" src="tbp_s07/thetutorial_ptb_s01.htm" target="_self" width="80%" height="380" scrolling="no">
+                Your browser does not support inline frames or is currently configured not to display inline frames.
+                </iframe></p>
+                <p>
+                <img border="0" src="tbp_s07/tbpos01.gif" width="402" height="292" style="margin-right:8px;margin-bottom:8px;" align="left">The 
+                final step is to configure our toolbar so its position is not 
+                fixed and, instead, it attaches itself to our image.<br>
+                To do this we go to the<font face="Courier"> Tools-&gt;Toolbars 
+                Editor-&gt;Positioning</font> dialog and set the
+                <font face="Courier">Alignment</font> setting to
+                the
+                <font face="Courier">Attached To</font> option.</p>
+                <p>
+                Inside the <font face="Courier">Object Name</font> textbox we 
+                type the name of the image that we want to use as a reference. 
+                In this case we called our image &quot;RefImage&quot;.</p>
+                <p>
+                And, finally, its just a matter of recompiling the project using 
+                the <font face="Courier">Tools-&gt;Compile</font> command to see 
+                how our changes are working.</p>
+                <p>
+                Well, as expected, the toolbar is appearing &quot;near&quot; the image in the dark blue cell and it is following it (you can 
+                verify this by resizing this window). But... it is not exactly 
+                over the image. This is normal and it can be fixed by applying 
+                some small offsets to tweak the final position of the menus.</p>
+                <p>
+                As you can see in the sample below the toolbar is appearing a 
+                couple of pixels to the right so we'll need 
+                to compensate this by applying a negative offset. A negative 
+                vertical offset will move the toolbar towards the top and a 
+                negative horizontal offset will move the toolbar towards the 
+                left.</p>Click the Continue button below to see how we apply 
+                these offsets and finalize our project.<br clear="all"><p align="center">
+                <iframe name="I2" src="tbp_s07/thetutorial_ptb_s02.htm" target="_self" width="80%" height="380" scrolling="no">
+                Your browser does not support inline frames or is currently configured not to display inline frames.
+                </iframe></p><hr noshade size="1" color="#EBEBEB">
+				<p align="center"><a href="thetutorial_ptb_09.htm">Continue »</a><p align="center">&nbsp;</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

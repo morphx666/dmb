@@ -1,0 +1,119 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Importing Projects from older versions</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<base target="_self">
+<style>
+<!--
+span.msoDel
+	{mso-style-name:"";
+	text-decoration:line-through;
+	color:red}
+span.msoIns
+	{mso-style-name:"";
+	text-decoration:underline;
+	text-underline:single}
+-->
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">&nbsp;Importing Projects from older versions 
+    (2.8 or older)</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            One of the most significant improvements in DHTML Menu Builder 
+			Version 3.0 is the ability to generate paths that work under any 
+			scenario in which they are implemented. This can be done by virtue 
+			of the new
+			<a style="color: blue; text-underline: single" href="configurations.htm">
+			Configurations</a> section under Project Properties.<p>All of the 
+			information about the items in your project is strongly tied to the 
+			selected default configuration. If you are going to use a project from an older version (2.8 or older) of DHTML Menu Builder with a version 3.0 or newer, you must create this information contained in the default configuration.</p>
+			<p>When
+            importing a project created with an older version of DHTML
+            Menu Builder, the following three&nbsp;things will be done automatically:
+            <ul>
+              <li>
+                <p><b>Fix Groups&nbsp; Over action</b><br>
+                Version 2 Groups had just one action: <i>Display the Group. </i>Version 3 Groups, on the other hand, can have multiple actions.<hr noshade size="1" color="#EBEBEB">
+              </li>
+              <li>
+                <p><b>Fix Commands URL</b><br>
+                Under earlier versions of DHTML Menu Builder, URLs could be root-level links or relative links.
+                Under DHTML Menu Builder 3.0, all of the command links must be 
+				fully qualified URLs. The program 
+				will try to add the fully qualified path to each page based on 
+				the imported information about your server's root folder.<br>
+				You should check <i>each and every</i> link after you import a project. 
+				Those &nbsp;links found to be faulty can be fixed by clicking on the 
+				browse button under the selected action and then re-selecting 
+				the target document.<hr noshade size="1" color="#EBEBEB">
+              </li>
+              <li>
+                <p><b>Create a default configuration</b><br>
+                The single configuration that existed under earlier versions will 
+				be imported as the default local configuration under DHTML Menu 
+				Builder 3.</li>
+            </ul>
+            <p><i>After importing an older project, you must check the settings of 
+			the default configuration to ensure that the setup is correct.</i></p>
+            <p>Here are more issues you should check if your projects use any of 
+			the features mentioned below:</p>
+            <ul>
+              <li>
+                <p><b>Opening links in new windows<br>
+                </b>If your project used JavaScript commands to open a link in a 
+				new window, it is recommended that you convert these actions and 
+				use the integrated support to open new windows. To do the 
+				conversion, just follow these simple steps:
+                <ul type="disc">
+                  <li>
+                    <p>Change the action type to <font face="Courier">Open URL
+                    in new window</font></li>
+                  <li>
+                    <p>Remove all the JavaScript code from the URL and just
+                    leave the target link</li>
+                  <li>
+                    <p>Click  the New Window Settings button 
+					<img border="0" src="images/icon_newwindow.gif" align="absmiddle" width="16" height="16"> and set up your new window settings</li>
+                </ul>
+                <hr noshade size="1" color="#EBEBEB">
+              </li>
+              <li>
+                <p><b>AddIns<br>
+				</b>None of the AddIns that were developed for previous versions 
+				of DHTML Menu Builder will work in version 3. However, the following AddIns are now default behaviors, so these AddIns are no longer needed:<ul type="disc">
+              <li>Auto Relative Positioning</li>
+				<li>AutoClose Timer</li>
+				<li>Context Menus</li>
+				<li>For Images Only</li>
+            </ul>
+                </li>
+            </ul>
+            	<p><i>It is very important to understand that after saving an 
+				imported project under DHTML Menu Builder 3, you will not be 
+				able to re-open this same project under any previous version, so 
+				you should always make backup copies of your projects.</i></p>
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Application / Images Browser</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font size="2" color="#FFFFFF"><b>Dialogs  </b></font><b><font color="#FFFFFF" size="3">
+	»</font></b><font size="2" color="#FFFFFF"><b> Production  </b></font><b><font color="#FFFFFF" size="3">
+	» </font></b><font size="2" color="#FFFFFF"><b>Images Browser</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is the Images Browser dialog.<br>
+			This dialog offers a convenient way to access all the images used in 
+			your project.<br>
+            To access this dialog select a group or a command and click
+            <font face="Courier New">Menu-&gt;Image</font> and then click on one of 
+            the <font face="Courier New">Change</font> buttons.</p>
+            <p>The images are actually stored with your project file 
+			so others can use the images without actually having them on their 
+			local machine.</p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area href="javascript:say(0);" shape="rect" coords="4, 26, 363, 103">
+			<area href="javascript:say(1);" shape="rect" coords="7, 110, 102, 138">
+			<area coords="181, 111, 312, 137" shape="rect" href="javascript:say(2);">
+			<area href="javascript:say(3);" shape="rect" coords="105, 110, 179, 138">
+			<area href="javascript:say(4);" shape="rect" coords="5, 154, 99, 181">
+			</map>
+			<img border="0" src="images/images_browser.gif" usemap="#FPMap0" width="371" height="189"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+          	<p><b>Images Browser<br>
+			</b>Displays a list of all the images used on your project.<p>
+			To select an image from the list,  select the image and click <font face="Courier">OK</font>.<p>The image currently in use, if any, appears with a sunken border.<br>
+			The selected image appears with a thin black border.<br>
+			If the filename for an image is shown in <font color="#FF0000">red</font>, that indicates that the image is no longer in the same location as it was when it was added to the project. Use the <a href="javascript:say(2);">Update 
+			Location</a> button to find the file and update its location.</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>From File button<br>
+			</b>Click to select an image that does not appear in 
+			the list.</p>
+            <p>If you decide to use a new image, it will  be added to the 
+			list so you can  access it later without  having to browse your computer to find it.</p>
+          	</div>
+          	
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Update Location<br>
+			</b>Click to update the location of the selected image.</p>
+            <p>Because all the images are stored in the project file, deleting or moving the source image that you initially 
+			selected does not make it unavailable to your project. However, if too many files are missing, DHTML Menu Builder can slow down&nbsp; considerably. </p>
+            <p>To avoid this, use the Update Location button to update the location 
+			of files whose name are displayed in <font color="#FF0000">red</font>. When DHTML Menu 
+			Builder uses the file from your hard disk instead of the project 
+			file, the program works faster.</p>
+          	</div>
+          	
+<div id=Info3 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Save button<br>
+			</b>Click this button to save the selected image.<br>
+            The image will be extracted from the project and saved into the 
+            specified folder.</p>
+          	</div>
+          	
+<div id=Info4 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Extract Icon<br>
+			</b>Click this button to access the Extract Icon tool.<br>
+            This tool can be used to extract icons from programs (EXE), dynamic 
+            link libraries (DLL), icon libraries (ICL) and any other file type 
+            that may contain icons.</p>
+          	</div>
+          	
+</body>
+
+</html>

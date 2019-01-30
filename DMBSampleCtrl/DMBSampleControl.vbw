@@ -1,0 +1,10 @@
+ucDMBSampleCtrl = 147, 142, 1094, 922, C, 330, 308, 758, 506, C
+modBevel = 157, 133, 1100, 933, C
+modImgHandling = 0, 0, 0, 0, C
+clsFlood = 152, 129, 1155, 935, C
+modColorSpaceFunctions = 152, 133, 1074, 933, C
+CtrlGlobals = 152, 129, 1008, 935, C
+modShort2Long = 153, 129, 924, 935, C
+modFileHandling = 157, 133, 604, 933, C
+modGlobals = 151, 133, 1109, 933, C
+DMBGlobals = 0, 0, 0, 0, C

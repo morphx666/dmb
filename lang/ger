@@ -1,0 +1,671 @@
+Deutsch
+Christian Hindsch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Live Vorschau
+Eigenschaften Befehle
+Untertitel
+Aktiviert
+Über
+Klick
+Doppel Klick
+Aktion
+Ziel Menü
+(nichts)
+Öffne URL / Skript Ausführen
+Zeige UnterMenü
+Öffne URL in neuem Fenster
+Status Text
+Ausrichtung
+Unten / Links
+Unten / Rechts
+Oben / Links
+Oben / Rechts
+Links / Oben
+Links / Unten
+Rechts / Oben
+Rechts / Unten
+Eigenschaften Gruppe
+URL / Skript
+&Datei
+&Neu
+&Öffnen...
+Letzte Dateien
+Speichern
+Speichern &unter...
+&Importieren...
+Projekt &Eigenschaften...
+Be&enden
+&Bearbeiten
+&Rückgängig
+&Wiederherstellen
+&Kopieren...
+&Einfügen...
+&Suchen...
+Weiter &Suchen
+E&rsetzen...
+Lö&schen
+Um&benennen
+Einstellungen...
+&Menü
+&Gruppe hinzufügen
+M&enüpunkt hinzufügen
+&Trennlinie hinzufügen
+Farbe...
+Schrift...
+Cursor...
+Bild...
+Seitenränder...
+Spezial Effekte...
+Ton...
+&Hilfsmittel
+&Vorschau...
+&Live Vorschau
+Standard Browser &festlegen...
+&Kompilieren
+
+&Publizieren...
+Loader Code Installieren...
+Frames Loader Code Installieren...
+&HotSpots Editor...
+&Toolbar Editor...
+&AddIn Editor...
+Zusammenfassung...
+&Hilfe
+&Inhalt...
+&Tutorial
+&Upgrade...
+xFX JumpStart Im Web
+&Über...
+Registrieren
+
+DHTML Menu Builder Kaufen...
+Normal
+Mouse Über
+Text Farbe
+Hintergrund Farbe
+Reset
+Vorher
+Auto
+OK
+Beenden
+
+Wechseln
+Links
+Rechts
+Mitte
+Pfeil (Standard)
+Fadenkreuz
+Hand
+Text
+Hilfe
+Linkes Bild
+Hintergrund Bild
+Rechtes Bild
+Löschen
+Gleiches
+Größe
+Toolbar Farben
+Hintergrund Bild
+Rand Breite
+
+
+Seitenränder Gruppe
+Vertikal
+Horizontal
+Farbe
+Schrift
+Bild
+Cursor
+Seitenränder
+Hervorgehobener Menupunkt Effekt
+Gruppen Spezial Effekte
+Horizontale Ränder
+Vertikale Ränder
+Schatten Farbe
+Transparenz
+Kontext Menü
+Manuell
+Berechnen
+
+Gruppen Größe
+AUS
+Dunkler
+Unsichtbar
+Spezial Effekte
+Zustand Einschalten
+Möchten Sie jetzt den Statustext aller Menüpunkte aktualisieren?
+Bearbeiten
+Ziel Frame
+ist geklickt
+Der Cursor ist drüber
+ist doppelt geklickt
+Zu öffnendes Dokument auswählen wenn
+Neue Fenster Parameter
+DHTML Menu Builder ist nun im DEBUG Modus.
+Wenn Sie eine Fehlermeldung (runtime error) während des Arbeitens mit DMB bekommen, senden Sie mir bitte einen Report inklusive
+der Fehlernummer und Beschreibung mit einer kleinen Beschreibung was Sie zu diesem Zeitpunkt gemacht haben
+Dies ist eine DEMO-Version von DHTML Menu Builder.
+Diese Option funktioniert nur in der Vollversion. Um ihre Menüs zu testen, benutzen Sie die Hilfsmittel->Vorschau Funktion.
+Das AddIn
+benötigt einige Einstellungen von Parametern bevor sie es benutzen können.
+Gehen Sie zu den %%LINE=378%% und benutzen Sie den Button Parameter Eigenschaften, unter der Registerkarte Optimierung, um die benötigten AddIn Einstellungen vorzunehmen.
+Diese Option funktioniert nur in der Vollversion.
+Wählen Sie ein Projekt zum Importieren
+Speichere Änderungen als
+Publiziere die Menüs auf dem lokalen Rechner ohne einen Web-Server zu gebrauchen
+Lokal
+Ferner Server
+Öffne Projekt
+DHTML Menu Builder Projekte
+DHTML Menu Builder kann die Datei nicht öffnen weil sie entweder das Nur-Lesen-Attribut besitzt, oder auf einem Medium gespeichert ist, auf welches sie keine Zugriffsrechte haben.
+Lade
+Dieses Projekt wurde mit einer älteren Version von DHTML Menu Builder erstellt.
+Informationen zum aktualisieren ihres Projektes finden Sie in der Hilfe.
+Das Projekt konnte nicht geöffnet werden da die Datei
+nicht existiert.
+Das Projekt konnte nicht geöffnet werden.
+Importiere
+Rückgängig
+Wiederherstellen
+Speichere Projekt
+Speichern
+Speichere Projekt als
+Gruppe
+Menüpunkt
+Trennlinie
+Das Löschen einer Gruppe löscht auch all ihre Menüpunkte, sind Sie sicher das Sie das wollen?
+Diese Gruppe kann nicht gelöscht werden da sie als Untermenü für eine andere Gruppe genutzt wird.
+Verschiebe
+Hoch
+Runter
+Ihr Projekt ist so konfiguriert eine Toolbar für Sie zu erstellen.
+Solange Sie keine zusätzlichen HotSpots auf ihrer Seite haben welche
+Sie als Auslöser für ihre Gruppen benutzen, ist der HotSpots Editor nicht nötig.
+Der HotSpots Editor kann die Datei nicht öffnen weil sie entweder das Nur-Lesen-Attribut besitzt, oder auf einem Medium gespeichert ist, auf welches sie keine Zugriffsrechte haben
+Standard Konfiguration
+Änderungen der Spracheinstellung werden beim nächsten Start von DHTML Menu Builder wirksam
+Lade System Schriftarten...
+Bitte warten, Initialisiere...
+Lade zuletzt gespeichertes Projekt...
+Initialisierung Komplett
+Ihr Projekt wurde erfolgreich wiederhergestellt.
+Bitte wählen Sie einen Ort zum speichern
+DHTML Menu Builder wurde nicht Ordnungsgemäß beendet und eine Backup Kopie ihrer Arbeit ist verfügbar.
+Möchten Sie es wiederherstellen?
+Menüpunkte müssen mit einem Buchstaben beginnen
+Kopieren/Verschieben
+Aktion
+Abstand
+Wählen sie die Eigenschaften zum kopieren von der Gruppe
+Wählen sie die Eigenschaften zum kopieren von der ausgewählten Trennlinie in der Gruppe
+Wählen sie die Eigenschaften zum kopieren von dem Menüpunkt
+Ausgewähltes Kopieren
+Ausgewähltes Einfügen
+Wählen Sie die Eigenschaften zum Einfügen
+In die Gruppe Einfügen
+In alle Gruppen Einfügen
+Einfügen in ausgewählte Trennlinie
+Einfügen in alle Trennlinien unter der
+Gruppe
+Einfügen in alle Trennlinien
+Einfügen in den Menüpunkt
+Einfügen in alle Menüpunkte unter der Gruppe
+Einfügen in alle Menüpunkte
+Die Zwischenablage beinhaltet keine Daten
+Homepage
+Support
+FAQ
+Öffentliches Forum
+News
+Projekt Standort
+Projekt Name
+%%LINE=231%%
+Entfaltungs-Sound
+Allgemein
+Konfigurationen
+Toolbar
+FTP
+Erweitert
+Lokaler Pfad zum Ursprungs Web
+Ordner zum speichern der kompilierten Dateien
+Ordner zum speichern der Bilder
+Lokale Konfiguration
+Web Server Ursprung
+Pfad zu den kompilierten Dateien
+Pfad zu den Bildern
+Beispiel
+Pfade
+HotSpots Editor
+Frames Unterstützung
+Optionen
+Hinzufügen...
+Bearbeiten...
+%%RESERVIERT%%
+Als Standard setzen
+Auto Füllen
+Importieren...
+
+Fertiges HTML Dokument
+Aktiviere Frames Unterstützung
+Frames Dokument
+HotSpots Frame
+Menüs Frame
+Erstelle Toolbar
+Wählen Sie die Gruppen für die Toolbar
+Aussehen
+Positionierung
+Toolbar Stil
+Rand
+Separation
+
+Hintergrund Farbe
+Hintergrund Bild
+Beispiel Toolbar
+Überspannen
+Abstand
+Pixels Horizontal
+Pixels Vertikal
+(auto)
+Seiten Größe
+Eigene Werte
+Folge den Scrollbars des Browser's
+FTP Server Adresse
+Login Anonym
+
+Benutze Proxy Server
+Benutzername
+Passwort
+Adresse
+Port
+Ferner-Server Konfiguration
+Projekt Eigenschaften
+Code Optimierung
+Kompilierte JavaScript Datei Name
+Menü Abstand
+[DEBUG] Keine Optimierung
+[FINAL] kleiner und schneller Code
+Ungültiger Server Name oder Protokoll
+Wähle Frameset Dokument
+Eines ihrer Frames benutzt den reservierten Namen
+Bevor sie ihr Menü auf diesem Frameset benutzen können, müssen Sie den Namen dieses Frames ändern
+Diese Datei scheint keine echtes Frames HTML Dokument zu sein
+Wählen Sie den Ordner zum speichern der Bilder ihres Projektes
+Wähle Ursprungs Web Ordner
+Wähle Sound Datei
+Ihr Projekt muss gespeichert werden bevor Sie die Einstellungen eines anderen Projektes importieren
+Wähle Projekt
+Bearbeite Konfiguration
+Diese Konfiguration kann nicht gelöscht werden da sie vom FTP Support benötigt wird
+Die Standard Konfiguration kann nicht gelöscht werden
+Diese Konfiguration kann nicht gelöscht werden da sie von der
+Konfiguration benötigt wird
+
+Standard
+Wählen Sie den Ordner in dem Sie ihre kompilierten Projekt Dateien speichern möchten
+Wähle HTML Dokument
+Die ausgewählte Datei ist kein echtes HTML Dokument
+HTML Dokumente
+Kein AddIn ausgewählt. Das Standard Skript wird benutzt.
+Ändere %%LINE=378%%
+Dieses Projekt benutzt
+AddIn wurde aber nicht gefunden
+Name
+Browser hinzufügen
+Anwendungen
+Geben Sie einen Namen für den Browser ein
+Sie müssen einen gültigen Menüpunkt wählen zum starten des Browsers
+Wählen Sie den hinzuzufügenden Browser
+Der AddIn Editor ist nur für fortgeschrittene User vorgesehen, mit angemessenen Kenntnissen in HTML, DHTML, Java Scripting, CSS und dem DOM für die neuesten Browser. Sind Sie sicher das Sie fortfahren möchten?
+Ja
+Nein
+Nicht mehr nachfragen
+Verfügbare Browser
+&Hinzufügen...
+Als &Standard setzen
+&Bearbeiten...
+&Löschen
+Schl&ießen
+Browser bearbeiten
+Aktualisieren
+Sprachpacket erstellt von:
+Breite
+Höhe
+Angehoben
+Eingeprägt
+Wählen Sie den vertikalen und horizontalen Abstand damit DHTML Menu Builder die Positionen ihres Menüs perfekt zu den jeweilig zugehörigen HotSpots ausrichtet
+Wählen Sie den vertikalen und horizontalen Abstand welcher für die Standard Position der Untermenüs zutrifft
+Allgemeine Optionen
+Öffne beim letzten Start von DMB benutztes Projekt
+Auto Wiederherstellung
+Zeige Logo beim Start von DMB
+
+Immer Kompilier Optionen zeigen
+Sprache
+Standard Formatierung
+Höhe Trennlinie
+Bild Raum
+Menüpunkte übernehmen ihren Stil von
+Übergeordneter Gruppe
+Ersten Menüpunkt in der selben Gruppe
+Gruppen übernehmen ihren Stil von
+Programm Standards
+Ersten Gruppe im Projekt
+Einstellungen
+Bidirektional
+Vertikal
+Horizontal
+Veränderlich
+(nichts)
+Ihre Version
+Anwendung
+Maschine
+Freigegeben
+Überprüfen
+Letzte Version
+DHTML Menu Builder Aktualisieren
+(Klicke den Überprüfen Button)
+(Bitte warten...)
+Sind Sie sicher das Sie den Download abbrechen wollen?
+Downloading... Bitte warten, das kann einige Minuten dauern
+Downloading
+Installieren
+Download
+Ihre Version braucht eine Aktualisierung
+Sie haben bereits die aktuellste verfügbare Version
+(Unbekannt)
+Nicht imstande, Informationen zu empfangen
+Ein Fehler ist während des Empfangs der Informationen aufgetreten
+Neues Fenster Parameter
+Position and Größe
+Ordner Buttons hinzufügen
+Spezifiziert ob Ordner Buttons hinzugefügt werden sollen
+Channel Modus
+Spezifiziert ob das Fenster im Theater Modus dargestellt werden soll und zeigt die Channel Bandbreite
+Zeige Toolbar
+Spezifiziert ob die Browser Toolbar dargestellt wird, macht Buttons wie Zurück, Vorwärts und Stop verfügbar
+Zeige im Vollbild
+Spezifiziert ob der Browser im Vollbild-Modus oder im normalen Fenster dargestellt wird
+Zeige Eingabefeld
+Spezifiziert ob das Eingabefeld zur direkten Eingabe von URLs im Browser dargestellt werden soll
+Zeige Menü Leiste
+Spezifiziert ob die Menü Leiste dargestellt wird
+Fenstergröße veränderbar
+Spezifiziert ob die Größenänderungs-Symbole an den Ecken des Fensters dargestellt werden
+Zeige Scrollleisten
+Spezifiziert ob horizontale und vertikale Scrollleisten dargestellt werden
+Zeige Status Leiste
+Spezifiziert ob eine Status Leiste unten am Fenster hinzugefügt wird
+Zeige Titel Leiste
+Spezifiziert ob eine Titel Leiste für das Fenster dargestellt wird
+Oben
+Zustände
+Wählen Sie von den Verfügbaren
+%%LEERE-LINIE%% Links immer leer für Grammatik Zwecke
+Filter
+Kaskade
+Wähle Alles
+Wähle Nichts
+Gruppen
+Menüpunkte
+Alle Eigenschaften
+Zurück
+Linie
+Fett
+Kursiv
+Unterstrichen
+Hintergrund
+Ereignis Aktionen
+Menü Ausrichtung
+Gruppen Breite
+Gruppen Höhe
+Sounds
+Bei Mouse Over
+Bei Klick
+Einfügen
+Optionen Einfügen
+Auswählen
+Alles
+Nichts
+Baum
+Erweitern
+Minimieren
+Alles Erweitern
+Alles Minimieren
+Beschreibungen...
+Bild
+Aus Datei...
+Wähle eine Bild Datei
+Exportiere als HTML...
+Wähle HTML Datei
+Status Text Update
+DHTML Menu Builder Debug Modus
+Sprache geändert
+Funktion Abgestellt
+Fehlende Parameter
+Änderungen sichern?
+Fehler beim öffnen des Projekts
+Fehler
+DEBUG MODUS
+Gruppe löschen?
+Löschung abgebrochen
+Sind Sie sicher?
+Fehler beim Öffnen der Datei
+Der HotSpots Editor benötigt Microsoft Internet Explorer Version 5.0 oder höher
+Fehler beim starten des HotSpots Editor
+Sie müssen ein gültiges HTML Dokument, welches ihre ganze Seite umfasst, auswählen.
+Öffnen Sie den %%LINE=378%% Dialog und beheben Sie das Problem bevor Sie den HotSpots Editor wieder starten.
+%%LINE=345%% fehlt
+Beim benutzen der Frames Unterstützung und das Menüframe ein anderes ist als das HotSpots Frame,%%CRLF%%die '%%LINE=345%%' in den %%LINE=378%% müssen auf die selbe Datei wie das 'Dokument mit den HotSpots' verweisen.
+Ungültige %%LINE=345%% Einstellungen
+Der HotSpots Editor konnte wegen eines unbekannten Fehlers nicht gestartet werden.
+Das Projekt konnte nicht kompiliert werden weil
+die Gruppe
+der Menüpunkt
+ein oder mehrere ungültige Zeichen beinhaltet
+die Klick Aktion des Menüpunkts
+die Über Aktion des Menüpunkts
+die Doppelklick Aktion des Menüpunkts
+die Klick Aktion der Gruppe
+die Über Aktion der Gruppe
+die Doppelklick Aktion der Gruppe
+ein oder mehrere ungültige Zeichen im Status Text Feld beinhaltet
+Fehler beim Kompilieren
+Das Projekt kann nicht kompiliert werden da ein oder mehrere Felder den selben Namen haben
+Konfiguration
+Sie müssen den Ziel Ordner für die kompilierten Dateien angeben.
+Möchten Sie das jetzt tun?
+Ziel Ordner fehlt
+Der Ordner zum Speichern der kompilierten Dateien, definiert in %%LINE=378%% , ist ungültig.
+Ungültiger Ziel Ordner
+Sie müssen den Ziel Ordner für die Bilder angeben.
+Ziel Ordner für die Bilder fehlt
+Der Ordner zum Speichern der Bilder, definiert in %%LINE=378%% , ist ungültig.
+Ungültiger Ziel Ordner für Bilder
+Sie müssen eine gültige Ziel Datei spezifizieren in welcher die Menüs ausgeführt werden. Dies ist das HTML-Dokument mit Ihren HotSpots.
+Ziel Datei fehlt oder ungültig
+Das Dokument welches die HotSpots beinhaltet muss ein gültiges HTML-Dokument innerhalb ihres Root Web sein.
+Ziel Datei ungültig
+Sie müssen ein gültiges HTML-Dokument angeben, welches ihre ganze Seite umfasst.
+Fehlende oder ungültige Datei
+Der Ziel Ordner muss ein Ordner innerhalb des Root Web sein.
+Wollen Sie dieses Problem jetzt beheben?
+Der '%%LINE=326%%' Parameter in der
+Konfiguration ist ungültig
+Ungültige Konfigurations Parameter
+Der '%%LINE=330%%' Parameter in der
+Der '%%LINE=369%%' Parameter der FTP Sektion in den %%LINE=378%% ist ungültig
+ist durch das Ereignis als Kaskaden-Befehl
+definiert, verweist aber auf eine ungültige Menü Gruppe
+Ungültige Ziel Gruppe
+Dieses AddIn wiederherstellen oder aus dem Projekt entfernen
+AddIn nicht gefunden
+aber es kann nicht kompiliert werden da%%CRLF%%es beschädigt oder von einer älteren Version des DHTML Menu Builder ist
+Ungültiges AddIn
+Wiederherstellung erfolgreich
+Nicht Ordnungsgemäß Beendet
+Die Daten im Clipboard sind von einem anderem Objekt-Typ
+Ungültige Clipboard Daten
+Finden
+Ersetzen
+Feld
+Nur ganzes Wort finden
+Match Case
+Nur erlaubte Items
+Alles &Ersetzen
+Ersetzen Operation
+Style
+Pixel
+&Öffne letztes Projekt beim Start
+Weiter
+Analysiere
+Ein unbekannter Fehler ist beim Erstellen der HotSpots aufgetreten
+Der ausgewählte HotSpot ist ein Bild ohne Name.
+Für die Ordnung der Gruppe
+zur auto-anordnung der gewählten Bilder,
+müssen die Bilder einen Namen haben.
+Hotspot ist nicht richtig eingerichtet
+Der gewählte Hotspot ist ein Bild mit dem selben Namen wie die gewählte Gruppe
+Jedes Element Ihrer Seite muss einen eigenen Namen haben. Benennen Sie die Gruppe oder%%CRLF%%das Bild um, ansonsten wird die Gruppe nicht funktionsfähig sein.
+Der Kontakt zum Internet Explorer ist unterbrochen.%%CRLF%%Ihr Dokument kann nicht geladen werden oder ist kein gültiges HTML Dokument.%%CRLF%%%%CRLF%%Bitte schließen Sie den HotSpots Editor, kontrollieren Sie ob ihre Projekt Eigenschaften%%CRLF%%korrekt konfiguriert sind und öffnen Sie ihn wieder.
+Sind Sie sicher das Sie den HotSpots Editor ohne speichern der Änderungen schließen möchten?
+Warnung
+
+
+Anfrage für Live Meeting
+Anfrage für Live Produkt Demonstration
+Dieses Programm ist lizenziert für:
+Füllen Sie die Felder unten mit den Informationen der Kauf-Quittung aus. Bitte versichern Sie sich das Sie die Informationen exakt, wie auf der Quittung angegeben, eingeben.
+Bestell Nummer
+Benutzername
+Firma
+Bestätigen
+Privacy Informationen
+Die '%%LINE=635%%' und '%%LINE=636%%' Felder werden für den Start des Überprüfungsvorgangs benötigt.
+Ungültige Registrierungsdaten
+Ihre Daten wurden erfolgreich verifiziert.%%CRLF%%Klicken Sie auf den %%LINE=176%% Button um Ihre Kopie von DHTML Menu Builder auf die registrierte Vollversion erweitern.
+Registrierungsnachweis erfolgreich abgeschlossen!
+Versichern Sie sich ob Sie die Daten exakt, wie in Ihrer Bestell-Bestätigung angegeben, eingegeben haben.%%CRLF%%%%CRLF%%Falls Sie DHTML Menu Builder grade erst erworben haben versuchen Sie es bitte in einigen Minuten nocheinmal.%%CRLF%%%%CRLF%%Ein anderer, möglicher Fehler mag sein, das Sie nicht die aktuellste Version des DHTML Menu Builder benutzen. Zur Überprüfung das Sie die aktuellste verfügbare Version haben, wählen Sie Hilfe->Upgrade im Hauptmenü.
+Ungültige Registrierungsdaten
+
+Registrierungs Hilfe
+Der Server hat die Registrierungsdaten nicht akzeptiert
+Der Grund den der Server berichtet ist:
+Zusätzliche Informationen:
+Die %%LINE=635%% ist ungültig
+DHTML Menu Builder kann keine Verbindung zum Server herstellen um die Gültigkeit der Daten zu überprüfen.%%CRLF%%Vergewissern Sie sich bitte das Sie mit dem Internet verbunden sind bevor Sie versuchen den Verifizierungs-Prozess starten.
+Verbindung zum Server nicht möglich
+Sind Sie sicher das Sie den Registrierungs Dialog ohne sich zu registrieren schließen möchten?
+Feld nach oben verschieben
+Feld nach unten verschieben
+Vorschau benutzen
+Intern
+Fehler beim Anzeigen des Hilfe Projektors
+Fehler beim Installieren des Loader Codes
+Fehler beim Löschen des bestehenden Loader Codes
+Fehler beim Importieren des Projekts
+Auf Update Überprüfen
+Kritischer Fehler
+Fehler beim Laden der Parameter
+Fehler beim Speichern der Parameter
+Ränder
+Menüpunkte Layout
+Linien Farbe
+Doppelt
+Schrägkante

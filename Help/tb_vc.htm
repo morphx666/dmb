@@ -1,0 +1,145 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Toolbars' Visibility Condition</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+<!--
+DIV.Section1 {
+	page: Section1
+}
+-->
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+    &nbsp;Toolbars' Visibility Condition</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+			Under some situations you may want to be able to display or hide a 
+            toolbar. For example, you could create a project with two toolbars: 
+            one which is always visible and the other that its only displayed 
+            under a specific section of your web site.<p>The toolbars' visibility is controlled through the state of 
+            a condition known as 
+            the &quot;Visibility Condition&quot;.<br>
+            To access this parameter, click Tools-&gt;Toolbars Editor-&gt;Advanced</p>
+            <p>The condition must be defined by the body of a function that, 
+            when evaluated, must return either true (visible) or false (hidden).</p>
+            <p>So, for example, if you add this code to the Visibility Condition 
+            of a toolbar:</p>
+            <blockquote>
+              <p><font face="Courier New">return 
+              document.title.indexOf(&quot;Customers&quot;)!=-1;</font></p>
+            </blockquote>
+            <p>The toolbar will remain hidden unless the title of the document 
+            being displayed contains the &quot;Customers&quot; string in its title.<br>
+            If you need to match the exact title of an HTML document to 
+            determine the visibility state of a toolbar you could use this code:</p>
+            <blockquote>
+            <p><font face="Courier New">return 
+              document.title == &quot;Ink Cartridges - Color&quot;;</font></p>
+            </blockquote>
+            <p>In this case, the toolbar will remain hidden unless the title of 
+            an HTML document exactly matches the &quot;Ink Cartridges - Color&quot; 
+            string.</p>
+            <p>These are just some basic examples that take advantage of the 
+            page title to determine the visibility state of a toolbar... but you 
+            could be a lot more creative and use some more complex conditions.<br>
+            For example, you could create a condition that depends on some other 
+            javascript variable in your page, or perhaps a condition that 
+            depends on the actual time or date.<br>
+            The possibilities are just endless...</p>
+            <p><b>Modifying the Visibility Condition programmatically</b></p>
+            <p>The state of a toolbar can also be changed by directly accessing 
+            the variable that controls their visibility by adding some code into 
+            an HTML document.<br>
+            For example, this code will turn the toolbar number 1 off:</p>
+            <blockquote>
+              <p align="left"><font face="Courier New">&lt;script 
+              language=&quot;JavaScript&quot;&gt;<br>
+              &nbsp;&nbsp;&nbsp; tbVisC[1] = new Function(&quot;return false&quot;);<br>
+              &nbsp;&nbsp;&nbsp; SetupToolbar();<br>
+              &lt;/script&gt;</font></p>
+            </blockquote>
+            <p>The first line of code defines the body of a simple function that 
+            returns a false value setting the visibility state for the toolbar 
+            number 1 to be hidden.<br>
+            The second line of code causes a refresh in all the toolbars by 
+            re-evaluating all their parameters. If the second line is omitted 
+            the visibility state will not change.</p>
+            <p><b>Creating a blinking effect</b></p>
+            <p>Although it may not be a useful thing to have a toolbar blink it 
+            demonstrates the power and versatility of this new feature in DHTML 
+            Menu Builder 4.1 (and above)<br>
+            Here's the code used in the Visibility Condition of the toolbar:</p>
+            <blockquote>
+              <p><font face="Courier New">var m=new Date().getMilliseconds(); 
+              if(!SM)window.setTimeout(&quot;SetupToolbar()&quot;, 100); return (m&lt;800);</font></p>
+            </blockquote>
+            <p>First of all, notice that the code must always be contained in a 
+            single line and must always return either true or false.<br>
+            So, let's analyze the code, piece by piece:</p>
+            <blockquote>
+              <p><font face="Courier New">var m=new Date().getMilliseconds();</font></p>
+            </blockquote>
+            <p>The first piece of code queries the system and retrieves the 
+            current time, but only the milliseconds. The result is stored in the 
+            variable 'm'.<br>
+            The second section of the code:</p>
+            <blockquote>
+              <p><font face="Courier New">if(!SM)window.setTimeout(&quot;SetupToolbar()&quot;, 
+              100); </font></p>
+            </blockquote>
+            <p>This code setups a timer so the SetupToolbar() function is called again. 
+            This will force the code to keep re-evaluating our condition until 
+            the page is unloaded. Notice that this timer is only required on 
+            Internet Explorer; this is why we use the &quot;if(!SM)&quot; condition, which 
+            means: &quot;...if its not a mozilla-based browser, then...&quot;.<br>
+            And finally, the third piece of code:</p>
+            <blockquote>
+              <p><font face="Courier New">return (m&lt;800);</font></p>
+            </blockquote>
+            <p>...is the return statement.<br>
+            In this statement we're comparing the value in the variable 'm' with 
+            the number 800. If the value in 'm' is less than 800 the function 
+            will return true, otherwise it will return false.</p>
+            <p>This causes the function to return true for about 800 
+            milliseconds and false for about 200. This will cause the toolbar to 
+            remain invisible (hidden) for about 200 milliseconds per every 
+            second.<br>
+&nbsp;<table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+					<tr>
+						<td width="100%">Related topics of interest:
+						<ul>
+							<li><a href="share_projects.htm">Secondary Projects 
+                            Support</a></li>
+                            <li>
+                            <a href="http://software.xfx.net/utilities/dmbuilder/content/tipstricks/multimenus.php">
+                            Online Tutorial for implementing multiple menus</a></li>
+						</ul>
+						</td>
+					</tr>
+				</table>
+				</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+</body>
+
+</html>

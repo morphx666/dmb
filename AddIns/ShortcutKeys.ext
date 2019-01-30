@@ -1,0 +1,1377 @@
+To define a shortcut key, enclose the letter in caption with the <u></u> tags.
+For example, if you caption is Home and you want this link to become active by pressing ALT+M then type the caption like this:
+Ho<u>m</u>e
+***
+%%COPYRIGHT
+	
+	var nTCode = [];
+	var AnimStep = 0;
+	var AnimHnd = 0;
+	var NSDelay = 0;
+	var MenusReady = false;
+	var smHnd = 0;
+	var mhdHnd = 0;
+	var lsc = null;
+	var imgObj = null;
+	var IsContext = false;
+	var IsFrames = false;
+%%DXFILTER
+%%TIMERS
+%%CONTEXTMENU
+%%FORMSTWEAK
+%%DWSUPPORT01
+%%BLINKFX
+	
+	var nsOWH;
+	
+	var mFrame;
+	var cFrame = self;
+	
+	var om = [];
+	var nOM = 0;
+	
+	var mX;
+	var mY;
+	
+	var sKeys = [];
+	
+%%BROWSERDETECTION
+	var IX=(IE&&IsWin&&!SM&&!OP&&(BV>=5.5)&&(dxFilter!=null)&&(nua.indexOf('CE')==-1));
+	
+	if(!eval(frames['self'])) {
+	frames.self = window;
+	frames.top = top;
+	}
+	
+%%TOOLBARVARS
+%%IRSUPPORT01
+%%DWSUPPORT04
+%%FX
+%%STYLECODE
+%%TOOLBARSTYLE
+
+	function GetCurCmd(e)0/ {
+		//IE,SM,OP
+		//This function will return the current command under the mouse pointer.
+		//It will return null if the mouse is not over any command.
+		//------------------------------
+		//Version 1.5
+		//
+		var cc = e;
+		while(cc.id=="") {
+			cc = cc.parentElement;
+			if(cc==null) break;
+		}
+		return cc;
+	}
+
+	function HoverSel(mode, e)0/ {
+		//IE,SM,OP
+		//This is the function called every time the mouse pointer is moved over a command.
+		//------------------------------
+		//mode: 0 if the mouse is moving over the command and 1 if is moving away.
+		//imgLName: Name of the left image object, if any.
+		//imgRName: Name of the right image object, if any.
+		//------------------------------
+		//Version 15.0
+		//
+		var mc;
+		var lc;
+		
+		%%BLINKDIS
+		if(nOM==0) return false;
+		ClearTimer("smHnd");
+		
+		if((om[1].pHS != lmcHS) && om[1].pHS) {
+			if(lmcHS) hsHoverSel(1,0,1);
+			lmcHS = om[1].pHS;
+			SwapMC(mode, om[1].pHS);
+		}
+		
+		if(mode==0) {
+			if(om[nOM].sc!=null) HoverSel(1);
+			if(nOM>1)
+				if(om[nOM-1].sc!=null) {
+					om[nOM-1].ssc = om[nOM-1].sc;
+					SwapMC(1, om[nOM-1].sc);
+				}
+			mc = GetCurCmd(e);
+			if(scDelay) {
+				if(!mc.onmouseout) mc.onmouseout = new Function("if(nOM)om[nOM].hsm = window.setTimeout(\"HideSubMenus('"+mc.id+"')\", scDelay)");
+				for(var i=1; i<=nOM; i++) ClearTimer("om["+i+"].hsm");
+			} else
+				HideSubMenus(mc.id);
+			om[nOM].sc = mc;
+			if(nOM>1) if(om[nOM-1].id != gpid(mc)) SwapMC(0, om[nOM-1].ssc);
+			FixCursor(mc);
+		} else {
+			mc = (mode==1)?om[nOM].sc:om[nOM].op;
+			%%AUTOSELP1
+			om[nOM].sc = null;
+		}
+		
+		SwapMC(mode, mc);
+		
+		return true;
+	}
+
+	function HideSubMenus(id)0/ {
+		//IE,SM,OP,KQ
+		//This function handles the submenus visibility
+		//------------------------------
+		//Version 1.0
+		//
+		var mc = GetObj(id);
+		if(nOM>1) {
+			if(mc==om[nOM-1].sc) return false;
+			while(true) {
+				if(!nOM) return false;
+				if(gpid(mc)==om[nOM].id) break;
+				Hide();
+			}
+			if(nOM && scDelay) mc.onmouseover();
+		}
+	}
+
+	function SwapMC(mode, mc)0/ {
+		//IE,SM,OP,KQ
+		//This is the function swaps the normal/over items to create the rollover effect.
+		//------------------------------
+		//mode: 0 if the mouse is moving over the command and 1 if is moving away.
+		//mc: reference to the item that must be swapped.
+		//------------------------------
+		//Version 1.0
+		//
+		var id = mc.id.substr(1);
+		var n1 = GetObj((mode!=0?"O":"N") + id);
+		n1.style.visibility = "hidden";
+		var n2 = GetObj((mode==0?"O":"N") + id);
+		n2.style.visibility = "inherit";	
+		if(mode==0 && !n1.c) {
+			n1.c = true;
+			n1 = (BV<5?n1.all.tags("DIV"):n1.getElementsByTagName("DIV"))[0];
+			if(n1) (BV<5?n2.all.tags("DIV"):n2.getElementsByTagName("DIV"))[0].innerHTML = n1.innerHTML;
+		}
+	}
+
+	function NSHoverSel(mode, mc)0/ {
+		//NS
+		//This is the function called every time the mouse pointer is moved over or away from a command.
+		//------------------------------
+		//mode: 0 if the mouse is moving over the command and 1 if is moving away.
+		//mc: Name of the layer that corresponds to the selected command.
+		//n: Unique ID that identifies this command. Used to retrieve the data from the nLayer or hLayer array.
+		//bcolor: Background color of the command. Ignored if the group uses a background image.
+		//w: Width of the command's layer.
+		//h: Height of the command's layer.
+		//------------------------------
+		//Version 11.2
+		//
+		var mcN;
+		var mn;
+		
+		ClearTimer("smHnd");
+		if(!nOM) return false;
+		
+		if(mode==0 && om[nOM].sc!=null) NSHoverSel(1);
+		
+		if(mode==0) {
+			mn = mc.name.substr(0, mc.name.indexOf("EH"));
+			mcN = mc.parentLayer.layers[mn + "N"];
+			mcN.mcO = mc.parentLayer.layers[mn + "O"];
+			if(nOM>1) if(mc==om[nOM-1].sc) return false;
+			while(!InMenu()&&nOM>1) Hide();
+			om[nOM].sc = mcN;
+			mcN.mcO.visibility = "show";
+			mcN.visibility = "hide";
+		} else {
+			mcN = (mode==1)?om[nOM].sc:om[nOM].op;
+			mcN.visibility = "show";
+			mcN.mcO.visibility = "hide";						
+			om[nOM].sc = null;
+		}
+		return true;
+	}
+
+	function Hide(chk)0/ {
+		//IE,NS,SM,OP
+		//This function hides the last opened group and it keeps hiding all the groups until
+		//no more groups are opened or the mouse is over one of them.
+		//Also takes care of reseting any highlighted commands.
+		//------------------------------
+		//Version 4.1
+		//
+		var m;
+		var cl = false;
+		
+		ClearTimer("mhdHnd");
+		ClearTimer("AnimHnd");
+		if(chk)	if(InMenu()) return false;
+		
+		if(nOM) {
+			m = om[nOM];
+			if(m.sc!=null) {
+				if(IE) HoverSel(1);
+				if(NS) NSHoverSel(1);
+			}
+			if(m.op!=null) {
+				if(IE) HoverSel(3);
+				if(NS) NSHoverSel(3);
+			}
+			%%IRSUPPORT02
+			ToggleMenu(m, "hidden");
+			ClearTimer("om[nOM].hsm");
+			nOM--;
+			cl = (nOM==0);
+			if(cl) imgObj = null;
+			%%DWSUPPORT02
+		}
+		
+		if(cl||chk) {
+			ClearTimer("smHnd");
+			if(tbNum && lmcHS)
+				if(!lmcHS.disable) {
+					if(IE) hsHoverSel(1);
+					if(NS) hsNSHoverSel(1);
+				}
+			window.setTimeout("if(!lmcHS)window.status=''", TimerHideDelay);
+		}
+		if((nOM>0||lmcHS)&&!InSelMenu()) mhdHnd = window.setTimeout("Hide(1)", TimerHideDelay/20);
+		
+		return true;
+	}
+
+	function ToggleMenu(m, s)0/ {
+		//IE,NS,SM,OP,KQ
+		//This function controls how the menus are displayed
+		//and hidden from the screen.
+		//------------------------------
+		//Version 1.2
+		//
+		if(IX)
+			if(document.readyState=="complete" && m.getAttribute("filters")!=null) {
+				if(!m.fs) {
+					m.fsn = m.filters.length;
+					m.style.filter = dxFilter + m.style.filter;
+					m.fs = true;
+				}
+				for(var i=0; i<m.filters.length - m.fsn; i++) {
+					m.filters[i].apply();
+					m.style.visibility = s;
+					m.filters[i].play();
+				}
+			}
+		m.style.visibility = s;
+		if(s=="hidden"&&!IX&&!NS) m.style.left = m.style.top = "0px";
+		FormsTweak(s=="visible"?"hidden":"visible");
+	}
+
+	function ShowMenu(mName, x, y, isc, hsimg, algn)0/ {
+		//IE,NS,SM,OP
+		//This is the main function to show the menus when a hotspot is triggered or a cascading command is activated.
+		//------------------------------
+		//mName: Name of the <div> or <layer> to be shown.
+		//x: Left position of the menu.
+		//y: Top position of the menu.
+		//isCascading: True if the menu has been triggered from a command, and not from a hotspot.
+		//------------------------------
+		//Version 15.0
+		//
+		if(!algn) algn = 0;
+		var f = ["ShowMenu2('"+mName+"',"+x+","+y+","+isc+",'"+hsimg+"',"+algn+")"];
+		%%BLINKDIS
+		ClearTimer("smHnd");
+		if(isc) {
+			if(nOM==0) return false;
+			lsc = om[nOM].sc;
+			f[1] = "if(nOM)if(lsc==om[nOM].sc)";
+			f[2] = smDelay;
+		} else {
+			if(nOM>0) if(om[1].id == mName) return false;
+			ClearTimer("mhdHnd");
+			if(algn<0 && !lmcHS) return false;
+			f[1] = "HideAll(1);";
+			f[2] = mDelay();
+		}
+		smHnd = window.setTimeout(f[1]+f[0], f[2]);
+		return true;
+	}
+
+	function ShowMenu2(mName, x, y, isc, hsimg, algn)0/ {
+		//IE,NS,SM,OP
+		//This is the main function to show the menus when a hotspot is triggered or a cascading command is activated.
+		//------------------------------
+		//mName: Name of the <div> or <layer> to be shown.
+		//x: Left position of the menu.
+		//y: Top position of the menu.
+		//isCascading: True if the menu has been triggered from a command.
+		//hsImgName: Image to which the menu is attached to.
+		//algn: Alignment setting for the menu.
+		//------------------------------
+		//Version 20.0
+		//
+		var xy;
+		x = parseInt(x);y = parseInt(y);
+		
+		var Menu = GetObj(mName);
+		if(!Menu) return false;
+		
+		if(Menu==om[nOM]) return false;
+		if(NS) Menu.style = Menu;
+			
+		if(AnimHnd && nOM>0) {
+			AnimStep=100;
+			Animate();
+		}
+		
+		Menu.op = nOM>0?om[nOM].sc:null;
+		Menu.sc = null;
+		
+		imgObj = null;
+		if(isc) {
+			if(!NS) HideSubMenus(om[nOM].sc.id);
+			xy = GetSubMenuPos(Menu, algn);
+			%%SUBMENUSOFFSET
+			%%SCROLLOFFSET
+		} else {
+			Menu.pHS = lmcHS;
+			xy = (algn<0?GetHSPos(x, y, NS?Menu.w:Menu.offsetWidth, NS?Menu.h:Menu.offsetHeight, -algn):[x,y]);
+			if(hsimg) {
+				var hss = hsimg.split("|");
+				imgObj = NS?FindImage(cFrame.document, hss[0]):cFrame.document.images[hss[0]];
+				if(imgObj) {
+					if(hss[1]&2) xy[0] = AutoPos(Menu, imgObj, algn)[0] + (IsFrames?GetLeftTop()[0]:0) + MacOffset()[0];
+					if(hss[1]&1) xy[1] = AutoPos(Menu, imgObj, algn)[1] + (IsFrames?GetLeftTop()[1]:0) + MacOffset()[1];
+				}
+			}
+			%%MENUSOFFSET
+		}
+		
+		if(xy) {x = xy[0];y = xy[1];}
+		var pWH = [GetWidthHeight()[0] + GetLeftTop()[0], GetWidthHeight()[1] + GetLeftTop()[1]];
+			
+		%%AUTOSCROLL
+		
+		if(IE)
+			with(Menu.style) {
+				if(SM) display = "none";
+				left = FixPos(x,parseInt(width),pWH[0],0) + "px";
+				top = FixPos(y,parseInt(height),pWH[1],1) + "px";
+				if(!IX&&!SM&&IsWin) clip = "rect(0 0 0 0)";
+			}
+		if(NS) {
+			%%NS4CLIPBUG
+			Menu.moveToAbsolute(FixPos(x,Menu.w,pWH[0]),FixPos(y,Menu.h,pWH[1]));
+		}
+		Menu.style.zIndex = 1000+tbNum+nOM;
+		om[++nOM] = Menu;
+		
+		if(!NS) FixCommands(mName);
+		if(SM) Menu.style.display = "inline";
+		
+		if(!IX) {
+			if((IE&&IsWin&&!SM)||(NS&&Menu.style.clip.width==0))
+				AnimHnd = window.setTimeout("Animate()", 10);
+		}
+		ToggleMenu(Menu, "visible");
+		IsContext = false;
+		smHnd = 0;
+		
+		return true;
+	}
+
+	function mDelay()0/ {
+		//IE,NS,SM,OP,KQ
+		//This function calculates the amount of delay to be applied to root level menus
+		//------------------------------
+		//Version 1.0
+		//
+		return rmDelay/(nOM==0&&scDelay>0?4:1);
+	}
+
+	function MacOffset(f)0/ {
+		//IE
+		//This function calculates the margins for the body under IE/Mac.
+		//------------------------------
+		//Version 1.0
+		//
+		var mo = [0,0];
+		if(!f) f = mFrame;
+		if(IsMac&&IE&&!SM&&!KQ&&(BV>=5))
+			mo = [parseInt(f.document.body.leftMargin),parseInt(f.document.body.topMargin)];
+		return mo;
+	}
+
+	function GetSubMenuPos(mg, a)0/ {
+		//IE,NS,SM,OP
+		//This function calculates the position of a submenu based on its alignment.
+		//------------------------------
+		//Version 1.0
+		//
+		var x;
+		var y;
+		var pg = om[nOM];
+		var sc = (NS?pg.sc:GetObj("O" + pg.sc.id.substr(1)));
+		
+		if(NS) {
+			pg.offsetLeft = pg.left;
+			pg.offsetTop = pg.top;
+			pg.offsetWidth = pg.w;
+			pg.offsetHeight = pg.h;
+			mg.offsetWidth = mg.w;
+			mg.offsetHeight = mg.h;
+			sc.offsetLeft = sc.left;
+			sc.offsetTop = sc.top;
+			sc.offsetWidth = sc.clip.width;
+			sc.offsetHeight = sc.clip.height;
+		}
+		var lp = pg.offsetLeft + sc.offsetLeft;
+		var tp = pg.offsetTop + sc.offsetTop;
+		
+		switch(a) {
+			case 0:
+				x = lp;
+				y = tp + sc.offsetHeight;
+				break;
+			case 1:
+				x = lp + sc.offsetWidth - mg.offsetWidth;
+				y = tp + sc.offsetHeight;
+				break;
+			case 2:
+				x = lp;
+				y = tp - mg.offsetHeight;
+				break;
+			case 3:
+				x = lp + sc.offsetWidth - mg.offsetWidth;
+				y = tp - mg.offsetHeight;
+				break;
+			case 4:
+				x = lp - mg.offsetWidth;
+				y = tp;
+				break;
+			case 5:
+				x = lp - mg.offsetWidth;
+				y = tp + sc.offsetHeight - mg.offsetHeight;
+				break;
+			case 6:
+				x = lp + sc.offsetWidth;
+				y = tp;
+				break;
+			case 7:
+				x = lp + sc.offsetWidth;
+				y = tp + sc.offsetHeight - mg.offsetHeight;
+				break;
+			case 8:
+				x = lp - mg.offsetWidth;
+				y = tp + (sc.offsetHeight - mg.offsetHeight)/2;
+				break;
+			case 9:
+				x = lp + sc.offsetWidth;
+				y = tp + (sc.offsetHeight - mg.offsetHeight)/2;
+				break;
+			case 10:
+				x = lp + (sc.offsetWidth - mg.offsetWidth)/2;
+				y = tp - mg.offsetHeight;
+				break;
+			case 11:
+				x = lp + (sc.offsetWidth - mg.offsetWidth)/2;
+				y = tp + sc.offsetHeight;
+				break;
+		}
+		return [x,y];
+	}
+
+	function FixCommands(mName, t)0/ {
+		//SM
+		//This function is used to fix the way the Gecko engine calculates
+		//the borders and the way they affect the size of divs
+		//------------------------------
+		//Version 1.5
+		//
+		var en = true;
+		var m = GetObj(mName);
+		if(!m.fixed) {
+			m.fixed = true;
+			if(!t) t = 0;
+			if(IE&&(!SM||OP)) en = (document.compatMode=="CSS1Compat");
+			if(en && t>0 && (!SM || OP)) {
+				b = GetBorderSize(tbS[t]);
+				tbS[t].width = Math.abs(parseInt(tbS[t].width) - b[0]) + "px";
+				tbS[t].height = Math.abs(parseInt(tbS[t].height) - b[1]) + "px";
+			}
+			var sd = (BV<5?m.all.tags("DIV"):m.getElementsByTagName("DIV"));
+			for(var i=0;i<(sd.length);(t>0?i+=2:i++)) {
+				sd[i].noWrap = true;
+				if(en)
+					with(sd[i].style) {
+						b = GetBorderSize(sd[i].style);
+						if(parseInt(width) && parseInt(height)) {
+							width = parseInt(width) - b[0] + "px";
+							height = parseInt(height) - b[1] + "px";
+						}
+					}
+			}
+		}
+	}
+
+	function Animate()0/ {
+		//IE,NS
+		//This function is called by ShowMenu every time a new group must be displayed and produces the predefined unfolding effect.
+		//Currently is disabled for Navigator, because of some weird bugs we found with the clip property of the layers.
+		//------------------------------
+		//Version 1.9
+		//
+		var r = '';
+		var nw = nh = 0;
+		if(AnimStep+AnimSpeed>100) AnimStep = 100;
+		switch(fx) {
+			case 1:
+				if(IE) r = "0 " + AnimStep + "% " + AnimStep + "% 0";
+				if(NS) nw = AnimStep; nh = AnimStep;
+				break;
+			case 2:
+				if(IE) r = "0 100% " + AnimStep + "% 0";
+				if(NS) nw = 100; nh = AnimStep;
+				break;
+			case 3:
+				if(IE) r = "0 " + AnimStep + "% 100% 0";
+				if(NS) nw = AnimStep; nh = 100;
+				break;
+			case 0:
+				if(IE) r = "0 100% 100% 0";
+				if(NS) nw = 100; nh = 100;
+				break;
+		}
+		if(om[nOM]) {
+			with(om[nOM].style) {
+				if(IE)
+					clip = "rect(" + r + ")";
+				if(NS) {
+					clip.width = w*(nw/100);
+					clip.height = h*(nh/100);
+				}
+			}
+			AnimStep += AnimSpeed;
+			if(AnimStep<=100)
+				AnimHnd = window.setTimeout("Animate()",25);
+			else {
+				ClearTimer("AnimHnd");
+				AnimStep = 0;
+				AnimHnd = 0;
+			}
+		}
+	}
+
+	function InTBHotSpot()0/ {
+		//IE,NS,SM,OP
+		//This function returns true if the mouse pointer is over a toolbar item.
+		//------------------------------
+		//Version 1.0
+		//
+		var m = (imgObj?imgObj:lmcHS);
+		var tp = [0, 0];
+		var tbb;
+		if(!m) return false;
+		if(imgObj)
+			if(imgObj.name.indexOf("dmbHSdyna")!=-1) {
+				imgObj = null;
+				return false;
+			}	
+		var x = mX;
+		var y = mY;
+		if(!imgObj) {
+			if(IE) {
+				if(BV<5&&!IsMac) m.parentNode = m.parentElement;
+			} else
+				m.parentNode = m.parentLayer;
+			tp = getTBPos(m.parentNode.id.substr(5));
+			if(IE) m = m.style;
+		} else {
+			m.left = GetImgXY(imgObj)[0];
+			m.top = GetImgXY(imgObj)[1];
+			if(NS) m.clip = m;
+		}
+		var l = parseInt(m.left) + tp[0];
+		var r = l+(IE?parseInt(m.width):m.clip.width);
+		var t = parseInt(m.top) + tp[1];
+		var b = t+(IE?parseInt(m.height):m.clip.height);
+		
+		if(IsFrames&&!NS) {
+			x -= GetLeftTop()[0];
+			y -= GetLeftTop()[1];
+		}
+		return ((x>=l && x<=r) && (y>=t && y<=b));
+	}
+
+	function InMenu()0/ {
+		//IE,NS,SM,OP
+		//This function returns true if the mouse pointer is over the last opened menu.
+		//------------------------------
+		//Version 1.8
+		//
+		var m = om[nOM];
+		if(!m)
+			return false;
+		else
+			if(IE) m = m.style;
+		var l = parseInt(m.left);
+		var r = l+(IE?parseInt(m.width):m.clip.width);
+		var t = parseInt(m.top);
+		var b = t+(IE?parseInt(m.height):m.clip.height);
+		return ((mX>=l && mX<=r) && (mY>=t && mY<=b));
+	}
+
+	function SetPointerPos(e)0/ {
+		//IE,NS,SM,OP
+		//This function sets the mX and mY variables with the current position of the mouse pointer.
+		//------------------------------
+		//e: Only used under Navigator, corresponds to the Event object.
+		//------------------------------
+		//Version 1.6
+		//
+		if(IE) {
+			if(!SM) {
+				if(mFrame!=cFrame||event==null) {
+					var cfe = cFrame.window.event;
+					var mfe = mFrame.window.event;
+					if(IE&&IsMac) cfe = (cfe.type=="mousemove"?cfe:null);
+					if(IE&&IsMac) mfe = (mfe.type=="mousemove"?mfe:null);
+					if(mfe==null && cfe==null) return;
+					e = (cfe?cfe:mfe);
+				} else
+					e = event;
+			}
+			mX = e.clientX + lt[0];
+			mY = e.clientY + lt[1];
+			if(!KQ) {
+				ClearTimer("cFrame.iefwh");
+				cFrame.iefwh = window.setTimeout("lt=GetLeftTop()", 100);
+			}
+		}
+		if(NS) {
+			mX = e.pageX;
+			mY = e.pageY;
+		}
+	}
+
+	function InSelMenu()0/ {
+		//IE,NS,SM,OP,KQ
+		//This function checks if the mouse pointer is on over the selected menu.
+		//------------------------------
+		//Version 1.1
+		//
+		var nOMb = nOM--;
+		for(; nOM>0; nOM--)
+			if(om[nOM].sc!=null) break;
+		var im = InMenu();
+		nOM = nOMb;
+		return im || InMenu();
+	}
+
+	function IsOverMenus()0/ {
+		//IE,NS,SM,OP,KQ
+		//This function checks if the mouse pointer is on over any part of the menus.
+		//------------------------------
+		//Version 1.0
+		//
+		return (lmcHS||imgObj?InTBHotSpot():(nOM==1?!(om[nOM].sc!=null):false))||(nOM>0?InSelMenu():false);
+	}
+
+	function HideMenus(e)0/ {
+		//IE,NS,SM,OP
+		//This function checks if the mouse pointer is on a valid position and if the current menu should be kept visible.
+		//The function is called every time the mouse pointer is moved over the document area.
+		//------------------------------
+		//e: Only used under Navigator, corresponds to the Event object.
+		//------------------------------
+		//Version 25.1
+		//
+		%%BLINKDIS
+		SetPointerPos(e);
+		if(!IsOverMenus() && mhdHnd==0)
+			mhdHnd = window.setTimeout("mhdHnd=0;if(!IsOverMenus())Hide()", TimerHideDelay);
+	}
+
+	function FormsTweak(state)0/ {
+		//IE,SM,OP
+		//This is an undocumented function, which can be used to hide every listbox (or combo) element on a page.
+		//This can be useful if the menus will be displayed over an area where is a combo box, which is an element that cannot be placed behind the menus and it will always appear over the menus resulting in a very undesirable effect.
+		//------------------------------
+		//Version 2.0
+		//
+		var fe;
+		if(IE&&(!SM||OP)&&DoFormsTweak) {
+			var m = om[nOM];
+			if((BV>=5.5)&&!OP&&m&&!KQ)
+				cIF(state=="visible"?"hidden":"visible");
+			else
+				if(nOM==1)
+					for(var f=0; f<mFrame.document.forms.length; f++)
+						for(var e=0; e<mFrame.document.forms[f].elements.length; e++) {
+							fe = mFrame.document.forms[f].elements[e];
+							if(fe.type) if(fe.type.indexOf("select")==0) fe.style.visibility = state;
+						}
+		}
+	}
+
+	function cIF(state)0/ {
+		//IE
+		//------------------------------
+		//Version 1.0
+		//
+		var mfd = mFrame.document;
+		if(mfd.readyState=="complete") {
+			if((mfd.getElementsByTagName("SELECT").length==0)&&(mfd.getElementsByTagName("IFRAME").length==0)) return;
+			var m = om[nOM];
+			var iname = m.id + "iframe";
+			var i = GetObj(iname);
+			if(!i) {
+				i = mfd.createElement("?");
+				i.id = iname + "pobj";
+				mfd.body.insertBefore(i);
+				i = mfd.createElement("IFRAME");
+				if(location.protocol=="https:") i.src = "/ifo.htm";
+				i.id = iname;
+				i.style.position = "absolute";
+				i.style.filter = "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+				mfd.getElementById(iname + "pobj").insertBefore(i);
+			}		
+			with(i.style) {
+				m = m.style;
+				left = m.left;
+				top = m.top;
+				width = m.width;
+				height = m.height;
+				zIndex = m.zIndex-1;
+				visibility = state;
+			}
+		}
+	}
+
+	function execURL(url, tframe)0/ {
+		//IE,NS,SM,OP
+		//This function is called every time a command is triggered to jump to another page or execute some javascript code.
+		//------------------------------
+		//url: Encrypted URL that must be opened or executed.
+		//tframe: If the url is a document location, tframe is the target frame where this document will be opened.
+		//------------------------------
+		//Version 1.1
+		//
+		var d = 100;
+		if(mibc && !NS) {
+			d += mibs * mibc;
+			if(lmcHS) mibm = lmcHS;
+			if(nOM)
+				for(var n=nOM; n>0; n--)
+					if(om[n].sc) {
+						mibm = om[n].sc;
+						break;
+					}
+			if(mibm) {
+				mibm.n = mibc;
+				BlinkItem();
+			}
+		} else
+			HideAll();
+		window.setTimeout("execURL2('" + escape(_purl(url)) + "', '" + tframe + "')", d);
+	}
+
+	function BlinkItem()0/ {
+		//IE,NS,SM,OP,KQ
+		//This function is used to blink a menu item when cliked.
+		//------------------------------
+		//Version 1.0
+		//
+		mibm.bs = !Math.abs(mibm.bs);
+		SwapMC(mibm.bs, mibm);
+		mibc--;
+		if(mibc>=0)
+			window.setTimeout("BlinkItem()", mibs);
+		else {
+			mibc = mibm.n;
+			mibm = null;
+			HideAll();
+		}
+	}
+
+	function execURL2(url, tframe)0/ {
+		//IE,NS,SM,OP
+		//This function is called every time a command is triggered to jump to another page or execute some javascript code.
+		//------------------------------
+		//url: Encrypted URL that must be opened or executed.
+		//tframe: If the url is a document location, tframe is the target frame where this document will be opened.
+		//------------------------------
+		//Version 1.1
+		//
+		var w = eval("windo" + "w.ope" + "n");
+		url = rStr(unescape(url));
+		if(url.indexOf("javascript:")!=url.indexOf("vbscript:"))
+			eval(url);
+		else {
+			switch(tframe) {
+				case "_self":
+					if(IE&&!SM&&!KQ&&(BV>4)) {
+						var a = mFrame.document.createElement("A");
+						a.href = url;
+						mFrame.document.body.appendChild(a);
+						a.click();
+					} else
+						mFrame.location.href = url;
+					break;
+				case "_blank":
+					w(url, tframe);
+					break;
+				default:
+					var f = rStr(tframe);
+					var fObj = (tframe=='_parent'?mFrame.parent:eval(f));
+					if(typeof(fObj) == "undefined")
+						w(url, f.substr(8, f.length-10));
+					else
+						fObj.location.href = url;
+					break;
+			}
+		}
+	}
+
+	function rStr(s)0/ {
+		//IE,NS,SM,OP
+		//This function is used to decrypt the URL parameter from the triggered command.
+		//------------------------------
+		//Version 1.1
+		//
+		s = xrep(s,"%1E", "'");
+		s = xrep(s,"\x1E", "'");
+		if(OP&&s.indexOf("frames[")!=-1)
+			s = xrep(s,String.fromCharCode(s.charCodeAt(7)), "'");
+		return xrep(s,"\x1D", "\x22");
+	}
+
+	function hNSCClick(e)0/ {
+		//NS
+		//This function executes the selected command's trigger code.
+		//------------------------------
+		//Version 1.0
+		//
+		eval(this.TCode);
+	}
+
+	function HideAll(dr)0/ {
+		//IE,NS,SM,OP
+		//This function will hide all the currently opened menus.
+		//------------------------------
+		//Version 1.1
+		//
+		var o = lmcHS;
+		if(dr) lmcHS = null;
+		Hide();
+		while(nOM>0) Hide();
+		lmcHS = o;
+	}
+
+	function tHideAll()0/ {
+		//IE,NS,SM,OP,KQ
+		//This function is called when the mouse is moved away from a hotspot to close any opened menu.
+		//------------------------------
+		//Version 1.5
+		//
+		ClearTimer("mhdHnd");
+		mhdHnd = window.setTimeout("mhdHnd=0;if(!InSelMenu())HideAll();", TimerHideDelay);
+	}
+
+	function GetLeftTop(f)0/ {
+		//IE,NS,SM,OP
+		//This function returns the scroll bars position on the menus frame.
+		//------------------------------
+		//Version 2.2
+		//
+		if(!f) f = mFrame;
+		if(IE)
+			if(SM)
+				return [OP?f.pageXOffset:f.scrollX,OP?f.pageYOffset:f.scrollY];
+			else {
+				var b = GetBodyObj(f);
+				return (b?[b.scrollLeft,b.scrollTop]:[0,0]);
+			}
+		if(NS)
+			return [f.pageXOffset,f.pageYOffset];
+	}
+
+	function GetWidthHeight(f)0/ {
+		//IE,NS,SM,OP
+		//This function returns the width and height of the menus frame.
+		//------------------------------
+		//Version 2.1
+		//
+		var k = 0;
+		if(!f) f = mFrame;
+		if(NS||SM) {
+			return [f.innerWidth,f.innerHeight];
+		} else {
+			var b = GetBodyObj(f);
+			return (b?[b.clientWidth,b.clientHeight]:[0,0]);
+		}
+	}
+
+	function GetBodyObj(f)0/ {
+		//IE
+		//
+		//------------------------------
+		//Version 1.0
+		//
+		%%BODYOBJCODE%%
+	}
+
+	function GetBorderSize(s)0/ {
+		//IE,SM
+		//This functions returns the widths of a border
+		//------------------------------
+		//Version2.0
+		//
+		return [(s.borderLeftStyle==""||s.borderLeftStyle=="none"?0:parseInt(s.borderLeftWidth)) + (s.borderRightStyle==""||s.borderRightStyle=="none"?0:parseInt(s.borderRightWidth)),
+		     (s.borderTopStyle==""||s.borderTopStyle=="none"?0:parseInt(s.borderTopWidth)) + (s.borderBottomStyle==""||s.borderBottomStyle=="none"?0:parseInt(s.borderBottomWidth))];
+	}
+
+	function AutoPos(m, img, arl)0/ {
+		//IE,NS,SM,OP
+		//This function finds the image-based hotspot and returns the position at which 
+		//the menu should be displayed based on the alignment setting.
+		//------------------------------
+		//Version 1.1
+		//
+		var x = GetImgXY(img)[0];
+		var y = GetImgXY(img)[1];
+		var iWH = GetImgWH(img);
+		var mW = (NS?m.w:m.offsetWidth);
+		var mH = (NS?m.h:m.offsetHeight);
+			
+		switch(arl) {
+			case 0:
+				y += iWH[1];
+				break;
+			case 1:
+				x += iWH[0] - mW;
+				y += iWH[1];
+				break;
+			case 2:
+				y -= mH;
+				break;
+			case 3:
+				x += iWH[0] - mW;
+				y -= mH;
+				break;
+			case 4:
+				x -= mW;
+				break;
+			case 5:
+				x -= mW;
+				y -= mH - iWH[1];
+				break;
+			case 6:
+				x += iWH[0];
+				break;
+			case 7:
+				x += iWH[0];
+				y -= mH - iWH[1];
+				break;
+			case 8:
+				x -= mW;
+				y += (iWH[1] - mH)/2;
+				break;
+			case 9:
+				x += iWH[0];
+				y += (iWH[1] - mH)/2;
+				break;
+			case 10:
+				x += (iWH[0] - mW)/2;
+				y -= mH;
+				break;
+			case 11:
+				x += (iWH[0] - mW)/2;
+				y += iWH[1];
+				break;
+		}		
+		return [x, y];
+	}
+
+	function GetImgXY(img)0/ {
+		//IE,NS,SM,OP
+		//This function returns the x,y coordinates of an image.
+		//------------------------------
+		//Version 1.2
+		//
+		var x;
+		var y;
+			
+		if(NS)	{
+			y = GetImgOffset(cFrame, img.name, 0, 0);
+			x = img.x + y[0];
+			y = img.y + y[1];
+		} else {
+			y = getOffset(img);
+			x = y[0];
+			y = y[1];
+		}			
+		return [x, y];		
+	}
+
+	function GetImgWH(img)0/ {
+		//IE,NS,SM,OP
+		//This function returns the width and height of an image.
+		//------------------------------
+		//Version 1.1
+		//
+		return [parseInt(img.width), parseInt(img.height)];
+	}
+
+	function getOffset(img)0/ {
+		//IE,NS,SM,OP
+		//This function returns the horizontal and vertical offset of an object.
+		//------------------------------
+		//Version 1.0
+		//
+		var xy = [img.offsetLeft, img.offsetTop];
+		var ce = img.offsetParent;
+		while(ce!=null)	{
+			xy[0] += ce.offsetLeft;
+			xy[1] += ce.offsetTop;
+			ce = ce.offsetParent;
+		}
+		return xy;
+	}
+
+	function FindImage(d, img)0/ {
+		//NS
+		//This function finds an image regardless of its location in the document structure.
+		//------------------------------
+		//Version 1.0
+		//
+		var tmp;
+		
+		if(d.images[img]) return d.images[img];
+		
+		for(var i=0; i<d.layers.length; i++) {
+			tmp = FindImage(d.layers[i].document, img);
+			if(tmp) return tmp;
+		}
+		return null;
+	}
+
+	function GetImgOffset(d, img, ox, oy)0/ {
+		//NS
+		//This function finds the offset to an image regardless of its location in the document structure.
+		//------------------------------
+		//Version 1.0
+		//
+		var i;
+		var tmp;
+		
+		if(d.left) {
+			ox += d.left;
+			oy += d.top;
+		}
+				
+		if(d.document.images[img]) return [ox, oy];
+		
+		for(i=0; i<d.document.layers.length; i++) {
+			tmp = GetImgOffset(d.document.layers[i], img, ox, oy);
+			if(tmp) return [tmp[0], tmp[1]];
+		}		
+		return null;
+	}
+
+	function ShowContextMenu(e)0/ {
+		//IE,NS
+		//This function is called when a user rightclicks on the document and it will show a predefined menu.
+		//------------------------------
+		//Version 1.2
+		//
+		if(IE) {
+			SetPointerPos(e);
+			IsContext = true;
+		} else
+			if(e.which==3) {
+				IsContext = true;
+				mX = e.x;
+				mY = e.y;
+			}
+		if(IsContext) {
+			HideAll();
+			cFrame.ShowMenu2(cntxMenu, mX-1, mY-1, false);
+			return false;
+		}
+		return true;
+	}
+
+	function SetUpEvents()1/ {
+		//IE,NS,SM,OP
+		//This function initializes the frame variables and setups the event handling.
+		//------------------------------
+		//Version 2.5
+		//
+		if(!SM) onerror = errHandler;
+		if(!mFrame) mFrame = cFrame;
+		if(typeof(mFrame)=="undefined" || (NS && (++NSDelay<2)))
+			window.setTimeout("SetUpEvents()",10);
+		else {
+			IsFrames = (cFrame!=mFrame);
+			if(NS) {
+				mFrame.captureEvents(Event.MOUSEMOVE);
+				mFrame.onmousemove = HideMenus;
+				if(cntxMenu!="") {
+					mFrame.window.captureEvents(Event.MOUSEDOWN);
+					mFrame.window.onmousedown = ShowContextMenu;
+				}
+				nsOWH = GetWidthHeight();
+				window.onresize = rHnd;
+				PrepareEvents();
+			}
+			if(IE) {
+				document.onmousemove = HideMenus;
+				mFrame.document.onmousemove = document.onmousemove;
+				if(cntxMenu) mFrame.document.oncontextmenu = ShowContextMenu;
+				if(IsFrames) mFrame.window.onunload = new Function("mFrame=null;SetUpEvents()");
+				cFrame.lt = [0, 0];
+				PrepareShortcutKeys();
+			}
+			%%FRAMESIG
+			MenusReady = true;
+		}
+		%%DWSUPPORT03
+		%%IRSUPPORT03
+		
+		return true;
+	}
+
+	function errHandler(sMsg,sUrl,sLine)0/ {
+		//IE,NS
+		//This function will trap any errors generated by the scripts and filter the unhandled ones.
+		//------------------------------
+		//Version 1.1
+		//
+		if(sMsg.substr(0,16)!="Access is denied"&&sMsg!="Permission denied"&&sMsg.indexOf("cursor")==-1)
+			alert("Java Script Error\n" +
+			      "\nDescription: " + sMsg +
+			      "\nSource: " + sUrl +
+			      "\nLine: "+sLine);
+		return true;
+	}
+
+	function FixPos(v, s, r, k)0/ {
+		//IE,NS,SM,OP,KQ
+		//This function optimizes the position of the menus in order to ensure that they are always
+		//displayed inside the browser's visible area.
+		//------------------------------
+		//Version 2.0
+		//
+		var n;
+		if(nOM==0||k==1)
+			n = (v+s>r)?r-s:v;
+		else
+			n = (v+s>r)?parseInt(om[nOM].style.left)-s:v;
+		return (n<0)?0:n;
+	}
+
+	function FixPointSize(s)0/ {
+		//NS
+		//This function increases the point-size value for Navigator 4.
+		//------------------------------
+		//Version 2.0
+		//
+		if(IsWin||!NS) return s;
+		for(var i=54; i>1; i--)
+			if(s.indexOf("point-size=" + i)!=-1)
+				s = xrep(s, "point-size=" + i, "point-size=" + (i+3));
+		return s;
+	}
+
+	function ClearTimer(t, f)0/ {
+		//NS,IE
+		//This function is used to overcome a bug in very
+		//old versions of Navigator 4
+		//------------------------------
+		//Version 1.0
+		//
+		if(!f) cFrame.f = cFrame;
+		if(eval(t)) eval("cFrame.f.clearTimeout("+t+");"+t+"=0");
+	}
+
+	function xrep(s, f, n)0/ {
+		//IE,NS,SM,OP
+		//This function looks for any occurrence of the f string and replaces it with the n string.
+		//------------------------------
+		//Version 1.0
+		//
+		if(s) s = s.split(f).join(n);
+		return s;
+	}
+
+	function rHnd()0/ {
+		//NS
+		//This function is used to reload the page when Navigator window is resized.
+		//Original Code from DHTML Lab
+		//------------------------------
+		//Version 1.0
+		//
+		var nsCWH = GetWidthHeight();
+		if((nsCWH[0]!=nsOWH[0]) || (nsCWH[1]!=nsOWH[1]))
+			frames["top"].location.reload();
+	}
+
+	function FixCursor(mc)0/ {
+		//IE
+		//This function fixes a bug that affects IE6 and custom cursors.
+		//------------------------------
+		//Version 1.1
+		//
+		if(!OP) {
+			var os = GetObj("O" + mc.id.substr(1)).style;
+			var s = os.cursor;
+			if(s=="") os.cursor = (BV<6?"hand":s.split("cursor: url(")[1].split(")")[0]);
+		}
+	}
+
+	function GetObj(oName, f, sf)0/ {
+		//IE,NS,SM,OP,KQ
+		//This function returns the object whose name is oName and its located in the f frame.
+		//------------------------------
+		//Version 1.0
+		//
+		var obj = null;
+		if(!f)
+			if(IsFrames) {
+				if(!sf) sf = window.parent;
+				for(var i=0; i<sf.frames.length; i++) {
+					f = sf.frames[i];
+					if(!(obj = GetObj(oName, f)) && f.length) obj = GetObj(oName, null, f);
+					if(obj) break;
+				}
+				if(obj) {
+				    f.cFrame = cFrame;
+				    if(tbNum>0) f.hsHoverSel = hsHoverSel;
+				    f.execURL = execURL;
+				}
+			} else
+				f = mFrame;
+		if(NS)
+			obj = f.document.layers[oName];
+		else {
+			obj = (BV>=5?f.document.getElementById(oName):f.document.all[oName]);
+			if(obj) if(obj.id!=oName) obj = null;
+		}
+		return obj;
+	}
+
+	function gpid(o)0/ {
+		//IE,SM,OP,KQ
+		//This function returns the ID of the parent group of a command.
+		//------------------------------
+		//Version 1.0
+		//
+		return (BV>=5?o.parentNode.parentNode.id:o.parentElement.parentElement.id);
+	}
+
+	function PrepareEvents()0/ {
+		//NS
+		//This function is called right after the menus are rendered.
+		//It has been designed to attach the event handlers to the <layer> tag and
+		//fix the font size problems with Navigator under the Mac and Linux.
+		//------------------------------
+		//Version 4.0
+		//
+		for(var l=0; l<mFrame.document.layers.length; l++) {
+			var lo = mFrame.document.layers[l];
+			if(lo.layers.length) {
+				lo.w = lo.clip.width;
+				lo.h = lo.clip.height;
+				for(var sx=0; sx<lo.layers.length; sx++)
+					for(var sl=0; sl<lo.layers[sx].layers.length; sl++) {
+						var slo = mFrame.document.layers[l].layers[sx].layers[sl];
+							if(slo.name.indexOf("EH")>0) {
+								slo.document.onmouseup = hNSCClick;
+								slo.document.TCode = nTCode[slo.name.split("EH")[1]];
+							}
+						}
+				for(var t=1; t<=tbNum; t++) {
+					tb = cFrame.document.layers['dmbTBBack'+t];
+					for(var sl=0; sl<tb.layers['dmbTB'+t].layers.length; sl++) {
+						slo = tb.layers['dmbTB'+t].layers[sl];
+						if(slo.name.indexOf('EH')>0) {
+							slo.document.onmouseup = hNSCClick;
+							slo.document.TCode = nTCode[slo.name.split('EH')[1]];
+						}
+					}
+				}
+			}
+		}
+	}
+
+	function CheckShortcutKey(e)0/ {
+		//
+		//
+		//
+		if(!SM) e = event;
+		if(e.altKey && sKeys[e.keyCode]) {
+			mibc = 0;
+			sKeys[e.keyCode]();
+			e.returnValue = false;
+		}
+	}
+
+	function PrepareShortcutKeys()0/ {
+		//
+		//
+		//
+		scanMenuItems(0);
+		scanMenuItems(1001);
+		window.setTimeout("setKbHnd()", 100);
+	}
+
+	function scanMenuItems(idx)0/ {
+		//
+		//
+		//
+		var i = idx;
+		var m;
+		var s;
+		var h;
+		var ValidKeys = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		
+		while(mFrame.document.getElementById("N"+i)) {
+			m = mFrame.document.getElementById("N"+i);
+		
+			h = m.getElementsByTagName("DIV")[0].innerHTML;
+			if(h.indexOf("<U>")!=-1) {
+				h = h.substr(h.indexOf("<U>")+3,1);
+				h = h.toUpperCase();
+				sKeys[ValidKeys.charCodeAt(ValidKeys.indexOf(h))] = mFrame.document.getElementById("O"+i).onclick;
+				break;
+			}
+		
+			i++;
+		}
+	}
+
+	function setKbHnd()0/ {
+		//
+		//
+		//
+		if(!mFrame.document.onkeydown)
+			window.setTimeout("setKbHnd()", 100);
+		else {
+			mFrame.document.onkeydown = globalKeyHnd;
+		}
+	}
+
+	function globalKeyHnd(e)0/ {
+		//
+		//
+		//
+		dmbKey(e);
+		CheckShortcutKey(e);
+	}
+
+%%TOOLBARCODE
+
+%%KBDNAVSUP
+
+%%BROWSERCODE

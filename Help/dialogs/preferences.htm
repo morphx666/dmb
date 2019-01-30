@@ -1,0 +1,139 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Application / Preferences</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font size="2" color="#FFFFFF"><b>Dialogs  </b></font><b><font color="#FFFFFF" size="3">
+	»</font></b><font size="2" color="#FFFFFF"><b> Application </b></font><b><font color="#FFFFFF" size="3">
+	» </font></b><font size="2" color="#FFFFFF"><b> Preferences</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is DHTML Menu Builder's Preferences dialog.<br>
+			This is where you configure the settings that control the way 
+			DHTML Menu Builder works.<br>
+            To access this dialog click <font face="Courier New">
+            Edit-&gt;Preferences</font></p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area href="javascript:say(0);" shape="rect" coords="11, 57, 299, 205">
+			<area coords="15, 214, 238, 256" shape="rect" href="javascript:say(1);">
+			<area href="preferences_formatting.htm" shape="rect" coords="98, 29, 206, 51">
+			<area href="javascript:say(2);" shape="rect" coords="18, 307, 110, 335">
+			<area href="javascript:say(3);" shape="rect" coords="17, 262, 261, 300">
+			<area href="preferences_display.htm" shape="rect" coords="205, 31, 250, 51">
+            <area href="preferences_links.htm" shape="rect" coords="254, 33, 341, 51">
+			</map>
+			<img border="0" src="images/preferences.gif" usemap="#FPMap0" width="370" height="398"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+            <b>General Options<br>
+			</b>Miscellaneous options to customize the way 
+			DHTML Menu Builder works.</p>
+          	<p></p>
+          	<b>Open last project when DMB starts:</b> When checked, DHTML Menu Builder will open the project you were working on when you last closed the program.<hr noshade size="1" color="#EBEBEB">
+              	<b>Auto Recover:</b> When checked, DHTML Menu Builder saves a copy of your 
+			work <i>every</i> time you make <i>any</i> change to it. If the program shuts down abnormally (because Windows crashes or you lose power, for 
+			example) you will be prompted to recover your last changes the next time you launch DHTML Menu Builder.<hr noshade size="1" color="#EBEBEB">
+              	<b>Show logo splash-screen when DMB starts: </b>When checked, 
+			a splash screen with useful information will be displayed each time you start DHTML Menu Builder. This option has <i>no effect </i>on how long it takes DHTML Menu 
+			Builder to start.<hr noshade size="1" color="#EBEBEB">
+              	<b>Enable Undo/Redo: </b>When checked, enables DHTML Menu Builder's Undo/Redo feature. Although clearing this checkbox this will  speed up DHTML Menu 
+			Builder processes, it prevents you from undoing 
+			changes to your project. It is highly recommended that you keep this function enabled (checked). <hr noshade size="1" color="#EBEBEB">
+              	<b>Show Project Properties when creating a new project: </b>
+			When checked, every 
+			time a new project is created, DHTML Menu Builder will display the Project Properties dialog. <hr noshade size="1" color="#EBEBEB">
+              	<b>Use Advanced Menu Installation Tools: </b>When checked, DHTML Menu Builder will provide a set of more advanced tools to help you in the process of setting up the menus on your web pages. When unchecked, DHTML Menu Builder will use the <a href="ilcman.htm">Install 
+                Menus</a> dialog. The advanced tools include:</p>
+            <ul>
+              <li>Install Loader Code: Used to install the menus.</li>
+              <li>Install Frames Loader Code: Used to install the menus when the 
+              frames support is enabled.</li>
+              <li>Remove Loader Code: Used to remove the menus.</li>
+            </ul>
+            <p>The functionality of these two is very similar, however advanced users may find 
+            that the advanced tools offer greater flexibility and speed than the default Install Menus dialog.
+            <hr noshade size="1" color="#EBEBEB">
+              	<b>Enable Project Locking: </b>When checked, this option locks projects 
+                so that no other instance of DHTML Menu Builder can use them. This is useful if several users have access 
+                to the same project(s) and you need to avoid  two or more 
+                users accessing the same project simultaneously. (Doing so could 
+                easily result in a corrupted file.) If you're the only one with access to your 
+                projects, it is recommended that you leave this option unchecked.</p>
+            <hr noshade size="1" color="#EBEBEB">
+              	<b>Default To Map View: </b>DHTML Menu Builder supports 
+            displaying the menu items on the main interface in two modes: Normal 
+            and Map. While in Map view DHTML Menu Builder  renders the menus 
+            using a tree-like interface. This is very useful when working on 
+            large projects with many submenus. Note that in this mode DHTML Menu 
+            Builder will run a bit slower. When checked (the default setting), DHTML Menu Builder will open in 
+            <a href="../enhanced_map_view.htm">Map view</a>.</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Language<br>
+			</b>DHTML Menu Builder's user interface can utilize any one of several 
+			languages. Select your preferred language from the list.</p>
+            <p>NOTE: With some languages, labels and messages may not be 
+			properly displayed or aligned.</p>
+          	</div>
+          	
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Reset Tips<br>
+			</b>If you have chosen not to see certain tips and messages, clicking this button will reset them so that they are all displayed again.</p>
+          	</div>
+          	
+<div id=Info3 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Default Character Encoding for Preview<br>
+			</b>Here you can specify the default character encoding that would 
+            like to use on the Preview window.<br>
+            Only change this option if you're absolutely sure that your menus 
+            require a specific encoding.</p>
+            <p>Click on the Default button to reset this setting to its default 
+            value.</p>
+          	</div>
+
+</body>
+
+</html>

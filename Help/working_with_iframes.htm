@@ -1,0 +1,81 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Working with IFrames</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24"><b>
+		<font color="#FFFFFF" size="2">&nbsp;Working with IFRAMEs</font></b></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4">
+			<tr>
+				<td width="100%">Because IFRAMEs (Inline Frames) function very 
+                similarly to Frames, it is not difficult to work with them and DHTML Menu Builder.<p>It is <i>highly recommended</i> that you <i>first</i> read the information on <a href="working_with_frames.htm">how to work with 
+                standard frames</a>.</p>
+                <p>The basic difference between the standard frames support and 
+                the IFRAMEs support provided by DHTML Menu Builder is that when 
+                using IFRAMEs, DHTML Menu Builder will provide an additional 
+                frame named &quot;top&quot;.<br>
+                This frame refers to the document that contains all the IFRAMEs 
+                and should be the one pointed to by the &quot;Frames Document&quot; 
+                setting.</p>
+                <p>Knowing this, here are some common scenarios and a brief 
+                explanations on how DHTML Menu Builder should be set up:<img border="0" src="images/if_ss.jpg" align="right" width="300" height="256"></p>
+                <ul>
+                  <li><b>The hotspots and the menus will be on the document that 
+                  contains the IFRAMEs</b><br>
+                  In this case, frames support must be <i>disabled</i> and the only 
+                  document that requires the loader code is the container for 
+                  the IFRAME.<hr noshade color="#E0E0E0" size="1"></li>
+                  <li><b>The hotspots are on the Frames Document but the menus 
+                  will be displayed inside an IFRAME</b><br>
+                  This is very similar to the way the standard frames support 
+                  works: the Loader Code is installed in the IFRAME container document 
+                  and the Frames Loader Code is installed in all the documents 
+                  displayed inside the IFRAME.<hr noshade color="#E0E0E0" size="1">
+                  </li>
+                  <li><b>The hotspots and the menus will be displayed inside an 
+                  IFRAME</b><br>
+                  In this case frames support must be <i>disabled</i> and  all the 
+                  documents displayed inside the IFRAME must contain the Loader 
+                  Code.</li>
+                </ul>
+                <p>DHTML Menu Builder supports an infinite number of nested IFRAMEs, 
+                which means that you can have any number of IFRAMEs placed 
+                inside another IFRAME.<br>
+&nbsp;</p>
+				<table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+					<tr>
+						<td width="100%">Related topics of interest:
+						<ul>
+							<li><a href="working_with_frames.htm">Working with 
+                            Frames</a></li>
+							<li><a href="project_properties.htm">Project 
+							Properties</a></li>
+							<li><a href="configurations.htm">Configurations</a></li>
+							<li><a href="hotspot_editor.htm">The HotSpots Editor</a></li>
+						</ul>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

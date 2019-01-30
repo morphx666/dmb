@@ -1,0 +1,9 @@
+# CALL TO MENU: mnuNav
+OnMouseOut="if(IE){event.srcElement.style.cursor='';};" OnMouseOver="if(IE){event.srcElement.style.cursor='hand';};ShowMenu('mnuNav', 139, 92, false);"
+
+# CALL TO MENU: ProdCats
+OnMouseOut="if(IE){event.srcElement.style.cursor='';};" OnMouseOver="if(IE){event.srcElement.style.cursor='hand';};ShowMenu('ProdCats', 249, 99, false);"
+
+# LOADER CODE. PLACE IT RIGHT AFTER THE <BODY> TAG
+<script language="JavaScript" src='menu.js'></script>
+

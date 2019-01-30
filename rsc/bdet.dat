@@ -1,0 +1,19 @@
+	var BV=parseFloat(navigator.appVersion.indexOf("MSIE")>0?navigator.appVersion.split(";")[1].substr(6):navigator.appVersion);
+	if(!BV) BV = 9;
+	var BN=navigator.appName;
+	var nua=navigator.userAgent;
+	var IsWin=(nua.indexOf('Win')!=-1);
+	var IsMac=(nua.indexOf('Mac')!=-1);
+	var KQ=(BN.indexOf('Konqueror')!=-1&&(BV>=5))||(nua.indexOf('Safari')!=-1);
+	var OP=(nua.indexOf('Opera')!=-1&&BV>=4);
+	var NS=(BN.indexOf('Netscape')!=-1&&(BV>=4&&BV<5)&&!OP);
+	var SM=(BN.indexOf('Netscape')!=-1&&(BV>=5)||OP);
+	var IE=(BN.indexOf('Explorer')!=-1&&(BV>=4)||SM||KQ);
+	var IP=(nua.match(/(iPad|iPhone|iPod)/i)!=null)||(nua.indexOf("android")!=-1);
+	if((navigator.appVersion.indexOf("Trident")>0)&&(navigator.appVersion.indexOf(":")>0)) {
+		BV = parseFloat(navigator.appVersion.split(":")[1].split(")")[0]);
+		SM = false;
+		var isNaN = function(n) {return n !== n;};
+	}
+	if(IE&&!SM&&!OP) var isNaN = function(n) {return n !== n;};
+	if(nua.indexOf("Netscape/8.1")!=-1) document.open = new Function('');

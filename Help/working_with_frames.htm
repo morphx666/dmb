@@ -1,0 +1,167 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Working with Frames</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24"><b>
+		<font color="#FFFFFF" size="2">&nbsp;Working with Frames</font></b></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4">
+			<tr>
+				<td width="100%">DHTML Menu Builder can add menus to sites that use frames&nbsp;in 
+                three ways:<ol>
+                  <li><b>When your hotspots or toolbars are in the same frame as the menus</b><br>This method is usually used when the frame containing the 
+					hotspots or the toolbar has enough space to display the menus.<br>In this case there's no need to enable  frames 
+					support. If the hotspots or the toolbar and the menus all work  together in the same frame, 
+					you can leave the frames support turned off.<hr noshade size="1" color="#EBEBEB">
+                  </li>
+                  <li><b>When your hotspots or toolbars are in a different frame from the 
+					menus</b><br>This method is used when the frame containing the hotspots 
+                    or toolbar 
+					is not large enough to display the menus.<br>Because there's no way to display any HTML element over the 
+					borders of two frames (a limitation of HTML, not DHTML Menu Builder), it is necessary to display the menus 
+					on another frame with enough space to hold them.<hr noshade size="1" color="#EBEBEB">
+                  </li>
+                  <li><b>When you have several toolbars located in different 
+                  frames and the menus are displayed inside the same frame</b><br>
+                  This is a special situation where you may have an horizontal 
+                  toolbar in one frame, a vertical toolbar in another frame and 
+                  then the menus from both toolbars are displayed inside the 
+                  same main frame.<br>
+                  If you are looking to create such type of project, read the 
+                  following information and then follow the link at the bottom 
+                  labeled &quot;Advanced Frames Implementation&quot;.</li>
+                </ol>
+				  <table border="1" style="border-collapse: collapse" bordercolor="#111111" width="80%" id="table1" cellpadding="2" bgcolor="#FFFFCC">
+                    <tr>
+                      <td width="100%"><font size="1">It is important to 
+                      remember that when you have enabled frames support, the 
+                      Target Document setting in your configuration in the 
+                      File-&gt;Project Properties dialog needs to point to the document where 
+                      your hotspots are or where you want to display the toolbar<a href="hotspot_editor.htm#Special notes when using frames">.</a></font></td>
+                    </tr>
+                  </table>
+				<p>To set up your project to support frames:</p>
+				<ul>
+					<li>Open the <font face="Courier">Project Properties</font> 
+					dialog</li>
+					<li>Click the <font face="Courier">Configurations</font> 
+					tab</li>
+					<li>Click  the <font face="Courier">Frames Support</font> 
+					button</li>
+					<li>Check the <font face="Courier">Enable Frames Support</font> 
+					checkbox</li>
+				</ul>
+                <blockquote>
+                  <blockquote>
+                    <p>The
+                    Frames Document<b>
+					</b>parameter must point to the document that 
+					defines your web site's frameset.<br>
+					When you have selected this document, DHTML Menu Builder 
+					will analyze it and retrieve all the different frame names.</p>
+                  </blockquote>
+                </blockquote>
+				<ul>
+                  <li>Click the <font face="Courier">Target Document</font> 
+                  button</li>
+                </ul>
+                <blockquote>
+                  <blockquote>
+                    <p>Using the browse button (<img border="0" src="images/icon_open.gif" width="16" height="16" align="absmiddle">) 
+                    select the document where you want to display the toolbar</p>
+                  </blockquote>
+                </blockquote>
+				<p>After you have enabled  frames support, DHTML Menu Builder 
+				will detect all the frames on your frameset document and you 
+                will be able to specify one of these frames as the target frame 
+                to open your links. To set the target frame for your menu items' 
+                links simply click on the Target Frame button (<img border="0" src="images/icon_targetframe.gif" width="16" height="16" align="absmiddle">).</p>
+				<p><b>Installing the Menus</b></p>
+                <p>The process to install the menus is always the same:</p>
+                <ul>
+                  <li>Compile the project (Tools-&gt;Compile)</li>
+                  <li>And install the menus into your HTML documents 
+                  (Tools-&gt;Install)</li>
+                </ul>
+                <p>You will notice that the Install Menus dialog looks a bit 
+                different when the frames support has been enabled: there're two 
+                target panes (on the right) instead of one.<br>
+                This is because you now must distinguish between the document 
+                that will receive the toolbar and the documents that will 
+                display the menus.</p>
+                <p><a href="dialogs/iflcman.htm">
+                <img border="0" src="dialogs/images/flcman.gif" width="168" height="138" align="left"></a></p>
+				<p>The top/right pane must list the document where you want to 
+                install the toolbar.<br>
+                The bottom/right pane must list all the documents where you want 
+                to display the menus.<br>
+                <br>
+                If you're not using SSI (server side includes), templates or 
+                shared borders you should click on the <font face="Courier">Auto</font> 
+                button to let DHTML Menu Builder fill the right panes 
+                automatically.<br>
+                Note that even after using the Auto button you should manually 
+                check that DHTML Menu Builder has correctly listed all the 
+                documents.</p>
+                <p>By default, DHTML Menu Builder will automatically detect the 
+                document that must be listed on the top/right pane since this is 
+                the document defined by the <font face="Courier">Target Document</font> 
+                from your configuration. However, DHTML Menu Builder not able to 
+                detect all the documents where you want to display the menus and 
+                you might need to add them yourself.</p>
+                <p>Let's consider this frame set:</p>
+                <p>
+                <img border="0" src="images/sampleframe.jpg" width="211" height="164"></p>
+                <p>It is obvious that the documents displayed on the MAIN FRAME 
+                are the ones that will display the menus. So, you must make sure 
+                that the bottom/right pane of the Install Menus dialog contains 
+                all the documents from your web site that, at any time, will be 
+                displayed on the MAIN FRAME.</p>
+                <p>When you're done, simply click the <font face="Courier">
+                Install</font> button and DHTML Menu Builder will proceed to 
+                install your menus.</p>
+                <p>As mentioned earlier, DHTML Menu Builder will let you have 
+                several toolbars, each placed on different frames and display 
+                their menus inside the same main frame.<br>
+                Follow to the <a href="working_with_frames_adv.htm">Advanced 
+                Frames Implementation</a> section for more information about 
+                this method.</p>
+				<table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+					<tr>
+						<td width="100%">Related topics of interest:
+						<ul>
+							<li><a href="working_with_frames_adv.htm">Advanced 
+                            Frames Implementation</a></li>
+                            <li><a href="working_with_iframes.htm">Working with 
+                            IFRAMEs</a></li>
+							<li><a href="project_properties.htm">Project 
+							Properties</a></li>
+							<li><a href="configurations.htm">Configurations</a></li>
+							<li><a href="hotspot_editor.htm">The HotSpots Editor</a></li>
+						</ul>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

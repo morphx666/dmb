@@ -1,0 +1,129 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Application / Directory Structure Scanner</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font size="2" color="#FFFFFF"><b>Dialogs  </b></font><b><font color="#FFFFFF" size="3">
+	»</font></b><font size="2" color="#FFFFFF"><b> Application </b></font><b><font color="#FFFFFF" size="3">
+	» </font><font color="#FFFFFF">Directory Structure Scanner</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is DHTML Menu Builder's Directory Structure Scanner dialog.<br>
+			This is where you configure the settings that control  how DHTML 
+            Menu Builder should interpret the contents of your web site to 
+            create a new project.<br>
+            To access this dialog click <font face="Courier New">File-&gt;New-&gt;From 
+            Directory Structure</font></p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area href="javascript:say(0);" shape="rect" coords="12, 34, 283, 77">
+			<area coords="214, 82, 376, 185" shape="rect" href="javascript:say(2);">
+			<area href="javascript:say(1);" shape="rect" coords="13, 80, 212, 187">
+			<area href="javascript:say(3);" shape="rect" coords="14, 189, 376, 323">
+			</map>
+			<img border="0" src="images/dirss.gif" usemap="#FPMap0" width="389" height="415"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+            <b>Root Document<br>
+			</b>Define here the document and folder from where to start 
+            scanning.</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Build Menus Structure From<br>
+			</b>This parameter controls the method that you want to use to build 
+            the menus structure.</p>
+            <ul>
+              <li><b>Directory Structure</b>: This is the default and most 
+              recommended method. While in this mode, DHTML Menu Builder will 
+              create a project replicating the structure of the directories in 
+              the web site.<hr noshade size="1" color="#EBEBEB">
+              	</li>
+              <li><b>Links in Documents</b>: This method will read the links in 
+              the documents of the web site and generate a menu structure that 
+              resembles the way your documents are linked.</li>
+            </ul>
+          	</div>
+          	
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Create Menu Items From<br>
+			</b>This parameters let's you control what information should be 
+            used to generate the menu items.</p>
+          	<ul>
+              <li><b>Documents' Title</b>: In this mode, each menu item will be 
+              created from the text contain in the &lt;TITLE&gt; tag of the document. 
+              If not text in found then DHTML Menu Builder will use the 
+              document's file name.<hr noshade size="1" color="#EBEBEB">
+              	</li>
+              <li><b>File Name</b>: In this mode, each menu item will be created 
+              from the file name of the document.<hr noshade size="1" color="#EBEBEB">
+          	  </li>
+              <li><b>Link Text</b>: When using the &quot;<a href="javascript:say(1);">Links 
+              in Documents</a>&quot; scan option, you can specify, by enabling this 
+              setting, to generate the menu items from the text contained inside 
+              the anchor tag of each link. If no text is found, then DHTML Menu 
+              Builder will try to obtain the document's title. If, again, no 
+              text is found DHTML Menu Builder will use the document's file 
+              name.</li>
+            </ul>
+          	</div>
+          	
+<div id=Info3 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>File Types<br>
+			</b>In this section you can control the file types that you want to 
+            include in the scanning process.</p>
+            <p>Use the Add and Delete buttons to modify the list of supported 
+            file types.<br>
+            Use the Default button to set the list to its defaults.</p>
+          	</div>
+
+</body>
+
+</html>

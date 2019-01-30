@@ -1,0 +1,122 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Configurations</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">&nbsp;Configurations</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">The final process of implementing a menu system with 
+			DHTML Menu Builder involves the ability to save the menus in a 
+			folder on your computer.<br>
+            To do this, DHTML Menu Builder needs to know where to save the 
+			compiled JavaScript files and the images that your menus use.<p>To access the Configurations editor click 
+          <font face="Courier">File-&gt;Project 
+            Properties-&gt;Configurations</font></p>
+          <p>By default, when you create a new project DHTML Menu Builder will 
+          create a new configuration called &quot;Default&quot;.<br>
+          Bellow is a list of the settings that need to be made:</p>
+            <ul>
+              <li><b>Local Path to the Root Web<br>
+                </b>This is the route or path to the folder containing your main 
+				HTML page. Typically, this is index.htm, default.htm,  index.html or default.asp.<br>
+              Always avoid typing the path manually; use the browse button
+              <img border="0" src="images/icon_open.gif" align="absmiddle" width="16" height="16"> to select the folder and avoid typographical errors.</li>
+              <li><b>Folder to Store Compiled Files<br>
+                </b>This setting must point to a folder inside your root web 
+				where you will store the JavaScript files compiled by DHTML 
+				Menu Builder. These files are the scripts that build and handle 
+				the menus. Again, always avoid typing the path manually and use the browse button
+              <img border="0" src="images/icon_open.gif" align="absmiddle" width="16" height="16"> to select the folder and avoid typographical errors.</li>
+              <li><b>Folder to Store Images<br>
+                </b>This path is where you want DHTML Menu Builder to store the 
+				images files used by your menus. This folder must also 
+				be inside your root web.<br>
+              As always,&nbsp; avoid typing the path manually and use the browse button
+              <img border="0" src="images/icon_open.gif" align="absmiddle" width="16" height="16"> to select the folder and avoid typographical errors.</li>
+            </ul>
+            <hr noshade size="1" color="#808080">
+            <p>DHTML Menu Builder needs some additional information about 
+			your web site and the files in it.<br>
+            For example, if your site uses frames you will have to set up  frames support and specify the necessary settings related to 
+			frameset structure of your web site.</p>
+            <p>Another group of settings will let you use the HotSpots Editor to 
+			automate the process of inserting the code necessary to run the 
+			menus on your web site.</p>
+            <p><b><a name="TargetDocument"></a>Setting up the document that will 
+            trigger the menus</b></p>
+            <p>Besides the standard path 
+			settings described above, each configuration must have information about the document on your 
+            web site that will be used to trigger the menus.
+			The menus can be triggered from the <a href="creating_toolbars.htm">
+            toolbar</a> created by DHTML Menu Builder or through the use of
+            <a href="preparing_your_web_site.htm">HotSpots</a>.</p>
+            <p>NOTE: This file  will be modified by DHTML Menu Builder to include all the code necessary to make the menus 
+			work. It is a good practice to always keep a backup copy of this file.</p>
+            <p>As you can see, DHTML Menu Builder gives you the option to 
+            install the menus onto a single file. However, you may want to install the 
+            menus on all the files on your web site, and there are several ways to 
+            this:<br>
+            Ideally you should install the menus onto a single file and then 
+            share this file across all the other documents on your web site. 
+             
+            </p>
+            <ul>
+              <li>Some applications, such as Macromedia's Dreamweaver let you create a 
+            template from which all the documents on your web site inherit their 
+            style. This template is where you should install the menus so every 
+            time you create a new document it will automatically inherit the 
+            code that loads the menus. For more information about templates, 
+            consult your Dreamweaver documentation.</li>
+          </ul>
+            <p>If your HTML editor does not support templates you could then use some sharing technique that is either supported by your web server or your HTML authoring application. </p>
+            <ul>
+              <li>For example, Microsoft's FrontPage supports something known as the Page Inclusion component. This component allows you to include a page inside another page. For more information about the Page Inclusion component, consult your FrontPage documentation.</li>
+          </ul>
+            <p>Finally, many web servers support SSI or Server Side Includes. To 
+            know if your web server supports this feature and for information on 
+            how to use it, consult your web server's documentation or ask your server 
+            administrator.</p>
+            <p><b>Setting up your project to support frames</b></p>
+            <p>DHTML Menu Builder has 100% support for implementing the menus on 
+			web sites that use frames.<br>
+            A common issue when using frames is that most of the time the menus 
+			will not fit on the frame where you have designed the toolbar. The 
+			only solution, since it's not possible to display anything above the 
+			division of two frames, is to have the menus appear on another, 
+			larger frame.</p>
+            <p><a href="working_with_frames.htm">More information about the setting up your menus to work with frames.</a></p>
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="implementing_menus.htm">Implementing the Menus</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

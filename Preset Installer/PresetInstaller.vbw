@@ -1,0 +1,4 @@
+frmMain = 175, 131, 1116, 951, C, 0, 0, 0, 0, C
+modRegistryFunctions = 152, 129, 599, 935, C
+modShort2Long = 153, 129, 820, 935, C
+modURLEncoding = 155, 133, 602, 933, C

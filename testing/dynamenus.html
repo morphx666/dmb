@@ -1,0 +1,87 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Dynamic Menus</title>
+</head>
+
+<body><script language="JavaScript" src='dynamenu.js'></script>
+<TABLE width="100%" border=0>
+<TR>
+<TD noWrap><A onmouseover="if(IE){event.srcElement.style.cursor='hand';};ShowMenu('menu1', '14px', '37px', false);" onmouseout="if(IE){event.srcElement.style.cursor='default'};" href="#">MENU 1</A></TD>
+<TD noWrap><A onmouseover="if(IE){event.srcElement.style.cursor='hand';};ShowMenu('menu2', '76px', '37px', false);" onmouseout="if(IE){event.srcElement.style.cursor='default'};" href="#">MENU 2</A></TD>
+<TD noWrap width="100%"></TD></TR></TABLE>
+<p>This page demonstrates a sample script for creating menus dynamically, at
+runtime.</p>
+<p>The script is very limited and it is only supported under Internet Explorer.<br>
+Click View-&gt;Source to see the function's documentation.</p>
+<p>NOTE: This script expects that you're running DHTML Menu Builder 2.6</p>
+  <p><input type="button" value="Click to dynamically add commands to the MENU 2 group" name="btnCreate" onclick="AddCommands()"><input type="button" value="Reset" name="btnReset" disabled="true" onclick="location.reload()"></p>
+</body>
+
+<script language="JavaScript">
+
+	//DYNAMIC MENUS (BETA)
+
+	/*	20/August/2000
+		The AddCommand function is a very basic implementation to let you
+		add new commands at run-time.
+
+		AddCommand(Group, Template, Caption, URL, Height)
+			Group:	Group name to add the new command to
+					(as used in the program's design environment)
+			Template:	Index of an existent command to use its style from
+					(see nStyle array)
+			Caption:	Command's Caption. Leave blank to crate a separator
+			URL:		What to do when the command is activated
+					(a fully qualifyed URL)
+			Height:	Height of the command in pixels
+
+			The function returns the new command's ID
+	*/
+
+	var CustCmds = 1000;
+	function AddCommand(Group, Template, Caption, URL, h) {
+		if(IE) {
+			var gHTML = document.all[Group].innerHTML;
+			gHTML = gHTML.substr(0,gHTML.length-16);
+			gHTML += "<tr><td nowrap ";
+			if(Caption=="") {
+				gHTML += "<td nowrap height=12>";
+                        gHTML += "<hr size=2>";
+			} else {
+				gHTML += " style=\'" + nStyle[Template] + "\' id=\'" + CustCmds + "\' ";
+				gHTML += "height=" + h + " ";
+				gHTML += "OnClick=\"cFrame.execURL(\'" + URL + "\',\'top\');\"";
+				gHTML += "OnMouseOver=\"mFrame.HoverSel(0,\'_\',\'_\');window.status=\'" + Caption + "\';\"";
+				gHTML += ">" + Caption;
+			}
+			gHTML += "</td></tr></table>";
+			nStyle[CustCmds] = nStyle[Template];
+			hStyle[CustCmds] = hStyle[Template];
+			document.all[Group].style.height = parseInt(document.all[Group].style.height) + h + 2;
+			document.all[Group].innerHTML = gHTML;
+			return ++CustCmds;
+		}
+	}
+
+	//Sample Menus creation...
+	function AddCommands() {
+		if(!IE) {
+			alert("Didn't you read that this will only work under IE???");
+			return;
+		}
+		document.all["btnCreate"].disabled=true;
+		document.all["btnReset"].disabled=false;
+		for(var i = 0; i < 15; i++) {
+			if(i/4==parseInt(i/4))
+				AddCommand("menu2", 0, "", "", 17);
+			AddCommand("menu2", 0, "TEST #" + i, "http://software.xfx.net", 16);
+		}
+	}
+</script>
+
+</html>

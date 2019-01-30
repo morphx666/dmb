@@ -1,0 +1,924 @@
+Dansk
+Claus Madsen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Eksempel
+Kommando egenskaber
+Menu tekst
+Aktiveret
+Over
+Klik
+Dobbelt klik
+Hændelse
+Mål menu
+(ingen)
+Åbn URL / Kør script
+Vis undermenu
+Åbn URL i nyt vindue
+Status tekst
+Justering
+Bund / Venstre
+Bund / Højre
+Top / Venstre
+Top / Højre
+Venstre / Top
+Venstre / Bund
+Højre / Top
+Højre / Bund
+Gruppe egenskaber
+URL / Script
+&Filer
+&Ny
+Å&bn...
+Åbn seneste
+Gem
+Ge&m som...
+&Importer...
+&Projekt egenskaber...
+&Afslut
+&Ret
+&Fortryd
+&U/fortryd
+K&opier...
+Sæt i&nd...
+&Søg...
+Find &næste
+&Erstat...
+S&let
+&Omdøb
+Indstillinger...
+&Menu
+Tilføj &gruppe
+Tilføj &kommando
+Tilføj separator
+Farve...
+Skrifttype...
+Markør...
+Billede...
+Margener...
+Specielle effekter...
+Lyd...
+&Værktøjer
+&Vis eksempel...
+&Eksempel
+Sæt &standard browser...
+&Kompiler
+
+&Udgiv...
+Installer Loader Code...
+Installer ramme Loader Code...
+&HotSpots Editor...
+&Værktøjslinje Editor...
+&AddIn Editor...
+Rapport...
+&Hjælp
+&Indhold...
+&Kom godt i gang
+&Opgradering...
+xFX JumpStart på nettet
+&Om...
+Registrer
+Indtast &registrerings information...
+Køb DHTML Menu Builder...
+Normal
+Musen over
+Tekst farve
+Baggrundsfarve
+Nulstil
+Fortryd
+Auto
+OK
+Annuller
+
+Skift
+Venstre
+Højre
+Midt
+Pil (standard)
+Kryds
+Hånd
+Tekst
+Hjælp
+Venstre billede
+Baggrundsbillede
+Højre billede
+Fjern
+Samme
+Størrelse
+Værktøjslinje element
+Baggrundsbillede
+Kant tykkelse
+Lyst hjørne
+
+Gruppe indholds margener
+Lodret
+Vandret
+Farve
+Font
+Billede
+Markør
+Margener
+Kommando effekter
+gruppe effekter
+Vandrette margener
+Lodrette margener
+Skygge farve
+Gennemsigtighed
+Context Menu
+Manuelt
+Beregn
+
+Gruppe størrelse
+FRA
+Mørkere
+Usynlig
+Specielle effekter
+Aktiveret tilstand
+Vil du opdatere status teksten på alle elementer nu?
+Ret
+Mål ramme
+er klikket
+markøren er over
+er dobbelt klikket
+Vælg dokument der skal åbnes når
+Parametre for nyt vindue
+DHTML Menu Builder er nu i FEJLRETNINGs tilstand.
+Hvis du oplever fejlmeddelelser (runtime error), mens du arbejder med DMB, så kontakt os venligst med oplysning
+om fejlnummer og beskrivelse samt kort om, hvad du var i gang med, da det skete.
+Dette er en DEMO udgave af DHTML Menu Builder.
+Denne funktion er kun tilgængelig i den fulde udgave. For at teste dine menuer kan du bruge funktionen Værktøjer->Vis eksempel.
+AddIn'et
+kræver, at nogle parametre sættes før det anvendes. 
+Gå til %%LINE=378%% og klik på fanebladet Avanceret. Klik Parameter egenskaber ud for AddIn og sæt de nødvendige værdier. 
+Denne funktion er kun tilgængelig i den fulde udgave.
+Vælg et projekt at importere
+Gem ændringer til
+Udgiv menuerne på den lokale maskine uden brug af en web server
+Lokal
+Fjern
+Åbn projekt
+DHTML Menu Builder projekter
+DHTML Menu Builder kan ikke åbne filen fordi den enten er skrivebeskyttet eller placeret på en disk hvor du ikke har skriveadgang.
+Henter
+Dette projekt er lavet med en ældre udgave af DHTML Menu Builder.
+Se venligst i Hjælp efter information om hvordan opgraderer dit projekt korrekt.
+Projektet kunne ikke åbnes fordi filen
+eksisterer ikke
+Projektet kunne ikke åbnes.
+Importerer
+Fortryd
+Gendan
+Gem projekt
+Gemmer
+Gem projekt som
+Gruppe
+Kommando
+Separator
+Sletter du gruppen, sletter du også alle dens kommandoer. Er du sikker på du vil fortsætte?
+Denne gruppe kan ikke slettes, da den bruges som undermenu af en anden gruppe.
+Flyt
+Op
+Ned
+Projektet er konfigureret til at generere en værktøjslinje for dig.
+Med mindre du har yderligere hotspots på din side, som
+du vil bruge til at trigge nogle af dine grupper, er HotSpot Editoren ikke nødvendig.
+HotSpot Editoren kan ikke åbne filen med hotspots, enten fordi filen er skrivebeskyttet, eller fordi den ligger på et medie, hvor du ikke har skriveadgang
+Standard konfiguration
+Ændringer i sprog indstillingerne træder i kraft næste gang du starter DHTML Menu Builder
+Henter system fonte...
+Vent venligst, initialiserer...
+Henter det sidst gemte projekt...
+Initialiseringen fuldført
+Dit projekt blev genskabt uden problemer.
+Vælg venligst et sted at gemme det
+DHTML Menu Builder lukkede ikke korrekt, og en backup kopi af dit arbejde eksisterer.
+Vil du genskabe det?
+Menu elementer skal starte med et bogstav
+Kopier/Flyt
+Hændelse
+Lodret afstand
+Vælg hvilke egenskaber der skal kopieres fra gruppen
+Vælg hvilke egenskaber der skal kopieres fra den valgte separator under gruppen
+Vælg hvilke egenskaber der skal kopieres fra kommandoen
+Selektiv kopiering
+Selektiv indsætning
+Vælg hvilke egenskaber der skal sættes ind
+Tilføj til gruppen
+Tilføj til alle grupper
+Tilføj til den valgte separator
+Tilføj til alle separatorer under
+gruppen
+Tilføj til alle separatorer
+Tilføj til kommandoen
+Tilføj til alle kommandoer under
+Tilføj til alle kommandoer
+Klippebordet er tomt
+Hjemmeside
+Support
+FAQ
+Offentligt Forum
+Nyheder
+Projekt placering
+Projekt navn
+%%LINE=231%%
+Udfoldnings lyd
+Generelt
+Konfigurationer
+Værktøjslinje
+FTP
+Avanceret
+Lokal sti til Web roden
+Kompilerede filer gemmes i mappen
+Billeder gemmes i mappen
+Lokal konfiguration
+Web Server rod
+Sti til kompilerede filer
+Sti til billeder
+eksempel
+Stier
+HotSpots Editor
+Rammesider
+Valg
+Tilføj...
+Ret...
+%%RESERVED%%
+Standard
+Auto udfyld
+Importer...
+
+Endeligt HTML dokument
+aktiver ramme understøttelse
+Rammeside
+HotSpots ramme
+Menu ramme
+Opret værktøjslinje
+Vælg de grupper der skal medtages i Værktøjslinjen
+Udseende
+Position
+Værktøjslinje stil
+Ramme
+Vandret afstand
+
+Baggrundsfarve
+Baggrundsbillede
+Værktøjslinje eksempel
+Bredde
+Forskydning
+Pixels vandret
+Pixels lodret
+(auto)
+Side størrelse
+Brugerdefineret
+Følg browserens rulleskakter
+FTP Server Adresse
+Anonymt login
+Brug denne konto
+Brug en Proxy Server
+Brugernavn
+Kodeord
+Adresse
+Port
+Fjern konfiguration
+Projekt egenskaber
+Kode optimering
+Navn på den kompilerede JavaScript fil
+Menu forskydning
+[FEJLRETNING] Igen optimering
+[ENDELIG] Lille og hurtig kode
+Ugyldigt server navn eller protokol
+Vælg rammeside dokument
+En af dine rammer bruger det reserverede navn
+Inden du kan anvende menuerne på dit rammesæt, skal du ændre navnet på denne ramme
+Denne fil lader ikke til at være en gyldig HTML rammeside
+Vælg mappen hvor du vil gemme projektets billeder
+Vælg din Root Web mappe
+Vælg lydfil
+Dit projekt skal gemmes inden import af indstillinger fra et andet projekt
+Vælg projekt
+Ret konfiguration
+Denne konfiguration kan ikke slettes, fordi den er nødvendig for FTP understøttelsen
+Standard konfigurationen kan ikke slettes
+Denne konfiguration kan ikke slettes fordi den bruges af
+konfiguration
+(igen grupper tilgængelige)
+Standard
+Vælg i hvilken mappe dine kompilerede projekt filer skal gemmes
+Vælg HTML dokument
+Den valgte fil er ikke et gyldigt HTML dokument
+HTML dokumenter
+Intet AddIn valgt. Standard scriptet vil blive brugt.
+Ret %%LINE=378%%
+Dette projekt bruger 
+AddIn, men det kunne ikke findes 
+Navn
+Tilføj browser
+Programmer
+Du skal skrive et navn på den nye browser
+Du skal vælge en gyldig kommando til at starte browseren
+Vælg hvilken browser der skal tilføjes
+AddIn Editoren er tiltænkt avancerede brugere med et rimeligt kendskab til HTML, DHTML, Java Scripting, CSS og DOM til de nyeste browsere. Er du sikker på du vil fortsætte?
+Ja
+Nej
+Spørg mig ikke igen
+Tilgængelige browsere
+&Tilføj...
+&Standard
+&Ret...
+S&let
+Luk
+Ret browser
+Opdater
+Sprogpakke lavet af:
+Bredde
+Højde
+Hævet
+Sænket
+Angiv den lodrette og vandrette forskydning som DHTML Menu Builder skal tilføje standard placeringen af menuerne, således at de optræder helt korrekt i forhold til deres HotSpots
+Vælg den lodrette og vandrette standard forskydning af dine undermenuer
+Generelle indstillinger
+Åbn sidste projekt når DMB starter
+Genskab automatisk
+Vis velkomst skærm når DMB starter
+
+Vis altid kompiler options
+Sprog
+Formattings standarder
+Separator højde
+Luft omkring billeder
+Kommandoer arver deres egenskaber fra:
+Egen gruppe
+Første kommando i samme gruppe
+Grupper arver deres egenskaber fra:
+Programmets standarder
+Første gruppe i projektet
+Indstillinger
+Skråt
+Lodret
+Vandret
+Tilfældig
+(ingen)
+Din udgave
+Program
+Kode generator
+Frigivet
+Check
+Seneste udgave
+Opgrader DHTML Menu Builder
+(Klik på Check knappen)
+(Vent venligst...)
+Er du sikker på, at du vil annullere hentningen?
+Henter... vent venligst, dette kan tage nogle minutter
+Henter
+Installer
+Hent
+Din udgave behøver at blive opgraderet
+Du har allerede den nyeste udgave
+(Ukendt)
+Kunne ikke hente information
+Der opstod en fejl under forsøget på at hente informationen
+Parametre for nyt vindue
+Position og størrelse
+Vis Hyperlinks
+Angiver om værktøjslinjen Hyperlinks skal vises
+Channel Mode
+Specifies whether to display the window in theater mode and show the channel band
+Vis Standard
+Angiver om browserens Standard værktøjslinje skal vises, så knapperne Tilbage, Frem, Stop osv. er synlige
+Vis i fuld skærm
+Angiver om det nye vindue skal vises i fuld skærm eller normalt
+Vis adresselinje
+Angiver om feltet til indtastning af adresser direkte i browseren skal vises
+Vis menulinje
+Angiver om menulinjen skal vises
+Vinduet kan skaleres
+Angiver om vinduet skal kunne ændres i størrelse
+Vis rulleskakter
+Angiver om rulleskakterne vandret og lodret skal vises
+Vis statuslinje
+Angiver om vinduet skal åbnes med en statuslinje nederst
+Vis titellinje
+Angiver om vinduets titellinje skal vises
+Top
+Tilstande
+Vælg blandt de tilgængelige
+%%EMPTY-LINE%% Left intentionaly empty for grammar purposes
+Filter
+Kaskade
+Vælg alle
+Vælg ingen
+Grupper
+kommandoer
+Alle egenskaber
+Baggrundsfarve
+Linje
+Fed
+Kursiv
+Understreg
+Baggrund
+Mus hændelser
+Menu justering
+Gruppe bredde
+Gruppe højde
+Lyde
+Når musen over
+Ved klik
+Sæt ind
+Muligheder for indsætning
+Vælg
+Alle
+Ingen
+Træ
+Fold ud
+Fold ind
+Fold alle ud
+Fold alle ind
+Beskrivelse...
+Billeder
+Fra fil...
+Vælg en billed fil
+Eksporter som HTML...
+Vælg HTML Fil
+Opdatering af status tekst
+DHTML Menu Builder fejlretnings tilstand
+Sprog ændret
+Funktionen udeladt
+Manglende parametre
+Gem ændringer?
+Fejl ved åbning af projekt
+Fejl
+FEJLRETNINGS TILSTAND
+Slet gruppe?
+Fortryd slet
+Er du sikker på at du vil fortsætte?
+Fejl ved åbning af fil
+HotSpots Editoren kræver Microsoft Internet Explorer version 5.0 eller nyere
+Fejl kunne ikke åbne HotSpots Editoren
+Du skal angive et gyldigt HTML dokument, der viser hele din side.
+Åbn dialogboksen %%LINE=378%% og ret problemet før du prøver at åben HotSpots Editoren igen.
+Manglende %%LINE=345%%
+Ved brug af ramme understøttelse og hvis menu rammen er forskellig fra HotSpot rammen,%%CRLF%%så skal indstillingen '%%LINE=345%%' under %%LINE=378%% pege på den samme fil som 'Dokument der indeholder HotSpots'.
+Ugyldigt angivet %%LINE=345%%
+HotSpots Editoren kunne ikke startes på grund af en ukendt fejl.
+Projektet kan ikke kompileres fordi
+gruppen
+kommandoen
+indeholder en eller flere ulovlige karakterer
+klik hændelsen på kommandoen
+over hændelsen på kommandoen
+dobbeltklik hændelsen på kommandoen
+klik hændelsen på gruppen
+over hændelsen på gruppen
+dobbeltklik hændelsen på gruppen
+indeholder en eller flere ugyldige karakterer i Status Tekst feltet
+Kompileringsfejl
+Projektet kan ikke kompileres da et eller flere elementer har samme navn
+Konfiguration
+Du skal angive i hvilken mappe de kompilerede filer skal gemmes.
+Vil du gøre det nu?
+Manglende destinations mappe
+Mappen hvori de kopilerede filer gemmes, angivet under %%LINE=378%%, er ugyldig.
+Ugyldig destinations mappe
+Du skal angive i hvilken mappe billederne skal gemmes.
+Manglende destinations mappe til billeder
+Mappen hvori billederne gemmes, angivet under %%LINE=378%%, er ugyldig.
+Ugyldig destinations billedmappe
+Du skal angive en gyldig destinations fil, hvor menuerne vil blive implementeret. Dette er HTML dokumentet, hvori dine hotspots er defineret.
+Manglende eller ugyldig destinations fil
+Dokumentet som indeholder projektets HotSpots skal være et gyldigt HTML dokument indenfor dit Root Web.
+Ugyldig destinations fil
+Du skal angive et gyldigt HTML dokument hvor din side vises helt.
+Manglende eller ugyldig fil
+Destinations mappen skal være en mappe indenfor dit Root Web.
+Ønsker du at rette dette problem nu?
+Parameteren '%%LINE=326%%' i
+konfigurationen er ugyldig
+Ugyldige konfigurations parametre
+The '%%LINE=330%%' parameter in the
+Den angivne '%%LINE=369%%' i FTP sektionen under %%LINE=378%% er ugyldig. 
+is defined as a cascading command through the
+event, but points to an invalid menu group
+Ugyldig mål gruppe
+Enten genetabler dette AddIn eller fjern det fra projektet
+AddIn ikke fundet
+men det kan ikke kompileres fordi%%CRLF%%det lader til at være ødelagt eller fra en ældre version af DHTML Menu Builder
+Ugyldig AddIn
+Genskabt korrekt
+Uautoriseret lukning
+Klippebordets data er fra en anden type element
+Klippebordets data er ugyldige
+Søg
+Erstat
+Søg i
+Find kun hele ord
+Store / små bogstaver
+Kun aktiverede elementer
+Erstat &Alle
+Erstat operation
+Style
+pixels
+&Åbn sidst benyttede projekt når programmet åbner
+Næste
+Analyserer
+En uventet fejl opstod ved oprettelsen af Hotspots
+Det valgte hotspot er et billede uden navn.
+Hvis denne gruppe skal justeres 
+automatisk til det valgte billede,
+skal billedet have et navn.
+Hotspot er ikke sat korrekt op
+Det valgte HotSpot er et billede med samme navn som den valgte gruppe.
+Alle elementer på din side skal have et unikt navn. Omdøb gruppen eller%%CRLF%%billedet, ellers vil denne gruppe ikke virke.
+Kommunikationen med Internet Explorer er tabt.%%CRLF%%Dit dokument kunne ikke hentes eller er ikke et gyldigt HTML dokument.%%CRLF%%%%CRLF%%Luk venligst HotSpots Editoren, check at dine projekt egenskaber er%%CRLF%%korrekt konfigureret og åbn HotSpot Editoren igen.
+Er du sikker på du vil lukke HotSpots Editoren uden at gemme dine ændringer?
+Advarsel
+
+
+Anmod om et online møde
+Anmod om en online produkt demonstration
+Dette program er givet i licens til:
+Udfyld felterne nedenfor med oplysningerne på din købs kvittering. Oplysningerne skal indtastes nøjagtig, som de optræder på din kvittering.
+Ordre nummer
+Brugernavn
+Organisation
+Godkend
+Fortrolige oplysninger
+Felterne '%%LINE=635%%' og '%%LINE=636%%' skal udfyldes for at starte registrerings processen.
+Ugyldig registrerings information
+Dine informationer er blevet godkendt.%%CRLF%%Klik på %%LINE=176%% knappen for at opgradere denne kopi af DHTML Menu Builder til den fulde registrerede version.
+Registrerings godkendelsen er fuldført!
+Kontroller at du har indtastet din information nøjagtig som den optræder på din ordrebekræftelse (kvittering).%%CRLF%%%%CRLF%%Hvis du lige har købt DHTML Menu Builder, så prøv igen om nogle minutter.%%CRLF%%%%CRLF%%En anden mulig årsag til denne fejl kan være, at du ikke bruger den seneste udgave af DHTML Menu Builder. For at checke at du har den nyeste udgave, så vælg Hjælp->Opgradering fra programmets menulinje.
+Ugyldig registrerings information
+
+Hjælp til registrering
+Serveren accepterede ikke de oplyste registrerings informationer
+Serveren rapporterede:
+Supplerende information:
+%%LINE=635%% ugyldigt
+DHTML Menu Builder kunne ikke kommunikere med serveren for at godkende din registrering.%%CRLF%%Vær sikker på du er logget på nettet, inden du prøver registrere programmet.
+Kunne ikke kontakte serveren
+Er du sikker på du vil afslutte uden at registrere?
+Flyt valgte element op
+Flyt valgte element ned
+Vis eksempel i
+Intern
+Fejl Kunne ikke vise hjælpen
+Fejl Kunne ikke installere Loader Code
+Fejl Kunne ikke fjerne eksisterende Loader Code
+Fejl Kunne ikke importere projekt
+Check for opgraderinger
+Kritisk fejl
+Fejl Kunne ikke hente parametre
+Fejl Kunne ikke gemme parametre
+Kanter
+Kommando layout
+Linje farve
+Dobbelt
+Bevel
+Kant billeder
+Opdater placering...
+Vælg den nye placering for
+
+Når '%%LINE=345%%' eller '%%LINE=347%%' parametrene ikke er af typen HTML, skal de kaldes gennem en web server.
+Konto information
+Lokale konfigurationer kan ikke publiceres til en web server. Opret en Fjern konfiguration og vælg den som standard.
+Vis %%LINE=378%% når et nyt projekt oprettes
+Denne konfiguration forbereder menuerne til at fungere på en web server.
+Vælg konfiguration
+Ændrer standard konfigurationen
+Når du ændrer standard konfigurationen, ændres stierne til de filer, der genereres af DHTML Menu Builder. Du skal derfor huske at opdatere din Loader Code i dine dokumenter.
+Kompilerer lokale konfigurationer
+Du er ved at kompilere en konfiguration af typen lokal. Disse typer konfigurationer vil kun fungere på den maskine hvor menuerne udvikles.%%CRLF%%Hvis dette projekt skal offentliggøres på en webserver, skal du oprette en konfiguration af typen fjern og kompilere projektet igen.
+Installerer en disk baseret Loader Code
+Din standard konfiguration er af typen lokal. Det betyder at din Loader Code, som installeres på dine sider, vil være disk baseret. Menuerne vil derfor kun virke på den maskine, hvor de udvikles.%%CRLF%%Hvis dette projekt skal offentliggøres på en web server, skal du oprette en konfiguration af typen fjern. Din Loader Code vil herefter blive optimeret til at generere stier, der fungerer på din web server.
+Ændrer gruppers justering
+Før ændringerne i gruppernes justering træder i kraft, skal du køre %%LINE=335%%en.%%CRLF%%Hvis du allerede har tilknyttet grupperne til dine hotspots, kan du nøjes med at åbne %%LINE=335%%en og klikke på knappen Installer for at få ændringerne til at træde i kraft.
+Mulige kompatibilitets problemer
+Konfigurations opsætning ufuldstændig 
+Nogle stier i din lokale konfiguration er tomme. Dette kan medføre uforudsigelige resultater.%%CRLF%%For at være sikker på at DHTML Menu Builder kan generere et projekt, der fungerer på dit website, skal du altid udfylde alle parametre i alle dine konfigurationer.
+&Søg...
+Ønsker du at anvende den registrerings information, som godkendelses serveren returnerede ved sidste godkendelse?
+Godkendelses metode
+Der opstod en ukendt fejl under forsøget på at registrere DHTML Menu Builder.
+Fejl ved start af Register.exe
+Kontrollerer Internet forbindelse
+Kontakter godkendelses serveren
+Forbereder data
+Kontrollerer registrerings information
+Der kunne ikke etableres forbindelse til godkendelses serveren.%%CRLF%%%%LINE=705%%
+Godkendelses fejl
+Der blev ikke fundet forbindelse til internettet.%%CRLF%%%%LINE=705%%
+Hvis du er bag en proxy server eller firewall, så ignorer denne fejl.
+Tilgængelige HotSpots
+Tilknyttet gruppe
+Billed navn
+Placering
+Aktiv tekst
+Type
+Opret fra
+Font erstatninger
+Fonte anvendt i dette projekt:
+Erstatninger:
+Top venstre
+Top center
+Top højre
+Venstre
+Højre
+Bund venstre
+Bund center
+Bund højre
+Farver
+Undermenu justering
+Effekt type
+Globale indstillinger
+Timere
+Forsinkelse af skjul menuer
+Forsinkelse af undermenu visning
+Effekt hastighed
+Udvidede funktioner
+Generer kode til DOM compliant browsers
+Generer kode til Navigator 4
+Generer hRef fil
+Dette er et delt projekt
+Skjul form elementer
+Understøttelse af Dreamweaver/Fireworks Rollovers
+Rettelse af Navigator 4 'Clip Bug'
+Hjælpefunktioner til rollover effekter i Opera 6
+Understøttelse af ImageReady Rollovers
+Standard
+Optimer stier
+Mindre
+Mere
+Langsom
+Hurtig
+Mål dokument
+Dette er dokumentet, hvorfra menuerne vil blive aktiveret.
+Dette er dokumentet hvor DHTML Menu Builder vil installere værktøjslinien ved hjælp af menupunktet %%LINE=157%%->%%LINE=164%%.
+I dette dokument vil DHTML Menu Builder forvente at finde de HotSpots, der trigger menuerne.
+Vælg mappen som indeholder de filer du ønsker at tilføje
+Vælg de HTML dokumenter, hvor ramme din Loader Code skal installeres
+Vælg de HTML dokumenter, hvor din Loader Code skal installeres
+Brug avanceret menu installations værktøj
+Aktiver projekt låsning
+Vis oversigt som standard
+Oversigt
+Normal
+Tilføj undergruppe
+Installer menuer
+Fjern Loader Code
+Mapper på web site
+Filer på
+Filer som vil modtage menuerne
+Fil som vil modtage værktøjslinien
+Fil som vil modtage værktøjslinierne
+Installer værktøjslinie
+Fjern menuer
+Alle dokumenter på dette web site lader til at have den korrekte Loader Code.%%CRLF%%Der foreslåes ingen ændringer.
+Der er ingen valgte filer at installere menuerne i
+Installerer Loader Code
+Installerer ramme Loader Code
+Analyserer fil
+Analyserer linket fil fra kommando
+Analyserer linket fil fra gruppe
+Analyserer eksisterende Loader Code i
+Scanner mappe
+(n/a)
+Standard
+Rammer
+(ingen)
+Indeholder ramme Loader Code
+Indeholder ingen Loader Code
+Indeholder standard Loader Code
+Understøtter ikke Loader Code
+Fjern fra liste
+Tilføjer fil
+Ingen filer i mappen
+Navn|Størrelse|Type|Rettet den|Loader Code
+Separator længde
+Procent
+Ret værktøjslinjer
+Tilhørende værktøjslinjen:
+(Ingen værktøjslinje)
+Hent
+Skabeloner
+Forfatter
+Kommentarer
+Cascading
+Skabelon eksempel
+Tilføj
+Tilføj stil fra skabelon...
+Tomt projekt
+Fra skabelon...
+Ved hjælp af guiden...
+Skabelon
+Slet
+Tilføj værktøjslinje
+Slet værktøjslinje
+Længde...
+Fil som vil modtage værktøjslinien og menuerne
+Fil som vil modtage værktøjslinierne og menuerne
+Fil som vil modtage menuerne
+Udført. Klik på %%LINE=468%% knappen for at behandle alle valgte dokumenter.
+Værktøjslinje egenskaber
+Microsoft Internet Explorer (Intern)
+Center / Venstre
+Center / Højre
+Center / Top
+Center / Bund
+ingen
+normal
+max
+Sekundære projekter
+Projekter
+Ingen projekter valgt at installere
+Ugyldigt valg
+Dette projekt kan ikke vælges, fordi det ikke eksisterer eller er oprettet i en ældre udgave af DHTML Menu Builder
+Scrolling
+Kast skygge
+Effekter
+Fra fil struktur
+Gem som skabelon
+Udtræk ikon
+DHTML Menu Builder Tips
+Der findes allerede en skabelon gruppe i projektet
+Kan ikke tilføje skabelon gruppe
+Når der anvendes sekundære projekter, skal master projektet gemmes inden kompilering
+Projektet
+kan ikke kompileres, fordi det ikke har samme konfigurationer som master projektet
+For at oprette en skabelon skal det aktive projekt indeholde mindst een værktøjslinie
+Ugyldigt projekt
+Det opstod en fejl ved forsøg på at oplåse filen:
+Fejl ved oplåsning af fil
+er i øjeblikket låst af en anden process:
+Vil du indlæse det alligevel?
+Dette projekt kan ikke åbnes, da det er oprettet i <developers' edition>
+Opgraderer projekt...
+Favorit
+Mål ramme
+fra værktøjslinien
+PC helbreds advarsel
+Dine system resourcer er faretruende lave!%%CRLF%%%%CRLF%%Under Windows 95, 98 og Millennium, kan for mange kørende programmer på samme tid bruge alle resourcer - uanset hvor meget ram der er installeret.%%CRLF%%%%CRLF%%For at undgå system nedbrud, luk alle programmer du ikke bruger, specielt hvis du har mange programmer kørende i urfeltet.
+System resourcer:
+GDI resourcer:
+Bruger resourcer:
+DHTML Menu Builder DEMO begrænsninger
+Denne DEMO udgave af DHTML Menu Builder er uden begrænsninger, hvilket gør dig i stand til at teste og implementere dine menuer.%%CRLF%%%%CRLF%%Men, programmet vil udelade links i dine menu elementer, så de specificerede handlinger ikke vil blive udført, når der klikkes på dem.
+Hvis du lige har opgraderet DHTML Menu Builder, skal programmet godkendes igen for at blive ændret til den FULDE version.%%CRLF%%Ønsker du at gøre dette nu?
+Velkommen til DHTML Menu Builder!
+Det ser ud som om, det er første gang du anvender DHTML Menu Builder.%%CRLF%%Hvis du ikke før har lavet web baserede menuer, anbefales du kraftigt at anvende guiden, der er til rådighed ved at klikke Fil->Ny->Ved hjælp af guiden.%%CRLF%%Dette vil tillade dig at oprette din første menu på nogle få minutter og derefter anvende det fulde program til at give menuen den sidste afpudsning og indsætte den på dit website.
+Kompiler projekt
+Kommandoer kan ikke slippes over værktøjslinier
+Grupper kan ikke slippes over den samme værktøjslinie som de tilhører
+Kopier gruppen
+til værktøjslinien
+Flyt gruppen
+Kopier kommandoen
+til gruppen
+Kommandoer kan ikke flyttes til samme gruppe som de tilhører
+Flyt kommandoen
+under kommandoen
+Grupper kan kun slippes over værktøjslinier
+Ugyldigt element navn
+Omdøb
+Manuelt indtastede links kan give problemer
+Links til filer på dit website bør altid sættes ved at bruge gennemse knappen ved siden af URL feltet.%%CRLF%%Kun links, der peger på resourcer udenfor dit website, må indtastes manuelt.
+DHTML Menu Builder projekt
+Ikon bibliotek
+Indlæste ikoner
+Valgt ikon
+Ikon størrelse
+Ramme dokument
+Tilgængelige rammer
+Dokumentet indeholder ingen rammer
+Dokumentet eksisterer ikke
+Dokumentet indeholder
+ramme
+rammer
+Tilgængelige favoritter
+Mål favorit
+DHTML Menu Builder kunne ikke automatisk bestemme menuens ramme. Vælg venligst i hvilken ramme menuerne skal vises:
+Send
+Skabelonen
+eksisterer allerede%%CRLF%%%%CRLF%%Er du sikker på, at du vil overskrive den?
+Kun skabeloner du har designet kan overskrives.
+Fejl ved oprettelse af ny skabelon
+Kun den registrerede udgave af DHTML Menu Builder kan sende skabeloner
+Kunne ikke sende
+Du skal være forbundet til internettet for at sende en skabelon til online kataloget
+Du skal til at sende skabelonen
+til online kataloget
+Klar til at sende skabelon
+Forbinder til server...
+Sender skabelonen...
+Tilføjer skabelonen til online kataloget
+Skabelonen kunne ikke sendes, da den allerede findes i online kataloget.
+Serveren registrerede en fejl under behandlingen af afsendelsen:
+DHTML Menu Builder registrerede en fejl under behandlingen af afsendelsen:
+Skabelonen er blevet sendt.%%CRLF%%Tak fordi du valgte at dele dit projekt med resten af verden!
+Kun skabeloner som du selv har designet kan sendes til online kataloget.
+Send skabelon
+Vælg et navn og en placering for at gemme billedet
+Projekt information
+Placering
+Version
+Titel
+Standard tegnsæt for Vis eksempel
+Tilføj til %%ITEMNAME%%
+Tilføj til alle %%RSCNAME1%% under %%ITEMNAME%% %%RSCNAME2%%
+Tilføj til alle %%RSCNAME%%
+Separatorer
+Tilføj til

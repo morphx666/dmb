@@ -1,0 +1,6 @@
+CDMBAddIn = 223, 158, 955, 925, C
+DMBAddInDesigner = 184, 127, 1115, 927, , 0, 0, 0, 0, C
+frmRsc = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+modShort2Long = 0, 0, 0, 0, C
+modFileHandling = 0, 0, 0, 0, C
+modRegistryFunctions = 0, 0, 0, 0, C

@@ -1,0 +1,15 @@
+CEngine = 323, 204, 1520, 1011, C
+EngineGlobals = 128, 129, 991, 898, C
+clsFlood = 122, 129, 1079, 857, C
+modImgHandling = 157, 133, 1048, 933, C
+modRegistryFunctions = 153, 129, 600, 935, C
+modURLEncoding = 153, 129, 981, 935, C
+modLocaleInfoAPI = 153, 129, 886, 935, C
+modShort2Long = 176, 113, 1078, 919, C
+modGlobals = 153, 139, 1092, 968, C
+modFileHandling = 155, 133, 910, 933, C
+modColorSpaceFunctions = 155, 133, 1062, 933, C
+modCacheDataCODEC = 157, 133, 980, 933, C
+LZW = 153, 135, 982, 934, C
+modZlib = 153, 135, 1065, 934, C
+modExport = 162, 143, 1446, 936, C

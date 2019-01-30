@@ -1,0 +1,100 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Style / Cursor</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<div id="popup" style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;" onclick="HideIt();">
+  Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b>
+    <font color="#FFFFFF" size="2">&nbsp;</font></b><b><font size="2" color="#FFFFFF">Dial</font></b><font size="2" color="#FFFFFF"><b>ogs 
+    » Style » Cursor</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+    <table border="0" width="100%" cellspacing="4" cellpadding="4">
+      <tr>
+        <td width="100%">This is the Cursor dialog.<br>
+        This version of the Cursor dialog applies to both Groups and Commands.<br>
+        To access this dialog select a group or a command and click
+        <font face="Courier New">Menu-&gt;Cursor</font><p>
+        Click any part of the dialog to get information about its purpose.</p>
+        <p align="center"><map name="FPMap0">
+        <area href="javascript:say(0);" shape="rect" coords="68, 79, 284, 114">
+        <area href="javascript:say(1);" shape="rect" coords="9, 179, 312, 266">
+        <area href="javascript:say(2);" shape="rect" coords="32, 123, 276, 156">
+        <area href="javascript:say(3);" shape="rect" coords="9, 29, 313, 57">
+        </map>
+        <img border="0" src="images/group_and_command_cursor.gif" usemap="#FPMap0" width="321" height="310"></p>
+        <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="100%">Related topics of interest:
+            <ul>
+              <li><a href="index.htm">Dialogs Index</a></li>
+            </ul>
+            </td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+<div id="NullInfo" style="visibility: hidden; cursor: arrow; display: none">
+  <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+  Please try another section.</div>
+<div id="Info0" style="visibility: hidden; cursor: arrow; display: none">
+  <b>Cursor Type<br>
+  </b>Allows you to select the mouse pointer that will be displayed when 
+  the mouse is over the item.<p>Select the Custom option to define a 
+  <a href="javascript:say(2);">custom cursor</a>.</div>
+<div id="Info1" style="visibility: hidden; cursor: arrow; display: none">
+  <b>Live Preview<br>
+  </b>Allows you to see how the selected item will appear in your browser.<br>
+  <br>
+  The Live Preview is updated at the same time you make changes to your items. That way, you always know how your menus will appear without having to go through the process of compiling your project or even previewing.<br>
+  <br>
+  When a group is selected, the Live Preview shows how the background of the menu will appear. If the <a href="../creating_toolbars.htm">toolbar option</a> is selected, the preview will show how the actual toolbar hotspot will appear.<br>
+  <br>
+  When a command is selected, the Live Preview shows how the selected command will appear against its parent group.</div>
+<div id="Info2" style="visibility: hidden; cursor: arrow; display: none">
+  <b>Custom Cursor Icon</b><br>
+  Allows you to define a custom cursor through the use of .CUR or .ANI files.<br>
+&nbsp;<table border="0" cellpadding="2" style="border-collapse: collapse" width="100%" id="AutoNumber1" bgcolor="#E0E0E0">
+				<tr>
+					<td width="100%"><b>Compatibility notes</b><br>
+					Netscape
+					Navigator 4 completely ignores these settings.<br>
+                    Some cursors may not be available under some platforms.<p>At 
+                    the time of this writing <b><font color="#FF0000">(give date) </font></b>Custom Cursors 
+                    support (.ico and .ani) is currently available under 
+                    Internet Explorer 6 under Windows only.</td>
+				</tr>
+			</table>
+            </div>
+            
+<div id=Info3 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>The Scope Selector<br>
+			</b>This advanced control will let you select which item or items 
+            should receive the styles on the dialog.</p>
+            <p>By default, only the selected item will receive the style 
+            changes, however you can choose from a variety of options to apply 
+            the same style changes to a set of menu items all at once.</p>
+            <p><a href="../scopeselector.htm">Click here for more information 
+            about the Scope Selector</a>.</p>
+            </div>
+
+</body>
+
+</html>

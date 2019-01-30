@@ -1,0 +1,6 @@
+Line 163: Class xfxLine3D.ucLine3D of control uc3DLine2 was not a loaded control class.
+Line 198: Class xfxLine3D.ucLine3D of control uc3DLine1 was not a loaded control class.
+Line 169: The property name _ExtentX in uc3DLine2 is invalid.
+Line 170: The property name _ExtentY in uc3DLine2 is invalid.
+Line 204: The property name _ExtentX in uc3DLine1 is invalid.
+Line 205: The property name _ExtentY in uc3DLine1 is invalid.

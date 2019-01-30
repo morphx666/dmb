@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<title>New Page 1</title>
+</head>
+
+<body><!-- DHTML Menu Builder Loader Code START -->
+<div id="dmbri" style="position:absolute;">
+<img src="images/dmb_i.gif" name="dmbif" width="1" height="1" alt="">
+<img src="menus/dmb_m.gif" name="dmbjs" width="1" height="1" alt="">
+</div>
+<script language="javascript" type="text/javascript">
+var rimPath=null;var rjsPath=null;var rPath2Root=null;function InitRelCode(){var iImg;var jImg;var tObj;if(!document.layers){iImg=document.images['dmbif'];jImg=document.images['dmbjs'];tObj=jImg;}else{tObj=document.layers['dmbri'];if(tObj){iImg=tObj.document.images['dmbif'];jImg=tObj.document.images['dmbjs'];}}if(!tObj){window.setTimeout("InitRelCode()",700);return false;}rimPath=_gp(iImg.src);rjsPath=_gp(jImg.src);rPath2Root=rjsPath+"../";return true;}function _purl(u){return xrep(xrep(u,"%%REP%%",rPath2Root),"\\","/");}function _fip(img){if(img.src.indexOf("%%REL%%")!=-1) img.src=rimPath+img.src.split("%%REL%%")[1];return img.src;}function _gp(p){return p.substr(0,p.lastIndexOf("/")+1);}function xrep(s,f,n){if(s) s=s.split(f).join(n);return s;}InitRelCode();
+</script>
+<script language="javascript" type="text/javascript">
+function LoadMenus() {if(!rjsPath){window.setTimeout("LoadMenus()", 10);return false;}var navVer = navigator.appVersion;
+if(navVer.substr(0,3) >= 4)
+if((navigator.appName=="Netscape") && (parseInt(navigator.appVersion)==4)) {
+;} else {
+document.write('<' + 'script language="javascript" type="text/javascript" src="' + rjsPath + 'iemenu.js"><\/script\>');
+}return true;}LoadMenus();</script>
+<noscript><ul>
+<li>Products
+<ul>
+<li><a href="#">Computers</a><ul>
+<li><a href="#">High Performance</a></li>
+<li><a href="#">Gaming Systems</a></li>
+<li><a href="#">Desktop Systems<br><small>Computers for the Home</small></a></li>
+</ul>
+</li>
+<li><a href="#">Accessories</a><ul>
+<li><a href="#">Cables</a></li>
+<li><a href="#">Adapters</a></li>
+<li><a href="#">Connectors</a></li>
+<li><a href="#">Batteries</a></li>
+</ul>
+</li>
+<li><a href="#">Catalog Index</a></li>
+</ul>
+</li>
+<li>Links
+<ul>
+<li><a href="#">Search the Web</a></li>
+<li><a href="#">xFX JumpStart<sup>®</sup></a></li>
+</ul>
+</li>
+</ul></noscript>
+<!-- DHTML Menu Builder Loader Code END -->
+
+</body>
+
+</html>

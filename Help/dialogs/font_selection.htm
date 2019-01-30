@@ -1,0 +1,100 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Application / Font Selection</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font size="2" color="#FFFFFF"><b>Dialogs  </b></font><b><font color="#FFFFFF" size="3">
+	»</font></b><font size="2" color="#FFFFFF"><b> Production  </b></font><b><font color="#FFFFFF" size="3">
+	» </font><font color="#FFFFFF" size="2">
+	Font Selection</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is the Font Selection dialog.<br>
+			Select font, font style, and font size for 
+			the selected item.<br>
+            To access this dialog select a group or a command and click
+            <font face="Courier New">Menu-&gt;Font</font> and then click on one of 
+            the <font face="Courier New">Change</font> buttons.</p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area href="javascript:say(0);" shape="rect" coords="7, 28, 246, 151">
+			<area href="javascript:say(1);" shape="rect" coords="9, 154, 88, 221">
+			<area href="javascript:say(2);" shape="rect" coords="136, 159, 244, 209">
+			<area href="javascript:say(3);" shape="rect" coords="10, 224, 246, 296">
+			</map>
+			<img border="0" src="images/font_selection.gif" usemap="#FPMap0" width="253" height="346"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+          	<p><b>Name<br>
+			</b>Select the name of the font from this list .</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Style<br>
+			</b>Check the style to apply 
+			to the selected font.</p>
+          	</div>
+          	
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Size<br>
+			</b>Select the size, in pixels, to apply to the selected font.</p>
+            <p>In case the font size you want to use is not listed, you can also type the font size directly .</p>
+          	<table border="0" cellpadding="2" style="border-collapse: collapse" width="100%" id="AutoNumber2" bgcolor="#E0E0E0">
+				<tr>
+					<td width="100%"><b>Compatibility notes</b><br>
+					Using a font size not available on the list may cause the 
+                    menus to render improperly under Netscape Navigator 4 for the Macintosh and 
+                    Linux operating sytems.</td>
+				</tr>
+			</table>
+          	</div>
+          	
+<div id=Info3 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Font Preview<br>
+			</b>This is a real-time preview of your font selection settings.</p>
+          	</div>
+
+</body>
+
+</html>

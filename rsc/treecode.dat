@@ -1,0 +1,63 @@
+	%%SINGLESEL%%
+	
+	function toggleState(node) {
+		if(ssel) resetAll(node);
+		doToggle(node);
+	}
+	
+	function doToggle(node, reset) {
+		var n = document.getElementById(node);
+		if(!reset) reset = "inline";
+		n.style.display = (n.style.display!='none'?'none':reset);
+		document.images[node+'Img'].src = (n.style.display=="inline"?eImg.src:cImg.src);
+	}
+	
+	function resetAll(node) {
+		var node;
+		var n;
+		var nIdx = getIdx(node);
+		var d = document.getElementsByTagName("A");
+		var n = document.getElementById(node);
+		if(n.style.display=="none") {
+			for(var i=0; i<d.length; i++)
+				if(d[i].onclick) {
+					node = d[i].onclick.toString();
+					node = node.substr(node.lastIndexOf("(")+2);
+					node = node.substr(0, node.lastIndexOf(")")-1);
+					if(getIdx(node)==nIdx) doToggle(node, "none");
+				}
+		}
+	}
+	
+	function getIdx(node) {
+		var i = 0;
+		var n = document.getElementById(node);
+		if(n)
+			while(n.parentNode) {
+				n = n.parentNode;
+				i++;
+			}	
+		return i;
+	}
+	
+	function toggleAll(s) {
+		var d = document.getElementsByTagName("A");
+		var n;
+		var c;
+		var b = ssel;
+		var v = "'";
+		ssel = false;
+		s = (s==0?"inline":"none");
+		for(var i=0; i<d.length; i++) {
+			n = d[i].onclick;
+			if(n) {
+				n = n.toString();
+				if(n.indexOf("toggleState")!=-1) {
+					if(n.indexOf(v)==-1) v = "\"";
+					n = n.split(v)[1];
+					if(document.getElementById(n).style.display==s) toggleState(n);
+				}
+			}
+		}
+		ssel = b;
+	}

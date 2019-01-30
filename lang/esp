@@ -1,0 +1,988 @@
+Español
+Xavier Flix
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Muestra En Vivo
+Propiedades del Comando
+Título
+Habilitado
+Sobre
+Click
+Doble Click
+Tipo de Acción
+Menú Destino
+(ninguna)
+Abrir un URL / Ejecutar Código
+Abrir un Submenú
+Abrir un URL en una Ventana Nueva
+Texto de la barra de Estado
+Alineamiento
+Debajo / Izquierda
+Debajo / Derecha
+Arriba / Izquierda
+Arriba / Derecha
+Izquierda / Arriba
+Izquierda / Abajo
+Derecha / Arriba
+Derecha / Abajo
+Propiedades del Grupo
+URL / Código
+&Archivo
+&Nuevo
+&Abrir...
+Abrir Reciente
+Salvar
+Salvar &Como
+&Importar...
+&%%LINE=378%%...
+Sali&r
+&Edición
+&Deshacer
+&Rehacer
+&Copiar...
+&Pegar...
+&Buscar...
+Buscar &Otro
+&Reemplazar...
+Borr&ar
+Ren&ombrar
+Opciones...
+&Menú
+Agregar &Grupo
+Agregar Comando
+Agregar Separador
+Color...
+Letras...
+Cursor...
+Imagen...
+Márgenes...
+Efectos Especiales...
+Sonido...
+&Herramientas
+&Generar Vista Preliminar...
+&Vista Preliminar
+Establecer Navegador &Predeterminado...
+&Compilar
+
+Pu&blicar...
+Instalar Código de Carga...
+Instalar Código de Carga para Marcos...
+Editor de &HotSpots...
+Editor de &Barras de Menús...
+Editor de &AddIns...
+Reporte de los Menús...
+&Ayuda
+&Contenido...
+&Guías
+&Actualizar...
+xFX JumpStart en la Web
+Acerca de...
+Registrar
+Introducir Información de Registro...
+Comprar DHTML Menu Builder...
+Normal
+Alterno
+Color Texto
+Color Fondo
+Defecto
+Original
+Auto
+Aceptar
+Cancelar
+Muestra
+Cambiar
+Izquierda
+Derecha
+Centro
+Flecha (Predeterminado)
+Cruz
+Mano
+Texto
+Ayuda
+Imagen Izquierda
+Imagen de Fondo
+Imagen Derecha
+Quitar
+Igual
+Tamaño
+Elemento en la Barra de Menús
+Imagen Fondo
+Tamaño Borde
+Color de los Bordes
+
+Márgenes del Contenido del Grupo
+Vertical
+Horizontal
+Color
+Fuente
+Imagen
+Cursor
+Márgenes
+Efecto de los Comando
+Efectos del Grupo
+Margen Horizontal
+Margen Vertical
+Tamaño de la Sombra
+Transparencia
+Menú Contextual
+Manual
+Calcular
+
+Tamaño del Grupo
+Apagado
+Grande
+Invisible
+Efectos Especiales
+Estado del Comando
+¿Desea actualizar el texto de la barra de estado de todos los comandos?
+Editar
+Marco Destino
+se le hace click
+el cursor esta encima
+se le hace doble click
+Seleccione el documento que desea abrir cuando
+Parámetros de la nueva Ventana
+DHTML Menu Builder esta en modo a prueba de fallos.
+Si recibe algún error mientras trabaja, favor de reportarlo, incluyendo
+el número y la descripción del error. Incluya también una breve explicación de que estaba haciendo cuando ocurrió el error.
+Esta es una versión de demostración de DHTML Menu Builder.
+Esta función solo está disponible en la versión completa. Utilice Herramientas->Generar Vista Preliminar para probar los menús que ha creado.
+El AddIn
+requiere que algunos parámetros sean establecidos.
+Utilice el botón de Parámetros del AddIn que se encuentra en la sección Avanzada del dialogo de %%LINE=378%% para proveer los parámetros necesarios.
+Esta función solo está disponible en la versión completa.
+Seleccione un proyecto para Importar
+¿Desea salvar los cambios a
+Publicar los menús localmente sin el uso de un servidor web
+Local
+Remota
+Abrir Proyecto
+Proyectos de DHTML Menu Builder
+DHTML Menu Builder no puede abrir la file por que tiene el atributo de solo-lectura o se encuentra en un dispositivo al cual no tiene permiso de escritura
+Cargando
+Este proyecto fue creado con una versión anterior de DHTML Menu Builder.
+Favor de consultar la Ayuda y seguir los pasos dispuestos para poder actualizar su proyecto de forma apropiada.
+El proyecto no se pudo abrir debido a que la fila
+no existe
+El proyecto no se pudo abrir.
+Importando
+Deshacer
+Rehacer
+Salvar Proyecto
+Salvando
+Salvar el Proyecto como
+Grupo
+Comando
+Separador
+Al borrar un Grupo también se borrarán todos sus Comandos. ¿Es esto lo que desea hacer?
+Este grupo no puede ser borrado por que está siendo usado como un submenú de otro grupo.
+Mover
+Arriba
+Abajo
+El proyecto está configurado para generar una barra de menús.
+A menos que tenga HotSpots en su página que
+desea utilizar para lanzar alguno de sus grupos, el Editor de HotSpots no es necesario.
+El Editor de HotSpots no puede abrir la file que contiene los HotSpots por que tiene el atributo de solo-lectura o está almacenada en un dispositivo al que no tiene permiso de escritura
+Configuración Predeterminada
+Cambios al lenguaje se harán efectivos la próxima vez que arranque DHTML Menu Builder
+Cargando las Fuentes del Sistema...
+Por favor espere, Inicializando...
+Cargando el Ultimo Proyecto...
+Proceso de Inicialización Completo
+Su proyecto ha sido recuperado.
+Seleccione una carpeta para salvarlo
+DHTML Menu Builder no fue cerrado apropiadamente y una copia de su trabajo esta disponible.
+¿Desea recuperarla?
+Los nombres de los elementos deben empezar con una letra
+Copiar/Mover
+Acción
+Espacio
+Seleccione los estilos para copiar del grupo
+Selecciona los estilos para copiar del separador bajo el grupo
+Seleccione los estilos para copiar del comando
+Copiado Selectivo
+Pegado Selectivo
+Seleccione los estilos a pegar
+Pegar al grupo
+Pegar a todos los grupos
+Pegar al separador seleccionado
+Pegar a todos los separadores bajo el
+grupo
+Pegar a todos los separadores
+Pegar al comando
+Pegar a todos los comandos bajo el
+Pegar a todos los comandos
+El Clipboard no contiene datos
+Página Principal
+Soporte
+Preguntas Frecuentes
+Forum Público
+Noticias
+Ubicación del Proyecto
+Nombre del Proyecto
+%%LINE=231%%
+Efecto de sonido al abrir un Menú
+General
+Configuraciones
+Barra de Menús
+FTP
+Avanzado
+Ruta local a la raíz del Web
+Carpeta para almacenar las filas compiladas
+Carpeta para almacenar las Imágenes
+Configuración Local
+Raíz del Servidor Web
+Ruta hacía las filas compiladas
+Ruta hacía las Imágenes
+ejemplo
+Rutas
+Documento Destino
+Soporte de Marcos
+Opciones
+Agregar...
+Editar...
+%%RESERVED%%
+Establecer como Predeterminada
+Rellenar Automáticamente
+Importar...
+Documento que Recibirá los Menús
+Documento HTML Final
+Habilitar Soporte para Marcos
+Documento que contiene los Marcos
+Marco de los HotSpots
+Marco de los Menús
+Crear Barra de Menús
+Seleccione los grupos que desea incluir en la barra
+Apariencia
+Posicionamiento
+Estilo de la Barra
+Borde
+Separación
+Forzar la misma %WH% en los grupos
+Color de Fondo
+Imagen de Fondo
+Barra de Muestra
+Cobertura
+Distanciamiento
+Pixeles Horizontalmente
+Pixeles Verticalmente
+(auto)
+Tamaño de la Página
+Personalizado
+Seguimiento de las barras del navegador
+Dirección del Servidor de FTP
+Autentificación Anónima
+Preguntar al conectarse
+Utilizar un Servidor Proxy
+Usuario
+Clave
+Dirección
+Puerto
+Configuración Remota
+Propiedades del Proyecto
+Optimización del Código
+Nombre de la fila JavaScript Compilada
+Ajuste de posición
+[DEBUG] Sin Optimizar
+[FINAL] Código Pequeño y rápido
+Servidor o protocolo inválido
+Seleccione el Documento con los Marcos
+Uno de sus marcos utiliza el nombre reservado
+Antes de que pueda utilizar los menús deberá cambiar el nombre de ese marco
+Esta file no parece ser una definición válida de marcos
+Seleccione la carpeta donde desea almacenar las Imágenes utilizadas en su proyecto
+Seleccione la carpeta de la raíz de su web
+Seleccione la fila de sonido
+Su proyecto debe ser salvado antes de importar los parámetros de otro proyecto
+Seleccione un Proyecto
+Editar Configuración
+Esta configuración no puede ser eliminada debido a que es usada por el soporte FTP
+La configuración predeterminada no puede ser eliminada
+Esta configuración no puede ser eliminada por es utilizada por la configuración
+%%EMPTY-LINE%% Left intentionaly empty for grammar purposes
+(no hay grupos seleccionados)
+Predeterminada
+Seleccione la carpeta donde desea salvar las filas compiladas
+Seleccione el Documento HTML
+La fila seleccionada no es un documento HTML válido
+Documentos HTML
+No hay ningún AddIn seleccionado. El código predeterminado será utilizado.
+Cambiar %%LINE=378%%
+Este proyecto utiliza el AddIn
+pero el mismo no pudo ser encontrado
+Nombre
+Agregar Navegador
+Programas
+Debe darle un nombre al nuevo navegador
+Debe seleccionar un comando válido para iniciar el navegador
+Seleccione el navegador que desea Agregar
+El Editor de AddIns está ideado para ser usado por personas con un moderado conocimiento de HTML. DHTML, Java Scripting, CSS y el DOM de los nuevos navegadores. El uso inapropiado del Editor de AddIns causará resultados impredecibles.
+Si
+No
+No volver a preguntar
+Navegadores Disponibles
+&Agregar...
+&Predeterminado
+&Editar...
+&Quitar
+Cerrar
+Editar Navegador
+Actualizar
+Paquete de Lenguaje creado por:
+Anchura
+Altura
+Realzado
+Hundido
+Seleccione el distanciamiento que DHTML Menu Builder le deberá aplicar a los menús para que estos aparezcan perfectamente alineados a sus respectivos hotspots
+Seleccione el distanciamiento que desea aplicar a los submenús
+Opciones Generales
+Abrir el último proyecto cuando DMB arranca
+Auto-Recuperar
+Mostrar ventana de introducción al inicio
+Habilitar Deshacer/Rehacer
+
+Lenguaje
+Opciones de Formato
+Altura de los separadores
+Espacio de las imágenes
+Los Comandos heredan su estilo de
+El Grupo al que pertenecen
+Primer Comando bajo el mismo grupo
+Los Grupos heredan su estilo de
+Parámetros por defecto de programa
+Primer Grupo en el Proyecto
+Opciones
+Bidireccional
+Vertical
+Horizontal
+Aleatorio
+(ninguno)
+Su Versión
+Aplicación
+Máquina
+Fecha de revisión
+Verificar
+Versión Disponible
+Actualizar DHTML Menu Builder
+(Haga click en el botón de Verificar)
+(Verificando...)
+¿Está seguro que desea interrumpir la descarga?
+Descargando... Por favor espere, esto puede tomar algunos minutos
+Descargando
+Instalar
+Descargar
+Su versión necesita ser actualizada
+Usted ya tiene la última versión disponible
+(Desconocida)
+No se pudo obtener la información
+Ha ocurrido un error al intentar descargar la información
+Parámetros de la Ventana
+Posición y Tamaño
+Incluir botones del directorio
+Especifica si se deben, o no, incluir los botones del directorio
+Modo de Canal
+Especifica si se debe presentar la ventana en modo de pantalla completa y mostrar la banda de canales
+Mostrar barra de herramientas
+Especifica si se debe mostrar la barra de herramientas, de forma que los botones como Anterior, Siguiente y Parar estén disponibles
+Mostrar en pantalla completa
+Especifica si se debe mostrar el navegador como una ventana que ocupa toda el área visible o en su estado normal
+Mostrar el campo de entrada
+Especifica si se debe mostrar el campo para entrar direcciones de Internet directamente
+Mostrar la barra de menús
+Especifica si se debe mostrar la barra de los menús del navegador
+Puede cambiar de tamaño
+Especifica si el tamaño de la ventana del navegador puede ser alterada
+Mostrar barras de seguimiento
+Especifica si se deben mostrar las barras horizontal y vertical de seguimiento
+Mostrar la barra de estado
+Especifica si se debe mostrar la barra de estado en la parte más baja del navegador
+Mostrar barra de título
+Especifica si se debe mostrar la barra de título del navegador
+Arriba
+Estados
+Seleccione de entre los
+disponibles
+Filtro
+Despliega un Submenú
+Seleccionar Todos
+Seleccionar Ninguno
+Grupos
+Comandos
+Todas las Propiedades
+Fondo
+Línea
+Negritas
+Cursiva
+Subrayada
+Fondo
+Acciones de los Eventos
+Alineamiento del Menú
+Ancho del Grupo
+Altura del Grupo
+Sonidos
+Al pasar sobre
+Al hacer click
+Pegar
+Opciones
+Seleccionar
+Todos
+Ninguno
+Ramas
+Expandir
+Colapsar
+Expandir Todas
+Colapsar Todas
+Descripción...
+Imágenes
+Cargar...
+Seleccione una imagen
+Exportar HTML como...
+Seleccione la fila HTML
+Actualizar texto de la barra de estado
+Modo a Prueba de Fallos
+Lenguaje Cambiado
+Función no Disponible
+Parámetros sin Especificar
+¿Desea salvar los cambios?
+Error Abriendo el Documento
+Error
+MODO A PRUEBA DE FALLOS
+¿Desea borrar el Grupo?
+Borrado Cancelado
+¿Está seguro que desea continuar?
+Error Abriendo la Fila
+El Editor de HotSpots requiere que Microsoft Internet Explorer 5.0 o superior
+Error al ejecutar el Editor de HotSpots
+Usted necesita especificar un documento HTML que presente su página de forma completa.
+Abra la ventana de las %%LINE=378%% y arregle este problema antes de intentar ejecutar el Editor de HotSpots de nuevo.
+%%LINE=345%% no Encontrado
+Cuando el soporte para marcos está habilitado y el marco de los menús y de los HotSpots es diferente,%%CRLF%%el '%%LINE=345%%' y el 'Documento que contiene los HotSpots' deben apuntar hacia la misma fila.
+Configuración de los documentos HTML inválida
+El Editor de HotSpots no pudo ser ejecutado debido a un error desconocido.
+El proyecto no se pudo compilar debido a que
+el Grupo
+el Comando
+contiene uno o más caracteres inválidos
+la acción 'Click' en el Comando
+la acción 'Sobre' en el Comando
+la acción 'DobleClick' en el Comando
+la acción 'Click' en el Grupo
+la acción 'Sobre' en el Grupo
+la acción 'DobleClick' en el Grupo
+contiene uno o más caracteres inválidos en el texto de la barra de estado
+Error de Compilación
+El Proyecto no pudo ser compilado debido a que uno o más elementos tienen el mismo nombre
+Configuración
+Debe especificar la carpeta destino para las filas compiladas.
+¿Desea hacerlo ahora?
+Carpeta destino no especificada
+La carpeta definida para guardar las filas compiladas es inválida.
+Carpeta destino inválida
+Debe especificar la carpeta destino para las imágenes.
+Carpeta destino para las imágenes no especificada
+La carpeta destino para guardar las imágenes, definida en las %%LINE=378%%, es inválida.
+Carpeta destino para las imágenes es inválida
+Debe especificar un documento válido donde implementar los menús. Este es el documento donde se encuentran los hotspots.
+Fila destino inválida o no especificada
+La fila que contiene los hotspots debe ser un documento válido HTML contenido dentro de la raiz del Web.
+Fila destino inválida
+Debe especificar un documento HTML valido donde su página es presentada en su totalidad.
+Fila inválida o no especificada
+La carpeta destino debe ser una carpeta ubicada dentro de su Web.
+¿Desea corregir este problema ahora?
+El parámetro de '%%LINE=326%%' en la configuración
+es inválido
+Parámetros de Configuración Inválidos
+El parámetro '%%LINE=330%%' en la configuración
+El parámetro '%%LINE=369%%' de la sección FTP de las %%LINE=378%% es inválido
+está definido como un comando de cascada a través del evento 
+, pero apunta a un grupo que no existe
+Grupo Destino Inválido
+Restaure al AddIn o remuévalo del proyecto
+AddIn No Encontrado
+pero no puede ser compilado por que%%CRLF%%parece estar dañado o fue diseñado para una versión anterior de DHTML Menu Builder
+AddIn Inválido
+Restauración Exitosa
+Apagado Incorrecto
+La información en el clipboard pertenece a otro tipo de objeto
+Información en el Clipboard Inválida
+Buscar
+Reemplazar
+Cobertura
+Buscar la palabra completa
+
+Elementos habilitados
+Reemplazar &Todo
+Operación de Reemplazo
+Estilo
+pixeles
+Abrir el último proyecto al iniciar
+Siguiente
+Analizando
+Un error ha ocurrido al crear los HotSpots
+El hotspot seleccionado es una imagen sin nombre.
+Para que el grupo
+pueda alinearse automáticamente a la imagen seleccionada,
+la imagen debe tener un nombre.
+Hotspot no configurado correctamente
+La imagen seleccionada tiene el mismo nombre que el grupo.
+Cada elemento en la página debe tener un nombre único. Para que los menús puedan funcionar deberá cambiarle el nombre a la imagen o al grupo.
+La comunicación con Internet Explorer se perdió.%%CRLF%%Su documento no pudo ser cargado o no es un documento HTML válido.%%CRLF%%%%CRLF%%Cierre el Editor de HotSpots, verifique la configuración de su proyecto%%CRLF%%e intente la implementación de nuevo.
+¿Esta seguro que desea cerrar el Editor de HotSpots sin salvar sus cambios?
+Advertencia
+
+
+Solicitar una Reunión en Vivo
+Solicitar una Demostración en Vivo
+Este programa está registrado a:
+Llene los siguientes campos con la información de su recibo de compra. Asegúrese que la información es introducida de forma exacta a como aparece en su recibo.
+Número de Orden
+Nombre de Usuario
+Compañía
+Validar
+Información sobre Privacidad
+Los campos '%%LINE=635%%' y '%%LINE=636%%' son requeridos para iniciar el proceso de validación.
+Información de Registro Inválida
+Su información ha sido comprobada exitosamente.%%CRLF%%Haga click en el botón de %%LINE=176%% para actualizar esta copia de DHTML Menu Builder a la versión completa.
+Validación Exitosa!
+Asegúrese que ha introducido su información tal y como aparece en el recibo de su compra.%%CRLF%%%%CRLF%%Si usted acaba de comprar DHTML Menu Builder, espere unos minutos e inténtelo de nuevo.%%CRLF%%%%CRLF%%Otra posible causa de este error es que usted no esté utilizando la última versión de DHTML Menu Builder. Para verificar que cuenta con la versión más reciente, haga click en Ayuda->Actualizar.
+Información de Registro Inválida
+
+Ayuda sobre el proceso de Registro
+El servidor no ha aceptado la información proporcionada
+La razón reportada por el servidor es (en Inglés):
+Información Adicional:
+El %%LINE=635%% es Invalido
+No se pudo contactar el servidor para validar la información.%%CRLF%%Asegúrese de que se encuentra conectado a la Internet antes de repetir la operación.
+Servidor no disponible
+Está seguro que desea cerrar la ventana de Registro sin registrase?
+Mover el objeto seleccionado hacia arriba
+Mover el objeto seleccionado hacia abajo
+Vista Preliminar utilizando
+Interno
+Error Cargando La Ayuda
+Error Instalando El Código de Carga
+Error al Remover el Código de Carga Existente
+Error Importando El Proyecto
+Verificando Actualización
+Error Crítico
+Error Cargando Los Parámetros
+Error Salvando Los Parámetros
+Bordes
+Arreglo de los Comandos
+Color de la Línea
+Doble
+Realzado
+Imágenes del Borde
+Actualizar Ubicación...
+Seleccione la nueva ubicación de
+
+Cuando los parámetros '%%LINE=345%%' o '%%LINE=347%%' no son de tipo HTML los documento deben ser apuntados utilizando un servidor web.
+Cuenta de acceso
+Configuraciones de tipo local no pueden ser publicadas en servidores web. Debe crear una configuración de tipo remoto primero.
+Mostrar las %%LINE=378%% al crear un proyecto nuevo
+Esta configuración prepara los menús para ser usados en un servidor web
+Seleccione la Configuración
+Cambio de la Configuración por Defecto
+Cuando se cambia la configuración por defecto las rutas generadas por DHTML Menu Builder también cambian, por eso, es necesario actualizar el código de carga en todas los documentos que lo requieran.
+Compilar una configuración de tipo local
+Cuando se compila una configuración de tipo local el código generado solo funcionara en el equipo donde se están desarrollando los menús. Si este proyecto va a ser utilizado en un servidor web hay que crear una configuración de tipo remoto y recompilar el proyecto.
+Código carga con rutas locales
+La configuración por defecto es de tipo local. Esto significa que las rutas generadas serán generadas de forma relativa al disco, por lo tanto, los menús solo funcionaran en el equipo donde se están desarrollando. Si este proyecto ha de ser publicado en un servidor web, hay que crear una configuración de tipo remota y actualizar el código de carga en todos los documentos que lo requieran.
+Cambio del alineamiento de los grupos
+Para que los cambios en el alineamiento de los grupos surja efecto de deberá ejecutar el %%LINE=335%%.%%CRLF%%Si los grupos ya han sido implementados, con tan solo ejecutar el %%LINE=335%% y hacer click en el botón Instalar será suficiente.
+Posibles problemas de compatibilidad
+Información de la configuración incompleta
+Algunas de las rutas de la configuración local están vacías. Esto podría causar problemas.%%CRLF%%A modo de garantizar que el los menús creados por DHTML Menu Builder funcionan apropiadamente en su web llene todos los campos de sus configuraciones.
+&Buscar...
+¿Desea utilizar la información de registro que recibió la última vez que valido sus datos?
+Método de Validación
+Un error a ocurrido al intentar registrar DHTML Menu Builder.
+Error ejecutando Register.exe
+Verificando Conexión al Internet
+Contactando el Servidor de Validación
+Preparando Información
+Validando Información de Registro
+La conexión con el servidor de validación no pudo ser establecida.%%CRLF%%%%LINE=705%%
+Error al Validar
+No se pudo detectar la conexión al Internet.%%CRLF%%%%LINE=705%%
+Si se encuentra detrás de un 'firewall' or un 'proxy server' puede ignorar este error.
+HotSpots Disponibles
+Grupo Seleccionado
+Nombre de la Imagen
+Posición
+Texto Activo
+Tipo
+Crear a partir de
+Sustitución de Fuentes
+Fuentes utilizadas en este proyecto
+Sustituciones
+Superior Izquierdo
+Superior Centro
+Superior Derecho
+Izquierdo
+Derecho
+Inferior Izquierdo
+Inferior Centro
+Inferior Derecho
+Colores
+Alineamiento del Submenu
+Tipo de Efecto
+Parámetros Globales
+Temporizadores
+Retraso en Desaparecer los Menús
+Retraso en Desplegar los Submenús
+Velocidad del Efecto
+Parámetros Adicionales
+Generar Código para Navegadores que Conforman con el DOM
+Generar Código para Navigator 4
+Generar el Archivo hRef
+
+Esconder los Elementos de los Formularios
+Soporte para Efectos de Selección de Dreamweaver/Fireworks
+Arreglo para el problema de Navigator 4 con la Propiedad 'Clip'
+Rutinas de Ayuda para soportar efectos de selección bajo Opera 6
+Soporte para Efectos de Selección de ImageReady
+Reestablecer
+Optimizar Rutas
+Poco
+Mucho
+Lento
+Rápido
+Documento Destino
+Este es el documento desde done los menús serán activados.
+En este documento es que DHTML Menu Builder instalará la barra de menús a través de la opción %%LINE=157%%->%%LINE=164%%
+En este documento es donde DHTML Menu Builder espera encontrar los HotSpots que serán usados para activar los menús.
+Seleccione la carpeta que contiene los archivos que quiere añadir
+Seleccione los documentos HTML a los que les desea instalar el código de carga para marcos
+Seleccione los documentos HTML a los que les desea instalar el código de carga
+Usar herramientas avanzadas para instalar los menús
+
+Ver proyecto en modo de Mapa por defecto
+Mapa
+Normal
+Agregar S&ubGrupo
+Instalar Menús
+Remover Código de Carga
+Carpetas en el Web
+Archivos en
+Archivos que recibirán los Menús
+Archivo que recibirá la Barra de Menús
+Archivo que recibirá las Barras de Menús
+Instalar Barra de Menús
+Remover Menús
+Todos los documentos parecen tener el código de carga apropiado%%CRLF%%No se recomienda hacer ningún cambio.
+No hay archivos seleccionados para instalar los Menús
+Instalando el Código de Carga
+Instalando el Código de Carga para Marcos
+Analizando archivo
+Analizando el link en el comando
+Analizando el link en el grupo
+Analizando el Código de Carga existente en
+Analizando Carpeta
+(n/a)
+Estándar
+Marcos
+(no tiene)
+Contiene el Código de Carga para Marcos
+No contiene Código de Carga
+Contiene el Código de Carga Estandard
+No soporta Código de Carga
+Remover de la lista
+Añadiendo archivo
+No hay archivos en la carpeta
+Nombre|Tamaño|Tipo|Fecha de Modificación|Código de Carga
+Longitud del Separador
+Porcentaje
+Editar Barras de Menús
+Pertenecen a la Barra de Menús:
+(Sin Barra de Menús)
+Cargar
+Plantillas
+Autor
+Comentarios
+Cascada
+Vista Preliminar de la Plantilla
+Aplicar
+Aplicar Estilo de Plantilla...
+Proyecto Vacío
+De Plantilla...
+Usando el Wizard...
+Plantilla
+Eliminar
+Agregar Barra de Menús
+Borrar Barra de Menús
+Longitud...
+Archivo que recibirá la Barra de Menús y los Menús
+Archivo que recibirá las Barras de Menús y los Menús
+Archivo que recibirá los Menús
+Haga click en el botón %%LINE=468%% para instalar los menús.
+Propiedades de la Barra de Menús
+
+Centro / Izquierda
+Centro / Derecha
+Centro / Arriba
+Centro / Debajo
+no
+normal
+max
+Proyectos Secundarios
+Proyectos
+No hay proyectos seleccionados para instalar
+Selección Inválida
+Este proyecto no puede ser seleccionado por que no existe o por que fue creado con una version anterior del DHTML Menu Builder
+
+Sombra
+Efectos
+A Partir de la Estructura de un Directorio
+Salvar como Plantilla
+Extraer Icono
+DHTML Menu Builder Tips
+Ya existe un grupo plantilla en el proyecto
+No se pudo añadir el grupo plantilla
+Cuando se usan proyectos secundarios el Proyecto Principal debe ser salvado antes de compilar
+El proyecto
+no puede ser compilado por que no tiene la misma configuración que el Proyecto Maestro
+Para crear una plantilla el Proyecto debe contener, por lo menos, una Barra de Menús
+Proyecto Inválido
+Un error a ocurrio al intentar abrir el archivo:
+Error Abriendo Archivo
+esta abierto por otro proceso:
+¿Desea abrir el archivo de todas formas?
+Este proyecto no puede abrirse ya que fue creado con la versión <developers' edition>
+Actualizando el Proyecto...
+
+Marco Destino
+de la barra de menús
+Advertencia
+¡Los recursos del sistema están peligrosamente bajos!%%CRLF%%%%CRLF%%Bajo Windows 95, 98 y Millenium, ejecutar muchos programas simultáneamente puede consumir los recursos del sistema sin importar la cantidad de memoria RAM disponible.%%CRLF%%%%CRLF%%Para evitar problemas e inestabilidad en el sistema de recomienda que cierre todos los programas que no esté usando en este momento.
+Recursos de sistema:
+Recursos GDI:
+Recursos del Usuario:
+Limitaciones de la versión DEMO del DHTML Menu Builder
+Esta versión del DHTML Menu Builder es totalmente funcional por lo que podrá generar e implementar los menús que cree.%%CRLF%%%%CRLF%%Sinembargo, el programa deshabilitará los enlaces en los menús de forma que al hacer click sobre uno de ellos el enlace no será ejecutado.
+Si usted acaba de actualizar DHTML Menu Builder usted deberá validarlo de nuevo para convertirlo en la versión FULL%%CRLF%%¿Desea hacerlo ahora?
+¡Bienvenido a DHTML Menu Builder!
+Parece que esta es la primera vez que usted utiliza DHTML Menu Builder.%%CRLF%%Si usted es nuevo en el mundo de menús DHTML le recomendamos que utilice el Wizard haciendo click en Archivo->Nuevo->Usando el Wizard.%%CRLF%%Esto le permitirá crear su primer menú en cuestión de minutos y luego utilizar el DHTML Menu Builder para darle los toques finales e implementarlo en su Web.
+Compilar Proyecto
+Comandos no pueden ser movidos a Barras de Menús
+Grupos no pueden ser movidos sobre la misma Barra de Menús a la que pertenecen
+Copiar el Grupo
+a la Barra de Menú
+Mover el Grupo
+Copiar el Comando
+al Grupo
+Comandos no pueden ser movidos al mismo Grupo al que pertenecen
+Mover el Comando
+bajo el Comando
+Grupos solo pueden ser movidos sobre Barras de Menús
+Nombre Inválido
+Renombrar
+Enlaces generados a mano pueden causar problemas
+Enlaces a archivos en su Web deben ser definidos usando el botón de navegación para enlaces ubicado al lado de la caja de texto para los enlaces.%%CRLF%%Los únicos enlaces que deben ser definidos manualmente son aquellos que apuntan a recursos fuera de su Web.
+Proyecto de DHTML Menu Builder
+Librería de Iconos
+Iconos Disponibles
+Icono Seleccionado
+Tamaño del Icono
+Documento con Marcos
+Marcos Disponibles
+El documento no contiene marcos
+El documento no existe
+El documento contiene
+marco
+marcos
+Bookmarks Disponibles
+Bookmark Destino
+No ha sido posible identificar el marco de los menús. Seleccione en cual marco los menús serán desplegados:
+Enviar
+La Plantilla
+ya existe%%CRLF%%%%CRLF%%¿Está seguro que desea sobrescribirla?
+Solo Plantillas que usted ha creado pueden ser sobrescritas
+Error creando la nueva Plantilla
+Solo la versión registrada de DHTML Menu Builder puede enviar Plantillas al Catálogo en línea.
+Error Enviando
+Usted tiene que estar conectado al Internet para poder enviar una Plantilla al Catálogo en línea.
+Usted está a punto de enviar
+al Catálogo en línea
+Listo para enviar Plantilla
+Conectando con el servidor...
+Subiendo Plantilla...
+Añadiendo Plantilla al Catálogo en línea
+La Plantilla no pudo ser enviada pues ya existe en el Catálogo en línea
+Ha ocurrido un error en el servidor mientras de enviaba la Plantilla:
+DHTML Menu Builder ha encontrado un error mientras procesaba en envío:
+La Plantilla asido enviada exitosamente.%%CRLF%%¡Gracias por compatir sus excelentes proyectos con el mundo!
+Solo Plantillas creadas por usted pueden ser enviadas al Catálogo en línea
+Enviar Plantilla
+Seleccione le nombre y la carpeta para salvar la Imagen
+Información del Proyecto
+Ubicación
+Versión
+Título
+Código de Página a usar en la vista Preliminar
+Aplicar a %%ITEMNAME%%
+Aplicar a todos bajo el/la %%RSCNAME1%% %%ITEMNAME%%
+Aplicar a todos los %%RSCNAME%%
+Separadores
+Applicar a
+Reporte de Enlaces Rotos
+Reporte de Enlaces
+Probar Sel
+Probar Todos
+Previo
+Mostrar/Esconder Enlaces Sin Probar
+Mostrar/Esconder Enlaces Válidos
+Mostrar/Esconder Enlaces Rotos
+Parar
+Verificando Enlace
+Verificando Enlaces
+Generando Reporte...
+Reportes
+Editar Enlace
+Estilo de los Menús
+Barras
+Grupos
+Elementos de las Barras
+Comandos
+Estilos de Menús Especiales
+Artículos Deshabilitados
+Artículos con Enlaces Rotos
+Verificar Enlances
+Al Abrir
+Al Salvar
+Al Compilar
+Verificar Enlaces Externos
+Despligue
+Verificación de Enlances
+Predeterminados
+Actualizar
+Codificación
+Color de Fondo
+Usar Documento Destino
+Vista Preliminar
+Retraso en Visualizar los Menús
+Soporte para Lotus Domino
+Auto Selección de Menús
+Soporte de Navegación por Teclado
+Igual que los Grupos
+Condición de Visibilidad
+Tamaño de la Barra
+Estilo del Borde
+Anclado a
+Nombre del Objeto
+Documentos
+Menús
+Información
+Instalar en todos los enlaces
+Quitar de todos los Documentos
+Seleccione un documento que al ser visto realce un menú
+Seleccione un documento que al ser visto realce el menú '%%MENU_NAME%%'
+Las carpetas no pueden ser seleccionadas.
+El documento seleccionado no es válido por que no contiene menús
+Seleccione el menú que desea realzar cuando el documento '%%FILE_NAME%%' sea visto
+Seleccion un elemento de barra de menú o un comando
+Solo los elementos que estan habilitados pueden ser seleccionados
+Seleccione un grupo que actue como elemento de barra de menú. Todos los otros tipos de grupos, tales como los sub grupos, no pueden ser seleccionados.
+Haga click en boton %%LINE=468%% para añadir el código:
+Efectos de Selección
+Estado de Compilación
+Artículos que no serán compilados
+Este Artículo no será compilado
+Márgen

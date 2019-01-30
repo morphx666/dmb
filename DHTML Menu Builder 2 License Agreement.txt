@@ -1,0 +1,68 @@
+DHTML Menu Builder 2 License Agreement 
+xFX JumpStart Legal Notices
+Copyright 1996-2001 xFX JumpStart Software, Inc. All rights reserved.
+DHTML Menu Builder is a registered trademark of xFX JumpStart. All other brand and product names are trademarks 
+of their respective holders.
+LICENSE AGREEMENT
+This is a legal agreement between you (either an individual or an entity, hereinafter known as "Licensee"), and xFX 
+JumpStart, Inc. (hereinafter known as "Licensor"). BY PURCHASING THIS SOFTWARE, YOU AGREE TO BE 
+BOUND BY THE TERMS OF THIS AGREEMENT. If you do not agree to the terms of this Agreement, you may 
+promptly return the software and accompanying items to Licensor for a full refund.
+This Agreement applies in the absence of a signed license agreement between Licensee and Licensor; any such signed 
+license agreement shall supercede this Agreement.
+TECHNICAL SUPPORT
+Technical support for DHTML Menu Builder: Licensor agrees to provide technical support to a single point of contact 
+in the Licensee organization for one year from the Date of this Agreement or until a new release of the product is made 
+available to the public. Licensee agrees to provide technical support to all other Licensee end-users.
+UPGRADES
+Subject to third-party supplier restrictions and charges, Licensor agrees to make available to Licensee, upon request, 
+any maintenance releases, new and enhanced versions or upgrades of the licensed software that Licensor releases for 
+the Windows platform for a period of one (1) year from the Date of this Agreement. Licensor may, at its sole 
+discretion, extend the free technical support and upgrade period beyond the above-mentioned one (1) year date.
+GENERAL LICENSE TERMS
+GUARANTEE. The licensed software comes with a 30-day money-back satisfaction guarantee from the Date of this 
+Agreement.
+USE LIMITATIONS. You may not rent, lease, lend, sublicense, time-share, distribute, sell or assign the license to use 
+this software. NOR MAY YOU USE THIS SOFTWARE ON MORE COMPUTERS OR TERMINALS THAN YOUR 
+LICENSE PERMITS. You may make backup copies of the software strictly for your own archival purposes. Except as 
+explicitly permitted pursuant to this Agreement, YOU MAY NOT OTHERWISE DISTRIBUTE, COPY, 
+REPRODUCE, SUBLICENSE, SELL OR OTHERWISE DISTRIBUTE THE LICENSED SOFTWARE. IN NO 
+EVENT MAY YOU OR ANY OTHER PARTY MODIFY, ADAPT, TRANSLATE, REVERSE ENGINEER, 
+DECOMPILE, DISASSEMBLE, OR CREATE DERIVATIVE WORKS BASED ON THIS SOFTWARE.
+DISCLAIMER OF WARRANTY. This Software is provided AS IS. To the extent permitted by applicable law, 
+LICENSOR AND ITS SUPPLIERS DO NOT AND CANNOT WARRANT THE PERFORMANCE OR RESULTS 
+YOU MAY OBTAIN BY USING THE SOFTWARE. Licensor and its suppliers make NO WARRANTY OF ANY 
+KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF 
+MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
+EXCLUSION OF CONSEQUENTIAL, INCIDENTAL AND SPECIAL DAMAGES. To the extent permissible by 
+law, NEITHER LICENSOR NOT ITS SUPPLIERS SHALL BE LIABLE TO YOU FOR ANY CONSEQUENTIAL, 
+INCIDENTAL OR SPECIAL DAMAGES, including lost profits, lost savings or other incidental or consequential 
+damages arising out of the use of or inability to use the licensed software, even if Licensor and its suppliers have been 
+advised of the possibility of such damages.
+LIMITATION OF LIABILITY. IN NO EVENT WILL LICENSOR'S LIABILITY FOR ANY DAMAGES EVER 
+EXCEED THE LOWER OF SUGGESTED LIST PRICE OR ACTUAL PRICE PAID FOR THE SOFTWARE.
+TERMINATION OF LIABILITY. To the extent that Licensor, notwithstanding the above disclaimers, remains legally 
+liable to Licensee, such liability shall expire one year from the Date of this Agreement.
+LIMITATION ON TRANSFER OF INTELLECTUAL PROPERTY RIGHTS IN THE SOFTWARE. This software is 
+owned by Licensor and its suppliers, and its structure, organization and code are the valuable trade secrets of Licensor 
+and its suppliers. The Software is also protected by the United States Copyright law and International Treaty 
+provisions. You may not copy the software, except as provided in this Agreement. Any copies that you are permitted to 
+make pursuant to this Agreement must contain the same copyright and other proprietary notices that appear on or in the 
+software. You agree not to modify, adapt, translate, reverse engineer, decompile, disassemble or otherwise attempt to 
+discover the source code of the software. Trademarks shall be used in accordance with accepted trademark practice, 
+including identification of trademark owner's name. Such use of any trademark does not give you any rights of 
+ownership in the trademark. Except as stated above, this Agreement does not grant you any intellectual property rights 
+in the software.
+OTHER U.S. GOVERNMENT INFORMATION. Use, duplication, or disclosure by the U.S. Government of the 
+computer software and documentation in this package shall be subject to the restricted rights applicable to commercial 
+computer software as set forth in subdivision (b)(3)(ii) of the Rights in Technical Data and Computer Software clause 
+at 252.227-7013 (DFARS 52.227-7013).
+INTERNATIONAL LAW AND EXPORT. This Agreement will not be governed by the United Nations Convention on 
+Contracts or the International Sale of Goods, the application of which is expressly excluded. You agree that the 
+Software will not be shipped, transferred or exported into any country or used in any manner prohibited by the United 
+States Export Administration Act or any other export laws, restrictions or regulations.
+DATE OF AGREEMENT. The "Date" of this Agreement, as used herein and in all previous and subsequent sections, 
+shall be the day that Licensor receives the licensed software.
+LAW GOVERNING. This Agreement is governed by the Laws of the United States of America.
+OTHER. If any part of this Agreement is found void and unenforceable, it will not affect the validity of the balance of 
+the Agreement, which shall remain valid and enforceable according to its terms.

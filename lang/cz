@@ -1,0 +1,983 @@
+Èeština
+Aleš Trejtnar (upravena verze od Rudolfa Luksy) --> report bugs to/zprávy o chybách/ alex@altre.cz  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Náhled
+Vlastnosti pøíkazu
+Titulek
+Aktivován
+Nad
+Klik
+Dvojklik
+Typ akce
+Cílové menu
+(nic)
+Otevøít URL / Vykonat Skript
+Zobrazit Podmenu
+Otevøít URL v novém oknì
+Text ve stavovém øádku
+Zarovnání
+Dole / Vlevo
+Dole / Vpravo
+Nahoøe / Vlevo
+Nahoøe / Vpravo
+Vlevo / Nahoøe
+Vlevo / Dole
+Vpravo / Nahoøe
+Vpravo / Dole
+Vlastnosti skupiny
+URL / Skript
+&Soubor
+&Nový
+&Otevøít...
+Otevøít poslední
+Uložit
+Uložit J&ako...
+&Importovat...
+Vlastnosti &Projektu...
+Kon&ec
+&Editovat
+&Zrušit
+&Obnovit
+&Kopírovat...
+&Vložit...
+&Najít...
+Najít &další
+&Nahradit...
+Z&mazat
+Pøejme&novat
+Nastavení...
+&Menu
+Pøidat &Skupinu
+Pøidat &Pøíkaz
+Pøidat separátor
+Barva...
+Písmo...
+Kurzor...
+Obrázek...
+Okraje...
+Speciální efekty...
+Zvuk...
+Nás&troje
+&Pøehled...
+&Náhled
+Nastavit stan&dardní prohlížeè...
+&Kompilovat
+
+&Publikovat...
+Instalovat Loader Kód...
+Instalovat Frames Loader Kód...
+&HotSpots Editor...
+&Editor Lišty...
+&AddIn Editor...
+Zpráva...
+&Pomoc
+&Obsah...
+&Pøíruèka
+&Aktualizace...
+xFX JumpStart na Webu
+O progr&amu...
+Registrovat
+Vložit &Registraèní Informace...
+Koupit DHTML Menu Builder...
+Normální
+Nad
+Barva textu
+Barva podkladu
+Reset
+Vrátit
+Auto
+OK
+Zrušit
+Náhled
+Zmìnit
+Vlevo
+Vpravo
+Na støed
+Šipka (Standard)
+Køíž
+Ruka
+Text
+Pomoc
+Levý obrázek
+Obrázek na pozadí
+Pravý obrázek
+Odstranit
+Stejnì
+Velikost
+Položka Lišty
+Obrázek podkladu
+Velikost okrajù
+Barva orámování
+
+Okraje skupiny
+Vertikálnì
+Horizontálnì
+Barva
+Písmo
+Obrázek
+Kurzor
+Okraje
+Efekt pøíkazu
+Efekt skupiny
+Horizontální okraj
+Vertikální okraj
+Barva stínu
+Prùhlednost
+Kontextové menu
+Manuálnì
+Vypoèítat
+
+Velikost skupiny
+Vypnuto
+Tmavší
+Neviditelný
+Speciální efekty
+Aktivovaný stav
+Chcete aktualizovat Status Text pro všechny Položky souèasnì?
+Editovat
+Cílový rámec
+je kliknutý
+kurzor je nad
+je dvaktrát kliknutý
+Zvolit dokument pro otevøení když
+Nové parametry okna
+DHTML Menu Builder je teï v DEBUG módì.
+Když dostanete v prùbìhu práce s DMB nìjakou chybovou hlášku (runtime error), oznamte ji prosím vèetnì
+èísla chyby a jejího popisu spoleènì s krátkým popisem, co jste dìlali
+Toto je DEMO verze DHTML Menu Builder.
+Tato operace funguje jen v plné verzi. Pro testování Vašeho Menu použijte funkci Nástroje->Pøehled.
+Pøidat
+pøed použitím je nutné nejdøív nastavit parametry.
+Pro nastavení požadovaných hodnot AddIn jdìte do %%LINE=378%% a v tabulce Rozšíøené nastavení použijte tlaèítko Vlastnosti parametrù.
+Tato operace funguje jen s plnou verzí.
+Zvolte Projekt pro importování
+Uložit zmìny do
+Publikovat Menu v lokálním poèítaèi bez použití Web serveru
+Lokálnì
+Vzdálenì
+Otevøít Projekt
+DHTML Menu Builder Projekty
+DHTML Menu Builder nemùže otevøít soubor, protože je buï nastavena vlastnost pouze pro ètení anebo je uložen na médiu, kde nemáte práva na zapisování
+Naèítání
+Tento projekt byl vytvoøen ve starší verzi DHTML Menu Builderu.
+Informujte se prosím v Pomoci, jak správnì aktualizovat Projekt.
+Projekt nemùže být otevøen, protože soubor
+neexistuje
+Projekt nemùže být otevøen.
+Importování
+Zrušit
+Obnovit
+Uložit Projekt
+Ukládání
+Uložit Projekt jako
+Skupina
+Pøíkaz
+Oddìlovaè
+Smazáním Skupiny se vymažou všechny její Pøíkazy, jste si jist, že to chcete udìlat?
+Tato Skupina nemùže být vymazána, protože je použitá jako Podmenu jiné Skupiny.
+Posun
+Nahoru
+Dolu
+Váš Projekt je nastaven pro generování Lišty.
+Pokud nemáte dodateèné Hotspoty na Vaší stránce, které
+chcete použít jako spouštìèe nìkteré Vaší Skupiny, HotSpots Editor není potøebný.
+HotSpots Editor nemùže otevøít soubor, protože je buï nastavena vlastnost Pouze pro ètení nebo je uložen na médiu, kde nemáte práva na zapisování
+Základní konfigurace
+Zmìny v nastavení jazyka se projeví po dalším startu DHTML Menu Buildera
+Naèítání systémových fontù...
+Prosím èekejte, probíhá inicializace...
+Naèítání naposledy uloženého Projektu...
+Inicializace je kompletní
+Váš Projekt byl úspìšnì obnoven.
+Zvolte prosím cílový adresáø pro uložení
+DHTML Menu Builder nebyl správnì ukonèen, máte k dispozici záložnou kopii Vaší práce.
+Chcete ho obnovit?
+Položky Menu musí zaèínat písmenem
+Kopírovat/Pøesunout
+Akce
+Rozestup
+Zvolte styl pro kopírování ze Skupiny
+Zvolte styl pro kopírování z vybraného Oddìlovaèe ve Skupinì
+Zvolte styl pro kopírování z Pøíkazu
+Selektivní kopírování
+Selektivní vložení
+Zvolte styl pro vložení
+Vložit do Skupiny
+Vložit do všech Skupin
+Vložit do vybraného Oddìlovaèe
+Vložit do všech Oddìlovaèù ve
+Skupinì
+Vložit do všech Oddìlovaèù
+Vložit do Pøíkazu
+Vložit do všech Pøíkazù v
+Vložit do všech Pøíkazù 
+Schránka je prázdná
+Domácí stránka
+Podpora
+FAQ
+Veøejné Fórum
+Novinky
+!Umístìní Projektu
+!Jméno Projektu
+%%LINE=231%%
+Otevírací zvuk
+Všeobecnì
+Konfigurace
+Lišta
+FTP
+Rozšíøené nastavení
+Lokální cesta k Root Webu
+Adresáø pro uložení zkompilovaných souborù
+Adresáø pro uložení obrázkù
+Lokální konfigurace
+Web Server Root
+Cesta ke zkompilovaným souborùm
+Cesta k obrázkùm
+Pøíklad
+Cesty
+Cíl souboru
+Podpora Rámcù
+Nastavení
+Pøidat...
+Editovat...
+%%RESERVED%%
+Nastavit jako standard
+Automaticky vyplnit 
+Importovat...
+Cílový dokument pro získání Menu
+Finální HTML dokument
+Aktivovat podporu Rámcù
+Soubory v rámcích
+HotSpots rámec
+Menu rámec
+Vytvoøit Lištu
+Zvolte Skupinu, která bude v Lištì
+Vzhled
+Umístìní
+Styl Lišty
+Okraj
+Separace
+
+Barva podkladu
+Obrázek podkladu
+Pøíklad Lišty
+Pøekrytí
+Rozestup
+Pixelù horizontálnì
+Pixelù vertikálnì
+(auto)
+Velikost stránky
+Individuálnì
+Sledovat posuvné lišty prohlížeèe
+Adresa FTP serveru
+Anonymní pøihlášení
+Výzva pro konto
+Použít proxy server
+Jméno uživatele
+Heslo
+Adresa
+Port
+Vzdálená konfigurace
+Vlastnosti Projektu
+Optimalizace kódu
+Název zkompilovaného JavaScript souboru
+Rozestup Menu
+[DEBUG] Žádná optimalizace
+[FINÁLNÍ] Malý a rychlý kód
+Neplatné jméno serveru nebo protokolu
+Zvolte rámec souboru
+Jeden z Vašich rámcù používá rezervované jméno
+Døív než budete moci použít Menu ve Vašem rámci, musíte zmìnit jméno tohoto rámce
+Tento soubor nevypadá, že je platný rámec HTML souboru
+Zvolte adresáø, kam chcete uložit obrázky použité ve Vašem Projektu
+Zvolte adresáø Vášeho Root Webu
+Zvolte zvukový soubor
+Váš Projekt musí být uložen døíve než importujete nastavení z jiného Projektu
+Zvolte Projekt
+Editovat konfiguraci
+Tato konfigurace nemùže být smazána, protože je vyžadována pro FTP podporu
+Standardní konfigurace nemùže být smazána
+Tato konfigurace nemùže být smazána, protože je vyžadována pro
+konfigurace
+
+Standardní
+Zvolte adresáø, kam chcete uložit Vaše zkompilované Projektové soubory
+Zvolte HTML soubor
+Vybratý soubor není platný HTML soubor
+HTML soubory
+Nebyl zvolen žádný AddIn. Použije se standardní skript.
+Zmìnit %%LINE=378%%
+Tento Projekt používá
+AddIn ale nebyl nalezen
+Název
+Pøidat prohlížeè
+Aplikace
+Musíte napsat název pro nový prohlížeè
+Musíte zvolit platný pøíkaz pro spuštìní prohlížeèe
+Zvolte prohlížeè pro pøidání
+Add InEditor je urèen pokroèilým uživatelùm s pøimìrenými znalostmi HTML, DHTML, Java skriptování, CSS a DOM pro poslední prohlížeèe. Jste si jist, že chcete pokraèovat?
+Ano
+Ne
+Pøíštì se neptat
+Dostupné prohlížeèe
+Pøid&at...
+Jako stan&dard
+&Editovat...
+&Odstranit
+Zavøít
+Editovat prohlížeè
+Aktualizace
+Jazykovou verzi vytvoøil:
+Šíøka
+Výška
+Zdvih
+Pokles
+Zvolte vertikální a horizontální odstup. DHTML Menu Builder to aplikuje na standardní umístìní Menu, takže se zobrazí perfektnì zarovnané k rodièovským Hotspotùm
+Zvolte vertikální a horizontální odstup, který chcete použít na stardardní umístìní Podmenu
+Všeobecné nastavení
+Otevøít poslední Projekt pøi spuštìní DMB
+Automaticky obnovovat
+Zobrazit úvodní logo pøi spuštìní DMB
+Aktivní Zrušit / Obnovit
+Vždy zobrazit nastavení komplilátora
+Jazyk
+Standardní formátování
+Výška separátoru
+Odstup od obrázku
+Pøíkazy zdìdí svùj styl z
+nadøazené Skupiny
+prvního Pøíkazu ve stejné Skupinì
+Skupiny zdìdí svùj styl ze 
+standardního nastavení programu
+první Skupiny Projektu
+Nastavení
+Obojsmìrnì
+Vertikálnì
+Horizontálnì
+Náhodnì
+(žádný)
+Vaše verze
+Aplikace
+Stroj
+Uvolnìná
+Kontrola
+Poslední verze
+Aktualizace DHTML Menu Builder-u
+(Kliknout na tlaèítko Kontrola)
+(Èekejte prosím...)
+Jste si jist, že chcete zrušit stahování?
+Stahování... èekejte prosím, tato operace mùže trvat nìkolik minut
+Stahování
+Instalace
+Stáhnutí
+Vaše verze potøebuje aktualizaci
+Už máte k dispozici nejaktuálnìjší verzi
+(Neznámý)
+Není možné získat informace
+Vyskytla se chyba pøi pokusu o získání informací
+Nové parametry okna
+Umístìní a velikost
+Pøidat tlaèítka adresáøe
+Specifikovat, jestli pøidat tlaèítka adresáøe
+Mód kanálu
+Specifikovat, jestli zobrazit okno v javiskovém módì a zobrazit kanálové pásmo
+Zobrazit Lištu
+Specifikovat, jestli zobrazit lištu prohlížeèe a zpøístupnit tlaèítka jako Zpìt, Vpøed a Stop
+Zobrazit v módì Full Screen
+Specifikovat, jestli zobrazit prohlížeè v módì full-screen nebo v normálním oknì
+Zobrazit vstupní pole
+Specifikovat, jestli zobrazit vstupní pole pro zadání URL pøímo v prohlížeèi
+Zobrazit lištu Menu
+Specifikovat, jestli zobrazit lištu Menu
+Nastavitelná velikost okna
+Specifikovat, jesli zobrazit symbol zmìny velikosti okna v rohu okna
+Zobrazit posuvní lišty
+Specifikovat, jestli zobrazit horizontální a vertikální posuvní lišty
+Zobrazit Status lištu
+Specifikovat, jestli pøidat Status lištu na spodek okna
+Zobrazit Titul lištu
+Specifikovat, jestli zobrazit Titul lištu pro okno
+Nahoru
+Stavy
+Zvolte z dostupných
+%%EMPTY-LINE%% úmyslnì ponechat prázdné z gramatických dùvodù
+Filtr
+Kaskáda
+Vybrat vše
+Nevybrat nic
+Skupiny
+Pøíkazy
+Všechny vlastnosti
+Zpìt
+Øádek
+Tuèné
+Italic
+Podtržené
+Podklad
+Akce událostí
+Zarovnání Menu
+Šíøka Skupiny
+Výška Skupiny
+Zvuky
+Pøi Nad
+Pøi Kliknutí
+Vložit
+Možnosti vložení
+Vybrat
+Všechno
+Nic
+Strom
+Rozbalit
+Zbalit
+Rozbalit všechno
+Zbalit všechno
+Popis...
+Obrázky
+ze souborù...
+Zvolte obrázek
+Exportovat jako HTML...
+Zvolte HTML soubor
+Aktualizace Status textu
+DHTML Menu Builder Debug Mód
+Jazyk byl zmìnìn
+Funkce deaktivována
+Chybí parametry
+Uložit zmìny?
+Chyba pøi otevírání Projektu
+Chyba
+DEBUG MÓD
+Zmazat Skupinu?
+Zmazání zrušené
+Jste si jist, že chcete pokraèovat?
+Chyba pøi otevírání souboru
+HotSpots Editor vyžaduje Microsoft Internet Explorer verzi 5.0 nebo vyšší
+Chyba pøi spuštìní HotSpots Editoru
+Musíte specifikovat platný HTML soubor, který obsahuje Vaši stránku
+Otevøete %%LINE=378%% a odstraòte tento problém døíve, než se pokusíte znovu spustit HotSpots Editor.
+Chybí %%LINE=345%%
+Když je použitá podpora rámcù a rámec Menu je odlišný od HotSpots rámce,%%CRLF%%'%%LINE=345%%' definovaný ve %%LINE=378%% musí být shodný se souborem 'Soubor obsahující HotSpoty'.
+Neplatné nastavení pro %%LINE=345%%
+HotSpots Editor nemùže být spuštìn kvùli neznámé chybì.
+Projekt nemùže být zkompilován kvùli
+Skupinì
+Pøíkazu
+obsahuje jeden nebo víc neplatných znakù
+Akce Klik pro Pøíkaz
+Akce Nad pro Pøíkaz
+Akce Dvojklik pro Pøíkaz
+Akce Klik pro Skupinu
+Akce Nad pro Skupinu
+Akce Dvojklik pro Skupinu
+obsahuje jeden nebo víc neplatných znakù v poli Status Textu
+Chyba pøi kompilaci
+Projekt nemùže být zkompilován, protože jeden nebo více prvkù má shodný název
+konfigurace
+Musíte specifikovat cílový adresáø pro zkompilované soubory.
+Chcete to udìlat teï?
+Chybí cílový adresáø
+Adresáø pro uložení zkompilovaných souborù definovaný ve %%LINE=378%% je neplatný.
+Neplatný cílový adresáø
+Musíte specifikovat cílový adresáø pro obrázky.
+Chybí cílový adresáø pro obrázky
+adresáø pro uložení obrázkù definovaný ve %%LINE=378%% je neplatný.
+Neplatný cílový adresáø pro obrázky
+Musíte specifikovat platný cílový soubor, kde bude implementováno Menu. Toto je HTML soubor, kde jsou definované Vaše Hotspoty.
+Chybící nebo neplatný cílový soubor
+Soubor obsahující HotSpoty musí být platný HTML soubor uložen uvnitø Vašeho Root Webu.
+Neplatný cílový soubor
+Musíte specifikovat platný HTML soubor, který obsahuje Vaši stránku
+Chybìjící nebo neplatný soubor
+cílový adresáø se musí nacházet ve Vašem Root Webu.
+Chcete odstranit tenhle problém teï?
+Parametr '%%LINE=326%%' v
+konfiguraci je neplatný
+Neplatné parametry konfigurace
+Parametr '%%LINE=330%%' v
+Parametr '%%LINE=369%%' FTP sekce ve %%LINE=378%% je neplatný
+je definován jako kaskádní Pøíkaz pøes
+událost, ale poukazuje na neplatnou Skupinu Menu
+Neplatná cílová Skupina
+Buï obnovte tento AddIn nebo ho odstraòte z Projektu
+AddIn nebyl nalezen
+ale nemùže být zkompilován, protože se zdá, že%%CRLF%%je poškozen nebo ze starší verze DHTML Menu Builderu
+Neplatný AddIn
+Obnova byla úspìšná
+Nesprávné ukonèení programu
+Data ve schránce jsou jiného typu
+Neplatné data ve schránce
+Hledat
+Nahradit
+Pole
+Hledat jen celé slova
+Rozlišovat malé/velké
+Jen povolené prvky
+Nahradit &Všechno
+Operace nahrazení
+Styl
+pixelù
+&Otevøít poslední Projekt pøi spuštìní
+Další
+Analyzovat
+Vyskytla se nespecifikovaná chyba pøi vytváøení HotSpotù
+Zvolený Hotspot je obrázek bez názvu.
+V poøadí pro Skupinu
+k auto-vyrovnání pro zvolený Obrázek,
+Obrázek musí být pojmenován.
+Hotspot není správnì nastaven
+Zvolený Hotspot je obrázek s stejným jménem jako vybraná Skupina.
+Každý element na Vaší stránce musí být jedineènì pojmenovaný. Buï pøejmenujte Skupinu nebo obrázek,%%CRLF%%v opaèném pøípadì tato Skupina nebude funkèní.
+Komunikace s Internet Explorerem byla pøerušená.%%CRLF%%Váš soubor nemùže být naèten anebo je to neplatný HTML soubor.%%CRLF%%%%CRLF%%Zavøete prosím HotSpots Editor a zkontrolujte, zda-li parametry Vašeho Projektu%%CRLF%%jsou správnì nastavené a potom ho znovu otevøete.
+Jste si jist, že chcete zavøít HotSpots Editor bez uložení zmìn?
+Upozornìní
+
+
+Požadavek pro schùzku naživo
+Požadavek na demonstraci produktu naživo
+Tento program je licenciován pro:
+Vyplòte pola uvedená níž informacemi ze stvrzenky Vaší objednávky. Ujistìte se prosím, že jste zadali informace obsažené na stvrzence.
+Èíslo Vaší objednávky
+Uživatelské jméno
+Spoleènost/Firma
+Ovìøit údaje
+Soukromné informace
+Uvedená pola: '%%LINE=635%%' a '%%LINE=636%%' je nutné vyplnit, až potom mùžete spustit kontrolu platnosti údajù.
+Neplatné registraèní informace
+Vaše informace byli úspìšnì ovìøené.%%CRLF%%pro aktualizaci této kopie DHTML Menu Builderu na plnou registrovanou verzi kliknìte na tlaèítko %%LINE=176%%.
+Registrace platných údajù probìhla úspìšnì!
+Ujistìte se, že informace, které jste zadali jsou shodné s informacemi na stvrzence Vaší objednávky.%%CRLF%%%%CRLF%%V pøípadì, že jste si právì zakoupili DHTML Menu Builder, vyzkoušejte registraci za nìkolik minut.%%CRLF%%%%CRLF%%Jiná možná pøíèina pro toto selhání je, že pravdìpodobnì nepoužíváte nejaktuálnìjší verzi DHTML Menu Builderu. Pro ovìøení, zda-li máte nejaktuálnìjší dostupnou verzi, zvolte z hlavního menu: Pomoc->Aktualizovat.
+Neplatné registraèní informace
+
+Pomoc pøi registraci
+Server neakceptoval zadané registraèní údaje
+Server oznámil nasledující dùvod:
+Dodateèné informace:
+%%LINE=635%% je neplatné
+DHTML Menu Builder nebyl schopný komunikovat se serverem a ovìøit platnost údajù.%%CRLF%%Ujistite se, že jste pøipojeni na Internet døíve, než spustíte kontrolu platnosti údajù.
+Není možné se spojit se serverem
+Jste si jist, že chcete zavøít registraèní dialog bez zaregistrování se?
+Pøesunout vybranou Položku nahoru
+Pøesunout vybranou Položku nadolu
+Používání náhledu
+Vnitøní
+Chyba pøi zobrazení prohlížeèe Pomoci
+Chyba pøi instalaci Loader kódu
+Chyba pøi odstraòování existujícího Loader kódu
+Chyba pøi importování Projektu
+Kontrola aktualizace
+Kritická chyba
+Chyba pøi naètení parametrù
+Chyba pøi uložení parametrù
+Okraje
+Uspoøádaní pøíkazù
+Barva øádku
+Zdvojit
+Úkos
+Okraje obrázkù
+Místo aktualizace...
+Zvolte nové místo pro
+
+Když parametry pro '%%LINE=345%%' nebo '%%LINE=347%%' nejsou typu HTML, musí býti odkazovány pøes Web server.
+Informace o úètu
+Lokální konfigurace nemùže být publikovaná na Web serveru. Vytvoøte vzdálenou konfiguraci a nastavte ji jako standardní.
+Pøi vytváøení nového Projektu zobrazit %%LINE=378%%
+Tato konfigurace pøipravuje Menu pro práci na Web serveru
+Zvolte konfiguraci
+Zmìna standardní konfigurace
+Když zmìníte standardní konfiguraci, cesty k souborùm, které vytvoøil DHTML Menu Builder, budou zmìnené taky. Nezapomìnte proto aktualizovat Loader kód ve Vašich dokumentech.
+Kompilace konfigurací typu Lokální
+Kompilace konfigurace typu Lokální. Tento typ konfigurace bude fungovat jen na tom poèítaèi, kde bylo Menu vytvoøeno.%%CRLF%%Když bude tento Projekt publikován na Web serveru, musíte vytvoøit konfiguraci typu vzdálená a opìt zkompilovat Projekt.
+Instalování diskového Loader kódu
+Vaše standardní konfigurace je typu Lokální. To znamená, že Loader kód, který bude instalován na Vašich stránkach, bude diskový, takže Menu bude fungovat jen na tom poèítaèi, kde bylo vytvoøeno.%%CRLF%%Když bude tento Projekt publikován na Web serveru, musíte vytvoøit konfiguraci typu vzdálená a potom Loader kód bude optimalizován na generování cest pro Váš Web server.
+Zmìna seøazení Skupiny
+Aby se projevili zmìny v zarovnání, musíte sputit %%LINE=335%%.%%CRLF%%Když jste už pøiøadili Skupiny k Vašim Hotspotùm, zmìny se aplikují spuštìním %%LINE=335%% u a kliknutím na tlaèítko Instalovat.
+Možné kompatibilní problémy
+Nekompletní nastavení konfigurace
+Nìkteré cesty Vaší konfigurace jsou nevyplnìné. To mùže zpùsobit neoèekávané problémy.%%CRLF%%Aby DHTML Menu Builder mohl správnì vygenerovat všechny soubory pro Vaši Web stránku, vyplòte vždy všechny parametry konfigurace.
+&Hledat...
+Chcete použít registraèní informace vrácené serverem z poslední provedené kontroly platnosti údajù?
+Kontrola platnosti údajù
+Vyskytla se neznámá chyba pøi pokusu o registraci DHTML Menu Builderu.
+Chyba pøi spuštìní Register.exe
+Ovìøování pøipojení na Internet
+Spojení se se serverem pro ovìøení platnosti údajù
+Pøíprava dat
+Ovìøování platnosti registraèních údajù
+Spojení se serverem pro ovìøení platnosti údajù nemùže být vybudováno.%%CRLF%%%%LINE=705%%
+Chyba pøi ovìøování platnosti údajù
+Spojení s Internetem nebylo nalezeno.%%CRLF%%%%LINE=705%%
+Jestli se nacházíte za proxy serverem nebo firewalem, ignorujte tuto chybu.
+Dostupné HotSpoty
+Pøiøazené Skupiny
+Název obrázku
+Pozice
+Aktivní text
+Typ
+Vytvoøit z
+Náhrada písma
+Písmo použité v tomto Projektu
+Náhrady
+Nahoøe vlevo
+Nahoøe na støed
+Nahoøe vpravo
+Vlevo
+Vpravo
+Dole vlevo
+Dole na støed
+Dole vpravo
+Barvy
+Vyrovnání Podmenu
+Typ efektu
+Globální nastavení
+Èasovaèe
+Opoždìné skrytí Menu
+Opoždìné zobrazení Podmenu
+Rychlost efektu
+Rozšíøené vlastnosti
+Generovat kód pro DOM prohlížeèe
+Generovat kód pro Navigator 4
+Generovat hRef soubor
+!Toto je sdílený Projekt
+Skrýt elementy formy
+Podpora pro Dreamweaver/Fireworks Rollovers
+Fix pro Navigator 4 'Clip Bug'
+Funkce pomocníka Opery pro aktivaci Rollover efektù
+Podpora pro ImageReady Rollovery
+Obnovit standard
+Optimizace cest
+Ménì
+Více
+Pomalu
+Rychle
+cílový soubor
+Toto je soubor, odkud bude spuštìné Menu.
+V tomto souboru DHTML Menu Builder nainstaluje Lištu pøes: %%LINE=157%%->%%LINE=164%%.
+V tomto souboru DHTML Menu Builder oèekává, že se tu nacházejí HotSpoty, které spouštìjí Lištu.
+Zvolte adresáø obsahující soubory, které chcete pøidat
+Zvolte HTML soubory pro instalaci Frames Loader kódu
+Zvolte HTML soubory pro instalaci Loader kódu
+Rozšíøené nástroje instalace Menu
+Aktivní zámek projektu
+Standardní náhled Strom
+Strom
+Normalní
+Pøidat Podskupinu
+Instalace Menu
+Odebrat Loader kód
+Adresáøe na Internetu
+Soubory v
+Soubory, které obdrží Menu
+Soubor, který obdrží Lištu
+Soubor, který obdrží Lišty
+Instalovat Lištu
+Odbrat Menu
+Všechny soubory na Internetu musí mít správný Loader kód.%%CRLF%%Nejsou doporuèené žádné zmìny.
+Není zvolen soubor k instalaci Menu
+Instalování Loader kódu
+Instalování rámcù Loader kódu
+Analyzování souboru
+Analyzování odkazových souborù v Pøíkaze
+Analyzování odkazových souborù ve Skupinì
+Analyzování existujícího Loader kódu v
+Prohlížení adresáøe
+(n/a)
+Standard
+Rámce
+(nic)
+Obsahuje rámce Loader kódu
+Neobsahuje Loader kód
+Obsahuje standardní Loader kód
+Nepodporuje Loder kód
+Odstranit ze seznamu
+Pøidat soubor
+Žádné soubory v adresáøi.
+Název|Velikost|Typ|Datum úpravy|Loader kód
+Délka oddlìlovaèù
+Procentuálnì
+Upravit Lišty
+Patøi Lištì:
+(Bez Lišty)
+Nahrát
+Šablony
+Autor
+Komentáø
+Kaskáda
+Náhled šablony
+Aplikovat
+Aplikovat styl ze šablony...
+Prázdný projekt
+Ze šablony...
+Využít prùvodce...
+Pøedvolba
+Smazat
+Pøidat Lištu
+Smazat Lištu
+Délka...
+Soubor(y), které obdrží Lištu a Menu
+Soubor(y), které obdrží Lišty a Menu
+Soubor(y), které obdrží Menu
+Hotovo. Kliknìte na %%LINE=468%% tlaèítko ke zpracování všech souborù.
+Vlastnosti Lišty
+Microsoft Internet Eplorer (vniøní)
+Na støed / Vlevo
+Na støed / Vpravo
+Na støed / Nahoru
+Na støed / Dolu
+žádné
+normalní
+maximální
+Vedlejší projekty
+Projekty
+Nejsou vybrány žádné projetky k instalování
+Neplatný výbìr
+Tento projekt nemúže být vybrán, protože neexistuje nebo byl vytvøen ve starší verzi DHTM Menu Builderu
+Rolování
+Stín
+Efekty
+Z adresáøové struktury
+Uložit jako šablonu
+Extrahovat ikony
+DHTML Menu Builder tipy
+Projektu již je šablona Skupiny
+Nelze pøidat šablonu Skupiny
+Když užíváte další projekt ke hlavnímu projetku musí být pøed zkompilováním uložen
+Projekt
+nemùže být zkompilován, protože nemá stejnou kofiguraci jako hlavní projekt.
+Aktiví projekt musí obsahovat alespoò jednu Lištu, aby bylo možné vytvoøit z nìho šablonu
+Neplatný projekt
+Chyba nastala pøi pokusu oteøít soubor:
+!Chybnì otevøený souboru
+je nyní uzamèen pro další postupy:
+Chcete to zkusit jinak?
+Tneto projekt nemùže být orevøen, protože byl vytvoøen v <'Developers edition'>
+!Vylepšení projektu...
+Záložka
+Cíl rámce
+z lišty
+PC Health varuje
+Vaše systémové prostøedky jsou nedostaèující.%%CRLF%%%%CRLF%%Pod Windows 95, 98 a Milénia mùže zpùsobit mnoho spuštìných aplikací ve stejnou dobu, pøeteèení pamìti RAM, nezávisle na její instalované velikosti.%%CRLF%%%%CRLF%% Pro vyhnutí pádu èi kolize systému, doporuèujeme ukonèení všech nepotøebných aplikací, pøevážnì aplikace bìžící na pozadí nebo v systémové lištì(systray).
+Systémové prostøedky:
+GDI prostøedky:
+Uživatelské prostøedky:
+Omezení DHTML Menu Builder DEMO
+Tato DEMO verze DHTML Menu Bulderu je plnì funkèní, kde si  mùžete vyzkoušet a realizovat Vaše menu.%%CRLF%%%%CRLF%%Omezení DMHTL Menu Builderu spoèívá ve vyøazení odkazù, takže nebude možné vykonat pøiøazenou akci v menu.
+Jestliže, jste právì aktualizoval DHTML Menu Buildera, musíte znovu provést kontrolu platnosti údajù pro plnou verzi.%%CRLF%%Chcete to provést nyní?
+Vítáme Vás v DHTML Menu Builderu!
+První použití DHTML Menu Buildera.%%CRLF%%Jestliže chcete vytvoøit nové internetové menu, doporuèujeme vám spustit prùvodce kliknutím na Soubor->Nový->Použít prùvodce. To Vám umožní vytvoøit vaše první menu za pouhých pár minut a poté mùžete využít program k finálnímu dokonèení a zaèlenit menu do Vaší webové stránky. 
+Zkompilovat projekt
+Pøíkazy nemohou opustit Lišty
+Skupiny nemohou opustit Lištu, ke které pøísluší.
+Kopírovat skupinu
+do Lišty
+Pøesunout skupinu
+Kopírovat pøíkaz
+do skupiny
+Pøíkazy nemohou být pøesunuty do skupiny, ke které pøísluší.
+Pøesunout pøíkaz
+pod pøíkaz
+Skupiny mohou opustit Lištu smìrem nahoru
+Neplatný název položky
+Pøejmenování
+Manuální vkládání odkazù mùže zpùsobit problémy
+Pro vkládání odkazù na soubory na Vašem webu používejte tlaèítko vedle URL textového pole.%%CRLF%%Manuální vkládání odkazù používejte pro odkazy na soubory mimo Váš web .
+DHTML Menu Builder Project
+Knihovna ikon
+Nahrané ikony
+Vybrané ikony
+Velikost ikony
+Rámce souboru
+Dostupné rámce
+Soubor neobsahuje rámce
+Soubor neexistuje
+Soubor obsahuje
+rámec
+rámce
+Dostupné rámce
+Cíl záložky
+DHTML Menu Builder nebyl schopen automaticky objevit menu v rámci. Prosím, vyberte, ve kterém rámci bude menu zobrazeno.
+!Submit
+Šablona
+již existuje%%CRLF%%%%CRLF%%Jste si jistý, že ji chcete pøepsat?
+Pøepsat mùžete pouze Vaše šablony
+Chyba pøi vytváøení nové šablony
+Pouze v registrované verzi DHTML Menu Builder mùžete vytváøet šablony.
+Chyba vytvoøení.
+Nutné pøipojení k Internetu pro pøidání šablony do Online katalogu
+Chystáte se pøidat 
+šablonu do Online Katalogu
+Pøipraven k pøenosu
+Pøipojojování k serveru...
+Nahrávání šablony...
+Pøidání šablony do Online katalogu
+Šablona nemohla být pøidána, protože už v katalogu existuje
+Server narazil na chybu pøi zpracování pøidání:
+DHTML Menu Builder narazil na chybu pøi zpracování pøidání:
+Šablona byla úspìšnì pridána.%%CRLF%%Dìkujeme, že jste se s Vašimi projekty podìlil se svìtem.
+Pouze šablony, které jste vytvoøil, mohou být pøidány do Online katalogu
+Pøidat šablonu
+Zvolit jméno a uméstìní k uložení obrázku
+Informace o projektu
+Umístìní
+Verze
+Titulek
+Zakladní kódování pro náhled
+Aplikuj na %%ITEMNAME%%
+Aplikuj na vše %%RSCNAME1%% pod %%ITEMNAME%% %%RSCNAME2%%
+Aplikuj na vše %%RSCNAME%%
+Oddìlovaèe
+Aplikuj na
+Zpráva o nepropojených odkazech
+Zpráva o odkazech
+Otestuj vybrané
+Otestuj vše
+Pøedchozí
+Ukaž / Skryj neotestované odkazy
+Ukaž / Skryj správnì propojené odkazy
+Ukaž / Skryj nepropojené odkazy
+Zastavit
+Oveøení odkazu
+Oveøení odkazù
+Generování zprávy o odkazech
+Zprávy
+Upravit odkaz
+Styl položek Menu
+Lišty
+Skupiny
+Položky Lišty
+Pøíkazy
+Speciální styly položek
+Neaktivní položky
+Položky s nepropojenými odkazy
+Ovìøování odkazù pøi
+Otevírání
+Ukládání
+Kompilování
+Ovìøení extérních odkazù
+Zobrazení
+Ovìøení odkazù
+Základní
+Obnovit
+Zakódovat
+Barva pozadí
+Využít cílový soubor
+Náhled
+Zpoždìní zobrazení hlavního Menu
+Podpora Lotus Domino
+Funkènost zvýraznìní položek
+Podpora klávesové navigace
+Vypoèítání šíøky Skupiny
+Podmínka viditelnosti
+Velikost Lišty
+Styl okraje
+Pøipojený k
+Název objektu
+Soubory na Webu
+Menu
+Informace
+Instalovat všechny odkazy do Menu
+Odebrat ze všech souborù
+Zvolit soubor, který se ukáže pøi zvýraznìní položky v Menu
+Zvolit soubor, který se ukáže pøi zvýraznìní '%%MENU_NAME%%' položky v menu
+Adresáø nemùže být vybrán.
+Vybraný soubor není správný, protože neobsahuje žádné Menu
+Vyberte Menu, které chcete zobrazit, když '%%FILE_NAME%%' soubor je zobrazen
+Vyberte buï Lištu s položkou nebo pøíkazem
+Pouze položky, kterí jaou aktivní, mohou být vybrány
+Vyberte Skupinu,která bude vystupovat jako položková Lišta. Všechny ostatní Skupiny, jako podskupina, nemohou být vybrány
+Kliknìte na %%LINE=468%% tlaèítko pro pøidání kódu:

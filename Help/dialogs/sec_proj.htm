@@ -1,0 +1,115 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Production / Secondary Projects</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font size="2" color="#FFFFFF"><b>Dialogs  </b></font><b><font color="#FFFFFF" size="3">
+	»</font></b><font size="2" color="#FFFFFF"><b> Production  </b></font><b><font color="#FFFFFF" size="3">
+	» </font><font color="#FFFFFF" size="2">
+	&nbsp;</font></b><font color="#FFFFFF"><b>Secondary Projects</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is Secondary Projects dialog.<br>
+			This dialog will let you specify the secondary projects for the 
+            currently loaded (master) project.<br>
+            To access this dialog click <font face="Courier New">
+            Tools-&gt;Secondary Projects</font></p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area coords="8, 26, 389, 187" shape="rect" href="javascript:say(0);">
+			<area href="javascript:say(1);" shape="rect" coords="4, 191, 171, 228">
+			<area coords="392, 28, 469, 150" shape="rect" href="javascript:say(2);">
+			</map>
+			<img border="0" src="images/secproj.gif" usemap="#FPMap0" width="474" height="230"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                    <li><a href="../share_projects.htm">Multiple Projects</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Projects<br>
+			</b>Displays the selected secondary projects.</p>
+            <p>Notice that each secondary project can be checked and unchecked.<br>
+            Checked projects will be included in the following the tasks when 
+            selected:</p>
+            <ul>
+              <li>Compile: Secondary projects that have been checked will be 
+              compiled. Those that have not been checked will not be compiled.</li>
+              <li>Install: All the secondary projects that have been checked 
+              will be installed using the Install Menus tool.</li>
+            </ul>
+            <p>Different types of projects will be represented differently in 
+            the Secondary Projects list:</p>
+            <ul>
+              <li>Projects from older versions of DHTML Menu Builder will be 
+              dimmed and you will not be able to select them.<br>
+              To upgrade an old project simply open it in DHTML Menu Builder and 
+              click <font face="Courier New">File-&gt;Save</font></li>
+              <li>Projects that do not exist or projects that use frames support 
+              will be displayed in red and you will not be able to select them.</li>
+            </ul>
+</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Compile and Install<br>
+			</b>These buttons are shortcuts to the most common functions used 
+            with secondary projects.</p>
+            <p>When clicking the Compile button, the master project and all the 
+            checked secondary projects will be compiled.<br>
+            When clicking the Install button, the master project and all the 
+            checked secondary projects will be installed using the Install Menus 
+            tool.</p>
+          	</div>
+          	
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Add, Delete and Select All buttons<br>
+			</b>These buttons will let you add and delete projects from the 
+            Secondary Projects list.</p>
+            <p>Use the<font face="Courier New"> Select All </font>button to 
+            check (select) all the projects at once. Any task that is performed 
+            after selecting all the projects will be applied to all the 
+            secondary projects.</p>
+          	</div>
+
+</body>
+
+</html>

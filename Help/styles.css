@@ -1,0 +1,153 @@
+body {
+	font-family: Tahoma, Verdana, Arial, Helv, Helvetica;
+	font-size: 10pt;
+}
+
+p {
+	font-family: Tahoma, Verdana, Arial, Helv, Helvetica;
+	font-size: 10pt;
+}
+
+dd {
+	font-family: Tahoma, Verdana, Arial, Helv, Helvetica;
+	font-size: 10pt;
+}
+
+td {
+	font-family: Tahoma, Verdana, Arial, Helv, Helvetica;
+	font-size: 10pt;
+}
+
+a {
+	font-family: Tahoma, Verdana, Arial, Helv, Helvetica;
+	font-size: 10pt;
+	color: #0000FF;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Tahoma, Verdana, Arial, Helv, Helvetica;
+	font-size: 10pt;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+a:visited {
+	font-family: Tahoma, Verdana, Arial, Helv, Helvetica;
+	font-size: 10pt;
+	color: #0000FF;
+	text-decoration: none;
+}
+
+a:visited:hover {
+	font-family: Tahoma, Verdana, Arial, Helv, Helvetica;
+	font-size: 10pt;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+h2 {
+	font-family: Tahoma, Verdana, Arial, Helv, Helvetica;
+	font-size: 12pt; 
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+h3 {
+	font-family: Tahoma, Verdana, Arial, Helv, Helvetica;
+	font-size: 10pt; 
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.formElement { font-family: Tahoma; font-size: 10pt; border: 1 solid #000000 }
+
+.Year {
+	cursor=hand;
+	color: #000000;
+}
+
+.BtnOff {
+	background-color: #FAFAFA;
+	border-bottom: #FAFAFA solid 1px;
+	border-left: #FAFAFA solid 1px;
+	border-right: #FAFAFA solid 1px;
+	border-top: #FAFAFA solid 1px;
+	color: blue;
+	cursor: hand;
+	line-height: 9pt;
+	margin: 8px 0px;
+	padding: 2px 2px;
+	text-decoration: none;
+}
+
+.BtnDis {
+	background-color: #CBCBCB;
+	border-bottom: #CBCBCB solid 1px;
+	border-left: #CBCBCB solid 1px;
+	border-right: #CBCBCB solid 1px;
+	border-top: #CBCBCB solid 1px;
+	color: #404040;
+	height: 0pt;
+	line-height: 9pt;
+	margin: 8px 0px;
+	padding: 2px 2px;
+	text-decoration: none;
+}
+
+.BtnUp {
+	background-color: #0099FF;
+	border-bottom: #003399 solid 1px;
+	border-left: #99CCFF solid 1px;
+	border-right: #003399 solid 1px;
+	border-top: #99CCFF solid 1px;
+	color: white;
+	cursor: hand;
+	line-height: 9pt;
+	margin: 8px 0px;
+	padding: 2px 2px;
+	text-decoration: none;
+}
+
+.BtnDown {
+	background-color: #0081F0;
+	border-bottom: #99CCFF solid 1px;
+	border-left: #003399 solid 1px;
+	border-right: #99CCFF solid 1px;
+	border-top: #003399 solid 1px;
+	color: #e0e0e0;
+	cursor: hand;
+	height: 0pt;
+	line-height: 9pt;
+	margin: 8px 0px;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+
+.ImgBtnOff {
+	border-bottom: #FFFFFF solid 1px;
+	border-left: #FFFFFF solid 1px;
+	border-right: #FFFFFF solid 1px;
+	border-top: #FFFFFF solid 1px;
+	cursor: hand;
+	height: 32px;
+	filter: alpha(opacity=50);
+}
+
+.ImgBtnUp {
+	border-bottom: #000000 solid 1px;
+	border-left: #d8d8d8 solid 1px;
+	border-right: #000000 solid 1px;
+	border-top: #d8d8d8 solid 1px;
+	cursor: hand;
+	height: 32px;
+}
+
+.ImgBtnDown {
+	border-bottom: #d8d8d8 solid 1px;
+	border-left: #000000 solid 1px;
+	border-right: #d8d8d8 solid 1px;
+	border-top: #000000 solid 1px;
+	cursor: hand;
+	height: 32px;
+}

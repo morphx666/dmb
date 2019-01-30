@@ -1,0 +1,914 @@
+Magyar
+Herczeg József Tamás
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Valós elõnézet
+Parancs tulajdonságai
+Felirat
+Engedélyezett
+Rávitel
+Klikk
+Dupla klikk
+Mûvelet típusa
+Célmenü
+(nincs)
+URL megnyitása / Parancsfájl futtatása
+Almenü megjelenítése
+URL megnyitása új ablakban
+Állapotsor szöveg
+Igazítás
+Lent / Balra
+Lent / Jobbra
+Fent / Balra
+Fent / Jobbra
+Balra / Fent
+Balra / Lent
+Jobbra / Lent
+Jobbra / Lent
+Csoport tulajdonságai
+URL / Parancsfájl
+&Fájl
+Ú&j
+Meg&nyitás...
+Legutóbbi fájlok
+Menté&s
+M&entés másként...
+&Importálás...
+&Projekt tulajdonságai...
+&Kilépés
+S&zerkesztés
+&Visszavonás
+&Ismét
+&Másolás...
+&Beillesztés...
+&Keresés...
+&Továbbkeresés
+&Csere...
+Tö&rlés
+Át&nevezés
+Beállítások...
+&Menü
+&Csoport hozzáadása
+&Parancs hozzáadása
+Elválasztó hozzáadása
+Szín...
+Betûtípus...
+Kurzor...
+Kép...
+Margók...
+Speciális effektusok...
+Hang...
+&Eszközök
+Elõ&nézet...
+&Valós elõnézet
+&Alapértelmezett böngészõ...
+&Lefordítás
+
+&Közzététel...
+Betöltõ kód telepítése...
+Keretbetöltõ kód telepítése...
+&ForróPont szerkesztõ...
+&Eszköztár szerkesztõ...
+&Beépülõ modul szerkesztõ...
+Jelentés...
+&Súgó
+&Tartalomjegyzék...
+Tanf&olyam
+&Frissítés...
+xFX JumpStart a weben
+&Névjegy...
+Regisztráció
+&Regisztrációs adatok beírása...
+DHTML Menu Builder vásárlása...
+Normál
+Egér rávitel
+Szöveg színe
+Háttér színe
+Alaphelyzet
+Megfordítás
+Automatikus
+OK
+Mégse
+Élõ elõnézet
+Módosítás
+Balra
+Jobbra
+Középre
+Nyíl (alapértelmezett)
+Kereszt
+Kéz
+Szöveg
+Súgó
+Bal kép
+Háttérkép
+Jobb kép
+Eltávolítás
+Azonos
+Méret
+Eszköztár elem
+Háttérkép
+Szegély mérete
+Szegély színei
+
+Csoporttartalom margói
+Függõleges
+Vízszintes
+Szín
+Betû
+Kép
+Kurzor
+Margók
+Parancsok kiemelési effektusa
+Speciális csoporteffektusok
+Vízszintes margó
+Függõleges margó
+Árnyékdobás színe
+Átlátszóság
+Helyi menü
+Kézi
+Kiszámítás
+
+Csoport mérete
+KI
+Sötétebb
+Láthatatlan
+Speciális effektusok
+Engedélyezett állapot
+Kívánja most aktualizálni az összes elem állapotsor szövegét?
+Szerkesztés
+Célkeret
+rákattintva
+a kurzor rajta van
+duplán rákattintva
+Dokumentum kijelölése megnyitásra, mikor
+Új ablak paraméterei
+A DHTML Menu Builder most HIBAKERESÕ módban fut.
+Ha a DMB használata során bármilyen hibaüzenetet kap (futtatási hiba), jelentse azt, küldje el
+a hibakódot és a leírást, valamint röviden írja le, hogy mit csinált
+Ön a DHTML Menu Builder DEMÓ változatát használja.
+Ez a funkció csak a teljes változatban mûködik. A menük teszteléséhez használja az Eszközök->Elõnézet funkciót.
+A beépülõ modulhoz -
+- néhány paraméter szükséges a használata elõtti beállításhoz.
+Menjen a %%LINE=378%% helyre és a Paraméterek tulajdonságai gombbal, a Speciális fül alatt, állítsa be a beépülõ modulhoz szükséges értékeket.
+Ez a funkció csak a teljes változatban mûködik.
+Jelöljön ki egy projektet importálásra
+Menti a változtatásokat:
+A menük megjelenítése a helyi gépen webkiszolgáló használata nélkül
+Helyi
+Távoli
+Projekt megnyitása
+DHTML Menu Builder projektek
+A DHTML Menu Builder nem tudja megnyitni a fájlt, mert vagy írásvédett az attribútuma, vagy olyan adathordozón tárolja, ahol az írás nem engedélyezett
+Betöltés
+Ez a projekt a DHTML Menu Builder régebbi változatával készült.
+Olvassa el a Súgóban a projekt megfelelõ frissítésének módját.
+A projektet nem lehet megnyitni, mert a fájl
+nem létezik
+A projektet nem lehet megnyitni.
+Importálás
+Visszavonás
+Ismét
+Projekt mentése
+Mentés
+Projekt mentése másként
+Csoport
+Parancs
+Elválasztó
+Csoport törlésével a parancsait is törli. Biztos, hogy meg akarja tenni?
+Ezt a csoportot nem lehet törölni, mert egy másik csoport almenüjeként használatban van.
+Léptetés
+Fel
+Le
+A projektet úgy konfigurálta, hogy eszköztárat hozzon létre.
+Kivéve, ha további forró pontok vannak az oldalon, amiket
+akar használni néhány csoport azonnali indítására, a ForróPont szerkesztõre nincs szükség.
+A ForróPont szerkesztõ nem tudja a forró pontokat tartalmazó fájlt, mert vagy írásvédett az attribútuma, vagy olyan adathordozón tárolja, ahol nem rendelkezik írási jogokkal
+Alapértelmezett konfigurálás
+A nyelv átváltására a DHTML Menu Builder következõ indításakor kerül sor
+A rendszer betûkészleteinek betöltése...
+Kis türelmet. Inicializálás...
+Az utoljára mentett projekt betöltése...
+Az inicializálás befejezõdött
+A projekt helyreállítása sikerült.
+Válasszon helyet a mentéséhez
+Mivel a DHTML Menu Builder leállítása nem megfelelõen történt, az eddigi munkáról biztonsági másolat készült.
+Kívánja visszaállítani?
+A menüpontoknak betûvel kell kezdõdniük
+Másolás/Áthelyezés
+Mûvelet
+Betöltés
+Jelölje ki a csoportból másolni kívánt tulajdonságokat
+Jelölje ki a csoport alatt kijelölt elválasztótól másolni kívánt tulajdonságokat
+Jelölje ki a parancstól másolni kívánt tulajdonságokat
+Kijelölés másolása
+Kijelölés beillesztése
+Jelölje ki a beillesztendõ tulajdonságokat
+Beillesztés a csoportba
+Beillesztés minden csoportba
+Beillesztés a kijelölt elválasztóhoz
+Beillesztés minden elválasztóhoz a(z)
+csoport alatt
+Beillesztés minden elválasztóhoz
+Beillesztés a parancshoz
+Beillesztés minden parancsba a(z)
+Beillesztés minden parancsba
+Nincs adat a vágólapon
+Honlap
+Tanácsadás
+GYIK
+Nyilvános fórum
+Hírek
+Projekt helye
+Projekt neve
+%%LINE=231%%
+Kicsomagolás hangja
+Általános
+Konfigurálások
+Eszköztár
+FTP
+Speciális
+Gyökér web helyi útvonala
+A lefordított fájlok tárolásának mappája
+A képek tárolásának mappája
+Helyi konfigurálás
+Webkiszolgáló gyökér
+A lefordított fájlok útvonala
+Képek útvonala
+példa
+Útvonalak
+ForróPont szerkesztõ
+Keretek támogatása
+Beállítások
+Hozzáadás...
+Szerkesztés...
+%%RESERVED%%
+Beállítás alapértelmezettként
+Automatikus kitöltés
+Importálás...
+A menük fogadásának céldokumentuma
+Végleges HTML dokumentum
+Keretek támogatásának engedélyezése
+Keretes dokumentum
+ForróPontos keret
+Menükeret
+Eszköztár létrehozása
+Jelölje ki az eszköztárhoz hozzáadni kívánt csoportokat
+Megjelenés
+Pozicionálás
+Eszköztár stílusa
+Szegély
+Elválasztás
+
+Háttérszín
+Háttérkép
+Minta eszköztár
+Spanning
+Eltolás
+Képpontok vízszintesen
+Képpontok függõlegesen
+(auto)
+Oldalméret
+Egyéni
+A böngészõ görgetõsávjainak követése
+FTP-kiszolgáló címe
+Névtelen bejelentkezés
+Felkérés bejelentkezésre
+Proxy kiszolgáló használata
+Felhasználónév
+Jelszó
+Cím
+Port
+Távoli konfigurálás
+Projekt tulajdonságai
+Kód optimalizálása
+Lefordított JavaScript fájlnév
+Menük eltolása
+[HIBAKERESÉS] Nincs optimalizálás
+[VÉGLEGES] Rövid és gyors kód
+Érvénytelen kiszolgálónév vagy protokoll
+Keretes dokumentum kijelölése
+Az egyik keret a foglalt nevet használja
+Mielõtt használhatná a menüket ehhez a kerethez, nevezze át ezt a keretet
+Úgy látszik, hogy ez a fájl érvénytelen HTML dokumentum
+Jelölje ki a mappát, ahol a projekthez felhasznált képeket tárolja
+Jelölje ki a gyökér webmappát
+Hangfájl kijelölése
+Mentse a projektet egy másik projekt beállításainak importálása elõtt
+Projekt kijelölése
+Konfigurálás szerkesztése
+Ezt a konfigurálást nem lehet törölni, mert az FTP-támogatáshoz szükség van rá
+Az alapértelmezett konfigurálást nem lehet törölni
+Ezt a konfigurálást nem lehet törölni, mert szüksége van rá a(z)
+konfigurálásnak
+
+Alapértelmezett
+Jelölje ki a mappát, melyben a lefordított projektfájlokat fogja tárolni
+HTML dokumentum kijelölése
+A kijelölt fájl érvénytelen HTML dokumentum
+HTML dokumentumok
+Nem jelölt ki beépülõ modult. Az alapértelmezett parancsfájl kerül felhasználásra.
+%%LINE=378%% módosítása
+Ez a projekt a(z)
+beépülõ modul, azonban nem található
+Név
+Böngészõ hozzáadása
+Alkalmazások
+Írja be az új böngészõ nevét
+Válasszon ki egy érvényes parancsot a böngészõ indításához
+Válassza ki a hozzáadni kívánt böngészõt
+A beépülõ modul szerkesztõ haladó felhasználóknak készült, ésszerû HTML-, DHTML-, JavaScript, CSS- és a legújabb böngészõk esetén DOM-tudással. Biztos, hogy folytatja?
+Igen
+Nem
+Nem kérdez rá újra
+Létezõ böngészõk
+&Hozzáadás...
+Beállítás &alapértelmezettként
+S&zerkesztés...
+&Törlés
+Bezárás
+Böngészõ szerkesztése
+Frissítés
+A fordítást készítette:
+Széles
+Magas
+Megemelt
+Süllyesztett
+Jelölje ki a függõleges és a vízszintes eltolást, amit a DHTML Menu Buildernek alkalmaznia kell a menük alapértelmezett pozícióira, hogy a szülõ forró pontjaikhoz igazítva  hibátlanul jelenjenek meg
+Jelölje ki az almenük alapértelmezett pozíciójaként alkalmazni kívánt vízszintes és függõleges eltolást
+Általános
+Utolsó projekt megnyitása a DMB indításakor
+Automatikus helyreállítás
+Indítókép megjelenítése a DMB indításakor
+Visszavonás/Ismét engedélyezése
+
+Nyelv
+Formázás
+Elválasztó magassága
+Képek közti távolság
+A parancsok innen öröklik a stílusukat
+Szülõcsoport
+Elsõ parancs ugyanabban a csoportban
+A csoportok innen öröklik a stílusukat
+Program alapértelmezései
+A projekt elsõ csoportja
+Beállítások
+Kétirányú
+Függõleges
+Vízszintes
+Véletlen
+(nincs)
+Az ön verziója
+Alkalamzás
+Motor
+Kiadás
+Keresés
+Utolsó verzió
+DHTML Menu Builder frissítése
+(Nyomja meg a Keresés gombot)
+(Kis türelmet...)
+Biztos, hogy megszakítja a letöltést?
+Letöltés... Kis türelmet, ez eltarthat néhány percig
+Letöltés alatt
+Telepítés
+Letöltés
+Frissítenie kell az ön által használt változatot
+Ön a lehetõ legújabb változatot használja
+(Ismeretlen)
+Nem lehet információt lekérdezni
+Hiba történt az információ lekérdezése közben
+Új ablaktulajdonságok
+Pozíció és méret
+Mappagombok hozzáadása
+Elõírja mappagombok hozzáadását
+Csatorna mód
+Elõírja az ablak megjelenítését színház módban és a csatorna panel kijelzését
+Eszköztár megjelenítése
+Elõírja a böngészõ eszköztárának megjelenítését, olyan gombok, mint a Vissza, Elõre és Leállítás használatát
+Megjelenítés a teljes képernyõn
+Elõírja, hogy a böngészõ ablakának megjelenítése teljes vagy normál méretû
+Beviteli mezõ megjelenítése
+Elõírja a beviteli mezõ megjelenítését URL-ek beírásához közvetlenül a böngészõbe
+Menüsor megjelenítése
+Elõírja a menüsor megjelenítését
+Méretezhetõ az ablak
+Elõírja az ablak sarkaiban lévõ méretezéskezelõ megjelenítését
+Görgetõsávok megjelenítése
+Elõírja a vízszintes és függõleges görgetõsávok megjelenítését
+Állapotsor megjelenítése
+Elõírja állapotsor hozzáadását az ablak alján
+Címsor megjelenítése
+Elõírja az ablak címsorának megjelenítését
+Fent
+Állapotok
+Kijelölés a létezõbõl
+%%EMPTY-LINE%% nyelvtani célból szándékosan üres maradtSzûrõ
+Szûrõ
+Almenü megjelenítése
+Mind kijelölése
+Kijelölés megszüntetése
+Csoportok
+Parancsok
+Minden tulajdonság
+Vissza
+Sor
+Félkövér
+Dõlt
+Aláhúzott
+Háttér
+Esemény mûveletei
+Menü igazítása
+Csoport szélessége
+Csoport magassága
+Hangok
+Egér rávitelkor
+Kattintásra
+Beillesztés
+Beillesztés tulajdonságai
+Kijelölés
+Mind
+Nincs
+Fa
+Kibontás
+Bezárás
+Mind kibontása
+Mind bezárása
+Leírás...
+Képek
+Fájlból...
+Képfájl kijelölése
+Exportálás: HTML...
+HTML fájl kijelölése
+Állapotsor szöveg frissítése
+DHTML Menu Builder hibakeresõ mód
+A nyelv megváltozott
+Tiltott funkció
+Hiányzó paraméterek
+Módosítások mentése?
+Hiba történt a projekt megnyitásakor
+Hiba
+HIBAKERESÕ MÓD
+Törli a csoportot?
+A törlés megszakítva
+Biztos, hogy folytatja?
+Hiba történt a fájl megnyitásakor
+A ForróPont szerkesztõ futtatásához Microsoft Internet Explorer 5.0-s vagy újabb verzió szükséges
+Hiba történt a ForróPont szerkesztõ indításakor
+Adjon meg egy érvényes HTML dokumentumot, ami teljesen átalakítja az oldalt.
+Nyissa meg a %%LINE=378%% párbeszdablakot, és javítsa ki a problémát a ForróPont szerkesztõ ismételt futtatása elõtt.
+Hiányzó %%LINE=345%%
+Ha a kerettámogatás használatakor a Menük keret eltérõ a ForróPont kerettõl,%%CRLF%%akkor a '%%LINE=345%%' beállításnak a %%LINE=378%% párbeszédablakban ugyanarra a fájlra kell mutatnia, mint a 'ForróPontokat tartalmazó dokumentumnak'.
+Érvénytelen %%LINE=345%% beállítás
+Ismeretlen hiba miatt a ForróPont szerkesztõt nem lehet indítani.
+A projektet nem lehet lefordítani, mert
+a csoport
+a parancs
+érvénytelen karaktereket tartalmaz
+a kattintás a parancsra
+a rávitel a parancsra
+a dupla kattintás a parancsra
+a kattintás a csoportra
+a rávitel a csoportra
+a dupla kattintás a csoportra
+érvénytelen karaktereket tartalmaz az állapotsor szöveg mezõben
+Hiba történt a lefordítás közben
+A projektet nem lehet lefordítani, mert azonos nevû elemeket tartalmaz
+Konfigurálás
+Határozza meg a lefordított fájlok célmappáját.
+Kívánja most elvégezni?
+A célmappa hiányzik
+A %%LINE=378%% helyen a lefordított fájlok tárolására meghatározott mappa érvénytelen.
+Érvénytelen célmappa
+Határozza meg a képek célmappáját
+A képek célmappája hiányzik
+A %%LINE=378%% helyen a képek tárolására meghatározott célmappa érvénytelen.
+A képek célmappája érvénytelen
+Adjon meg érvényes célfájlt, amibe a menük készítése történik. Ez az a HTML dokumentum, melyben a forró pontokat határozza meg.
+Hiányzó vagy érvénytelen célfájl
+A ForróPontokat tartalmazó dokumentumnak érvényes HTML dokumentumnak kell lennie, a gyökér webben elhelyezkedve.
+Érvénytelen célfájl
+Adjon meg egy érvényes HTML dokumentumot, ahol az oldal teljesen rendered.
+Hiányzó vagy érvénytelen fájl
+A célmappának a gyökér weben belüli mappának kell lennie.
+Kívánja most kijavítani ezt a problémát?
+A(z) '%%LINE=326%%' paraméter a
+konfigurációban érvénytelen
+Érvénytelen konfigurációs paraméterek
+A(z) '%%LINE=330%%' paraméter a
+Az FTP-szekció '%%LINE=369%%' paramétere a %%LINE=378%% helyen érvénytelen
+lépcsõzetes parancsként meghatározott keresztül a
+esemény, de érvénytelen menücsoportra mutat
+Érvénytelen célcsoport
+Vagy visszaállítja ezt a beépülõ modult, vagy eltávolítja a projektbõl
+A beépülõ modul nem található
+de nem lehet lefordítani, mert%CRLF%%úgy látszik, hogy sérült, vagy a DHTML Menu Builder régebbi verziójából való
+Érvénytelen beépülõ modul
+A helyreállítás sikerült
+Helytelen leállítás
+A vágólapon elhelyezett adatok eltérõ típusú objektumból valók
+Érvénytelen vágólap adatok
+Keresés
+Csere
+Hatókör
+Teljes szavak keresése
+Kis/-nagybetûk megkülönb.
+Engedélyezett elemek
+Min&det cseréli
+Csere mûvelet
+Stílus
+képpont
+Utolsó projekt &megnyitása indításkor
+Következõ
+Elemzés alatt
+Váratlan hiba történt a ForróPontok létrehozása közben
+A kijelölt ForróPont egy névtelen kép.
+Azért, hogy a csoport
+igazítása a kijelölt képhez automatikus,
+a képnek nevet kell adni.
+Nem telepítette megfelelõen a ForróPontot
+A kijelölt ForróPont egy kép, melynek neve azonos a kijelölt csoportéval.
+Nevet kell adni az oldal egyes elemeinek. Vagy a csoportot, vagy a képet  nevezze át,%%CRLF%%hogy a csoport mûködhessen.
+Megszakadt a kommunikáció az Internet Explorerrel.%%CRLF%%A dokumentumot nem lehet betölteni, vagy érvénytelen HTML dokumentum.%%CRLF%%%%CRLF%%Zárja be a ForróPont szerkesztõt, ellenõrizze, hogy a projekt tulajdonságainak%%CRLF%%a konfigurálása megfelelõ, és nyissa meg ismét.
+Biztos, hogy bezárja a HotSpots Editor without saving your changes?
+Figyelmeztetés
+
+
+Élõ találkozó kérése
+Valós termékdemonstráció kérése
+A termék jogos használója:
+Töltse ki az alábbi mezõket a vásárláskor kapott adatokkal. Ellenõrizze, hogy az adatokat pont abban a formában írta be, ahogy kapta.
+Rendelési szám
+Felhasználónév
+Cég
+Érvényesítés
+Bizalmassági tájékoztató
+Az érvényesítés megkezdéséhez a(z) '%%LINE=635%%' és a(z) '%%LINE=636%%' mezõkre van szükség.
+Érvénytelen regisztrációs adatok
+Az adatok ellenõrzése sikerült.%%CRLF%%Nyomja meg a %%LINE=176%% gombot a DHTML Menu Builder jelen példányának teljes, regisztrált változatra cseréléséhez.
+A regisztráció érvényesítése sikerült!
+Ellenõrizze, hogy az adatokat pontosan abban a formában írta be, ahogy a rendelési visszaigazolásban szerepel.%%CRLF%%%%CRLF%%Ha épp most vásárolta meg a programot, lehet, hogy néhány perc múlva ismét meg akarja próbálni.%%CRLF%%%%CRLF%%A hiba másik lehetséges oka, hogy ön nem a legújabb verziót használja. A legújabb verzió ellenõrzéséhez válassza a Súgó->Frissítés menüpontot.
+Érvénytelen regisztrációs adatok
+
+Regisztráció súgó
+A kiszolgáló nem fogadta el a megadott regisztrációs adatokat
+A kiszolgáló által jelentett ok:
+További információ:
+A %%LINE=635%% érvénytelen
+A DHTML Menu Builder nem tudott kommunikálni a kiszolgálóval az adatok érvényesítéséhez.%%CRLF%%Mielõtt ismét megpróbálná az érvényesítést, ellenõrizze, hogy csatlakozott-e az Internethez.
+Nem lehet csatlakozni a kiszolgálóhoz
+Biztos, hogy regisztrálás nélkül bezárja a Regisztráció párbeszédablakot?
+Kijelölt elem léptetése felfelé
+Kijelölt elem léptetés lefelé
+Elõnézet, használva
+Belsõ
+Hiba történt a súgónézõ megjelenítésekor
+Hiba történt a betöltõ kód telepítésekor
+Hiba történt a létezõ betöltõ kód eltávolításakor
+Hiba történt a projekt importálásakor
+Frissítés keresése
+Kritikus hiba
+Hiba történt a paraméterek betöltésekor
+Hiba történt a paraméterek mentésekor
+Szegélyek
+Parancsok elrendezése
+Vonal színe
+Dupla
+Fazetta
+Képek szegélyezése
+Hely frissítése...
+Jelölje ki az új helyet:
+
+Ha a(z) '%%LINE=345%%' vagy a(z) '%%LINE=347%%' paraméterek nem HTML típusúak, web kiszolgálón keresztül kell rájuk hivatkozni.
+Bejelentkezés
+Helyi típusú konfigurálásokat nem lehet webkiszolgálón közzétenni. Hozzon létre távoli típusú konfigurálást, majd állítsa be alapértelmezettként.
+%%LINE=378%% megjelenítése új projekt létrehozásakor
+Ez a konfigurálás web kiszolgálón való munkára készíti elõ a menüket
+Konfigurálás kijelölése
+Az alapértelmezett konfigurálás módosítása
+Az alapértelmezett konfigurálás módosításakor megváltoznak az útvonalak a programmal létrehozott fájlokhoz, ezért ne felejtse frissíteni a dokumentumok betöltõ kódját.
+Helyi konfigurálások lefordítása
+Ön helyi típusú konfigurálást kíván lefordítani. Az ilyen konfigurálások csak azon a gépen fognak mûködni, ahol a menüket fejlesztik.%%CRLF%%Ha ezt a projektet webkiszoláglón kívánja közzétenni, akkor létre kell hoznia egy távoli típusú konfigurálást, és ismét lefordítani a projektet.
+Lemez-alapú betöltõ kód telepítése
+Az alapértelmezett konfigurálás helyi típusú. Ez azt jelenti, hogy a betöltõ kód, ami telepítésre kerül az oldalakba, lemez alapú lesz, tehát a menük csak azon a gépen fognak mûködni, ahol a menük készültek.%%CRLF%%Ha ezt a projektet webkiszolgálón teszi közzé, távoli típusú konfigurálást kell létrehoznia, s aztán a betöltõ kód optimalizálásra kerül olyan útvonalak generálására, melyek a webkiszolgálón mûködnek.
+Csoport igazításának módosítása
+Az igazítás módosítása érvénybe léptetésének céljából futtassa a következõt: %%LINE=335%%.%%CRLF%%Ha a csoportokat már hozzárendelte a forrópontokhoz, a %%LINE=335%% futtatásával és a Telepítés gomb megnyomásával lépnek érvénybe a változtatások.
+Lehetséges kompatibilitási problémák
+Hiányos telepítésû konfigurálás
+A helyi konfigurálás némely útvonala üres. Ez okozhatta az elõre láthatatlan eredményeket.%%CRLF%%Hogy megggyõzõdjön arról, hogy a DHTML Menu Builder megfelelõen tud a webhelyen mûködõ projektet generálni, mindig töltsön ki minden paramétert az összes konfigurálásból.
+&Keresés...
+Szeretné a kiszolgáló által az utolsó érvényesítésbõl visszaadott regisztrációs adatokat használni?
+Érvényesítés módja
+Ismeretlen hiba történt a DHTML Menu Builder regisztrálása közben.
+Hiba történt a Register.exe indításakor
+Internet kapcsolat ellenõrzése
+Kapcsolódás az érvényesítõ kiszolgálóhoz
+Adatok elõkészítése
+Regisztrációs adatok érvényesítése
+Nem lehet kapcsolatot létesíteni az érvényesítõ kiszolgálóval.%%CRLF%%%%LINE=705%%
+Érvényesítési hiba
+Nem található kapcsolat az Internettel.%%CRLF%%%%LINE=705%%
+Ha ön proxy kiszolgálót vagy tûzfalat használ, hagyja figyelmen kívül ezt a hibát.
+Létezõ ForróPontok
+Hozzárendelt csoport
+Kép neve
+Pozíció
+Aktív szöveg
+Típus
+Létrehozás mibõl:
+Betû helyettesítése
+A projektben használt betûtípusok
+Helyettesítések
+Fent, balra
+Fent, középen
+Fent, jobbra
+Balra
+Jobbra
+Lent, balra
+Lent, középen
+Lent, jobbra
+Színek
+Almenü igazítása
+Effektus típusa
+Globális beállítások
+Idõzítõk
+Menük elrejtési késleltetése
+Almenük elrejtési késleltetése
+Effektus sebessége
+Bõvített funkciók
+Kód generálása: DOM kompatibilis böngészõk
+Kód generálása: Navigator 4
+hRef fájl generálása
+
+Ûrlap elemek elrejtése
+Dreamweaver/Fireworks egérrávitelek támogatása
+Navigator 4 'Clip Bug' hiba javítása
+Segédfunkciók az Opera egérráviteli effektusainak engedélyezéséhez
+ImageReady egérrávitelek támogatása
+Alaphelyzet
+Útvonalak optimalizálása
+Kicsi
+Nagy
+Lassú
+Gyors
+Céldokumentum
+Ez az a dokumentum, melybõl a menük indítása történik.
+Ez az a dokumentum, melybe a DHTML Menu Builder az eszköztárat telepíti a %%LINE=157%%->%%LINE=164%% tulajdonsággal.On this document is where DHTML Menu Builder will expect to find the HotSpots that will trigger the menus.
+Ez az a dokumentum, melyben a DHTML Menu Builder a menüket indító ForróPontokat keresiVálassza ki a mappát, mely tartalmazza a hozzáadni kívánt fájlokat
+Válassza ki a hozzáadni kívánt fájlokat tartalmazó mappát
+Válassza ki a HTML dokumentumokat a keretbetöltõ kód telepítéséhez
+Válassza ki a HTML dokumentumokat a betöltõ kód telepítéséhez
+Speciális menütelepítési eszközök használata
+Projektzárolás engedélyezése
+Alapértelmezés a Térkép nézethez
+Térkép
+Normál
+Alcsoport hozzáadása
+Menük telepítése
+Betöltõkód eltávolítása
+Mappák a webhelyen
+Fájlok
+A menüket fogadó fájlok
+Az eszköztárat fogadó fájl
+Az eszköztárakat fogadó fájl
+Eszköztár telepítése
+Menük eltávolítása
+Úgy látszik, hogy a webhely összes dokumentumának megfelelõ a betöltõkódja.%%CRLF%%Nem ajánlott változtatni.The are no selected files to install the Menus
+Nem jelölte ki a menüket telepítõ fájlokat
+Betöltõkód telepítése
+Keretbetöltõkód telepítése
+Fájl elemzése
+Láncolt fájl elemzése parancsból
+Láncolt fájl elemzése csoportból
+Létezõ betöltõkód elemzése
+Mappa vizsgálata
+(n.a.)
+Szokásos
+Keretek
+(nincs)
+Tartalmazza a keretek betöltõkódját
+Nem tartalmaz betöltõkódot
+A szokásos betöltõkódot tartalmazza
+Nem támogatja a betöltõkódot
+Eltávolítás a listáról
+Fájl hozzáadása
+Nincs fájl a mappában
+Név|Méret|Típus|Módosítva|Betöltõkód
+Elválasztó hossza
+Százalék
+Eszköztárak szerkesztése
+Az eszköztárakhoz tartozik:
+(Nincs eszköztár)
+Betöltés
+Beprogramozások
+Szerzõ
+Megjegyzés
+Lépcsõzetes
+Beprogramozás elõnézete
+Alkalmaz
+Séma alkalmazása beprogramozásból...
+Projekt kiürítése
+Beprogramozásból...
+Varázsló használata...
+Beprogramozás
+Törlés
+Eszköztár hozzáadása
+Eszköztár törlése
+Hossz...
+Az eszköztárat és a menüket fogadó fájl
+Az eszköztárakat és a menüket fogadó fájl
+A menüket fogadó fájl
+Kész. Nyomja meg a(z) %%LINE=468%% gombot a kijelölt dokumentumok feldolgozásához.
+Eszköztár tulajdonságai
+Microsoft Internet Explorer (Belsõ)
+Középen / Balra
+Középen / Jobbra
+Középen / Fent
+Középen / Lent
+nincs
+normál
+max.
+Másodlagos projektek
+Projektek
+Nem jelölte ki telepítésre a projekteket
+Érvénytelen a kijelölés
+Ezt a projektet nem lehet kijelölni, mert nem létezik, vagy a DHTML Menu Builder régebbi verziójával készült
+Görgetés
+Árnyékolás
+Hatások
+Mappaszerkezetbõl
+Mentés beállításként
+Ikon kibontása
+A DHTML Menu Builder tippje
+Már létezik a projektben egy sabloncsoport
+Nem lehet hozzáadni a sabloncsoportot
+Másodlagos projektek használatakor le kell fordítani a mester projektet
+A projekt
+nem fordítható le, mert hiányzik belõle a mester projektben lévõvel azonos beállítás
+Beprogramozás létrehozásához az aktív projektnek legalább egy eszköztárat kell tartalmaznia
+Érvénytelen projekt
+Hiba történt a következõ fájl feloldásakor:
+Hiba történt a fájl feloldásakor
+jelenleg egy másik folyamat lezárja:
+Mindenképp be kívánja tölteni?
+Ezt a projektet nem lehet megnyitni, mert a <fejlesztõi kiadással> készült
+Projekt frissítése...
+Könyvjelzõ
+Célkeret
+eszköztárról
+PC biztonsági figyelmeztetés
+A rendszererõforrások veszélyesen lecsökkentek!%%CRLF%%%%CRLF%%Windows 95, 98 és Millennium alatt, túl sok alkalmazás egyidejû futtatása felemésztheti az erõforrásokat, figyelmen kívül hagyva a RAM mennyiségét.%%CRLF%%%%CRLF%%A rendszer összeomlás elkerülése céljából zárja be a nem használt alkalmazásokat, fõleg az értesítési területen futtatott programokat.
+Rendszererõforrások:
+GDI erõforrások:
+Felhasználói erõforrások:
+A DHTML Menu Builder DEMÓ korlátozásai
+A DHTML Menu Builder e DEMÓ változata egy teljesen mûködõképes kiadás, elkészítheti és letesztelheti vele a menüket.%%CRLF%%%%CRLF%%A program azonban letiltja a hivatkozásokat a menüpontokban, tehát rákattintásukkor nem hajtják végre az elõírt mûveletet.
+Ha nemrég frissítette a DHTML Menu Buildert, akkor ismét érvényesítenie kell a TELJES változattá alakításhoz.%%CRLF%%Szeretné ezt most megtenni?
+Üdvözli a DHTML Menu Builder!
+Úgy tûnik, hogy ön elsõ alkalommal használja a DHTML Menu Buildert.%%CRLF%%Ha ön új a webalapú menükészítés világában, erõsen javasoljuk a Fájl >Új > Varázsló használata menüpontból a Varázsló indítását.%%CRLF%%Ezzel pár perc alatt elkészítheti az elsõ menüt, aztán a teljes alkalmazással megadhatja a végsõ vonásokat, és létrehozhatja a webhelyén.
+Projekt lefordítása
+Nem dobhatók az eszköztárra a parancsok
+A csoportok nem dobhatók arra az eszköztárra, amelyikhez tartoznak
+Csoport másolása
+az eszköztárra
+Csoport áthelyezése
+Parancs másolása
+a csoportba
+A parancsok nem helyezhetõk át abba a csoportba, melyekhez tartoznak
+Parancs áthelyezése
+a parancs alatt
+A csoportok csak eszköztárra dobhatók
+Érvénytelen elemnév
+Átnevezés
+A kézzel beírt hivatkozások problémát okozhatnak
+Mindig a Hivatkozás mezõ melletti Tallózás gombbal hozhatja létre a webhelyen lévõ fájlokra mutató hivatkozásokat.%%CRLF%%Csak azokat a hivatkozásokat kell kézzel begépelni, melyek a webhelyen kívüli erõforrásokra mutatnak.
+DHTML Menu Builder projekt
+Ikonkönyvtár
+Betöltött ikonok
+Kijelölt ikon
+Ikon mérete
+Keretes dokumentum
+Létezõ keretek
+Nem tartalmaz kereteket a dokumentum
+Nem létezik a dokumentum
+A dokumentum tartalmaz
+keretet
+kereteket
+Létezõ könyvjelzõk
+Cél könyvjelzõ
+A DHTML Menu Builder nem tudta automatikusan megállapítani a menük keretét. Válassza ki, hogy melyik keretben jelenjenek meg a menük:
+Továbbítás
+A beprogramozás
+már létezik%%CRLF%%%%CRLF%%Biztos, hogy felülírja?
+Csak az ön által létrehozott beprogramozások írhatók felül
+Hiba történt az új beprogramozás létrehozásakor
+Csak a regisztrált DHTML Menu Builder változat tudja továbbítani a beállításokat
+Hiba történt továbbításkor
+Csatlakoznia kell az Internethez, ha szeretne beprogramozást továbbítani az online katalógusba
+Ön a következõt kívánja továbbítani:
+Beprogramozás az online katalógusba
+A beprogramozás továbbítására készen
+Csatlakozás a kiszolgálóhoz...
+Beprogramozás feltöltése...
+Beprogramozás hozzáadása az online katalógushoz
+A beprogramozás nem továbbítható, mert már megtalálható a katalógusban
+A kiszolgáló problémába ütközött a továbbítás feldolgozásakor:
+A DHTML Menu Builder hibába ütközött a továbbítás feldolgozásakor:
+A beprogramozás továbbítása sikerült.%%CRLF%%Köszönjük, hogy megosztotta a világgal a nagyszerû projekteket!
+Csak az ön által készített beprogramozások továbbíthatók az online katalógusba
+Beprogramozás továbbítása
+Válasszon nevet és helyet a kép mentéséhez

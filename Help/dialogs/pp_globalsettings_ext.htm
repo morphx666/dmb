@@ -1,0 +1,243 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Project Properties / Global Settings / Extended Features</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position:absolute; left:35; top:220; background-color:#FFFFCC; padding:8px 8px 8px 8px; border:1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility:hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24">
+	<font size="2" color="#FFFFFF"><b>&nbsp;Dialogs
+	» Project Properties » Global Settings » Extended Features</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is the Extended Features page of the Global Settings section 
+            of the Project Properties dialog.<br>
+			Settings that will affect the way your menus behave are configured here.<br>
+                To access this dialog click <font face="Courier New">
+                File-&gt;Project Properties</font> and click on the
+            <font face="Courier New">Global Settings</font> tab.</p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area href="javascript:say(1);" shape="rect" coords="16, 56, 441, 310">
+			<area href="pp_conf_paths.htm" shape="rect" coords="65, 30, 150, 50">
+			<area href="pp_advanced.htm" shape="rect" coords="244, 28, 310, 50">
+			<area href="pp_general.htm" shape="rect" coords="8, 30, 65, 50">
+            <area href="javascript:say(2);" shape="rect" coords="341, 326, 448, 354">
+			<area href="pp_globalsettings.htm" shape="rect" coords="15, 327, 97, 346">
+            <area href="pp_globalsettings_tmr.htm" shape="rect" coords="97, 328, 137, 346">
+			</map>
+			<img border="0" src="images/pp_globalsettings_ext.gif" usemap="#FPMap0" width="464" height="400"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+			
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none; overflow:scroll; height:300px;">
+            <p><b>Extended Features<br>
+			</b>By checking the box next to each item, you can add features that affect the way your 
+            project is compiled and the way the menus behave:</p>
+            <ul>
+              <li><b>Generate Code for DOM compliant browsers:</b> generate code compatible with Internet 
+			Explorer 4 (and above), Navigator 6 and Opera 5.12<hr noshade size="1" color="#EBEBEB">
+              	</li>
+              <li>
+			<b>Generate Code for Netscape Navigator 4:</b> generate special code that works 
+			exclusively with the non-standardized HTML, DHTML, CSS and 
+			JavaScript implementations of Netscape Navigator 4.<hr noshade size="1" color="#EBEBEB">
+              	</li>
+              <li>
+			<b>Generate hRef file:</b> re-generate this file every time the project is recompiled.<hr noshade size="1" color="#EBEBEB">
+              	</li>
+              <li><b>Hide Form Elements: </b>hide any dropdown 
+	combos or other form elements on the page when a menu is about to be displayed. Because of the way the browsers work, these dropdowns (or pull-downs as they are also called) will always appear <i>over</i> the menus. Hiding the dropdowns when the menus are displayed is the <i>only</i> solution. </li>
+            </ul>
+
+<blockquote>
+	<table border="0" cellpadding="2" style="border-collapse: collapse" width="80%" id="AutoNumber1" bgcolor="#E0E0E0">
+		<tr>
+			<td width="100%"><b>Compatibility notes</b><br>
+			This option has no effect under Netscape Navigator 4</td>
+		</tr>
+	</table>
+</blockquote>
+<ul>
+  <li><b>Support for Dreamweaver/Fireworks Rollovers:</b> keeps the menus synchronized with the image-based hotspot rollover effects created with Dreamweaver or Fireworks.</li>
+</ul>
+            <blockquote>
+	<table border="0" cellpadding="2" style="border-collapse: collapse" width="80%" id="AutoNumber3" bgcolor="#E0E0E0">
+		<tr>
+			<td width="100%"><b>Important Information</b><br>
+			If some hotspots display menus and other 
+            hotspots do not, you must manually modify the onmouseover event of the hotspots that do not display any menus to prevent the rollover effects from causing problems.<p>The default 
+            onmouseover event may look like this:</p>
+            <blockquote>
+              <p>onmouseover=&quot;MM_swapImage(..........)&quot;;</p>
+            </blockquote>
+            <p>The above event definition must be modified to add a call to the 
+            HideAll() function, as displayed on the line of code below:</p>
+            <blockquote>
+              <p>onmouseover=&quot;<font color="#FF0000">HideAll();</font>MM_swapImage(..........)&quot;;</p>
+            </blockquote>
+            <hr noshade color="#808080" size="1">
+              <p>Also note that when enabling this option, the Root Menus Delay 
+              parameter will be ignored.</p>
+            </td>
+		</tr>
+	</table>
+            </blockquote>
+<ul>
+  <li><b>Fix for the Netscape Navigator 4 'Clip Bug':</b> fixes the problem where the menus tend to disappear or appear out of sync with the hotspots under Netscape Navigator 4.<hr noshade size="1" color="#EBEBEB">
+              	</li>
+  </ul>
+<ul>
+
+  <li><b>Support for ImageReady Rollovers:</b> keeps the menus synchronized with the image-based hotspot rollover effects created with ImageReady.</li>
+</ul>
+            <blockquote>
+	<table border="0" cellpadding="2" style="border-collapse: collapse" width="80%" id="AutoNumber4" bgcolor="#E0E0E0">
+      <tr>
+        <td width="100%"><b>Important Information</b><br>If some hotspots display menus and other 
+            hotspots do not, you must manually modify the onmouseover event of the hotspots that do not display any menus to prevent the rollover effects from causing problems.<p>The default 
+            onmouseover event may look like this:</p>
+        <blockquote>
+          <p>onmouseover=&quot;changeImage(..........)&quot;;</p>
+        </blockquote>
+        <p>The above event definition must be modified to add a call to the 
+            HideAll() function, as displayed on the line of code below:</p>
+        <blockquote>
+          <p>onmouseover=&quot;<font color="#FF0000">HideAll();</font>changeImage(..........)&quot;;</p>
+        </blockquote><hr noshade color="#808080" size="1">
+        <p>Also note that when enabling this option, the Root Menus Delay 
+              parameter will be ignored.</p></td>
+      </tr>
+    </table>
+               </blockquote>
+
+<ul>
+  <li><b>Lotus Domino Support:</b> enable this feature if the menus are going to 
+  be installed in a web server running Lotus Domino.
+  <br>
+&nbsp;<table border="0" cellpadding="2" style="border-collapse: collapse" width="80%" id="table1" bgcolor="#E0E0E0">
+      <tr>
+        <td width="100%"><b>Important Information</b><p>This option only changes 
+        the generated URLs referring the images included within the menus. When 
+        this option is checked, any generated link to an image like &quot;&lt;img src=image.gif&gt;&quot; 
+        is replaced by &quot;&lt;img src=image.gif/$file/image.gif&gt;&quot;, which is domino's 
+        extended URL syntax.<br>
+        <br>
+        To make DHTML Menu Builder's menus usable within a domino web database, 
+        you normally use a web view, e.g. named &quot;pages&quot;, which contains all your 
+        documents. To provide common pagenames like &quot;index.htm&quot;, each document 
+        must have such a pagename (e.g. simply use a text field). The page name 
+        must be listed in the &quot;pages&quot; view's first sorted column. So you can 
+        access your home page document by e.g. &quot;http://my.server.com/path/database.nsf/pages/index.htm&quot;.<br>
+        <br>
+        To have DHTML Menu Builder's menus now show the used images, create a 
+        separate notes document for each image, and attach each single image as 
+        a file attachment. To name the document, again set a pagename, filled 
+        with the name of the image attached. Those image documents have to be 
+        listed in the &quot;pages&quot; view, too! So you can refer to an image e.g. named 
+        &quot;image.gif&quot; by &quot;http://my.server.com/path/database.nsf/pages/image.gif/$file/image.gif&quot;.<br>
+&nbsp;</td>
+      </tr>
+    </table>
+  <hr noshade size="1" color="#EBEBEB">
+              	</li>
+  <li><b>Item Highlight Functionality:</b> allows the implementation of item 
+  highlighting. This will let you highlight menu items to reflect the section 
+  where the user is inside the web site.<hr noshade size="1" color="#EBEBEB">
+              	</li>
+  <li><b>Keyboard Navigation Support:</b> when this option is enabled your will 
+  be able to navigate the menus using the keyboard and the mouse:<ul type="disc">
+    <li>Use the CTRL key on the keyboard to toggle the keyboard support</li>
+    <li>Use the ARROW keys to navigate the menus</li>
+    <li>Use the ENTER key to select a menu item<br>
+&nbsp;</li>
+  </ul>
+	<table border="0" cellpadding="2" style="border-collapse: collapse" width="80%" id="table1" bgcolor="#E0E0E0">
+      <tr>
+        <td width="100%"><b>Important Information</b><br>The keyboard support is 
+        limited to the following browsers:<ul>
+          <li>Internet Explorer 5, 5.5. and 6 (Windows)</li>
+          <li>Internet Explorer 5 (Mac)</li>
+          <li>Opera 7 (not 100% stable) (Windows)</li>
+          <li>All Mozilla-based browsers (Windows)</li>
+        </ul>
+        <p>The support is not available under these popular browsers:</p>
+        <ul>
+          <li>Netscape Navigator 4</li>
+          <li>Safari</li>
+          <li>Konqueror</li>
+        </ul>
+        </td>
+      </tr>
+    </table>
+               <hr noshade size="1" color="#EBEBEB">
+               </li>
+  <li><b>Display Status Text as a tooltip:</b> enabling this option will display 
+  the Status Text defined on a menu item as a tooltip.<hr noshade size="1" color="#EBEBEB">
+               </li>
+  <li><b>Enable Global In-Group Scrolling:</b> when this option is enabled, 
+  DHTML Menu Builder will displaying the scrolling buttons on large menus but 
+  only when necessary, that is, when the group is so large that it cannot feet 
+  inside the visible area of the browser.<br>
+  This is done automatically and in real-time so if the user resizes the browse 
+  window, DHTML Menu Builder will automatically add or remove the scrolling 
+  buttons on those menus that require them.<hr noshade size="1" color="#EBEBEB">
+               </li>
+  <li><b><a name="SEO"></a>Enable Search Engine Optimizations:</b> the menus 
+  generated by DHTML Menu Builder are not visible to search engines so search 
+  engines cannot properly index a web site where the menus are the only mean of 
+  navigation. Enabling this option will cause DHTML Menu Builder to install a 
+  plain HTML-based navigation version of the menus which is 100% search engine 
+  friendly yet invisible to your web site visitors.<br>
+  Note that for this option to work you must <a href="../installingmenus.htm">
+  re-install the menus</a>. This is also true if you decide to disable the 
+  option; changes to this option are not applied by re-compiling the project but 
+  by re-install the menus.</li>
+</ul>
+</div>
+
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Restore Defaults<br>
+			</b>Click  this button to restore the default Global Settings.</p>
+          	</div>
+
+
+</body>
+
+</html>

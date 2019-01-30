@@ -1,0 +1,161 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Positioning the Toolbar</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+<!--
+DIV.Section1 {
+	page: Section1
+}
+-->
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+    &nbsp;</font></b><font color="#FFFFFF"><b>Positioning the Toolbar</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+			The alignment dialog in the Toolbars Editor is a very powerful tool 
+            which lets you take complete control over the follow parameters that 
+            affect the way the toolbar is positioned on the browser's window:<ul>
+              <li>Anchor: This controls the fixed areas of the toolbar that will 
+              remain fixed regardless of the alignment setting</li>
+              <li>Alignment: This controls how the toolbar will be positioned 
+              relative to the browser's window</li>
+              <li>Position: And this controls where in the document the toolbar 
+              will be displayed</li>
+            </ul>
+            <p>Being able to work with the above parameters on their own would 
+            be a quite complex and tedious task; this is why DHTML Menu 
+            Builder's Toolbar Positioning dialog provides a very easy to use 
+            interface where all you have to do is select from an alignment mode 
+            and if necessary set an offset.</p>
+            <p>The alignment control is divided in three modes:</p>
+            <ul>
+              <li><b>Aligned and Anchored:<br>
+              </b>In this mode you select the position from 9 available options. 
+              Each option will automatically align and anchor the toolbar to a 
+              specified location of the browser's window and maintain this 
+              setting even if the browser is resized.<table border="0" style="border-collapse: collapse" bordercolor="#111111" width="80%" id="AutoNumber1" cellpadding="2">
+                <tr>
+                  <td align="left" valign="top">
+                  <img border="0" src="images/exal01.jpg" align="left" width="116" height="55"></td>
+                  <td align="left" valign="top" width="100%">For example, in the 
+                  configuration shown here the toolbar will be anchored to 
+                  top/right corners of the browser's window.<br>
+                  This configuration will be maintained regardless of the window 
+                  size and even if this size changes after the toolbar has been 
+                  displayed.<br>
+Please refer to the <a href="thetutorial_ptb_01.htm">Positioning the menus</a> 
+tutorials for further information.</td>
+                </tr>
+              </table>
+                <hr noshade size="1" color="#EBEBEB">
+			  </li>
+              <li><b>Custom and Fixed:<br>
+              </b>In this mode the toolbar will be placed at a give x,y 
+              coordinate.<br>
+              The coordinates are provided in pixels and as in the previous mode 
+              are maintained regardless of the browser's window size.<table border="0" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber2" cellpadding="2" width="80%">
+                <tr>
+                  <td align="left" valign="top">
+                  <img border="0" src="images/exal02.jpg" width="140" height="29"></td>
+                  <td align="left" valign="top" width="100%">In this sample the 
+                  toolbar will be positioned at exactly 40 pixels from the left 
+                  corner of the browser's window and 120 pixels from the top 
+                  border.<br>
+Please refer to the <a href="thetutorial_ptb_01.htm">Positioning the menus</a> 
+tutorials for further information.</td>
+                </tr>
+              </table>
+                <hr noshade size="1" color="#EBEBEB">
+			  </li>
+              <li><b>Attached to...:</b><br>
+              Sometimes, placing the toolbar so it flows with the rest of the 
+              contents of the page can be quite a difficult task.<br>
+              With this positioning option you can force the toolbar to follow an 
+              item in the HTML document so its position will depend on the 
+              position of the &quot;attached to&quot; object (which is usually an image) 
+              and the selected alignment.<br>
+              Optionally you can force the image to inherit the size of the 
+              toolbar, this way, whatever content appears next to the image will 
+              appear to flow as if it was flowing around the toolbar. Note that 
+              this option is only available when the alignment has been set to 
+              Bottom/Left.<table border="0" style="border-collapse: collapse" bordercolor="#111111" width="80%" id="AutoNumber3" cellpadding="2">
+                <tr>
+                  <td align="left" valign="top">
+                  <img border="0" src="images/exal03.jpg"></td>
+                  <td align="left" valign="top" width="100%">In this sample the 
+                  toolbar will follow an object named &quot;LeftImage&quot; and it will 
+                  be aligned in a way so the toolbar will always appear below 
+                  the object and centrally aligned.<br>
+Please refer to the <a href="thetutorial_ptb_01.htm">Positioning the menus</a> 
+tutorials for further information.<br>
+                  <a href="http://software.xfx.net/utilities/dmbuilder/tipstricks/inacell/index.html">
+                  Click here to see a small online tutorial that explains in 
+                  greater detail how this option can be used</a>.</td>
+                </tr>
+              </table>
+                <hr noshade size="1" color="#EBEBEB">
+              </li>
+              <li><b>Free Flow...:</b><br>
+              All the previous positioning methods will create toolbars that 
+              appear floating above all the contents in a page.<br>
+              In this mode, the toolbar will not float, but instead, will be 
+              part of the HTML contents on the page allowing it to flow with the 
+              rest of the HTML content... just as if it were an image or a table 
+              or some other common HTML element.<br>
+              For this mode to work you need to add an ID to some enclosing 
+              element in the page. The toolbar will then look for that ID and 
+              will insert the toolbar inside the tag that contains that ID.<br>
+              A more detailed explanation of how this method works can be found 
+              on the <a href="thetutorial_ptb_11.htm">Positioning the menus</a> 
+              tutorial.<br>
+&nbsp;</li>
+            </ul>
+            <p>Finally you can further tweak the position of the toolbar by 
+            specifying a custom offset. The offset is specified in pixels and 
+            its applied to the position of the toolbar after it has been 
+            calculated based on the selected alignment.</p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0" id="table1">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="dialogs/pp_tb_positioning.htm">Positioning 
+                    Dialog</a></li>
+                    <li>Tutorial: <a href="thetutorial_ptb_01.htm">Positioning 
+                    the menus</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+            <p><br>
+&nbsp;</p>
+            <p><br>
+            <br>
+&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+</body>
+
+</html>

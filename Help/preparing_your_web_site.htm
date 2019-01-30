@@ -1,0 +1,127 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Preparing your Web Site</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+<!--
+span.msoDel
+	{mso-style-name:"";
+	text-decoration:line-through;
+	color:red}
+span.msoIns
+	{mso-style-name:"";
+	text-decoration:underline;
+	text-underline:single}
+ins
+	{text-decoration:none}
+-->
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">&nbsp;Preparing
+      your Web Site</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">Depending on the type of menus you're going to build,
+            certain preparations need to be made to your web site.
+            <p>DHTML Menu Builder can be used to <a href="creating_toolbars.htm">
+			create a toolbar</a>, or you can create menus which appear using 
+			elements that already exist on your web pages.</p>
+            <p>If you're going to use a toolbar created by DHTML Menu Builder,
+            there's no need to do any additional preparations to the pages
+            on your web site and you may continue to the next section:&nbsp; <a href="project_properties.htm">Project Properties</a></p>
+            <p><b>Using your own text and graphics</b></p>
+            <p>One of the most unique features of DHTML Menu Builder is the 
+			ability to attach menus to text or graphics which you have already 
+			placed in your web pages.<br>
+            This feature lets you build your own custom toolbar using your
+            favorite image editing program, and then have the menus react
+            when the user activates an element from your toolbar. It is
+            important to understand that the toolbar is the only element of a
+            menu that is always visible to the user and its design should be consistent
+            with the general layout and design of your web site.</p>
+            <p>When using your own toolbar, you
+            need to set up each hotspot in a special way so than DHTML Menu Builder
+            can later attach the menu groups to them. This
+            setup is known as <i>converting the hotspots into null hyperlinks</i>.</p>
+            <p><b>Converting your hotspots into null hyperlinks</b></p>
+            <p>A hotspot can be an image or just some text. To convert your
+            hotspot into a null hyperlink, simply create a hyperlink on that
+            element and make it point to itself; this is done by using
+            a hash (or pound sign) character &quot;#&quot;  as the target of the link.</p>
+            <table border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#F5F5F5">
+              <tr>
+                <td width="8%" valign="middle" align="center">&nbsp; <img border="0" src="images/sample_image.gif" align="middle" width="50" height="33">&nbsp;&nbsp;</td>
+                <td width="92%" valign="top" align="left">Let's say this is one
+                  of the images you're going to use to display a menu.
+                  <p>The HTML code of the image looks like this:<font face="System" size="1"><br>
+                  &lt;img border=&quot;0&quot; src=&quot;images/sample_image.gif&quot;
+                  align=&quot;middle&quot; width=&quot;50&quot;
+                  height=&quot;33&quot;&gt;</font></td>
+              </tr>
+            </table>
+            <p>&nbsp;</p>
+            <table border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#F5F5F5">
+              <tr>
+                <td width="8%" valign="middle" align="center">&nbsp; <a href="#"><img border="0" src="images/sample_image.gif" align="middle" width="50" height="33"></a>&nbsp;&nbsp;</td>
+                <td width="92%" valign="top" align="left">After converting the
+                  image into a null hyperlink the code looks like this:<font face="System"><font color="#800000"><br>
+                  &lt;a href=&quot;#&quot;&gt;</font>&lt;img
+                  border=&quot;0&quot; src=&quot;images/sample_image.gif&quot;
+                  align=&quot;middle&quot; width=&quot;50&quot;
+                  height=&quot;33&quot; <font color="#800000">name=&quot;MyImage&quot;</font>&gt;<font color="#800000">&lt;/a&gt;</font></font>
+                  <p>As you can see, by moving the mouse over the converted
+                  image,<a href="#"> </a>your mouse changes into a hand
+                  indicating that the image is a link. Highlighted in <font color="#800000">dark
+                  red</font> you can see the code that converted the image into
+                  a null hyperlink.
+					Also note that we have added a new setting,
+					<font face="Courier">name</font>,&nbsp; to the image's code. 
+					The <font face="Courier">name</font> setting will allow 
+					DHTML Menu Builder identify the image and perform automatic 
+					alignment of the menus. You should give each image-based 
+					hotspot a unique name so DHTML Menu Builder can identify it.</td>
+              </tr>
+            </table>
+            <p>This is all the preparation that needs to be done, so when you are
+            ready to implement your menus into the page that contains the
+            toolbar, everything will be ready to use the HotSpots Editor and
+            
+            automatically make your hotspots
+            active and responsive to  users' actions.</p>
+            <p>Once you have your web site prepared with all your hotspots
+            converted into null hyperlinks, you can now move to the next section
+            and start preparing your menus in DHTML Menu Builder: <a href="project_properties.htm">Project Properties</a></p>
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="creating_toolbars.htm">Creating
+                      Toolbars</a></li>
+                    <li><a href="hotspot_editor.htm">The
+                      HotSpots Editor</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

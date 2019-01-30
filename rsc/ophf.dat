@@ -1,0 +1,45 @@
+	var opsa = ["position", "left", "top", "width", "height", "border", "font-family", "font-size", "font-weigth", "font-style", "text-decoration", "color", "background-color", "background-image", "cursor"];
+	var opsf = new Array;
+	
+	function GetOPStyle(mc) {
+		var rs = "";
+		var vfix;
+		for(var i=0; i<opsa.length; i++) {
+			vfix = mc.style[opsf[i]];
+			if(vfix)
+				rs += opsa[i] + ": " + vfix + ";";
+		}
+		return rs;
+	}
+	
+	function SetOPStyle(mc, ss) {
+		var p;
+		var sp;
+		var ep;
+
+		for(var i=0; i<opsa.length; i++) {
+			mc.style[opsf[i]] = "";
+			p = ss.indexOf(opsa[i]);
+			if(p!=-1) {
+				p++;
+				sp = p + opsa[i].length;
+				ep = ss.indexOf(";", p) - sp;
+				mc.style[opsf[i]] = ss.substr(sp, ep).split(" ").join("");
+			}
+		}
+	}
+	
+	function CAttName(n) {
+		var afix;
+		if(n.indexOf("-")!=-1) {
+			afix = n.split("-")[1];
+			afix = afix.substr(0,1).toUpperCase() + afix.substr(1);
+			afix = n.split("-")[0] + afix;
+		} else
+			afix = n;
+
+		return afix;
+	}
+	
+	for(var i=0; i<opsa.length; i++)
+		opsf[i] = CAttName(opsa[i]);

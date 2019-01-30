@@ -1,0 +1,25 @@
+lightColorStart
+Type the RGB values for the starting light color
+255, 255, 251
+255, 255, 251
+ 1 
+lightColorEnd
+Type the RGB values for the ending light color
+255, 235, 178
+255, 235, 178
+ 1 
+darkColorStart
+Type the RGB values for the starting dark color
+255, 215, 111
+255, 215, 111
+ 1 
+darkColorEnd
+Type the RGB values for the ending dark color
+255, 231, 163
+255, 231, 163
+ 1 
+gradientQuality
+Define a value that represents the quality of the gradient where "1" is the highest quality possible.
+1
+1
+ 1 

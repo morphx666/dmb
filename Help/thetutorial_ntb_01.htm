@@ -1,0 +1,111 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>The Tutorial (NTB) 1/3</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24"><b>
+		<font color="#FFFFFF" size="2">&nbsp;The Tutorial - Using HotSpots</font></b></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4">
+			<tr>
+				<td width="100%"><b>Introduction</b><p>This tutorial will guide 
+				you through the complete process of creating working menus from 
+				scratch.<br>
+				If you would like to see how the menus, the menu bar and the 
+				project will look like at the end,&nbsp; download the <a href="tutorial.zip">ZIP file</a> containing everything mentioned 
+				on this tutorial.</p>
+				<p><b>Creating the menu bar</b></p>
+				<p>There are many ways you can create a menu bar.<br>
+				The easiest and most recommended is to create a set of images 
+				to serve as hotspots and place them inside the cells of a 
+				table. Although you could use text instead of images, the use 
+				of images is highly recommended. Also, it is<i> very important</i> 
+                that you create independent images for each one of your 
+                hotspots, instead of creating a single image and then using an 
+                image map to define hotspots; the HotSpots Editor (a tool you 
+                will learn to use in this tutorial) does not support image maps.</p>
+				<p>You can use any graphic application to create your hotspot 
+				images. Some sample images are provided here for you to use with 
+				this tutorial:</p>
+				<table border="0" cellpadding="3" cellspacing="3" style="border-collapse: collapse" id="AutoNumber1" bgcolor="#000080">
+					<tr>
+						<td width="25%" align="center">
+						<img border="0" src="tutorial/images/home.jpg" width="100" height="30"></td>
+						<td width="25%" align="center">
+						<img border="0" src="tutorial/images/products.jpg" width="100" height="30"></td>
+						<td width="25%" align="center">
+						<img border="0" src="tutorial/images/links.jpg" width="100" height="30"></td>
+						<td width="25%" align="center">
+						<img border="0" src="tutorial/images/contact_us.jpg" width="100" height="30"></td>
+					</tr>
+				</table>
+				<p>To save the above images, just right click on the image and choose <font face="Courier">Save Picture As...</font> from the 
+				context menu.</p>
+				<p>Open your preferred HTML editing application and create a 
+				table with 4 cells in it. Since you will be using images, you 
+				can choose any type of alignment for the table and its cells. Then place one image inside each cell.<br>
+                When using images as the hotspots, the menus created with DHTML 
+                Menu Builder will be able to auto-align to the images 
+                dynamically regardless of the size of the browser or the screen 
+                resolution. This is why it is so important the use images 
+                instead of text-based hotspots.</p>
+				<p>Now you must prepare these images so they are ready to accept 
+				the menus. Only those images that will display menus need to be 
+				prepared. In this tutorial we'll create two menus, one for the 
+				Products hotspot and another for the Links hotspot.</p>
+				<p>The first step is to convert the images into hyperlinks. Each HTML 
+				editing application has its own way to create a hyperlink, so you 
+				should consult your program's documentation to see how to do 
+				this. When you're asked for the target link to which the 
+				hyperlink should (the pound or hash sign, typically found above the number 3 on the keyboard) point to, type: <font face="Courier">#
+				</font>(the pound or hash sign, typically found above the number 3 on the keyboard)<font face="Courier">.<br>
+				</font>The pound symbol (#) means that this hyperlink will point 
+				to itself. This is known as a &quot;null-hyperlink.&quot;<br>
+				(If you want to do this by hand,  enclose the image's 
+				code in &lt;a&gt; &lt;/a&gt; tags:</p>
+				<blockquote>
+					<p>The source code of the just the Products image should look 
+					something like this:<br>
+					<font face="Courier">&lt;img border=&quot;0&quot; src=&quot;products.jpg&quot; 
+					width=&quot;100&quot; height=&quot;30&quot;&gt;</font></p>
+					<p>After conversion into a null hyperlink, it will look something like this:<font face="Courier"><br>
+					&lt;a href=&quot;#&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;products.jpg&quot; width=&quot;100&quot; 
+					height=&quot;30&quot;&gt;&lt;/a&gt;</font></p>
+				</blockquote>
+				<p>This is all you need to do to prepare the images that will be 
+				used as hotspots.</p>
+				<p>Create a folder on your hard drive 
+				and call it <font face="Courier">DMB_Tutorial. (</font>For example,&nbsp; <font face="Courier">
+                &quot;c:\DMB_Tutorial\&quot;)&nbsp; </font> Then create 
+                an empty HTML file in that folder and name it <font face="Courier">hotspots.htm</font>.
+                Later in the tutorial you will see how we will use this file as 
+                the receiver for the menus.</p>
+				<p>Now, create a folder called <font face="Courier">menus </font>inside the <font face="Courier">c:\DMB_Tutorial\ </font> folder. 
+                We will use this folder to store the JavaScript file generated 
+                by DHTML Menu Builder.</p>
+				<p>Finally, create a folder called <font face="Courier">images </font>&nbsp;inside the <font face="Courier">c:\DMB_Tutorial\ </font> folder. 
+                We will use this folder to store any images you menus may use.</p>
+				<p>Your folder structure should look similar to the image below.</p>
+				<p align="center">
+                <img border="0" src="images/tut_cmm_01.jpg" width="463" height="318"></p>
+				<hr noshade size="1" color="#EBEBEB">
+				<p align="center"><a href="thetutorial_ntb_02.htm">Continue »</a></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

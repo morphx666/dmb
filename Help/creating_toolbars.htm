@@ -1,0 +1,144 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Creating Toolbars</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+<!--
+DIV.Section1 {
+	page: Section1
+}
+-->
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">&nbsp;Creating
+      Toolbars</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+          DHTML Menu Builder can create one or more menu bars from which the menus 
+			will be triggered.<br>
+			The type of menu bars created by DHTML Menu Builder can be used to 
+			for  other functions in addition to displaying menus. That's why 
+			they're known as toolbars.<p>A project configured to use toolbars enables many features in DHTML Menu Builder that are disabled by default.
+			For example, when enabling  toolbar support, DHTML Menu Builder 
+			will let you change the colors, fonts, and images just as you normally do with  commands. Notice that in each style dialog there's an 
+          additional tab called &quot;Toolbar Item&quot; which refers to the properties of 
+          the group's appearance when displayed on a toolbar.
+          This is because DHTML Menu Builder will treat the groups 
+			as commands when it creates the toolbar. A group displayed on a 
+          toolbar is known as a toolbar item.</p>
+			<p><b>Enabling  Toolbar support</b></p>
+			<p>The toolbar items are comprised of the groups that you set up in DHTML Menu Builder. Therefore, you have to create at least some of the groups prior to setting up the toolbar. Once the groups are created (at least by filling in the captions), you can configure the toolbar.</p>
+			<p>To configure DHTML Menu Builder so it creates a toolbar for you, 
+			 
+			click the <font face="Courier">Tools</font> menu and select
+			<font face="Courier">Toolbars Editor</font>. Notice that, by default, DHTML Menu Builder will always create a Default toolbar tab. If you need more toolbars simply create them by clicking  Add Toolbar (<img border="0" src="images/icon_tbadd.gif" align="absmiddle" width="16" height="16">).</p>
+			<p>You can  delete a toolbar using  Delete Toolbar (<img border="0" src="images/icon_tbdel.gif" align="absmiddle" width="16" height="16">) 
+            and rename a toolbar clicking Rename Toolbar (<img border="0" src="images/icon_tbren.gif" align="absmiddle" width="16" height="16">).<br>
+            You can give your toolbars any name as this name is used only for your 
+            reference and does not affect the menus in any way.</p>
+			<p>Toolbars can also be created, renamed and deleted from the
+            <a href="enhanced_map_view.htm">Map view</a>.<br>
+            To create a new toolbar, click the<font face="Courier"> Menu </font>
+            menu and select the<font face="Courier"> Add Toolbar </font>option.<br>
+            To rename it or delete it use the options from the<font face="Courier"> 
+            Edit </font>menu. Shortcuts that apply to groups and commands also 
+            apply to the toolbar items in the Map view, so for example, you 
+            could press the F2 key to rename a toolbar. Notice that the names of 
+            the toolbar are just for your reference; they have no effect over 
+            the generated menus.</p>
+                <hr noshade size="1" color="#EBEBEB">
+			<p><b>Stacking Multiple Toolbars</b></p>
+			<p>The order in which the toolbars appears on the Map view 
+            determines their Z order. Toolbars that are listed first have a 
+            lower Z order while toolbars appearing at the end of the list have a 
+            higher Z order. This useful because if you have toolbars that are 
+            stacked one above the other, those with a higher Z order will appear 
+            above those with a lower Z order. The Z order can be easily changes 
+            by using the Up (<img border="0" src="images/icon_moveup.gif" align="absmiddle" width="16" height="16">) 
+            and Down (<img border="0" src="images/icon_movedown.gif" align="absmiddle" width="16" height="16">) 
+            buttons from the toolbar.</p>
+                <hr noshade size="1" color="#EBEBEB">
+			<p><b>Configuring the Toolbars</b></p>
+			<p>
+			<img border="0" src="images/tb_sel_groups.gif" align="left" width="355" height="135">You can select which groups 
+            will be displayed in a toolbar and in 
+			which order.
+			To add groups to the selected toolbar click Add Group (<img border="0" src="images/icon_add_group.gif" align="absmiddle" width="16" height="16">).<br>
+            To remove a group from the toolbar, first select it and then click 
+             
+            Delete Groups (<img border="0" src="images/icon_delete.gif" align="absmiddle" width="16" height="16">).</p>
+			<p>When creating a toolbar that will be rendered horizontally, the 
+			first group in the list will be the group in the leftmost position.<br>
+			When creating a toolbar that will be rendered vertically, the 
+			first group in the list will be the group in the topmost position.</p>
+			<p>You can also add groups from the Map view: to add a new group to 
+            a toolbar, simply select the toolbar item on the Map view (or any 
+            other element that belongs to the desired toolbar) and select the<font face="Courier"> 
+            Add Group </font>option from the<font face="Courier"> Menu </font>
+            menu. Then you can also use the Up (<img border="0" src="images/icon_moveup.gif" align="absmiddle" width="16" height="16">) 
+            and Down (<img border="0" src="images/icon_movedown.gif" align="absmiddle" width="16" height="16">) 
+            buttons to re-arrange your groups' order. The same applies to the 
+            commands: you can move commands up and down to change their order.</p>
+			<p>Both groups and commands can also be dragged and dropped. You can 
+            drag &amp; drop groups between toolbars and you can drag &amp; drop commands 
+            between groups. While dragging and dropping these items you can 
+            control the desired results by holding a combination of keys so 
+            instead of moving you the items are actually copied (cloned). For 
+            more information see the <a href="enhanced_map_view.htm">Enhanced 
+            Map View</a> section.</p>
+			<p>Groups that have no commands can also be included in the toolbar. 
+			These kinds of groups, as well as those containing commands, can be 
+			used to open  pages or execute a script when clicked. This is very useful in creating groups that do not have 
+			any menus but you still need them to be linked to some page.</p>
+                <hr noshade size="1" color="#EBEBEB">
+              <p><b>Adding the Toolbar to your web site</b></p>
+			<p>By default, the <a href="hotspot_editor.htm">HotSpots Editor</a> is used to place the menus on the page. However, when 
+			you use the integrated toolbar support, the hotspots are created by 
+			DHTML Menu Builder and there's no need to use the separate HotSpots Editor 
+			unless you also want to use other elements  on your page to trigger the 
+			menus.</p>
+			<p>All you need to do in order to incorporate the toolbar is:</p>
+			<ul>
+				<li><b>Compile your project</b>:&nbsp;To generate the 
+				JavaScript files containing all the information for both your 
+				menus and the toolbar.</li>
+				<li><b>Install the Menus</b>:  this process adds the necessary code on your pages so when they are loaded by the 
+				browser, they call and prepare (initialize) the toolbar and the 
+                menus. To install the menus, click the <font face="Courier">Tools</font> 
+				menu and then click <font face="Courier">Install Menus</font>.<br>
+                <a href="dialogs/ilcman.htm">Click here for a complete 
+                description on how the Install Menus tool works</a>.</li>
+			</ul>
+                <hr noshade size="1" color="#EBEBEB">
+              <p><b>Using the Toolbar with frames</b></p>
+			<p>When you use the toolbar in a web site using frames, DHTML 
+			Menu Builder will automatically display the toolbar in the 
+            <a href="configurations.htm#TargetDocument">Target Document</a> and the menus 
+            will be displayed on  all the documents where you have installed 
+            the Frames Loader Code.</p>
+			<p><a href="working_with_frames.htm">For more information see the Working with Frames 
+            section</a>.</p>
+			<p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

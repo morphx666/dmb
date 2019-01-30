@@ -1,0 +1,754 @@
+Swedish
+Lennart M Pettersson
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exempel
+Egenskaper för kommando 
+Rubrik
+Aktiverad
+Över
+Klicka
+Dubbelklicka
+Händelse
+Målmeny
+(ingen)
+Öppna URL / Utför script
+Visa undermeny
+Öppna URL i nytt fönster
+Statustext
+Justering
+Botten / Vänster
+Botten / Höger
+Topp / Vänster
+Topp / Höger
+Vänster / Topp
+Vänster / Botten
+Höger / Topp
+Höger / Botten
+Gruppegenskaper
+URL / Script
+&Arkiv
+&Ny
+&Öppna...
+Öppna tidigare
+Spara
+Spara s&om...
+&Importera...
+&Projektegenskaper...
+&Avsluta
+&Redigera
+&Ångra
+&Upprepa
+&Kopiera...
+Klistra &in...
+&Sök...
+Sök &nästa
+&Ersätt...
+&Ta bort
+&Byt namn
+Egenskaper...
+&Meny
+Lägg till &grupp
+Lägg till &kommando
+Lägg till avskiljarlinje
+Färg...
+Tecken...
+Markör...
+Bild...
+Marginaler...
+Specialeffekter...
+Ljud...
+&Verktyg
+&Förhandsgranska...
+&Förhandsgranska direkt
+Ange webbläsare som &standard...
+&Kompilera
+
+&Publicera...
+Installera laddningskod...
+Installera ramars laddningskod...
+&HotSpots redigerare...
+&Verktygsradsredigerare...
+&AddIn redigerare...
+Rapport...
+&Hjälp
+&Innehåll...
+&Handledning
+&Uppgradera...
+xFX JumpStart på webben
+&Om...
+Registrera
+Skriv in &registreringsinformation...
+Köp DHTML Menu Builder...
+Normal
+Mus över
+Textfärg
+Bakgrundsfärg
+Återställ
+Återgå
+Auto
+OK
+Avbryt
+
+Ändra
+Vänster
+Höger
+Centrera
+Pil (standard)
+Kryss
+Hand
+Text
+Hjälp
+Vänster bild
+Bakgrundsbild
+Höger bild
+Ta bort
+Samma
+Storlek
+Verktygsrad post
+Bakgrundsbild
+Kantstorlek
+Kantfärger
+
+Gruppinnehåll' Marginaler
+Vertikal
+Horisontal
+Färg
+Tecken
+Bild
+Markör
+Marginaler
+Kommandoeffekt
+Gruppeffekter
+Horisontal marginal
+Vertikal marginal
+Skuggfärg
+Genomskinlighet
+Menyinnehåll
+Manuell
+Beräkna
+
+Gruppstorlek
+AV
+Mörkare
+Osynlig
+Specialeffekter
+Aktiverat läge
+Vill du uppdatera statustexten för alla posterna nu?
+Redigera
+Målram
+är klickad
+markören är över
+är dubbelklickad
+Välj ett dokument att öppna när
+Nya fönsterparametrar
+DHTML Menu Builder är nu i AVKODA läge.
+Om du får ett felmeddelande (körningsfel) medan du arbetar med DMB, rapportera det tillsammans med 
+felnumret och med en liten beskrivning över vad du gjorde när det skedde.
+Det här är en DEMO-version av DHTML Menu Builder.
+Det här alternativet är bara tillgängligt i den fulla utgåvan. För att testa dina menyer, använder du Verktyg->Förhandsgranska.
+AddIn
+kräver att några parametrar ställs in innan du använder det.
+Gå till %%LINE=378%% och använd parametrarnas knapp för egenskaper, under fliken Avancerad, för att ställa in AddIn´s nödvändiga värden.
+Den här funktionen är bara tillgänglig i den fulla utgåvan.
+Välj ett projekt att importera
+Spara ändringar till
+Publicera menyerna på en lokal maskin utan att använda en webbserver
+Lokal
+Fjärr
+Öppna projekt
+DHTML Menu Builder projekt
+DHTML Menu Builder kan inte öppna filen antingen på grund av att den har attributet Bara läs angivet, eller är sparad i ett media där du inte har skrivrättigheter
+Laddar
+det här projektet har skapats med en äldre version av DHTML Menu Builder.
+Konsultera Hjälp för information om hur du uppgraderar ditt projekt ordentligt.
+Projektet kunde inte öppnas på grund av att filen
+inte finns
+Projektet kunde inte öppnas.
+Importerar
+Ångra
+Upprepa
+Spara projekt
+Sparar
+Spara projekt som
+Grupp
+Kommando
+Avskiljarlinje
+Radera en grupp kommer att ta bort alla dess kommandon, är du säker på att det är det du vill göra?
+Den här gruppen kan inte tas bort på grund av att den används som en undermeny till en annan grupp.
+Flytta
+Upp
+Ner
+Ditt projekt är inställt för att generera en verktygsrad åt dig.
+I fall du har ytterligare hotspots på din sida som
+du vill använda för att trycka av några av dina grupper, är redigeraren för HotSpots inte nödvändig.
+Redigeraren för HotSpots kan inte öppna filen som innehåller hotspots antingen på grund av att det har attributet Read Only angivet, eller är sparad i ett media där du inte har tillåtelse att skriva
+Standardinställning...
+Ändringar av inställningen av språket kommer att vara tillgängligt nästa gång som du kör DHTML Menybyggare
+Laddar systemtecken...
+Vänta, inleder...
+Laddar senast sparade projekt...
+Inledningen färdig
+Ditt projekt har framgångsrikt återvunnits.
+Välj en plats för att spara den
+DHTML Menu Builder stängdes inte av ordentligt och en backuppkopia av ditt arbete finns tillgänglig.
+Vill du återfå den?
+Menyposter måste börja med en bokstav
+Kopiera/Flytta
+Handling
+Huvud
+Välj egenskaperna som ska kopieras från gruppen
+Välj egenskaperna som ska kopieras från den valda avskiljarlinjen under gruppen
+Välj egenskaperna som ska kopieras från kommandot
+Utvald kopiering
+Utvald inklistring
+Välj egenskaperna som ska klistras in
+Klistra in i gruppen
+Klistra in i alla grupper
+Klistra in i den valda avskiljarlinjen
+Klistra in i alla avskiljarlinjer under
+grupp
+Klistra in i alla avskiljarlinjer
+Klistra in i kommandot
+Klistra in i alla kommandon under
+Klistra in i alla kommandon
+Klippbordet innehåller ingen data
+Hemsida
+Stöd
+Frågor och svar
+Publikt forum
+Nyheter
+Projektplats
+Projektnamn
+%%LINE=231%%
+Släpper ut ljud
+Övergripande
+Inställningar
+Verktygsrad
+FTP
+Avancerad
+Lokal sökväg till Root Web
+Mapp att spara kompilerade filer i
+Mapp att spara bilderna i
+Lokal inställning
+Webbserver Root
+Sökväg till de kompilerade filerna
+Sökväg till bilderna
+exempel
+Sökväg
+Redigerare för HotSpots
+Stöd för ramar
+Alternativ
+Lägg till...
+Redigera...
+%%RESERVED%%
+Ange som standard
+Auto fyll
+Importera...
+Dokument innehåller HotSpots
+Slutgiltigt HTML-dokument
+Aktivera stöd för ramar
+Dokument för ramar
+HotSpots för ram
+Menyer för ram
+Skapa verktygsrad
+Välj grupperna som ska ingå i verktygsraden
+Utseende
+Placering
+Stil för verktygsrad
+Kanter
+Avskiljning
+
+Bakgrundsfärg
+Bakgrundsbild
+Prova verktygsrad
+Utvidga
+Kompensera
+Pixlar horisontalt
+Pixlar vertikalt
+(auto)
+Sidstorlek
+Vanlig
+Följ webbläsarens rullningslister
+FTP Serveradress
+Logga in anonymt
+Skriv in för beräkning
+Använd en proxyserver
+Användarnamn
+Lösenord
+Adress
+Port
+Fjärrinställning
+Projektegenskaper
+Kodoptimering
+Kompilerat JavaScriptfilnamn
+Kompenserade menyer
+[AVKODA] Ingen optimering
+[SLUTLIG] Liten och snabb kod
+Ogiltigt servernamn eller protokoll
+Välj ramhållardokument
+En av dina ramar använder det reserverade namnet
+Innan du kan använda menyerna på din ramhållare, så måste du ändra namnet på den här ramen
+Den här filen verkar inte vara ett giltigt HTML-dokument för ramar
+Välj mappen där du vill spara bilderna som används i ditt projekt
+Välj din root webbmapp
+Välj ljudfil
+Ditt projekt måste sparas innan du importerar inställningarna från ett annat projekt
+Välj projekt
+Redigera inställningen
+Den här inställningen kan inte tas bort på grund av att den krävs av FTP stödet
+Standardinställningen kan inte tas bort
+Den här inställningen kan inte tas bort på grund av att den krävs av
+inställningen
+(inga grupper är tillgängliga)
+Standard
+Välj mappen där du vill spara dina kompilerade projektfiler
+Välj HTML-dokument
+Den valda filen är inte ett giltigt HTML-dokument
+HTML-dokument
+Inget AddIn valt. Standardscriptet kommer att användas.
+Ändra %%LINE=378%%
+Det här projektet använder
+AddIn men kunde inte hittas
+Namn
+Lägg till webbläsare
+Tillämpningar
+Du måste skriva ett namn på den nya webbläsaren
+Du måste välja ett giltigt kommanda för att starta webbläsaren
+Välj webbläsaren som ska läggas till
+Redigeraren för AddIn är bara avsedd för avancerade användare som känner till HTML, DHTML, Java Scripting, CSS och DOM för de senaste webbläsarna. Är du säker på att du vill fortsätta?
+Ja
+Nej
+Fråga mig inte igen
+Tillgängliga webbläsare
+&Lägg till...
+Ange som &standard
+&Redigera...
+&Ta bort
+Stäng
+Redigera webbläsare
+Uppdatera
+Språkpaket skapat av:
+Bredd
+Höjd
+Upphöjd
+Nedsjunken
+Välj den vertikala och horisontala kompenseringen som DHTML Menu Builder ska tillämpa som standardplats för menyerna så de framträder perfekt uppradade till sina förälder hotspots
+Välj den vertikala och horisontala kompenseringen du vill tillämpa som standardplats för undermenyer
+Övergripande alternativ
+Öppna senaste projekt när DMB startas
+Återfå automatiskt
+Visa loggan splash-skärmen när DMB startas
+
+Visa alltid kompileringsalternativ
+Språk
+Standardformattering
+Höjd på avskiljarlinje
+Bildutrymme
+Kommandon ärver deras stilar från
+Föräldergrupp
+Första kommandot på samma grupp
+Grupper ärver deras stilar från
+Programstandard
+Första grupp i projektet
+Egenskaper
+Dubbelriktad
+Vertikal
+Horisontal
+Slumpvis
+(ingen)
+Din version
+Applikation
+Motor
+Utgiven
+Kontrollera
+Senaste version
+Uppgradera DHTML Menu Builder
+(Klicka på knappen Kontrollera)
+(vänta...)
+Är du säker på att du vill avbryta nedladdningen?
+Laddar ner... vänta, det kan ta några minuter
+Laddar ner
+Installera
+Ladda ner
+Din version behöver uppgraderas
+Du har redan den senaste versionen
+(Okänd)
+Omöjligt att rädda informationen
+Ett fel har inträffat medan du försöker att rädda informationen
+Nya fönsterparametrar
+Plats och storlek
+Lägg till katalogknappar
+Anger hur man ska lägg till katalogknappar
+Kanalläge
+Anger hur man ska visa fönstret i teaterläge och visa kanalbandet
+Visa verktygsrad
+Anger hur man ska visa webbläsarens verktygsrad, och göra knappar som till exempel Bakåt, Framåt, och Stopp tillgängliga
+Visa i helskärm
+Anger hur man ska visa webbläsaren i helskärm eller normalt fönster
+Visa inmatningsfältet
+Anger hur man ska visa inmatningsfältet för att skriva in URLs direkt in i webbläsaren
+Visa menyraden
+Anger hur man ska visa menyraden
+Fönstret kan återfå sin storlek
+Anger hur man ska visa handtag för att ändra storlek i fönstrets hörn
+Visa rullningslister
+Anger hur man ska visa horisontala och vertikala rullningslister
+Visa statusrad
+Anger hur man ska lägga till en statusrad längst ner i fönstret
+Visa titelrad
+Anger hur man ska visa en titelrad för fönstret
+Topp
+Status
+Välj från de tillgängliga
+%%EMPTY-LINE%% Vänster avsiktligt tom för språkliga syften
+Filter
+Kaskad
+Välj alla
+Välj ingen
+Grupper
+Kommandon
+Alla egenskaper
+Tillbaka
+Rad
+Fet
+Kursiv
+Understruken
+Bakgrund
+Händelsens händelser
+Menyjustering
+Grupp bredd
+Grupp höjd
+Ljud
+Vid mus över
+Vid klick
+Klistra in
+Klistra in alternativ
+Välj
+Alla
+Ingen
+Tree
+Expandera
+Minimera
+Expandera alla
+Minimera alla
+Beskrivning...
+Bilder
+Från fil...
+Välj en bildfil
+Exportera som HTML...
+Välj HTML-fil
+Uppdatera statustext 
+DHTML Menu Builder läge för att avkoda
+Språk ändrat
+Funktionen avstängd
+Saknar parametrar
+Spara ändringarna?
+Fel vid öppning av projekt
+Fel
+AVKODA LÄGE
+Ta bort grupp?
+Raderingen avbruten
+Är du säker på att du vill fortsätta?
+Fel vid öppna fil
+Redigeraren för HotSpots kräver Microsoft Internet Explorer version 5.0 eller högre
+Fel vid starten av redigeraren för HotSpots
+Du måste ange ett giltigt HTML dokument som visar din sida fullständigt.
+öppna dialogrutan %%LINE=378%% och fixa det här problemet innan du försöker att köra HotSpots redigerare igen.
+Saknar %%LINE=345%%
+När du använder stöd för ramar och menyramen är skild från HotSpots ramen,%%CRLF%% '%%LINE=345%%' måste inställningen på %%LINE=378%% peka till samma fil som 'Dokumentet som innehåller HotSpots'.
+Ogiltig %%LINE=345%% inställning
+Redigeraren för HotSpots kunde inte startas på grund av ett okänt fel.
+Projektet kan inte kompileras på grund av
+gruppen
+kommandot
+innehåller en eller flera ogiltiga tecken
+Klicka på händelsen på kommandot
+Över händelsen på kommandot
+Dubbelklicka på händelsen på kommandot
+Klicka på händelsen på gruppen
+Över händelsen på gruppen
+Dubbelklicka på händelsen på gruppen
+innehåller ett eller flera ogiltiga tecken i statustextfältet
+Fel vid kompilering
+Projektet kan inte kompileras på grund av att en eller flera poster har samma namn
+Inställning
+Du måste ange den mottagande mappen för de kompilerade filerna.
+Vill du göra det nu?
+Saknar mottagande mapp
+Mappen för att spara de kompilerade filerna i som är angiven i %%LINE=378%% är ogiltig.
+Mottagande mapp är ogiltig
+Du måste ange den mottagande mappen för bilderna.
+Saknar bestämd plats för bildmapp
+Platsen som anges i %%LINE=378%% för mappen att spara bilderna i, är ogiltig.
+Ogiltigt bestämd bildmapp
+Du måste ange en bestämd giltig fil där menyerna kommer att infogas. Det här är HTML-dokumentet där dina hotspots är angivna.
+Saknad eller ogiltigt angiven fil
+Dokumentet som innehåller HotSpots måste vara ett giltigt HTML-dokument som finns inuti din Root Web.
+Ogiltigt angiven fil
+Du måste ange ett giltigt HTML-dokument där din sida är helt återgiven.
+Saknad eller ogiltig fil
+Den fastställda mappen måste vara en mapp inuti Root Web.
+Vill du korrigera det här problemet nu?
+'%%LINE=326%%' parameter i
+inställningen är ogiltig
+Ogiltig parametrerinställning
+'%%LINE=330%%' parameter i
+'%%LINE=369%%' parameter av FTP sektionen på %%LINE=378%% är ogiltig
+är angivet som ett kaskad kommando genom
+händelsen, men pekar till en ogiltig menygrupp
+Ogiltig målgrupp
+Återställ antingen den här AddIn eller ta bort det från projektet
+AddIn hittades inte
+men den kan inte bli kompilerad på grund av%%CRLF%%den verkar att vara skadad eller från en äldre version av DHTML Menu Builder
+Ogiltig AddIn
+Återfå framgångsrik
+Felaktig stängning
+Data på klippbordet är från en annan typ av objekt
+Ogiltig klippbordsdata
+Sök
+Ersätt
+Omfång
+Sök bara hela ord
+Matcha store/små bokstäver
+Bara aktiverade poster
+Ersätt &alla
+Ersätt funktion
+Stil
+pixlar
+&Öppna senaste projekt vid start
+Nästa
+Analyserar
+Ett oväntat fel har inträffat medan du skapade HotSpots
+Den valda hotspot är en bild utan namn.
+I ordningsföljd för gruppen
+att autojustera till den valda bilden,
+bilden måste ha ett namn.
+Hotspot är inte ordentligt installerat
+Den valda hotspot är en bild som har samma namn som den valda gruppen.
+Varje element på din sida måste ha ett unkt namn. Byt antingen namn på gruppen eller%%CRLF%%byt namn på bilden, annars fungerar inte den här gruppen.
+Kommunikationen med Internet Explorer har försvunnit.%%CRLF%%Ditt dokument kunde inte laddas eller är inte ett giltigt HTML-dokument.%%CRLF%%%%CRLF%%Stäng redigeraren för HotSpots, kontrollera att ditt projekts egenskaper%%CRLF%%är riktigt inställda och öppna det igen.
+Är du säker på att du vill stänga redigeraren för HotSpots utan att spara dina ändringar?
+Varning
+
+
+Begär ett personligt möte
+Begär en personlig produktdemonstration
+Det här programmet är licensierat till:
+Fyll i fälten här nedanför med informationen om ditt köpkvitto. Se till att du skriver informationen, exakt som den visas på ditt kvitto.
+Ordernummer
+Användarnamn
+Företag
+Godkänna
+Enskild information
+Fälten '%%LINE=635%%' och '%%LINE=636%%' är nödvändiga för att starta behandlingen för att godkänna.
+Ogiltig registreringsinformation
+Din information har blivit godkänd när den granskades.%%CRLF%%Klicka på knappen %%LINE=176%% för att uppgradera den här kopian av DHTML Menu Builder till den fullständiga registrerade versionen.
+Registreringen godkändes och är färdig!
+Se till att du har skrivit din information exakt som den visas i din orderbekräftelse (kvitto).%%CRLF%%%%CRLF%%Om du just har köpt DHTML Menu Builder, kanske du måste försöka igen om några få minuter.%%CRLF%%%%CRLF%%Ett annat skäl för det här felet är att du kanske inte använder den senaste versionen av DHTML Menu Builder. För att bekräfta att du har den senaste versionen tillgänglig, välj Hjälp->Uppgradera från huvudmenyn.
+Ogiltig registreringsinformation
+
+Registreringshjälp
+Servern har inte accepterat den angivna registreringsinformationen
+Skälet som rapporterades av servern är:
+Extra information:
+%%LINE=635%% är ogiltig
+DHTML Menu Builder har blivit förhindrad att kommunicera med servern för att granska informationen.%%CRLF%%Se till att du är uppkopplad mot Internet innan du försöker att genomföra granskningen.
+Omöjligt att kontakta Servern
+Är du säker på att du vill stänga dialogrutan för registrering utan att registrera?
+Flytta vald post upp
+Flytta vald pos ner
+Förhandsvisa genom att använda
+Inre
+Fel vid visning av hjälpvisare
+Fel vid installera laddningskod
+Fel vid borttagning av befintlig laddningskod
+Fel vid importering av projekt
+Sök efter uppdatering
+Kritiskt fel
+Fel vid laddning av egenskaper
+Fel vid spara egenskaper
+Kanter
+Kommandonas uppsättning
+Radfärg
+Dubbel
+Avfasning
+Bildernas kanter
+Uppdatera plats...
+Välj den nya platsen för
+
+När '%%LINE=345%%' eller '%%LINE=347%%' parametrarna inte är av typen HTML måste de bli hänvisade genom en webbserver.
+Beräkningsinformation
+Inställningar av typen lokal kan inte publiceras på en webbserver. Skapa en inställning av typen fjärr och ange den som standard.
+Visa %%LINE=378%% när du skapar ett nytt projekt
+Den här inställningen förbereder menyerna att fungera på en webbserver 
+Välj inställning
+Ändra standardinställningen
+När du ändrar standardinställning så ändras sökvägarna till filerna som är skapade av DHTML Menu Builder så du måste komma ihåg att uppdatera laddningskoden i dina dokument.
+Kompilerar lokal inställning
+Du är på väg att kompilera en inställning av typen lokal. Den här typen av inställningar kommer bara att fungera på maskinen där menyerna är utvecklade.%%CRLF%%Om det här projektet ska publiceras på en webbserver så behöver du skapa en inställning av typen fjärr och återkompilera projektet.
+Installera en disk-baserad laddningskod
+Din standardinställning är av typen lokal. Det betyder att laddningskoden som kommer att installeras i dina sidor kommer att bli disk-baserade så menyerna kommer bara att fungera på maskinen där menyerna är utvecklade.%%CRLF%%Om det här projektet ska publiceras på en webbserver så behöver du skapa en inställning av typen fjärr och sedan kommer laddningskoden att bli optimerad för att skapa sökvägar som fungerar på din webbserver.
+Ändrar gruppernas placering
+För att ändringen av placeringen ska genomföras så måste du köra %%LINE=335%%.%%CRLF%%Om du redan har fäst grupperna till dina hotspots, genom att helt enkelt köra %%LINE=335%% och klicka på knappen Installera kommer du att verkställa ändringarna.
+Möjligt kompatibilitetsproblem
+Ofullständig inställning av installera
+En del sökvägar för din lokala inställning är tomma. Det kan orsaka oförutsägbara resultat.%%CRLF%%För att säkerställa att DHTML Menu Builder kan skapa ett ordentligt projekt som fungerar på din webbplats, ska du alltid fylla i alla parametrar från alla dina inställningar.
+&Sök...
+Vill du använda registreringsinformationen som återsändes från servern förra gången när du granskade?
+Granskningsmetod
+Ett okänt fel har inträffat när du försökte att registrera DHTML Menu Builder.
+Fel vid start av Register.exe
+Bekräftar Internetuppkoppling
+Kontaktar granskande server
+Förbereder data
+Granskar registreringsinformation
+En uppkoppling mot granskningsservern kunde inte etableras.%%CRLF%%%%LINE=705%%
+Granskningsfel
+En uppkoppling mot internet hittades inte.%%CRLF%%%%LINE=705%%
+Om du befinner dig bakom en proxyserver eller brandvägg, så strunta i det här meddelandet.
+Tillgänglig HotSpots
+Fäst grupp
+Bildnamn
+Placering
+Aktiv text
+Typ
+Skapa från
+Teckenersättning
+Tecken som används i det här projektet
+Ersättningar
+Övre vänster
+Övre centrum
+Övre höger
+Vänster
+Höger
+Botten vänster
+Botten centrum
+Botten höger
+Färger
+Justera undermeny
+Effekttyp
+Globala inställningar
+Tidsinställningar
+Dölj fördröjning av menyer
+Visa fördröjning av undermenyer 
+Effekthastighet
+Utökade finesser
+Skapa kod för DOM-kompatibla webbläsare
+Skapa kod för Navigator 4
+Skapa hRef fil
+Det här är ett delat projekt
+Dölj formulärelement
+Stöd för Dreamweaver/Fireworks överrullningar
+Fix för Navigator 4 'Klippfel'
+Hjälpfunktioner för Opera för att aktivera överrullningseffekter
+Stöd för ImageReady överrullning
+Återställ standard
+Optimerar sökväg
+Mindre
+Mer
+Långsam
+Snabb
+Måldokument
+Det här är dokumentet varifrån menyerna kommer att tryckas av.
+Det är på det här dokumentet som DHTML Menu Builder kommer att installera verktygsraden genom alternativet %%LINE=157%%->%%LINE=164%%.
+Det är i det här dokumentet som DHTML Menu Builder räknar med att finna HotSpots som kommer att trycka av menyerna.
+Välj mappen som innehåller filerna som du vill lägga till
+Välj HTML-dokumentet som laddningskoden för ramar ska installeras i
+Välj HTML-dokumentet som laddningskoden ska installeras i

@@ -1,0 +1,984 @@
+Italiano
+Andrea Covino
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Anteprima istantanea
+Command Properties
+Titolo
+Abilitato
+Su
+Click
+Doppio Click
+Tipo di Azione
+Menu
+(nessuno)
+Apri URL / Esegui Script
+Visualizza SubMenu
+Apri URL in una Nuova Finestra
+Testo sulla Barra di Stato
+Allineamento
+Basso / Sinistra
+Basso / Destra
+Alto / Sinistra
+Alto / Destra
+Sinistra / Alto
+Sinistra / Basso
+Destra / Alto
+Destra / Basso
+Proprietà del Gruppo
+URL / Script
+&File
+&Nuovo
+&Apri...
+Apri Recenti
+Salva
+Salva con &nome...
+&Importa...
+Proprietà del &Progetto...
+Es&ci
+&Modifica
+&Annulla
+&Ripristina
+&Copia...
+&Incolla...
+&Cerca...
+&Successivo
+&Sostituisci...
+E&limina
+Ri&nomina
+Preferenze...
+&Menu
+Aggiungi &Gruppo
+Aggiungi &Comando
+Aggiungi Separatore
+Colore...
+Carattere...
+Cursore...
+Immaggine...
+Margini...
+Effetti Speciali...
+Suono...
+&Strumenti
+&Anteprima...
+&Anteprima Istantanea
+Imposta il Browser &Predefinito...
+&Compila
+
+&Pubblica...
+Installa Loader Code...
+Installa Frames Loader Code...
+&HotSpots Editor...
+&Toolbars Editor...
+&AddIn Editor...
+Menu Report...
+&Aiuto
+&Contenuti...
+&Tutorial
+&Verifica la Disponibbilità di Aggiornamenti...
+xFX JumpStart Sul Web
+&Informazioni su...
+Registra
+Inserisci Informazioni di &Registrazione...
+Acquista DHTML Menu Builder...
+Normale
+Mouse Over
+Colore Testo
+Colore Sfondo
+Reset
+Ripristina
+Auto
+OK
+Cancella
+Anteprima Diretta
+Cambia
+Sinistra
+Destra
+Centro
+Freccia (Predefinito)
+Mirino
+Mano
+Testo
+Aiuto
+Immagine Sinistra
+Immagine Sfondo
+Immagine Destra
+Rimuovi
+Stessa
+Dimensione
+Toolbar Item
+Imaggine di Sfondo
+Dimens.. Immagine
+Colore Bordo
+
+Margini degli Elementi del Gruppo
+Verticale
+Orizontale
+Colore
+Carattere
+Image
+Cursore
+Margini
+Effetto Comandi
+Effetti Gruppo
+Margine Orizontale
+Margine Verticale
+Ombreggiatura
+Trasparenza
+Context Menu
+Manuale
+Calcola
+
+Dimensione Gruppo
+Spento
+Massima
+Invisibile
+Effetti Speciali
+Stato Abilitato
+Vuoi Aggiornare ora il testo della linea di stato di tutti gli aggetti?
+Visualizza
+Frame Destinazione
+è stato cliccato
+il cursore è su
+è stato cliccato due volte
+Seleziona il Documento da Aprire quando
+Nuova Finestra dei Parametri
+DHTML Menu Builder è in modalità DEBUG.
+Se viene visualizato un qualsiasi messaggio di errore (runtime error) mentre stai lavarando con DMB perfavore inviacelo includendo
+il numero di errore e la descrizione con una piccola descrizione di quello che stavi facendo
+Questa è una versione DEMO di DHTML Menu Builder.
+Questa operazione è disponibile solo sulla versione completa. Per testare i tuoi menu, usa la funzione Strumenti->Anteprima.
+L' AddIn
+richiede che alcuni parametri vengano settati prima di poterlo usare.
+Vai su %%LINE=378%% ed usa il pulsante Propietà dei Parametri, sotto l'etichetta Avanzato, pe impostare i valori richiesti per l'AddIn.
+Questa operazione è disponibile solo sulla versione completa.
+Seleziona il Progetto da Importare
+Salvare le modifiche in
+Pubblica il menu sulla macchina local senza l'utilizzo di un web server
+Locale
+Remoto
+Apri Progetto
+Progetti DHTML Menu Builder
+DHTML Menu Builder non può aprire il file perché o è impostato come A Sola Lettura o non si hanno i permessi per poterlo modificare
+Caricamento
+Questo Progetto è stato creato con una vecchia versione di DHTML Menu Builder.
+Per informazioni su come aggiornare il tuo progetto consulta l'Aiuto.
+Il Progetto non può essere aperto perché il file
+non esiste
+Il Progetto non può essere aperto.
+Sto Importando
+Annulla
+Ripristina
+Salva Progetto
+Sto Salvando
+Salva Progetto con Nome
+Gruppo
+Comando
+Separatore
+Cancellando il Gruppo si cancelleranno anche tutti i suoi Comandi, sei sicuro di volerlo fare?
+Questo Gruppo non puo essere cancellato perché è usato come SubMenu di un'altro Gruppo.
+Sposta
+Su
+Giù
+Il vostro Progetto è configurato per creare una Toolbar.
+L' HotSpot Editor non è necessario
+se nella pagina non si utilizzano HotSpot aggiuntivi che attivano alcuni gruppi.
+L' HotSpots Editor non può aprire il file contenente gli hotspot perché o è impostato come A Sola Lettura oppure non si hanno i Permessi per modificarlo
+Configurazione Predefinita
+Le modifiche alla impostazioni della Lingua saranno disponibili al prossimo riavvio di DHTML Menu Builder
+Carico i Font di Sistema...
+Attendere, Inizializzazione...
+Sto Caricando l'Ultimo Progetto Salvato...
+Inizializzazione Completata
+Il Progetto è stato Recuperato con Successo.
+Scegli i luogo in cui salvarlo
+DHTML Menu Builder non è stato chiuso correttamente ed è disponibile una copia di backup del lavoro.
+Vuoi recuperarla ?
+Gli Oggetti del Menu devono iniziare con una lettera
+Copia/Sposta
+Azione
+Interlinea
+Seleziona gli stili che si vogliono copiare dal gruppo
+Seleziona gli stili che si vogliono copiare dal separatore selezionato nel gruppo
+Seleziona gli stili che si vogliono copiare dal comando
+Copia Selettiva
+Incolla Selettivo
+Seleziona gli stili che si vogliono Incollare
+Incolla al Gruppo
+Incolla a Tutti i Gruppi
+Incolla il Separatore Selezionato
+Incolla a Tutti i Separatori sotto il
+Gruppo
+Incolla a Tutti i Separatori
+Incolla al Comando
+Incolla a Tutti i Comandi sotto il
+Incolla a Tutti i Comandi
+Gli Appunti non contengono dati
+Home Page
+Supporto
+FAQ
+Forum
+News
+
+
+%%LINE=231%%
+Unfolding Sound
+Generale
+Configurazioni
+Toolbar
+FTP
+Avanzato
+Percorso Locale della cartella Root Web
+Cartella in cui Salvare i File Compilati
+Cartella in cui Salvare le Immagini
+Local Configuration
+Web Server Root
+Path dei File Compilati
+Path delle Immagini
+Esempio
+Percorsi
+Pagina di Destinazione
+Supporto dei Frame
+Opzioni
+Aggiungi...
+Visualizza...
+%%RESERVED%%
+Imposta come Predefinito
+Auto Fill
+Importa...
+Pagina in cui Installare i Menu
+Documento HTML Finale
+Abbilita Supporto Frame
+Pagina dei Frame
+HotSpots Frame
+Menus Frame
+Crea Toolbar
+Seleziona i Gruppi da inserire nella Toolbar
+Aspetto
+Posizionamento
+Stile della Toolbar
+Bordo
+Separazione
+
+Colore Sfondo
+Immagine Sfondo
+Sample Toolbar
+Estensione
+Offset
+Pixel Orizonatli
+Pixel Verticali
+(auto)
+Dimensione Pagina
+Personale
+Segui le ScrollBar del Browser
+Indirizzo Server FTP
+Login Anonimo
+Prompt for Account
+Usa un Proxy Server
+User Name
+Password
+Indirizzo
+Porta
+Configurazione Remota
+Proprietà del Progetto
+Ottimizza Codice
+Nome del File JavaScript Compilato
+Menus Offset
+[DEBUG] Nessuna Ottimizzazione
+[FINAL] Codice piccolo e veloce
+Nome server o protocollo non validi
+Selezione il documento dei Frameset
+Uno dei toui frame usa il nome riservato
+Prima di poter utilizzare i menu nel tuo frameset, devi modificare il nome di questo frame
+Questo file non sembra essere documento HTML contente frame
+Seleziona la cartella in cui vuoi salvare le immagini usate nel tuo progetto
+Seleziona la tua root web folder
+Selezione un File Audio
+Devi salvare il progetto prima di poter importare le impostazioni da un altro progetto
+Seleziona Progetto
+Visualizza Configurazione
+Questa configurazione non può essere cancellata perché è richiesta per il supporto FTP
+La configurazione predefinita non può essere cancellata
+Questa configurazione non può essere cancellata perché è richiesta dal
+configurazione
+
+Predefinito
+Seleziona la cartella in cui vuoi salvare i file compilati del tuo progetto
+Seleziona Documento HTML
+Il file selezionato non è un valido Documento HTML
+Documenti HTML
+Nessun AddIn selezionato. Sarà usato lo script di default.
+Modifica le %%LINE=378%%
+Questo progetto usa
+AddIn ma non può essere trovato
+Nome
+Aggiungi Browser
+Applicazioni
+Devi inserire un nome per il nuovo browser
+Devi selezionare un comando valido per avviare il browser
+Seleziona il browser da aggiungere
+L'uso dell'AddIn Editor è consigliato agli utenti con una adeguata conoscenza di HTML, DHTML, Java Scripting, CSS e di DOM per i browser di ultima generazione. %%LINE=548%%
+Si
+No
+Non chiedere di nuovo
+Browser Disponibili
+&Aggiungi...
+&Predefinito
+&Visualizza...
+E&limina
+Chiudi
+Edit Browser
+Aggiorna
+Traduzione effettuata da:
+Ampiezza
+Altezza
+In Rilievo
+Incavato
+Seleziona l'Offset verticale ed orizontale che DHTML Menu Builder dovrà applicare alla posizione di default dei menu in modo tale da allinearli perfettamente con l'hotspot di origine
+Seleziona l'Offset verticale ed orizontale che vuoi applicare alle posizioni di default dei SubMenu
+Generali
+Apri l'ultimo Progetto all' Avvio di DMB
+Ripristino Automatico
+Mostra il logo all' Avvio di DBM
+Abilita Annulla/Ripristina
+
+Lingua
+Formattazione Predefinita
+Altezza Separatore
+Spazio Tra Immagini
+I Comandi Ereditano il loro Stile da
+Gruppo di Appartenenza
+Dal Primo Comando del Stesso Gruppo
+I Gruppi Ereditano il loro Stile da
+Impostazioni Predefinite del Programma
+Dal Primo Gruppo del Progetto
+Preferenze
+Bidirezionale
+Verticale
+Orizontale
+Casuale
+(nessuno)
+Tua Versione
+Applicazione
+Motore
+Rilasciato
+Controlla
+Ultima Versione
+Aggiorna DHTML Menu Builder
+(Clicca sul pulsante Controlla)
+(Attendere...)
+Sei sicuro di voler cancellare il download?
+Downloading... Attendere, potrebbe richiedere alcuni minuti
+Downloading
+Installa
+Download
+La tua versione ha bisogno di essere aggiornata
+Hai già l'ultima versione disponibile
+(Sconosiuta)
+Impossibile ottenere informnazioni
+Si è verificato un errore mentre cercavo di ottenere informazioni
+Nuova Finestra dei Parametri
+Posizione e Dimensione
+Aggiungi la directory dei pulsanti
+Specifica se agginugere ls directory dei pulsanti
+Modalità Channel
+Specifica se visualizzare la finestra in theater mode e visualizzare la banda del canale
+Visualizza Toolbar
+Specifica se visualizzare la toolbar del browser, rendendo disponibili pulsanti come Indietro, Avanti e Termina
+Visualizza a Tutto Schermo
+Specifica se visualizzare il browser a tutto schermo o in una noramle finestra
+Visualizza i campi di input
+Specifica se visualizzare i campi di input per inserire le URL direttamente nel browser
+Visualizza la menu bar
+Specifica se visualizzare la menu bar
+La finestra può essere ridimensionata
+Specifica se visualizzare i gestori delle dimensioni negli angoli delle finestre
+Visualizza le scrollbar
+Specifica se visualizzare le scrollbar verticali ed orizontali
+Visualizza la barra di stato
+Specifica se aggiungere la barra di stato in fondo della finestra
+Visualizza la barra del titolo
+Specifica se visualizzare una barra del titolo per la finestra
+Alto
+Stati
+Seleziona tra i disponibili
+%%EMPTY-LINE%% Lasciata intenzionalmente vuota per scopi grammaticali
+Filtro
+Visualizza Submenu
+Selez. Tutto
+Deselez. Tutto
+Gruppi
+Comandi
+Tutte le Propietà
+Sfondo
+Linea
+B
+Italico
+Sottolineato
+Sfondo
+Azioni di Evento
+Allineamento Menu
+Ampiezza Gruppo
+Altezza Gruppo
+Suoni
+On Mouse Over
+On Click
+Incolla
+Incolla Opzioni
+Seleziona
+Tutto
+Nessuno
+Albero
+Espandi
+Espandi
+Espandi Tutto
+Espandi Tutto
+Descrizione...
+Immagini
+Da File...
+Seleziona un File Immagine
+Esporta come HTML...
+Seleziona un File HTML
+Status Text Update
+DHTML Menu Builder Modalità Debug
+Lingua Cambiata
+Funzione Disabilitata
+Parametri Mancanti
+Salva Modifiche?
+Errore nell'Apertura del Progetto
+Errore
+Modalità Debug
+Elimina Gruppo?
+Elimina Cncellato
+Sei sicuro di voler continuare?
+Errore Durante l'Apertura del File
+L' HotSpots Editor richiede Microsoft Internet Explorer versione 5.0 o superiore
+Errore durante l'Avvio del HotSpots Editor
+Devi specificare un documento HTML valido che rappresenta completamente la tua pagina.
+Apri %%LINE=378%% e correggi l'Errore prima di avviare di nuovo l' HotSpots Editor.
+Manca %%LINE=345%%
+Quando usi il supporto frame e il frame del Menu e differente dal frame degli HotSpot, %%CRLF%%il '%%LINE=345%%' impostato nelle %%LINE=378%% deve puntare allo stesso file come il 'Documento Contenente gli HotSpot'.
+Invalid %%LINE=345%% Setting
+L' HotSpots Editor non può essere avviato a causa di un errore sconosciuto.
+Il Progetto non può essere compilato perché
+il Gruppo
+il Comando
+contengono uno o più caratteri non validi
+la Click Action sul Comando
+la Over Action sul Comando
+la DoubleClick Action sul Comando
+la Click Action sul Gruppo
+la Over Action sul Gruppo
+la DoubleClick Action sul Gruppo
+contiene uno o più caratteri non validi nel campo del Testo della Linea di Stato
+Errore di Compilazione
+Il progetto non può essere compilato perché uno o più oggetti hanno lo stesso nome
+Configurazione
+Devi specificare la cartella di destinazione dei file compilati.
+Vuoi farlo ora?
+Manca la Cartella di Destinazione
+La cartella in cui salvare i file compilati, definita in %%LINE=378%%, non è valida.
+La Cartella di Destinazione Non è Valida
+Devi spcificare la cartella di destinzaione delle Immagini.
+Manca la Cartella di Destinazione delle Immagini
+La cartella in cui salvare le immagini, definita in %%LINE=378%%, non è valida.
+Cartella di Destinazione delle Immagini non Valida
+Devi specificare una %%LINE=335%% valida in cui il menu sarà implementato. Questo è il documento HTML in cui sarà definito il tuo hotspot.
+Manca o non è Valida la %%LINE=335%%
+La pagina che contiene gli HotSpot deve essere documento HTML valido posto nella Root Web.
+La %%LINE=335%% non è Valida
+Devi specificare un documento HTML valido in cui la tua paggina è completamente visualizzata.
+File Mancate o Non Valido.
+La Cartella di Destinazione deve essere un cartella appartenente alla Root Web.
+Voui correggere ora questo problema?
+Il parametro '%%LINE=326%%' nella
+configurazione non è valido
+Parametri di Configurazione non Validi
+Il parametro '%%LINE=330%%' nella
+Il parametro '%%LINE=369%%' della sezione FTP delle  %%LINE=378%% non è valido
+è definito come un cascading command attraverso
+l'evento, ma punta ad un gruppo di menu non valido
+Gruppo Destinazione non Valido
+o ripristina questo AddIn o lo rimuove dal Progetto
+AddIn Non Trovato
+ma non può essere compilato perché %%CRLF%% sembra essere danneggiato o appartiene ad una vecchia versione di DHTML Menu Builder
+AddIn Non Valido
+Ripristino Effettuato con Successo
+Spegnimento Errato
+I dati degli appunti provengono da differenti tipi di oggetto
+Dati degli Appunti non Validi
+Cerca
+Sostituisci
+Tra
+Cerca Solo Parole Intere
+Maiuscole/minuscole
+Solo Oggetti Selezionati
+Riprist.. &Tutto
+Rirpristina Operazione
+Stile
+pixel
+&All'Avvio apri l'ultimo Progetto
+Successivo
+Analizzo
+Un Errore inaspettato si è verificato durante la creazione degli HotSpot
+L'hotspot selezionato è un immagine senza nome.
+Per autoallineare il gruppo
+all'immagine selezionata,
+l'immagine deve avere un nome.
+L'Hotspot non è Correttamente Impostato
+L' hotspot selezionato è un'immaggine che ha lo stesso nome del gruppo selezionato.
+Ogni elemento della pagina deve avere un nome unico. O rinomini il gruppo o%%CRLF%%rinomini l'immagine, altrimenti,questo gruppo non funzionerà.
+La comunicazione con Internet Explorer è terminata.%%CRLF%%Il tuo documento può non essere stato caricato o non è un valido documento HTML.%%CRLF%%%%CRLF%%Chiudere HotSpots Editor, verifica che le proprietà del Progetto %%CRLF%%siano correttamente configurate, e riaprilo di nuovo.
+Sei sicuro di voler chiudere l' HotSpot Editor senza salvare le modifiche?
+Pericolo
+
+
+Richiedi un Live Meeting
+Richiedi una Live Product Demonstration
+Questo programma e dato in licenza a:
+Riempi i campi sotto con le informazioni della sua ricevuta di acquisto. Assicurati di scrivere esattamente informazioni così come compaiono nella ricevuta.
+Numero Ordine
+User Name
+Ditta
+Valida
+Informazioni sulla Privacy
+I campi '%%LINE=635%%' e '%%LINE=636%%' sono obbligatori per poter avviare la validazione.
+Informazioni di Registrazioni non Valide
+Le Informazioni sono state Verificate con Successo.%%CRLF%%Clicca su %%LINE=176%% per aggiornare questa copia di DHTML Menu Builder alla versione registrata.
+Registrazione Completata con Successo!
+Accertati di aver inserito le informazioni essattamente come appaiono nella conferma dell'ordine(ricevuta).%%CRLF%%%%CRLF%%Se hai appena acquistato DHTML Menu Builder, prova tra qualche minuto.%%CRLF%%%%CRLF%%Un'altra possibile causa e che non si sta usando l'ultima versione di DHTML Menu Builder. Per essere sicuro di avere l'ultima versione, vai su Aiuto->Verifica la Disponibilità di Aggiornamenti... dal menu principale.
+Informazioni di Registrazione non Valide
+
+Aiuto Registrazione
+Il server non ha accettato le informazioni di registrazione fornite
+Il motivo riportato dal server è:
+Informazioni Aggiuntive:
+Il %%LINE=635%% non è valido
+DHTML Menu Builder non è in grado di comunicare con il server per validare le informazioni.%%CRLF%%Assicurati di essere connesso ad Internet prima di avviare il processo di validazione.
+Impossibile Contattare il Server
+Sei sicuro di voler chiudere la Registrazione senza essere registrato?
+Sposta in alto l'oggetto selezionato
+Sposta in basso l'oggetto selezionato
+Anteprima con
+Interno
+Errore di visualizzazione dell'Aiuto
+Errore durante l'installazione del Loader Code
+Errore durante la rimozione del Loader Code esistente
+Errore durante l'importazione del Progetto
+Verifica l'esistenza di Aggiornamenti
+Errore Critico
+Errore di Caricamento dei Parametri
+Errore durante il salvataggio dei Parametri
+Bordi
+Disposizione dei Comandi
+Colore Linea
+Doppio
+Smussato
+Bordo Immagine
+Aggiorna Location...
+Seleziona la nuova Location per
+
+Quando i parametri del '%%LINE=345%%' o della '%%LINE=347%%' non sono di tipo HTML, essi devono essere referenziati tramite un webserver.
+Informazioni di Account
+Le configurazioni di tipo locale non possono essere pubblicati su web server. Crea una configurazione di tipo remota e impostala come predefinita.
+Visualizza %%LINE=378%% quando viene creato un Nuovo Progetto
+Questa configurazione prepara i menu a girare se web server
+Seleziona Configurazione
+Modifica la Configurazione Predefinita
+Quando modifichi la configurazione predefinita i percorsi ai file creati da DHTML Menu Builder cambiano quindi devi ricordarti di aggiornare il loader code sui tuoi documenti.
+Sto Compilando la Configuratione Locale
+Stai per compilare una configurazione di tipo locale. Questo tipo di configurazioni girano soltanto sulle macchine in cui il menu è stato sviluppato.%%CRLF%%Se questo progetto dovrà essere pubblicato su un web server dovrai creare una configurazione di tipo remoto e ricompilare il progetto.
+Installa un disk-based Loader Code
+La tua configurazione predefinita è di tipo local. Questo vuol dire che il loader code che sarà installato nelle tue paggine sarà disk-based quindi i menu gireranno solo sulla macchina su cui sono stati sviluppati.%%CRLF%%Se questo progetto dovrà essere publicato su un web server dovrai creare una configurazione di tipo remoto e quindi il loader code sarà ottimizzato per generare percorsi per il web server.
+Modifico l'Allineamento dei Gruppi
+Affinché le modifiche dell'allineamento abbiano effetto devi aprire la %%LINE=335%%.%%CRLF%%Se hai già collegato i gruppi ai tuoi hotspot, le modifiche verranno visualizzate semplicemente aprendo la %%LINE=335%% e cliccando su Installa.
+Pssibili Problemi di Compatibilità
+Impostazioni di Configurazione Non Completate
+Alcuni dei percorsi della tua configurazione locale sono vuoti. Questo può provocare risultati imprevisti.%%CRLF%%Per essere sicuri che DHTML Menu Builder sia in grado di generare correttamente i tuoi progetti sul tuo sito web, inserisci tutti i parametri di configurazione.
+&Cerca...
+Vuoi utilizzare le informazioni di registrazioni inviate del server durante la sua ultima validazione?
+Metodo di Validazione
+Si è verficato un Errore sconosciuto mentre cercavo di registrare DHTML Menu Builder.
+Errore durante l'esecuzione di Register.exe
+Verifico Connessione Internet
+Contatto il Server di Validazione
+Preparo i Dati
+Valido le Informazioni di Registrazione
+Non è possibile stabilire una connessione con il Server di Validazione.%%CRLF%%%%LINE=705%%
+Errore di Validazione.
+Non è stata trovata nessuna connessione ad Internet.%%CRLF%%%%LINE=705%%
+Se stai utilizzando un proxy server o un firewall ignore questo errore.
+HotSpot disponibili
+Gruppo Collegato
+Nome Immagine
+Posizione
+Testo Attivo
+Tipo
+Crea Form
+Sostituzione Font
+Font usati in questo progetto
+Sostituisci con...
+Alto Sinistra
+Alto Centro
+Alto Destra
+Sinistra
+Destra
+Basso Sinistra
+Basso Centro
+Basso Destra
+Colori
+Allinea SubMenu
+Tipo di Effetto
+Impostazioni Globali
+Temporizzatori
+Ritardo Scomparsa dei Menu
+Ritardo Visualizzazione SubMenu
+Velocità
+Caratteristiche Estese
+Genera Codice per browser compatibili con DOM
+Genera Codice per Navigator 4
+Genera file hRef
+
+Hide Form Elements
+Supporto per il Rollover di Dreamweaver e Fireworks
+Correggi 'Clip Bug' di Navigator 4
+Funzione che aiuta Opera ad Abilitare gli Effetti di Rollover
+Supporto per ImageReady Rollover
+Predefinite
+Ottimizza Percorsi
+Meno
+Più
+Lento
+Rapido
+Pagina Destinazione
+Questo è il documento dal quale sarà lanciato il menù.
+Su questo documento DHTML Menu Builder installerà la toolbar attraverso l'opzione %%LINE=157%%->%%LINE=164%%.
+Questo è il documento dove DHTML Menu Builder si apetaa di trovare gli HotSpot che lancieranno i menu.
+Seleziona la cartella che contiene i file che vuoi aggiungere
+Seleziona i documenti HTML in cui installare il Frame Loader Code
+Seleziona i documenti HTML in cui installare il Loader Code
+Usa Advanced Menus Installation Tools
+Abilita il Project Locking
+Visualizza la vista Struttura
+Struttura
+Normale
+Aggiungi SottoGruppo
+Installa Menu
+Rimuovi il Loader Code
+Cartelle sul sito web
+File su
+File che riceveranno i Menu
+File che riceverà la Toolbar
+File che riceverà le Toolbar
+Installa Toolbar
+Rimuovi Menu
+Tutti i documenti sul sito web devono aver il proprio loader code.%%CRLF%%È consigliato non modificarlo.
+Non è stato selezionato nessun file in cui installare i Menu
+Installo Loader Code
+Installo Frames Loader Code
+Analizzo File
+Analizzo i file lincati dai comandi
+Analizzo i file lincati dai gruppi
+Analizzo il Loader Code esistente in
+Analizzo Cartelle
+(n/a)
+Standard
+Frame
+(nessuno)
+Contiene il Frames Loader Code
+Non contiene Loader Code
+Contiene lo Standard Loader Code
+Non supporta il Loader Code
+Rimuovi dalla Lista
+Aggiungi file
+Nessun File nella Cartella
+Nome|Dimensione|Tipo|Data Modifica|Loader Code
+Altezza Separatore
+Percentuale
+Visualizza Toolbar
+Appartengono alla Toolbar:
+(Nessuna Toolbar)
+OK
+Presets
+Autore
+Commenti
+Cascading
+Anteprima Preset
+Applica
+Applica lo Stile di un Preset...
+Progetto vuoto
+Da un Preset...
+Usa il Wizard...
+Preset
+Elimina
+Aggiungi Toolbar
+Elimina Toolbar
+Altezza...
+File che riceveranno la Toolbar e i Menu
+File che riceveranno le Toolbar e i Menu
+File che riceveranno i Menu
+Fatto. Clicca su %%LINE=468%% per processare tutti i documenti selezionati.
+Proprietà della Toolbar
+Microsoft Internet Explorer (Interno)
+Centro / Sinistra
+Centro / Destra
+Centro / Alto
+Centro / Basso
+nessuna
+normale
+massima
+Progetti Secondari
+Progetti
+Non è stato selezionato nessun progetto da installare
+Selezione non Valida
+Questo progetto non può essere selezionato perché non esiste o è stato creato con versione vecchia di DHTML Menu Builder
+Scrolling
+Drop Shadow
+Effetti
+Da un Struttura di Cartelle
+Salva come Preset
+Estrai Icona
+DHTML Menu Builder Tips
+C'è gia un modello di gruppo nel progetto
+Non riesco ad aggiungere il Template Group
+Quando usi un progetto secondario il progetto master deve essere salvato prima di compilare
+Il progetto
+non può essere compilato non ha le stesse configurazioni del progetto master
+Per creare un Preset il progetto attivo deve contenere almeno una toolbar
+Progetto non valido
+Si è verificato un errore mentre cercavo di sbloccare il file:
+Error Unlocking File
+è al momento bloccato da un altro processo:
+Vuoi caricarlo comunque?
+Questo progetto non può essere aperto perché è stato creato con la <developers' edition>
+Aggiornamento Progetto...
+Bookmark
+Target Frame
+dalla toolbar
+PC Health Warning
+Le risorse del tuo sistema sono pericolosamente basse!%%CRLF%%%%CRLF%%Con Windows 95, 98 e Millennium, avviare molte applicazioni contemporaneamente puo esaurire le tue risorse indifferentemente dalla quantità di RAM che hai installata.%%CRLF%%%%CRLF%%Per evitare il crash del sistema, chiudi tutte le applicazioni che non usi, sopratutto se ci molti programmi attivi sul tuo sitema.
+Risorse di Sitema
+Risorse GDI:
+Risorse Utente:
+Limitazioni della versione DEMO di DHTML Menu Builder
+Questa versione Demo di DHTML Menu Builder è completa di tutte le funzionalità che ti permetteranno di implementare i tuoi menu.%%CRLF%%%%CRLF%%Comunque, il programma disabbiliterà i link dei tuoi menu cosi che quando saranno cliccati non verrà eseguita nessuna azione.
+Se hai appena aggiornato DHTML Menu Builder lo devi validare di nuovo per convertirlo nella versione completa.%%CRLF%%Vuoi farlo adesso?
+Benvenuto in DHTML Menu Builder!
+Sembra che questa sia la prima volta che usa DHTML Menu Builder.%%CRLF%%Se sei nuovo al mondo dei menu bastai sul web, ti raccomandiamo caldamente di usare il Wizard che trovi in File->Nuovo->Usa il Wizard.%%CRLF%%Questo ti permetterà di creare il tuo primo menu in pochi minuti, utilizzerai il programma per dargli gli ultimi ritocchi e per installarlo sul tuo Sito Web.
+Compila Progetto
+I comandi non possono essere trascinati sulle Toolbar
+I gruupi non possono essere trascinati sulla stessa toolbar a cui appartengono
+Copia il Gruppo
+nella Toolbar
+Sposta il Gruppo
+Copia il Comando
+nel Gruppo
+I Comandi non possono essere spostati sullo stesso gruppo a cui appartengono
+SpostaComando
+sotto il Comando
+I Gruppi possono essere trascinati solo sopra le Toolbar
+Nome Oggetto Non Valido
+Rinomina
+I Link inseriti manualmente possono causare problemi
+I collegamenti a file sul tuo sito web dovrebbero sempre essere impostati usando il pulsante sfoglia vicino al comp URL.%%CRLF%%I soli link che devono essere sctitti a mano sono quelli che puntano a risorse esterne al tuo sito.
+Progetto di DHTML Menu Builder
+Libreria contenente l'Icona
+Icone Trovate
+Icona Selezionata
+Dimensione
+Pagina dei Frame
+Frame Esisitenti
+Il documento non contiene frame
+Il documento non esiste
+Il documento contiene
+frame
+frame
+Bookmark Disponibili
+Bookmark Destinazione
+DHTML Menu Builder  non è in grado di determinare automaticamente il frame dei menu. Seleziona il frame nel quale devono essere visualizzati i menu:
+Invia
+Il Preset
+esiste già%%CRLF%%%%CRLF%%Sei sicuro di volerlo sovrascrivere?
+Puoi sovrascrivere solo i Preset che tu hai creato
+Errore nella creazione del nuovo Preset
+Solo le versione registrate di DHTML Menu Builder possono inviare i Preset
+Errore durante l'invio
+Devi essere connesso ad Internet per poter inviare un Preset al Catalogo Online
+Stai per di inviare il
+Preset al Catalogo Online
+Pronto per inviare il Preset
+Connessione al Server...
+Invio Preset...
+Agginugo il Preset al Catalogo Online
+Il Preset non può essere accettato perché già esiste nel Catalogo
+Il server ha riscontrato un errore mentre processava l'invio:
+DHTML Menu Builderha riscontrato un errore mentre processava l'invio:
+Il Preset è stato inviato con successo.%%CRLF%%Grazie per aver condiviso i tuoi grandi progetti con il mondo!
+Solo i Preset che tu hai creato possono essere inviati al Catalogo Online
+Invia Preset
+Seleziona il nome e il luogo in cui salvare l'Immagine
+Informazioni di Progetto
+Posizione
+Versione
+Titolo
+Codifica di default per i Caratteri usati nell'Anteprima
+Applica a %%ITEMNAME%%
+Applica a tutti %%RSCNAME1%% in %%ITEMNAME%% %%RSCNAME2%%
+Applica a tutti %%RSCNAME%%
+Separatori
+Applica a
+Broken Link Report
+Links Report
+Testa Selez..
+Testa Tutto
+Precedente
+Visualizza/Nascondi i Link non Testati
+Visualizza/Nascondi i Link Validi
+Visualizza/Nascondi i Broken Link
+Stop
+Verifico il Link
+Verifico i Link
+Sto generando il Links Report...
+Report
+Visualizza Link
+Menu Items Style
+Toolbar
+Gruppi
+Elementi della Toolbar
+Comandi
+Stili degli Elementi Speciali
+Elementi Disabilitati
+Elementi con Broken Link
+Verifica i Link Durante
+Apertura
+Salvataggio
+Compilazione
+Verifica Link Esterni
+Visualizza
+Verifica Link
+Predefinite
+Aggiorna
+Codifica
+Colore Sfondo
+Usa Target Document
+Anteprima
+Ritardo Visualizzazione Menu Principale
+Support per Lotus Domino
+Funzione di Item Highlighting
+Supporto per Keyboard Navigation
+Uguaglia Amp. Gruppi
+Condizione di Visibilità
+Dimensione Toolbar
+Stile Bordo
+Attaccato a
+Nome Oggetto
+File sul Web
+Menu
+Informazioni
+Installa a tutti i Link nei Menu
+Rimuovi da tutti i Documenti
+Seleziona il documento che quando visualizzato illuminerà un oggetto del menu
+Seleziona il documento che quando visualizzato illuminerà '%%MENU_NAME%%'
+Le Cartelle non possono essere selezionate.
+Il documento selezionato non è valido perché non contiene menu.
+Seleziona l'oggetto del menu che vuoi illuminare quando '%%FILE_NAME%%' è visualizzato
+Seleziona o uno oggetto della toolbar o un comando
+Solo gli oggetti abilitati possono essere selezionati.
+Seleziona un Gruppo che agisce come una Toolbar. Tutti gli altri gruppi, come i subgroup, non possono essere selezionati
+Clicca su %%LINE=468%% per aggiungere il codice:
+Imposta Effetti

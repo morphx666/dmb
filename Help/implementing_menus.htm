@@ -1,0 +1,128 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<title>Implementing the Menus</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<base target="_self">
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24"><b><font color="#FFFFFF" size="2">
+	&nbsp;Implementing the Menus</font></b></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>DHTML Menu Builder offers several tools to help you add the 
+			code it creates to your web pages.<br>
+            The way you  configure your project will determine the tool you use. Of course, you can always add the code to the pages manually. Understanding the manual process will allow you to understand how the automated tools work, what they do, and how you can detect and overcome possible conflicts and problems. </p>
+            <p>The most common project setups are described below. Read each one to determine which tools you should use:</p>
+          	<ul>
+				<li><b>Without Frames</b><br>
+				If your project does not use frames, select the method below based on whether or not you are using a toolbar created by DHTML Menu Builder:<ul type="disc">
+					<li><b>Using the toolbar created by DHTML Menu Builder</b><br>
+					If you're going to use the toolbar created by DHTML Menu 
+					Builder, all you need to do is place the code on the 
+					pages that will contain the menus.
+					This is done using the Install Loader Code tool. (The loader code is 
+						the code that points to the Java<a href="thetutorial_tb_04.htm">thetutorial_tb_04.htm</a>Script files created by 
+						DHTML Menu Builder.)<br>
+					To access this tool, click  the <font face="Courier">Tools</font> menu and then click <font face="Courier">Install 
+                    Menus</font>.<br>
+					The Install Menus dialog will allow you select which 
+					files from your web should display the toolbar. You 
+					can select files one by one or add a whole directory at 
+					once.<br>
+					Click the <font face="Courier">Install</font> button to 
+					start the  process of placing the code on the pages.<br>
+                    For more detailed information please refer to these 
+                    resources:<ul type="disc">
+					<li><a href="dialogs/ilcman.htm">Install Menus dialog</a></li>
+                    <li>Last step of the <a href="thetutorial_ptb_04.htm">Using 
+                    Toolbars</a> tutorial</li>
+				</ul>
+              		</li>
+				</ul><hr noshade size="1" color="#EBEBEB">
+                <ul type="disc">
+                  <li><b>Using a toolbar you have created</b><br>When you're the one providing the toolbar, you will need to follow a different procedure:<ul type="disc">
+                    <li><b>Attach the trigger code:</b> The trigger code is 
+						the code that is placed on your hotspots, and enabling them to respond 
+						to  mouse actions and display the menus.<br>The trigger code is attached using the
+						<a href="hotspot_editor.htm">HotSpots Editor</a>.<font size="2"><span style="FONT-SIZE: 10pt"> Since the HotSpots Editor automatically adds the loader code, using the 
+                    </span><font face="Courier" size="2">
+                    <span style="FONT-SIZE: 10pt; FONT-FAMILY: Courier">Install Loader Code</span></font><span style="FONT-SIZE: 10pt"> tool is 
+                    <i>not</i> necessary with your own toolbar <i>if</i> you use the HotSpots Editor.</span></font></li>
+                  </ul></li>
+                </ul>
+              	</li>
+				<li><b>With frames</b><br>
+				If your project uses frames, there's an extra step that needs to be taken in order to add the menus to your web site.<br>
+				All the documents that are to be displayed in the same frame as 
+				the menus (not the hotspots) need to load a special file.<br>
+				To install the loader code for this special file, use the
+				<font face="Courier">Install Frames Loader Code</font> option 
+				found on the <font face="Courier">Tools</font> menu.<br>
+				In the dialog,&nbsp;select all the documents on your web 
+				that will be displayed in the same frame as the menus.
+				Click the <font face="Courier">Install</font> button to copy the loader code to the pages.<br>
+				<a href="working_with_frames.htm">More information on the frames support offered by DHTML Menu Builder</a></li>
+			</ul>
+          	<p><b>Manually adding the menus</b></p>
+			<p>As you have seen above, there are several pieces of code that 
+			need to be present on your pages so the menus can be used.<br>
+			All the code that needs to be placed on your pages can be 
+			copied from a file that DHTML Menu Builder generates every time you 
+			 
+			compile your project. This file is located in the same directory as 
+			where the compiled JavaScript files are placed. The files is called
+			<font face="Courier">hRef.txt</font>. You can open this file using 
+			Notepad or any other text editor.</p>
+			<ul>
+				<li><b>The loader code</b><br>
+				The loader code is the code that points to the JavaScript files created by DHTML Menu Builder. This code is always placed after the opening 
+				&lt;body&gt; tag of your HTML document.<br>
+				To add this code to your web page(s), simply copy it from the hRef.txt file 
+				and paste it into your document(s).<hr noshade size="1" color="#EBEBEB">
+              	</li>
+				<li><b>The trigger code</b><br>
+				This is the code that makes your hotspots active elements so 
+				they can react to the mouse actions and display the menus.<br>
+				This code is always placed in the anchor tag &lt;a&gt; of your 
+				hotspots.<br>
+				To add this code to your web page(s), simply copy it from the hRef.txt file 
+				and paste it into your document(s).</li>
+			</ul>
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="hotspot_editor.htm">The HotSpots Editor</a></li>
+                    <li><a href="working_with_frames.htm">Working with Frames</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

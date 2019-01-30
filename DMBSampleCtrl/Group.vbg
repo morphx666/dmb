@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=..\DMB.vbp
+Project=DMBSampleControl.vbp
+Project=..\Engine\Engine.vbp

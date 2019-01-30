@@ -1,0 +1,138 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dialogs / Production / HotSpots Editor</title>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+<div id="popup"
+	 style="position: absolute; left:35; top:220; background-color: #FFFFCC; padding: 8px 8px 8px 8px; border: 1px solid #000000 1px solid #000000 1px solid #000000 1px solid #000000; visibility: hidden;"
+	 onclick="HideIt();">
+Info here...
+</div>
+<script language="JavaScript" src="../functions.js"></script>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" bgcolor="#000080" height="24">
+	<font size="2" color="#FFFFFF"><b>&nbsp;Dialogs » Production » HotSpots 
+	Editor</b></font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+      <table border="0" width="100%" cellspacing="4" cellpadding="4">
+        <tr>
+          <td width="100%">
+            <p>This is the HotSpots Editor dialog.<br>
+			In this dialog you attach each of your groups to their 
+			respective hotspots.<br>
+            To access this dialog click <font face="Courier New">Tools-&gt;HotSpots 
+            Editor</font></p>
+            <p>Click any part of the dialog to get information about its 
+			purpose.</p>
+            <p align="center"><map name="FPMap0">
+			<area href="javascript:say(0);" shape="rect" coords="4, 26, 324, 317">
+			<area href="javascript:say(1);" shape="rect" coords="325, 27, 511, 63">
+			<area href="javascript:say(2);" shape="rect" coords="325, 65, 512, 103">
+			<area href="javascript:say(3);" shape="rect" coords="324, 121, 513, 164">
+			<area href="javascript:say(4);" shape="rect" coords="324, 165, 399, 202">
+			<area href="javascript:say(5);" shape="rect" coords="325, 219, 512, 306">
+			<area href="javascript:say(6);" shape="rect" coords="401, 173, 479, 199">
+			</map>
+			<img border="0" src="images/hse.gif" usemap="#FPMap0" width="521" height="360"></p>
+
+            <table border="0" width="100%" bgcolor="#FFFFCC" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="100%">Related topics of interest:
+                  <ul>
+                    <li><a href="index.htm">Dialogs Index</a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<div id=NullInfo style="visibility: hidden; cursor: arrow; display: none">
+            <img border="0" src="../images/icon_error.gif" align="left" width="32" height="32">Your selection does not have a help topic.<br>
+			Please try another section.</div>
+
+
+<div id=Info0 style="visibility: hidden; cursor: arrow; display: none">
+            <b>Available HotSpots<br>
+			</b>This is the list of all the hotspots detected in the loaded 
+			document.
+            <p>Each item will display an icon representing the type of hotspot:</p>
+			<img border="0" src="../images/hs_image.gif" width="16" height="16"> indicates that the selected hotspot is an image. Auto 
+			relative positioning is available.
+            <hr noshade size="1" color="#EBEBEB">
+			<img border="0" src="../images/hs_text.gif" width="16" height="16"> indicates that the selected hotspot is text. Auto 
+			relative positioning is <i>not</i> available and the x,y coordinates 
+			where the menu should be displayed must be provided.
+            <hr noshade size="1" color="#EBEBEB">
+			<img border="0" src="../images/hs_dynatext.gif" width="16" height="16"> indicates that the selected hotspot is text however DHTML 
+			Menu Builder will convert it into an active text element. Auto 
+			relative positioning will be available.
+            <p><a href="../preparing_your_web_site.htm">More information on how to prepare your documents so DHTML Menu Builder can detect the hotspots</a>.</p>
+</div>
+
+<div id=Info1 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Attached Group<br>
+			</b>Shows the group currently attached to the 
+			selected hotspot.</p>
+            <p>You can change the group by selecting another one from the list.</p>
+            <p>To detach a group from the selected hotspots, select (none) 
+			from the list.</p>
+          	</div>
+
+<div id=Info2 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Alignment<br>
+			</b>Determines the alignment of the menus relative to the selected group (hotspot)</p>
+          	</div>     	
+          	
+<div id=Info3 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Image Name<br>
+			</b>If the selected hotspot is an image, it is displayed here.</p>
+            <p>If the selected hotspot is an image and it has no name, type a 
+			unique name for it. When your image-based hotspots 
+			have a name, DHTML Menu Builder can implement  
+			auto relative positioning. With this, the menus will always 
+			appear aligned to your hotspots regardless of the position of the hotspots. Instead of using fixed values to position the menus in your pages, 
+			DHTML Menu Builder will determine the position of the hotspot at the moment it is triggered. The menus will appear perfectly aligned to the image that 
+			triggered it.</p>
+          	</div> 
+          	
+<div id=Info4 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Position<br>
+			</b>Sets the absolute position of 
+			the selected group when the selected hotspot is triggered.</p>
+            <p>This setting is only available when the selected hotspot is 
+			text-based. <br>
+			The numbers in the text boxes will specify the left and top 
+			coordinates of the menu.</div>
+          	
+<div id=Info5 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Image Preview<br>
+			</b>If the selected hotspot is an image, a preview will be shown in 
+			this space.</p>
+          	</div>
+          	
+<div id=Info6 style="visibility: hidden; cursor: arrow; display: none">
+            <p><b>Active Text<br>
+			</b>Converts a text-based hotspot into an active element so DHTML Menu Builder can implement auto-relative positioning. This button is enabled only when the hotspot is text. The result is that DHTML Menu Builder 
+				can determine the exact position of the 
+				hotspot at when it is triggered and automatically align the menu to the 
+				hotspot. This will occur even if the position of the hotspot changes when the 
+				browser is resized.</p>
+          	</div>
+</body>
+
+</html>

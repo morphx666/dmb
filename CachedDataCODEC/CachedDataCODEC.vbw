@@ -1,0 +1,9 @@
+frmMain = 261, 232, 1091, 918, C, 0, 0, 0, 0, C
+modSAPI4DMB = 225, 130, 1140, 930, C
+MD5 = 157, 133, 871, 933, C
+modInit = 157, 133, 1050, 933, C
+modCacheDataCODEC = 304, 130, 1208, 930, C
+LZW = 286, 157, 1135, 957, C
+modMachineName = 0, 0, 0, 0, C
+modFileHandling = 131, 133, 578, 935, C
+modShort2Long = 0, 0, 0, 0, C

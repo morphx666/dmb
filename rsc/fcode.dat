@@ -1,0 +1,54 @@
+var mFrame = self;
+var cFrame;
+
+%%BROWSERDETECTION
+
+%%BROWSERCODE
+
+function FindCodeFrame(sf) {
+	var i;
+	if(chkCode(sf)) return true;
+	for(i=0; i<sf.frames.length; i++) {
+		if(chkCode(sf.frames[i])) return true;
+		if(sf.frames[i].frames.length)
+			if(FindCodeFrame(sf.frames[i])) return true;
+	}	
+	return false;
+}
+
+function chkCode(f) {
+	%%BSEC01
+	if(f.sig=="%%PNAME") {
+		cFrame = f;
+		return true;
+	}
+	%%BSEC02
+}
+
+function SetUpEvents() {
+	if(!frames.self) {
+		frames.self = window;
+		frames.top = top;
+	}
+	if(!FindCodeFrame(top))
+		window.setTimeout('SetUpEvents()',10);
+	else {
+		cFrame.mFrame = mFrame;
+		cFrame.SetUpEvents();
+	}
+}
+
+function FixPointSize(s) {
+	if(IsWin||!NS) return s;
+	for(var i=54; i>1; i--)
+		if(s.indexOf("point-size=" + i)!=-1)
+			s = xrep(s, "point-size=" + i, "point-size=" + (i+3));
+	return s;
+}
+
+function xrep(s, f, n) {
+	if(s) s = s.split(f).join(n);
+	return s;
+}
+
+SetUpEvents();

@@ -1,0 +1,12 @@
+frmMain = 188, 132, 1171, 960, C, 0, 0, 0, 0, C
+clsFlood = 152, 133, 892, 961, C
+DMBGlobals = 152, 133, 1000, 961, C
+modFileHandling = 152, 133, 599, 961, C
+modShort2Long = 0, 0, 0, 0, C
+modImgHandling = 0, 0, 0, 0, C
+modFramesParser = 0, 0, 0, 0, C
+modURLEncoding = 0, 0, 0, 0, C
+modGlobals = 152, 133, 900, 955, C
+modRegistryFunctions = 0, 0, 0, 0, C
+frmAbout = 152, 133, 1045, 935, C, 0, 0, 0, 0, C
+modInit = 152, 133, 1060, 935, C

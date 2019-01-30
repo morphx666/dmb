@@ -1,0 +1,983 @@
+Romanian
+Radu Capan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Previzualizare in direct
+Proprietati comanda
+Text
+Activ
+Mouse deasupra
+Click
+Dublu Click
+Tip actiune
+Meniu apelat
+(nimic)
+Deschide URL / Executa script
+Afisare Submeniu
+Deschide URL in fereastra noua
+Text in bara de status
+Aliniere
+Jos / Stanga
+Jos / Dreapta
+Sus / Stanga
+Sus / Dreapta
+Stanga / Sus
+Stanga / Jos
+Dreapta / Sus
+Dreapta / Jos
+Proprietati grup
+URL / Script
+&Fisier
+&Nou
+&Deschide...
+Deschide ultimele
+Salveaza
+Salveaza c&a...
+&Importa...
+&Propertile proiectului...
+Ies&ire
+&Editare
+&Anuleaza
+&Refa
+&Copiaza...
+&Lipeste...
+C&auta...
+Mai de&parte
+In&locuire...
+Ste&rge
+Re&denumeste
+Preferinte...
+&Meniu
+Adauga &grup
+Adauga &comanda
+Adauga separator
+Culoare...
+Caracter...
+Cursor...
+Imagine...
+Margini...
+Efecte speciale...
+Sunete...
+Ins&trumente
+&Previzualizare...
+Previzualizare &in direct
+Seteaza ca navigator i&mplicit...
+&Compilare
+
+&Publicare...
+Instaleaza cod de incarcare...
+Instaleaza cod de incarcare cadre...
+Editor &hotspot-uri...
+Editor bara ins&trumente...
+Editor &AddIn...
+Rapoarte meniuri...
+A&jutor
+&Continut...
+&Manual
+Verifi&ca ultima versiune...
+xFX JumpStart pe web
+&Despre...
+Inregistrare
+Introdu informatiile de in&registrare...
+Cumpara DHTML Menu Builder...
+Normal
+Mouse deasupra
+Culoare text
+Culoare fundal
+Reseteazã
+Inverseazã
+Auto
+De acord
+Anulare
+Previzualizare in direct
+Schimba
+Stanga
+Dreapta
+Centrat
+Sageata (implicit)
+Cruce
+Mana
+Text
+Ajutor
+Imagine stanga
+Imagine fundal
+Imagine dreapta
+Sterge
+La fel
+Dimensiune
+Element bara meniu
+Imagine in spate
+Dimens. margine
+Culoare margine
+
+Maginile elementelor din grup
+Vertical
+Orizontal
+Culoare
+Caracter
+Imagine
+Cursor
+Margini
+Efecte comenzi
+Efecte grup
+Margine orizontala
+Margine verticala
+Dimensiunea umbrei
+Transparenta
+Context Menu
+Manual
+Calculeaza
+
+Dimensiune grup
+Fara
+Mare
+Invizibil
+Efecte speciale
+Enabled State
+Doriti acum actualizarea textelor de stare la toate elementele?
+Editare
+Frame-ul destinatie
+este clickat
+cursorul este deasupra
+este dublu clickat
+Selectati documentul de deschis
+Parametrii noi pentru fereastra
+DHTML Menu Builder este acum in modul DEBUG.
+Daca apare vreun mesaj de eroare in timp ce lucrati cu DMB va rugam sa ne informati
+despre eroare incluzand numarul ei si o scurta descriere a ceea ce faceati
+Aceasta este o versiune DEMO a DHTML Menu Builder.
+Aceasta operatiune este disponibila doar in programul inregistrat. Pentru a va testa meniurile, folositi Instrumente->Previzualizare.
+Editorul AddIn
+solicita unii parametrii de initializat inainte de folosire.
+Mergeti la %%LINE=378%% si folositi butonul Proprietati parametri, in tabul Avansate, pentru a initializa valorile cerute de AddIn.
+Aceasta operatiune este disponibila doar in programul inregistrat.
+Selectati un proiect pentru importare
+Salveaza schimbarile in locatia
+Publica meniurile pe calculator fara a folosi un server web
+Local
+Pe server
+Deschide proiect
+Proiectele DHTML Menu Builder
+DHTML Menu Builder nu poate deschide fisierul, fie ca este ReadOnly, fie ca este pe un mediu de stocare unde nu aveti dreptul de scriere
+Se incarca
+Acest proiect a fost creat cu o versiune mai veche a DHTML Menu Builder.
+Consultati va rugam Ajutorul pentru informatii despre cum sa actualizati corespunzator proiectul Dvs.
+Proiectul nu a putut fi deschis deoarece fisierul
+nu exista
+Proiectul nu a putut fi deschis.
+Importing
+Anuleaza
+Refa
+Salveaza proiect
+Saving
+Salveata proiectul ca
+Grup
+Comanda
+Separator
+Stergea unui Grup va sterge si toate comenzile din el. Sunteti sigur ca aceasta doriti sa faceti?
+Acest grup nu poate fi sters deoarece este folosit ca submiu intr-un alt grup.
+Muta
+Sus
+Jos
+Proiectul este configurat pentru a genera o bara de meniu pentru Dvs.
+Daca nu aveti si alte hotspots in pagina Dvs pe care doriti sa le utilizati
+pentru a actiona unele grupuri, editorul de hotspots nu este necesar.
+Editorul de hotspots nu poate deschide fisierul continand hotspots-urile deoarece fie este setat ReadOnlu, fie este pe un mediu de stocare unde nu aveti dreptul de scriere
+Configuratia implicita
+Schimbarile la setarile de limba vor deveni active la lansarea urmatoare a DHTML Menu Builder
+Se incarca fonturile sistem...
+Asteptati, se initializeaza...
+Se incarca ultimul proiect salvat...
+Initializarea incheiata
+Proiectul Dvs a fost recuperat cu succes
+Please choose a location to save it
+DHTML Menu Builder nu a fost inchis corespunzator si exista o copie la ceea ce ati muncit.
+Ati dori sa fie recuperata?
+Elementele de meniu trebuie sa inceapa cu o litera
+Copiaza/Muta
+Actiune
+Leading
+Selectati stilurile de copiat din grupul
+Selectati stilurile de copiat de la separatorul selectat din cadrul grupului
+Selectati stilurile de copiat de la comanda
+Copiere selectiva
+Lipire selectiva
+Selectati stilurile pentru lipit
+Lipeste la grup
+Lipeste la toate grupurile selectate
+Lipeste la separatorul selectat
+Lipeste la toate separatoarele de sub
+grup
+Lipeste la toate separatoarele
+Lipeste la comanda
+Lipeste la toate comenzile de sub
+Lipeste la toate comenzile
+in memoria clipboard nu exista nici o informatie
+Pagina xFX
+Consultanta
+Intrebari frecvente
+Forum public
+Noutati
+
+
+%%LINE=231%%
+Sunet desfasurare
+General
+Configuratii
+Bara de meniu
+FTP
+Avansat
+Calea locala spre Root Web
+Directorul pentru pastrarea fisierelor compilate
+Directorul pentru pastrarea imaginilor
+Configuratia locala
+Web Server Root
+Calea spre fisierele compilate
+Calea spre imagini
+exemplu
+Cai
+Document tinta
+Suport cadre
+Optiuni
+Adauga...
+Modifica...
+%%RESERVED%%
+Seteaza ca implicit
+
+Importa...
+Documentul tinta ce va primi meniurile
+Documentul final HTML
+Permite suport pentru cadre
+Document cu cadre
+Cadrul cu HotSpot-uri
+Cadru meniu
+Creaza bara de meniu
+Selectati grupurile care sa fie incluse in bara de meniu
+Aspect
+Pozitionare
+Stil bara de meniu
+Margine
+
+
+Culoare spate
+Imagine spate
+
+
+Offset
+Pixeli orizontali
+Pixeli verticali
+(auto)
+Dimensiunea paginii
+
+Urmareste barele de defilare
+Adresa server FTP
+Login Anonim
+Solicita un cont
+Foloseste Proxy Server
+Nume utilizator
+Parola
+Adresa
+Port
+Configuratia pe server
+Proprietatile proiectului
+Optimizare cod
+Nume fisier JavaScript compilat
+
+[DEBUG] Fara optimizare
+[FINAL] Cod mic si rapid
+Nume de server sau protocol invalid
+
+Unul dintre frame-uri foloseste un nume rezervat
+Inainte sa folositi meniul in frame-uri, trebuie sa schimbati numele acestui frame
+Acest fisier nu pare sa fie un document HTML cu frame-uri valid
+Selectati un director unde sa fie puse imaginile folosite in proiect
+
+Selectati fisier sunet
+Proiectul trebuie salvat inainte de a importa setarile din alt proiect
+Selectati proiect
+Modifica configuratia
+
+Configuratia implicita nu poate fi stearsa
+Aceasta configuratie nu poate fi stearsa deoarece este ceruta de
+configuratia
+
+Implicit
+Selectati directorul unde doriti sa tineti fisiere compilate ale proiectului
+Selectati documentul HTML
+Fisierul selectat nu este un document HTML valid HTML
+Documente HTML
+
+Schimba %%LINE=378%%
+Acest proiect foloseste
+AddIn, dar nu poate fi gasit
+Nume
+Adauga navigator
+Programe
+Trebuie sa dati un nume pentru noul navigator
+Trebuie sa selectati o comanda valida pentru lansarea navigatorului
+Selectati un navigator pentru adaugare
+Editorul AddIn este destinat utilizatorilor avansa cu cunostinte suficiente despre HTML, DHTML, Java Scripting, CSS si DOM pentru cele mai recente navigatoare. %%LINE=548%%
+Da
+Nu
+Nu ma mai intreba
+Navigatoare disponibile
+&Adauga...
+Ca &implicit
+&Editeaza...
+S&terge
+Inchide
+Modifica navigator
+Actualizeaza
+Traducere realizata de:
+Latime
+Inaltime
+Ridicat
+Apasat
+Selectati offset-ul vertical si orizontal pe care DHTML Menu Builder trebuie sa il aplice la pozitia implicita a meniului pentru a apareaperfect aliniat la hotspots parinti
+Selectati offset-ul vertical si orizontal pe care doriti sa fie aplicat la pozitia implicita a submeniurilor
+Optiuni generale
+Deschide ultimul proiect la lansarea DMB
+Autorecuperare
+Arata ecranul de reclama la lansarea DMB
+Permite Anuleaza/Refa
+
+Limba
+Setari implicite
+Inaltime separator
+Spatiu imagini
+Comenzile mostenesc stilul de la
+Grupul parinte
+Prima comanda din acelasi grup
+Grupurile mostenesc stilul de la
+Valorile implicite ale programului
+Primul grup din proiect
+Preferinte
+Bidirectional
+Vertical
+Orizontal
+Aleator
+(nimic)
+Versiunea ta
+Aplicatia
+Engine
+Din data
+Verifica
+Ultima versiune
+Actualizeaza DHTML Menu Builder
+(Clickati butonul Verifica)
+(Asteptati va rugam...)
+Sunteti sigur ca doriti sa intrerupeti actualizarea?
+Acum descarc... Asteptati, ar putea dura cateva minute
+Descarcare
+Instalare
+Descarca
+Versiunea Dvs trebuie sa fie actualizata
+Aveti deja ultima versiune disponibila
+(Necunoscut)
+Nu pot sa primesc informatiile necesare
+A aparut o eroare in timp ce se incerca primirea informatiilor
+
+Pozitia si dimensiunea
+
+
+
+
+
+
+
+Specificati daca navigatorul sa fie pe tot ecranul sau in fereastra normala
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%EMPTY-LINE%% Goala intentionat din motive de gramatica
+Filtru
+Afiseaza un submeniu
+Toate
+Deselecteaza tot
+Grupuri
+Comenzi
+Toate proprietatile
+Inapoi
+Linie
+Gros
+Inclinat
+Subliniat
+Fundal
+Actiune evenimentului
+Alinierea meniului
+Latime grup
+Inaltime grup
+Sunete
+La mouse deasupra
+La click
+Lipeste
+Optiuni lipire
+Selectare
+Toate
+Nimic
+
+
+
+
+
+Descriere...
+Imagini
+Din fisier...
+Selecteaza un fisier imagine
+Exporta ca HTML...
+Selecteaza un fisier HTML
+
+
+Limba schimbata
+
+Parametri lipsa
+Salvezi modificarile?
+Eroare la deschiderea proiectului
+Eroare
+DEBUG MODE
+Sterg grup?
+Stergere anulata
+Sunteti sigur ca doriti sa continuati?
+Eroare la deschiderea fisierului
+Editorul HotSpots are nevoie de Microsoft Internet Explorer minim versiunea 5.0
+Eroare la lansarea Editorului HotSpots
+
+
+
+
+
+Editorul HotSpots nu a putut fi lansat dintr-o eroare necunoscuta.
+Proiectul nu poate fi compilat deoarece
+grupul
+comanda
+contine unul sau mai multe caractere invalide
+actiunea click pe comanda
+actiunea mouse deasupra comenzii
+actiunea dubluclick pe comanda
+actiunea click pe grup
+actiunea mouse deasupra grupului
+actiunea dubluclick pe grup
+contine unul sau mai multe caractere invalide in textele din bara de stare
+Eroare la compilare
+Proiectul nu poate fi compilat deoarece unele elemente au acelasi nume
+Configuratia
+Trebuie sa indicati directorul destinatie pentru fisierele compilate.
+Doriti sa o faceti acum?
+Lipseste directorul destinatie
+Directorul pentru pastrarea fisierelor compilate definit in %%LINE=378%% este invalid.
+Director destinatie invalid
+Trebuie sa indicati un director destinatie pentru imagini.
+Lipseste directorul destinatie pentru imagini
+Directorul destinatie pentru pastrarea imaginilor definit in %%LINE=378%% este invalid.
+Directorul destinatie imagini invalid
+Trebuie sa specificati un %%LINE=335%% valid unde sa fie implementat meniul. Acesta este documentul HTML unde sunt definite hotspot-urile Dvs.
+%%LINE=335%% lipseste sau este invalid
+Documentul continand hotspot-urile trebuie sa fie un document HTML valid, aflat in Root Web.
+%%LINE=335%% invalid(a)
+Trebuie sa specificati un document HTML valid in care pagina este vizualizata.
+Fisier lipsa sau invalid
+Directorul destinatie trebuie sa fie un director in Root Web.
+Doriti sa corectati aceasta problema acum?
+Parametrul '%%LINE=326%%' din
+configuratie este invalid
+Configurare eronata a parametrilor
+Parametrul '%%LINE=330%%' din
+Parametrul '%%LINE=369%%' al sectiunii FTP din %%LINE=378%% este invalid
+este definit ca si comanda cascada in cadrul
+evenimentului, dar indica spre un grup de meniu invalid
+Grup tinta invalid
+Fie refaceti acest AddIn, fie il stergeti din proiect
+AddIn negasit
+dar nu poate fi compilat deoarece%%CRLF%%pare a fi deteriorat sau dintr-o versiune mai veche a DHTML Menu Builder
+AddIn invalid
+Recuperare cu succes
+Inchidere necorespunzatoare
+Data din memorie este a unui alt tip de obiect
+Data invalida in memorie
+Cauta
+Inlocuieste
+Unde
+Cauta doar cuvinte intregi
+Respecta litere mari/mici
+Doar elementele active
+Pe to&ate
+Operatiunea de inlocuire
+Stil
+pixeli
+Deschide ultimul pr&oiect la lansare
+Urmatorul
+Analizez
+A aparut o eroare neasteptata in timpul creerii de HotSpots
+Hotspot-ul selectat este o imagine fara nume.
+Pentru ca grupul
+sa se autoalinieze la imaginea selectata,
+imaginea trebuie sa aiba un nume.
+Hotspot nu este configurat bine
+Hotspot-ul selectat este o imagine care are acelasi nume cu grupul selectat.
+Fiecare element din pagina Dvs trebuie sa aiba un nume unic. Fie renumiti grupul fie%%CRLF%%renumiti imaginea, sau altcumva acest grupnu va functiona.
+Comunicarea cu Internet Explorer s-a pierdut.%%CRLF%%Documentul nu a putut fi incarcat sau nu este un document HTML valid.%%CRLF%%%%CRLF%%Va rog inchideti Editorul HotSpots, verificati ca proprietatile proiectului Dvs%%CRLF%%sunt corect configuratesi deschideti din nou.
+Sunteti sigur ca doriti sa inchideti Editorul HotSpor fara sa salvati modificarile?
+Avertizare
+
+
+Solicita o intalnire in direct
+Solicita o demonstratie in direct pentru produs
+Licenta pentru acest program o are:
+Completeaza campurile de mai jos cu informatiile primite la cumparare. Asigurati-va ca ati introdus informatiile asa cum apar ele in confirmarea platii.
+Numarul comenzii
+Numele utilizatorului
+Firma
+Valideaza
+Informatii despre Privacy
+Campurile '%%LINE=635%%' si '%%LINE=636%%' sunt cerute pentru a incepe procesul de validare.
+Informatii de inregistrare invalide
+Informatiile Dvs au fost verificate cu succes.%%CRLF%%Clickati butonul %%LINE=176%% pentru a transforma aceasta copie a programului DHTML Menu Builder intr-un program inregistrat.
+Validarea inregistrarii s-a incheiat cu succes!
+Asigurati-va ca informatiile introduse sunt exact ca in confirmarea platii.%%CRLF%%%%CRLF%%Daca tocmai ati cumparat DHTML Menu Builder, ar fi bine sa mai incercati odata in cateva minute.%%CRLF%%%%CRLF%%Un alt posibil motiv pentru acest esec poate fi faptul ca nu folositi ultima versiune de DHTML Menu Builder. Pentru a verifica faptul ca aveti ultima versiune disponibila, selectati Ajutor->Verifica ultima versiune din meniul principal.
+Informatii de inregistrare invalide
+
+Ajutor inregistrare
+Serverul nu a acceptat informatiile de inregistrare oferite
+Motivul raportat de server este:
+Informatii suplimentare:
+%%LINE=635%% este invalid(a)
+DHTML Menu Builder nu a reusit sa comunice cu serverul pentru a valida informatia.%%CRLF%%Va rugam verificati ca sunteti conectat la Internet inainte de a incerca procesul de validare.
+Contactarea serverului esuata
+Sunteti sigur ca doriti sa inchideti fereastra de inregistrare fara sa faceti inregistrearea?
+Mutati elemente selectate sus
+Mutati elemente selectate jos
+Previzualizare folosind
+Intern
+
+Eroare la instalarea codului de incarcare
+Eroare la stergerea codului de incarcare
+Eroare la importarea proiectului
+Verifica actualizare
+Eroare critica
+Eroare la incarcarea parametrilor
+Eroare la salvarea parametrilor
+Margini
+Aranjarea comenzilor
+Culoare linie
+Dubla
+Bevel
+Margini imagini
+Actualizeaza locatia...
+Selectati o locatie noua pentru
+
+Atunci cand parametrii '%%LINE=345%%' sau '%%LINE=347%%' nu sunt de tip HTML, ei trebuie sa fie referiti prin serverul web.
+Informatii despre cont
+Configuratiile de tip local nu pot fi publicate pe serverul web. Creati o configuratie de tip indepartat si setati-o ca implicita.
+Arata %%LINE=378%% la crearea unui nou proiect
+Aceasta configuratie pregateste meniurile sa functioneze pe serverul web
+Selecteaza configuratia
+Schimba configuratia implicita
+Cand schimbati in configuratia implicita caile catre fisierele create de DHTML Menu Builder, trebuie sa nu uitati sa  actualizati codul de incarcare din documentele Dvs.
+Compilez configuratiile locale
+Sunteti pe cale sa compilati o configuratie de tip local. Acest tip de configuratii vor functiona doar pe calculatorul unde sunt facute meniurile.%%CRLF%%Daca proiectul urmeaza sa fie publicat pe un server web, trebuie sa creati o configuratie de tip indepartat si sa recompilati proiectul.
+Instalez un cod de incarcare local
+Configuratia Dvs implicita este de tip local. Aceasta inseamna ca codul de incarcare ce se va instala in paginile Dvs va fi unul local, deci meniurile vor functiona doar pe calculatorul unde sunt create meniurile.%%CRLF%%Daca acest proiect urmeaza sa fie publicat pe un server web, va trebui sa creati o configuratie de tip indepartat, dupa care codul de incarcare va fi optimizat pentru a genera caile pentru a functiona pe serverul Dvs web.
+Schimbarea alinierii grupului
+Pentru ca schimbarea alinierii sa aiba efect, trebuie sa lansati %%LINE=335%%.%%CRLF%%Daca deja ati atasat grupurile la hotspot-urile Dvs, executand %%LINE=335%% si clickand butonul Instalare, se vor aplica  schimbarile.
+Posibile probleme de compatibilitate
+Setari incomplete la configurare
+Unele cai in configuratia locala sunt goale. Aceasta poate produce efecte neasteptate.%%CRLF%%Pentru a va asigura ca DHTML Menu Builder poate sa genereze corespunzator meniurile, completati intotdeauna toti parametrii ceruti in configuratii.
+&Cautare...
+Doriti folosirea informatiilor de inregistrare trimise de server la ultima validare?
+Metoda de validare
+O eroare necunoscuta a aparut la incercarea de inregistrare a programului DHTML Menu Builder.
+Eroare la lansarea programului Register.exe
+Verific conexiunea la Internet
+Conectare la server pentru validare
+Pregatirea datelor
+Validarea informatiilor de inregistrare
+Conectatea la server pentru validare a esuat.%%CRLF%%%%LINE=705%%
+Eroare la validare
+Nu s-a gasit nici o conexiune la Internet.%%CRLF%%%%LINE=705%%
+Daca sunteti in spatele unui server proxy sau firewall, ignorati eroarea.
+HotSpot-uri disponibile
+Grupuri atasate
+Nume imagine
+Pozitie
+Text activ
+Tip
+Creaza din
+Substitutie caracter
+Caractere folosite in acest proiect
+Substitutii
+Sus Stanga
+Sus Centru
+Sus Dreapta
+Stanga
+Dreapta
+Jos Stanga
+Jos Centru
+Jos Dreapta
+Culori
+Aliniere submeniu
+Tip de efect
+Setari globale
+Timers
+Pauza la ascunderea meniurilor
+Pauza la afisarea submeniurilor
+Viteza efectului
+Facilitati suplimentare
+Genereaza cod pentru navigatoare compatibile cu DOM
+Genereaza cod pentru Navigator 4
+Genereaza fisier hRef
+
+Ascunde elementele de formular
+Suport pentru rollovers Dreamweaver/Fireworks
+Solutie pentru 'Clip Bug' la Navigator 4
+Functii ajutatoare pentru Opera pentru a permite efectele rollover
+Suport pentru rollovers ImageReady
+Valorile implicite
+Optimizeaza caile
+Mica
+Mare
+Incet
+Rapid
+Document tinta
+
+
+
+Selectati directorul continand fisierele pe care doriti sa le adaugati
+
+
+Foloseste instrumentele avansate de instalare a meniurilor
+Permite blocarea proiectului
+Vedere harta implicita
+Harta
+Normal
+Adauga subgrup
+Instaleaza meniuri
+Sterge cod de incarcare
+Directoare in web site
+Fisiere in
+Fisiere care vor primi meniurile
+Fisiere care vor primi bara de meniu
+Fisiere care vor primi barile de meniu
+Instaleaza bara de meniu
+Sterge meniurile
+Toate documentele din acest sit par a avea codul de incarcare corespunzator.%%CRLF%%Nu exista schimbari de sugerat.
+Nu exista fisiere selectate pentru instalarea meniurilor
+Instalez cod de incarcare
+Instalez cod de incarcare cadre
+Analizez fisierul
+Analizez fisierul legat prin comanda
+Analizez fisierul legat din grup
+Analizez existanta codului de incarcare in
+Parcurg directorul
+(n/a)
+Standard
+Cadre
+(nimic)
+Contine cod de incarcare cadre
+Nu contine nici un cod de incarcare
+Contine codul standard de incarcare
+Nu suporta cod de incarcare
+Sterge din lista
+Adauga fisier
+Nici un fisier in director
+Nume|Dimensiune|Tip|Data modificarii|Cod de incarcare
+Lungime separator
+Procentaj
+Modifica barile de meniu
+Apartine de bara de meniu:
+(Nici o bara de meniu)
+Incarca
+Modele
+Autor
+Comentarii
+Cascading
+Previzualizare model
+Aplica
+Aplica stil din modele...
+Proiect gol
+Din model...
+Folosind vrajitorul...
+Model
+Sterge
+Adauga bara de meniu
+Sterge bara meniu
+Lungime...
+Fisier(e) care vor primi bara de meniu si meniurile
+Fisier(e) care vor primi barile de meniu si meniurile
+Fisier(e) care vor primi meniurile
+Terminat. Clickati butonul %%LINE=468%% pentru a procesa toate documentele selectate.
+Proprietati bari de meniu
+Microsoft Internet Explorer (Intern)
+Centru / Stanga
+Centru / Dreapta
+Centru / Sus
+Centru / Jos
+nimic
+normal
+max
+Proiecte secundare
+Proiecte
+Nu exista proiecte selectate de instalat
+Selectie invalida
+Acest proiect nu poate fi selectat deoarece nu exista sau a fost creat cu o versiune mai veche de DHTML Menu Builder
+Defilare
+Cu umbra
+Efecte
+Din structura directorului
+Salveaza ca model
+Extragator de icoane
+Sfaturi DHTML Menu Builder
+Exista deja un sablon de grup in proiect
+Nu se poate adauga un sablon de grup
+Cand se folosesc proiectele secundare, proiectul principal trebuie sa fie salvat inainte de compilare
+Proiectul
+nu poate fi compilat deoarece nu are aceeasi configuratie ca proiectul principal
+Pentru a crea un model, proiectul activ trebuie sa contina cel putin o bara de meniu
+Proiect invalid
+A aparut o eroare la incercarea de deblocare a fisierului:
+Eroare la deblocarea fisierului
+este acum blocat de un alt proces:
+Doriti deschiderea oricum?
+Acest proiect nu poate fi deschis deoarece a fost creat cu <developers' edition>
+Actualizare proiect...
+Bookmark
+Cadrul tinta
+din bara de meniu
+Avertisment
+Resursele sistemului Dvs sunt periculos de putine!%%CRLF%%%%CRLF%%Sub Windows 95, 98 si Millennium, executarea prea multor programe in acelasi timp poate seca resursele sistemului indiferent de cat de multa memorie RAM aveti instalata.%%CRLF%%%%CRLF%%Pentru a evita caderea sistemului, inchideti programele pe care nu le folositi, in special daca aveti prea multe programe ce ruleaza in system tray.
+Resurse sistem:
+Resurse GDI:
+Resurse utilizator:
+Limitarile versiune DEMO de DHTML Menu Builder
+Aceasta versiune DEMO de DHTML Menu Builder este functional atat cat sa puteti crea si testa meniuri.%%CRLF%%%%CRLF%%Programul va genera insa meniuri in care legaturile nu sunt active, deci clickurile nu vor efectua actiunile specificate.
+Daca tocmai ati instalat o versiune superioara de DHTML Menu Builder trebuie sa o validati din nou pentru a fi deplin functionala.%%CRLF%%Doriti sa faceti aceasta acum?
+Bine ati venit la DHTML Menu Builder!
+Se pare ca este prima oara cand folositi DHTML Menu Builder.%%CRLF%%Daca sunteti incepator in lumea crearii de meniuri pentru web, va recomandam cu caldura sa folositi Vrajitorul disponibil clickand Fisier->Nou->Folosind Vrajitorul.%%CRLF%%Acesta va va permite sa creati primul Dvs meniu in cateva minute si apoi sa folositi intreaga aplicatie pentru finisarile pe care le doriti, si implementarea meniului in situl Dvs.
+Compileaza proiectul
+Comenzile nu pot fi puse peste bari de meniu
+Grupurile nu pot fi puse peste bari de meniu din care sunt deja
+Copiaza grupul
+in bara de meniu
+Muta grupul
+Copiaza comanda
+in grupul
+Comenzile nu pot fi mutate in acelasi grup in care sunt deja
+Muta comanda
+sub comanda
+Grupurile pot fi puse doar peste barile de meniu
+Nume de element invalid
+Redenumeste
+Legaturile introduse manual pot provoca probleme
+Legaturile la fisierele din situl Dvs trebuie sa fie indicate intotdeauna folosind butonul rasfoieste de langa boxa pentru URL.%%CRLF%%Singurele legaturi introduse manual trebuie sa fie cele care indica resurse dinafara sitului Dvs.
+Proiect DHTML Menu Builder
+Biblioteca de iconite
+Iconite incarcate
+Iconita
+Dimensiune
+Document cu cadre
+Cadre disponibile
+Documentul nu contine cadre
+Documentul nu exista
+Documentul contine
+cadru
+cadre
+Bookmark-uri disponibile
+Bookmark tinta
+DHTML Menu Builder nu a reusit sa detecteze automat cadrul pentru meniu. Selectati in care cadru va fi afisat meniul:
+Trimite
+Modelul
+exista deja%%CRLF%%%%CRLF%%Sunteti sigur ca doriti sa il suprascrieti?
+Doar modele create de Dvs pot fi suprapuse
+Eroare la crearea noului model
+Doar versiunea inregistrata a DHTML Menu Builder poate publica modele
+Eroare la trimiterea datelor
+Trebuie sa fiti conectat la Internet pentru a trimite un model la catalogul online
+Sunteti pe punctul de a trimite
+modelul la catalogul online
+Gata pentru trimiterea modelului
+Conectare la server...
+Publicarea modelului...
+Adauga modelul la catalogul online
+Modelul nu a putut fi publicat deoarece exista deja in catalog
+Serverul a dat o eroare in procesul de publicare:
+DHTML Menu Builder a intalnit o eroare in procesul de publicare:
+Modelul a fost publicat cu succes.%%CRLF%%Va multumim ca impartasiti lumii proiectele Dvs!
+Doar modelele create de Dvs pot fi publicate in catalogul online
+Publica modelul
+Indicati un nume si o locatie pentru a salva imaginea
+Informatii proiect
+Locatie
+Versiune
+Titlu
+Cod caractere implicit pentru previzualizare
+Aplica pentru %%ITEMNAME%%
+Aplica la toate %%RSCNAME1%% din %%ITEMNAME%% %%RSCNAME2%%
+Aplica la toate %%RSCNAME%%
+Separatoare
+Aplica pentru
+Rapoarte legaturi invalide
+Raport legaturi
+Testeaza selectate
+Testeaza toate
+Anterior
+Arata/ascunde legaturile netestate
+Arata/ascunde legaturile valide
+Arata/ascunde legaturile invalite
+Opreste
+Verifica legatura
+Verifica legaturi
+Generez raportul despre legaturi...
+Rapoarte
+Modifica legatura
+Stiluri elemente de meniu
+Bari de meniu
+Grupuri
+Elemente meniuri
+Comenzi
+Stiluri speciale de elemente
+Elemente dezactivate
+Elemente cu legaturi invalide
+Verifica legaturi la
+Deschidere
+Salvare
+Compilare
+Verifica legaturi externe la
+Afisare
+Verificare legaturi
+Implicite
+Actualizeaza
+Cod caractere
+Culoare fundal
+Foloseste document tinta
+Previzualizare
+Pauza la afisarea meniului radacina
+Suport pentru Lotus Domino
+Functionalitate Item Highlighting
+Suport pentru navigarea cu taste
+Dupa latimea grupului
+Conditie pentru vizibilitate
+Dimensiune bara meniu
+Dimensiune margine
+Atasat la
+Numele obiectului
+Fisiere pe web
+Meniuri
+Informatii
+Instaleaza la toate legaturile din meniuri
+Sterge din toate documentele
+Selecteaza documentul care cand e afisat activeaza un element de meniu
+Selecteaza documentul care cand e afisat activeaza elementul de meniu '%%MENU_NAME%%'
+Directoarele nu pot fi selectate.
+Documentul selectat nu este valid deoarece nu contine nici un meniu
+Selectati elementul de meniu care doriti sa fie activat cand este afisat documentul '%%FILE_NAME%%'
+Selectati un element din bara de meniu sau o comanda
+Doar elementele active pot fi selectate
+
+Clickati butonul %%LINE=468%% pentru a adauga codul:

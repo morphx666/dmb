@@ -1,0 +1,211 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Positioning the menus: When the menus appear perfectly positioned under some browsers and not others (Floating mode) 1/1</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<base target="_self">
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" id="table1">
+	<tr>
+		<td width="100%" bgcolor="#000080" height="24"><b>
+		<font color="#FFFFFF" size="2">&nbsp;The Tutorial - Positioning the 
+        menus</font></b></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<table border="0" width="100%" cellspacing="4" cellpadding="4" id="table2">
+			<tr>
+				<td width="100%"><b>Scenario: When the menus appear perfectly positioned under some 
+                  browsers and not others (Floating mode)</b><p align="left">The
+                <a href="thetutorial_ptb_01.htm">previous tutorials</a> about 
+                positioning only showed how the toolbars appeared under 
+                Internet Explorer. If you try one of the samples in the 
+                tutorials using 
+                FireFox or any other browser you would notice that the toolbars 
+                appear out of position... or do they?<p>
+                <img border="0" src="tbp_s10/ff01.gif" width="456" height="365" align="left">This 
+                image on the left shows how the menus look under FireFox. They 
+                appear to be out of position but the fact is that its the HTML 
+                content that is out of position. If you compared the position of 
+                the menus under Internet Explorer and FireFox you would see that 
+                they are being displayed at exactly the same spot but the HTML 
+                content is actually being rendered lower under FireFox. Why? 
+                Well, because on this particular sample we didn't specify a top 
+                margin for the BODY and Internet Explorer uses a different 
+                &quot;default top margin&quot; than other browsers.<p>
+                Although most modern browsers try to follow the W3C standards as 
+                close as possible to render HTML content there're a lot of 
+                situations where one browser will interpret the standards in a 
+                different way resulting in the HTML layout being rendered 
+                differently.<p>
+                So, how do we deal with this problem? Well, DHTML Menu Builder 
+                provides what's known as custom offsets. A custom offset is a 
+                highly configurable condition that, when met, will apply a 
+                specific offset.<br>
+                Since we designed the menus to work under Internet Explorer we 
+                could create a condition that when a Mozilla-based browser is 
+                detected we apply a different vertical offset so the toolbar 
+                appears properly positioned.<p><br clear="all">
+                Here's how this is done:<p>Click <font face="Courier">File-&gt;Project 
+                Properties-&gt;Advanced-&gt;Menus Offset</font>. Click the 
+                <font face="Courier">Advanced</font> button.<p>
+                <img border="0" src="tbp_s10/cus_off01.gif" align="left">You will now see the 
+                <font face="Courier">Custom Offsets</font> dialog. This dialog lists 
+                all the custom offsets that we have defined. DHTML Menu Builder 
+                supports an unlimited number of custom offsets.<p>Click the
+                <font face="Courier">Add</font> button to add a new custom 
+                offset.<p>The Custom Offsets dialog may look complex and 
+                overwhelming but it's actually very easy to use. The dialog is 
+                divided in to two main sections: the Assistant and the Advanced.<p>
+                Most of the offset differences produced by the way HTML content 
+                is rendered under different browsers can be resolved by using 
+                the Assistant. The Assistant is the default section of the 
+                Custom Offset dialog and requires no knowledge of javascript 
+                programming and yet it is powerful enough to cover almost all 
+                circumstances and conditions where a custom offset might be 
+                needed.<p>Let's take a look at all the sections in the Custom 
+                Offsets dialog to get familiarized with them:<br>
+&nbsp;<hr noshade color="#D8D8D8" size="1">
+                <p><b>Description</b></p>
+                <blockquote>
+                  <p>
+                  <img border="0" src="tbp_s10/cus_off_def01.gif" align="left">In 
+                this area you can type a small description for the custom 
+                offset. This is very useful so you know what this custom offset 
+                is used for in case you need to revise your project in the 
+                future.<p>For the purposes of this tutorial we're going to write 
+                this description: Fix offset for Mozilla-based browsers</blockquote>
+                <hr noshade color="#D8D8D8" size="1">
+                <p><b>Condition</b></p>
+                <blockquote>
+                  <p>
+                  <img border="0" src="tbp_s10/cus_off_def02.gif" align="left" style="margin-right:18px">This is the section where you define the condition. The 
+                condition is very important because it will determine when DHTML 
+                Menu Builder will apply the offset.<p>The section is divided into three main sub-conditions:<ul>
+                    <li><b>The Platform:</b> The platform defines the operating 
+                  system under which the browser is being used and can have the 
+                  following values:<p>- 
+                  Any: The condition will be applied regardless of the operating 
+                  system being used to view the menus.<br>- Windows: The condition will be applied when the browser is 
+                  running under Windows.<br>- Linux: The condition will be applied when the browser is 
+                  running under Linux.<br>- Mac: The condition will be applied when the browser is 
+                  running under Mac.</p>
+                    <p>Although most cross-platform browsers, such as Mozilla, will 
+                  render the content exactly the same under any platform 
+                  there're situations where the HTML layout will present some 
+                  minor variations depending on the platform under which the 
+                  browser is being used. This is specially true for Internet 
+                  Explorer 5 for Mac.</p>
+                    <p>In this tutorial we'll leave the condition as &quot;Any&quot; because 
+                  we want to apply the same offset regardless of the platform 
+                  being used.<br clear="all">&nbsp;</li>
+                    <li><b>The Browser:</b> Here we can choose for which browser 
+                  we want to apply the offset. Notice that for each browser we 
+                  have three options: &quot;The browser&quot;, &quot;Not the browser&quot; and 
+                  &quot;Ignore the browser&quot;.<br>This is so because DHTML Menu Builder will treat some browsers 
+                  as a combination of browsers. Don't worry if you feel 
+                  confused... there is a very good reason for this.<br>For example, DHTML Menu Builder will &quot;see&quot; Safari as 
+                  combination of three browsers: Internet Explorer, 
+                  Mozilla-based and Opera. So, if you want to apply a custom 
+                  offset for Internet Explorer that doesn't affect other 
+                  browsers you should setup your browser condition as seen in 
+                  this image:<p>
+                    <img border="0" src="tbp_s10/cus_off_def03.gif" width="396" height="101"></p>
+                    <p>So why does DHTML Menu Builder sees browsers as a 
+                  combination of other browsers? To simplify the code... but, 
+                  don't worry too much about it. Just keep in mind that if you 
+                  create a custom offset for browser A and you see the offset 
+                  affecting browser B and you did not want this to happen then 
+                  simply use the &quot;Not the browser&quot; option for browser B.</p>
+                    <p>Here's a list of browser grouping performed by DHTML Menu 
+                  Builder:<ul type="disc">
+                      <li>Internet Explorer is seen as a unique browser</li>
+                      <li>Netscape 4 is seen as a unique browser</li>
+                      <li>Mozilla-based browsers (such as FireFox and Netscape 6 and 
+                  7) are seen as a combination of Mozilla-based browsers and 
+                  Internet Explorer</li>
+                      <li>Opera is seen as a combination of Internet Explorer, 
+                  Mozilla-based and Opera</li>
+                      <li>Safari (and/or Konqueror) is seen as a combination of 
+                  Internet Explorer, Mozilla-based, Opera and Safari</li>
+                    </ul>
+                    <p>Since in this tutorial we want our offset to affect all 
+                  Mozilla-based browsers we are going to select the 
+                  &quot;Mozilla-based&quot; option. According to the browser grouping 
+                  table above, any offset applied to Mozilla-based browsers will 
+                  also affect Safari and Opera. This is a good thing because the 
+                  offset that you see on the screenshot at the top of this page 
+                  is also occurring under these browsers so with just one custom 
+                  offset we're going to solve a positioning problem under three 
+                  different browsers!<br>&nbsp;</li>
+                    <li><b>The Browser Version:</b> Here you can restrict the 
+                  condition so it is only applied under a specific version of 
+                  the selected browser. This is particularly useful to 
+                  accommodate issues with very old browsers. For example, 
+                  suppose
+                    that you have discovered that there's an offset issue with 
+                    Netscape 6, but the menus appear properly positioned under 
+                    all other versions of Netscape; in this case you would 
+                    select the Mozilla-based option and then set the browser 
+                    version to &quot;Less than 7&quot;, which means that the condition 
+                    will be applied to all Mozilla-based browsers whose version 
+                    is below 7.0:<p>
+                    <img border="0" src="tbp_s10/cus_off_def04.gif" width="199" height="45"></p>
+                    <p>You're probably asking yourself, and why not use &quot;Equal 
+                    to 6&quot;? Because using &quot;Less than 7&quot; is a more generic 
+                    condition and it will let us target versions 6.0, 6.1, 6.2 
+                    and so on...</p>
+                    <p>For the purposes of this tutorial we're going to leave 
+                    the browser version condition as &quot;Any&quot; because we want to 
+                    target all browser versions.</li>
+                  </ul>
+                </blockquote>
+                <hr noshade color="#D8D8D8" size="1">
+                <p><b>Offsets</b></p>
+                <blockquote>
+                  <p>
+                  <img border="0" src="tbp_s10/cus_off_def05.gif" width="468" height="107" align="left">Here 
+                  is where you specify the offset that will be applied when the 
+                  Condition that you have defined is met.<br>
+                  As you can see you can specify offsets for all the elements in 
+                  a project: toolbars, root level menus and submenus.</p>
+                  <p>For the purposes of this tutorial we only need to specify a 
+                  small vertical offset for the toolbar. Notice that we have 
+                  specified 10 pixels vertically.</p>
+                  <p>This means that when DHTML Menu Builder detects that the 
+                  menus are being viewed by any Mozilla-based browser, the 
+                  toolbar will be pushed 10 pixels down.</p>
+                  <p>The result can be seen on this screenshot of the FireFox 
+                  browser:</p>
+                  <p>
+                  <img border="0" src="tbp_s10/cus_off_def06.gif" width="435" height="363"></p>
+                </blockquote><hr noshade size="1" color="#EBEBEB">
+                <p align="left">This concludes this tutorial.
+                <a href="thetutorial_ptb_01.htm">Click here to return the 
+                &quot;Positioning the menus&quot; tutorial index</a>.<blockquote>
+                  <blockquote>
+                    <blockquote>
+                      <blockquote>
+                        <blockquote>
+                          <blockquote>
+                            <p>&nbsp;</p>
+                          </blockquote>
+                        </blockquote>
+                      </blockquote>
+                    </blockquote>
+                  </blockquote>
+                </blockquote>
+                </td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

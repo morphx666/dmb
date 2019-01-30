@@ -1,0 +1,56 @@
+<SUF70UninstallData>
+<DataFilePath>C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\irunin.dat</DataFilePath>
+<EXELocation>C:\WINDOWS\DHTML Menu Builder\uninstall.exe</EXELocation>
+<AppShortcutFolderPath>C:\Documents and Settings\Administrator\Start Menu\Programs\DHTML Menu Builder</AppShortcutFolderPath>
+<UninstallReverseOrder>1</UninstallReverseOrder>
+<UninstallFiles>
+<File>
+<Filename>C:\WINDOWS\system32\HREF.OCX</Filename>
+<DecrementUsageCount>1</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\WINDOWS\system32\sufF.tmp</Filename>
+<DecrementUsageCount>1</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\WINDOWS\system32\ICONTAINER.OCX</Filename>
+<DecrementUsageCount>1</DecrementUsageCount>
+<UnregisterCOM>1</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\rsc\preview.tpl</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\AddInInstaller.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+<File>
+<Filename>C:\My Projects\Visual Basic\DHTML Menu Builder 4.8\DMB.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+</UninstallFiles>
+</SUF70UninstallData>

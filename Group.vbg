@@ -1,0 +1,12 @@
+VBGROUP 5.0
+StartupProject=DMB.vbp
+Project=Engine\Engine.vbp
+Project=Wizard\DMBWizard.vbp
+Project=ROR2DMB\ROR2DMB.vbp
+Project=Project Compiler\dmbc.vbp
+Project=RegDMB\RegDMB.vbp
+Project=Preset Installer\PresetInstaller.vbp
+Project=CachedDataCODEC\CachedDataCODEC.vbp
+Project=Batch Compiler\dmbbc.vbp
+Project=AddIn Installer\AddInInstaller.vbp
+Project=CleanDESamples\CleanSamples.vbp

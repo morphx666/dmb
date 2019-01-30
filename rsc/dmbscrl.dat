@@ -1,0 +1,177 @@
+var sb;
+
+function AddScroller(gName, maxHeight, useOver, isg) {
+	if(NS) return false;
+	var rd = true;
+	var m;
+	var ss = -1;
+	
+	if(!cFrame) rd = false;
+	if(rd) m = cFrame.GetObj(gName);
+	if(!m) rd = false;
+	if(m) ss = parseInt(m.style.height) - parseInt(cFrame.GetObj(gName+"frmt").style.height);
+	if((ss==-1) || !m) {
+		window.setTimeout("AddScroller('" + gName + "', " + maxHeight + "," + useOver + ")", 100);
+		return false;
+	}
+	if(parseInt(m.style.height)<maxHeight || maxHeight<10) return false;
+	
+%%ARSTYLES
+	
+	var nCS = eval("nCS_" + (isg?"g":gName));
+	var hCS = eval("hCS_" + (isg?"g":gName));
+	
+	for(var i=1; i<3; i++) {
+		nCS[i] = xrep(nCS[i], '%%REL%%', rimPath);
+		hCS[i] = xrep(hCS[i], '%%REL%%', rimPath);
+	}
+
+	var imgHTML = '<span style="position:absolute; top:' + ((nCS[4]+nCS[5])-nCS[4])/2 + 'px; left:' + (parseInt(m.style.width)-nCS[3])/2 + 'px; width:' + nCS[3] + 'px; height:' + nCS[4] + 'px;"><img src=' + nCS[1] + ' width=' + nCS[3] + ' height=' + nCS[4] + '></span>';
+	
+	m.style.overflow = "hidden";
+	m.oh = m.style.height;
+	m.style.height = parseInt(maxHeight) + "px";
+	
+	var bu = mkBtn("Up", useOver, m, 0, nCS[4]+nCS[5], nCS[0], imgHTML, 0, nCS[7]);
+	var bd = mkBtn("Dn", useOver, m, parseInt(m.style.height) - (nCS[4]+nCS[5]), nCS[4]+nCS[5], nCS[0], xrep(imgHTML, nCS[1], nCS[2]), ss, nCS[7]);
+	
+	m.stp = getfiStp(m)/4;
+	m.gs = cFrame.GetObj(m.id+"frmt").style;
+	m.tt = parseInt(m.gs.top);
+	m.mh = parseInt(m.style.height);
+	
+	bu.nCS = nCS;
+	bu.hCS = hCS;
+	bu.rst();
+	bu.Dn = bd;
+	bu.m = m;
+	
+	bd.nCS = nCS;
+	bd.hCS = hCS;
+	bd.rst();
+	bd.Up = bu;
+	bd.m = m;
+	
+	return true;
+}
+
+function RemScroller(gName) {
+	var m = cFrame.GetObj(gName);
+	var b = cFrame.GetObj(gName+"Up");
+	if(b) {
+		while(b.style.visibility!="hidden") b.moveUp();
+		m.removeChild(cFrame.GetObj(gName+"Dn"));
+		m.removeChild(b);
+		m.style.height = m.oh;
+	}
+}
+
+function mkBtn(ud, uo, m, t, h, b, hc, ss, bs) {
+	var d = document.createElement("DIV");
+	var mf = cFrame.GetObj(m.id + "frmt").style;
+	if(IE&&!SM&&IsWin&&(ud=="Dn")) {
+		d.style.filter = m.style.filter;
+		ss += 2*bs;
+	} else
+		ss = 0;
+	d.id = m.id + ud;
+	if(uo) {
+		d.rst = d.onmouseout = rstBtn;
+		d.onmousemove = stBtn;
+	} else {
+		d.rst = d.onmouseup = rstBtn;
+		d.onmousedown = stBtn;
+	}
+	d.moveUp = moveUp;
+	d.moveDn = moveDn;
+	d.m = m;
+	with(d.style) {
+		position = "absolute";
+		left = mf.left;
+		top = t - ss - (SM&&(ud=="Dn")?2*bs:0) + "px";
+		width = mf.width;
+		visibility = (ud=="Up"?"hidden":"inherit");
+		overflow = "hidden";
+		cursor = "default";
+		zIndex = 9000;
+		height = h + 2*bs + "px";
+		backgroundColor = b;
+	}
+	d.innerHTML = hc;
+	return m.appendChild(d);
+}
+
+function getById(o, id) {
+	var els = o.getElementsByTagName("DIV");
+	for(var i=0; i<els.length; i++)
+		if(els[i].id == id) return els[i];
+	return null;
+}
+
+function rstBtn() {
+	mFrame.clearTimeout(this.h); this.h = 0;
+	this.style.backgroundColor = this.nCS[0];
+	this.style.border = "";
+	this.style.cssText = this.style.cssText + ";" + this.nCS[6];
+	
+	var op = (this.id.indexOf("Dn")!=-1);
+	this.getElementsByTagName("IMG")[0].src = this.nCS[1+(op?1:0)];
+}
+
+function stBtn() {
+	if(this.h==0) {
+		while(cFrame.om[cFrame.nOM].id!=this.m.id) cFrame.Hide();
+		this.style.backgroundColor = this.hCS[0];
+		this.style.border = "";
+		this.style.cssText = this.style.cssText + ";" + this.hCS[3];
+	
+		var op = (this.id.indexOf("Dn")!=-1);
+		this.getElementsByTagName("IMG")[0].src = this.hCS[1+(op?1:0)];	
+		
+		if(op)
+			this.moveDn();
+		else
+			this.moveUp();
+	}
+}
+
+function moveDn() {
+	sb = this;
+	var m = sb.m;
+	var t = parseInt(m.gs.top);
+	var h = parseInt(m.gs.height);
+	
+	if((t+h+m.stp/4)>m.mh) {
+		m.gs.top = t - m.stp + "px";
+		sb.Up.style.visibility = "inherit";		
+		sb.h = window.setTimeout("sb.moveDn()", 35);
+	} else {
+		sb.h = 0;
+		m.gs.top = parseInt(this.style.top) + parseInt(this.style.height) - h + "px";
+		sb.style.visibility = "hidden";
+	}
+}
+
+function moveUp() {
+	sb = this;
+	var m = sb.m;
+	var t = parseInt(m.gs.top);
+	var h = parseInt(m.gs.height);
+	
+	if(t<m.tt) {
+		m.gs.top = t + m.stp + "px";
+		sb.Dn.style.visibility = "inherit";
+		sb.h = window.setTimeout("sb.moveUp()", 35);
+	} else {
+		sb.h = 0;
+		m.gs.top = m.tt + "px";
+		sb.style.visibility = "hidden";
+	}
+}
+
+function getfiStp(m) {
+	var g = m.getElementsByTagName("DIV");
+	return parseInt(g[5].style.top) - parseInt(g[1].style.top);
+}
+
+%%ACTCODE

@@ -1,4 +1,4 @@
-frmMain = 131, 133, 1208, 961, , 0, 0, 0, 0, C
+frmMain = 131, 133, 1208, 961, C, 0, 0, 0, 0, C
 modRegistryFunctions = 0, 0, 0, 0, C
-modFileHandling = 131, 133, 578, 961, C
+modFileHandling = 131, 133, 1400, 961, C
 modShort2Long = 131, 133, 578, 961, C
